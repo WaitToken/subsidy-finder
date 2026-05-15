@@ -1,0 +1,148 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.gunma.jp/site/hojokin/705615.html"
+    ],
+    "extracted_at": "2026-05-15T02:05:54.273031+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "群馬県こどもの居場所づくり応援事業補助金（こどもの居場所の新規開設促進）",
+      "operating_body": "群馬県",
+      "category": "子育て・教育",
+      "subcategory": "こどもの居場所づくり",
+      "target_summary": "こどもの居場所（こども食堂・学習支援・遊び体験等）を新規開設する団体。月1回以上定期開催、1年以上継続見込みあり、概ね5名以上利用見込み、営利・宗教・政治活動を行わないこと等が要件。",
+      "target_residency_required": false,
+      "benefit_summary": "新規開設に必要な経費（備品・消耗品購入費、広報費、保険料、許可申請手数料等）を補助。上限20万円（こどもの居場所が未実施の市町村）または上限10万円（既実施の市町村）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 200000,
+      "eligible_expense_categories": [
+        "備品及び消耗品購入費",
+        "広報に係る経費",
+        "保険料",
+        "食品衛生法関係営業許可申請手数料",
+        "食品衛生責任者養成講習会の受講料"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "地域区分",
+          "condition_label": "こどもの居場所づくり事業が実施されていない市町村で新たに実施する場合",
+          "amount_yen": 200000
+        },
+        {
+          "condition_type": "地域区分",
+          "condition_label": "こどもの居場所づくり事業が実施されている市町村で新たに実施する場合",
+          "amount_yen": 100000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年5月18日から受付開始。先着順。事業実施期限は令和9年1月31日まで。",
+      "application_start": "2026-05-18",
+      "application_end": "2027-01-31",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "交付申請書（様式第1号）",
+        "実施計画書（別紙1-1）",
+        "所要額調書（別紙2）",
+        "収支予算書（別紙3）",
+        "役員等に関する名簿（別紙4）"
+      ],
+      "status": "募集中",
+      "status_note": "先着順",
+      "related_programs": [],
+      "contact": "群馬県生活こども部こども・子育て支援課子育て支援係 TEL:027-226-2622 FAX:027-226-2100 メール:kosodateka@pref.gunma.lg.jp",
+      "source_url": "https://www.pref.gunma.jp/site/hojokin/705615.html",
+      "plain_summary": "群馬県内でこども食堂や学習支援などの「こどもの居場所」を新しく始める団体向けの補助金です。備品購入や広報などの開設費用を、居場所がまだない市町村では最大20万円、すでにある市町村では最大10万円補助します。2026年5月18日から郵送またはメールで申請でき、先着順です。"
+    },
+    {
+      "program_name": "群馬県こどもの居場所づくり応援事業補助金（こどもの居場所地域ネットワークの新規開設）",
+      "operating_body": "群馬県",
+      "category": "子育て・教育",
+      "subcategory": "こどもの居場所づくり地域ネットワーク",
+      "target_summary": "こどもの居場所を継続的に提供するための地域ネットワークを新規開設する団体。4団体以上で構成（うち2団体以上はこどもの居場所提供事業者）、当該地域に既存ネットワークがないこと等が要件。",
+      "target_residency_required": false,
+      "benefit_summary": "地域ネットワーク新規開設に必要な経費（備品・消耗品購入費、広報費等）を補助。上限10万円。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 100000,
+      "eligible_expense_categories": [
+        "備品及び消耗品購入費",
+        "広報に係る経費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年5月18日から受付開始。先着順。事業実施期限は令和9年1月31日まで。",
+      "application_start": "2026-05-18",
+      "application_end": "2027-01-31",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "交付申請書（様式第1号）",
+        "実施計画書（別紙1-2）",
+        "所要額調書（別紙2）",
+        "収支予算書（別紙3）",
+        "役員等に関する名簿（別紙4）"
+      ],
+      "status": "募集中",
+      "status_note": "先着順",
+      "related_programs": [],
+      "contact": "群馬県生活こども部こども・子育て支援課子育て支援係 TEL:027-226-2622 FAX:027-226-2100 メール:kosodateka@pref.gunma.lg.jp",
+      "source_url": "https://www.pref.gunma.jp/site/hojokin/705615.html",
+      "plain_summary": "群馬県内で、こどもの居場所を支え合う地域ネットワーク（4団体以上で構成）を新しく立ち上げる団体向けの補助金です。備品購入や広報などの費用を最大10万円補助します。2026年5月18日から郵送またはメールで先着順に申請できます。"
+    },
+    {
+      "program_name": "群馬県こどもの居場所づくり応援事業補助金（こどもの居場所地域ネットワークの普及啓発）",
+      "operating_body": "群馬県",
+      "category": "子育て・教育",
+      "subcategory": "こどもの居場所づくり地域ネットワーク普及啓発",
+      "target_summary": "既存の地域ネットワーク団体（4団体以上で構成、うち2団体以上はこどもの居場所提供事業者）。利用拡大や新規開設促進に繋がるイベント開催や資料作成等の普及啓発事業を実施すること。",
+      "target_residency_required": false,
+      "benefit_summary": "地域ネットワークによる普及啓発活動（イベント開催・資料作成等）に必要な経費を補助。上限30万円（イベント開催を伴わない場合は上限10万円）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 300000,
+      "eligible_expense_categories": [
+        "備品及び消耗品購入費",
+        "広報に係る経費",
+        "イベント開催に係る会場使用料"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "イベント開催を伴う場合",
+          "amount_yen": 300000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "イベント開催を伴わない場合",
+          "amount_yen": 100000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年5月18日から受付開始。先着順。事業実施期限は令和9年1月31日まで。",
+      "application_start": "2026-05-18",
+      "application_end": "2027-01-31",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "交付申請書（様式第1号）",
+        "実施計画書（別紙1-3）",
+        "所要額調書（別紙2）",
+        "収支予算書（別紙3）",
+        "役員等に関する名簿（別紙4）"
+      ],
+      "status": "募集中",
+      "status_note": "先着順",
+      "related_programs": [],
+      "contact": "群馬県生活こども部こども・子育て支援課子育て支援係 TEL:027-226-2622 FAX:027-226-2100 メール:kosodateka@pref.gunma.lg.jp",
+      "source_url": "https://www.pref.gunma.jp/site/hojokin/705615.html",
+      "plain_summary": "群馬県内で、こどもの居場所を支える地域ネットワーク団体がイベント開催や資料作成などの普及啓発活動を行う際に費用を補助します。イベントありなら最大30万円、なしなら最大10万円。2026年5月18日から郵送またはメールで先着順に申請できます。"
+    }
+  ]
+}

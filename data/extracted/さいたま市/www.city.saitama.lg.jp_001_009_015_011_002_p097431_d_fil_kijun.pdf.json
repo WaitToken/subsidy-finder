@@ -1,0 +1,39 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.saitama.lg.jp/001/009/015/011/002/p097431_d/fil/kijun.pdf"
+    ],
+    "extracted_at": "2026-05-15T03:02:39.493323+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "さいたま市創エネ・蓄エネ設備導入補助金",
+      "operating_body": "さいたま市",
+      "category": "環境",
+      "subcategory": "創エネ・蓄エネ設備導入",
+      "target_audience": "両方",
+      "target_summary": "さいたま市内で創エネ・蓄エネ設備を導入した者（詳細な対象要件は本文書には記載なし）",
+      "target_residency_required": true,
+      "benefit_summary": "創エネ・蓄エネ設備の導入に対して補助金を交付（具体的な金額は本文書には記載なし）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年5月18日から令和9年3月1日まで（先着順・予算上限到達で早期終了の可能性あり。同日複数申請で予算超過の場合は抽選）",
+      "application_start": "2026-05-18",
+      "application_end": "2026-03-01",
+      "application_rounds": [],
+      "application_method": "複数",
+      "status": "予定",
+      "status_note": "先着順。予算上限到達で早期終了の可能性あり。同日複数申請で予算超過の場合は抽選（あみだくじ）",
+      "related_programs": [],
+      "contact": "ゼロカーボン推進戦略課",
+      "source_url": "https://www.city.saitama.lg.jp/001/009/015/011/002/p097431_d/fil/kijun.pdf",
+      "plain_summary": "さいたま市が、創エネ・蓄エネ設備（太陽光発電・蓄電池など）を導入した方に補助金を交付する制度です。令和8年（2026年）5月18日から令和9年3月1日まで申請を受け付けます。先着順で予算がなくなり次第終了。同日に申請が集中した場合は抽選になります。"
+    }
+  ]
+}

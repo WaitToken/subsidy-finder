@@ -1,0 +1,33 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.niigata.lg.jp/sec/daigaku/1356835216238.html"
+    ],
+    "extracted_at": "2026-05-15T02:11:43.526957+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "新潟県私立専修学校振興補助金",
+      "operating_body": "新潟県",
+      "category": "子育て・教育",
+      "subcategory": "私立専修学校振興",
+      "target_summary": "県内私立専修学校を設置する学校法人",
+      "target_residency_required": true,
+      "benefit_summary": "専修学校における教育に係る経常的経費を補助",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [],
+      "source_url": "https://www.pref.niigata.lg.jp/sec/daigaku/1356835216238.html",
+      "plain_summary": "新潟県内の私立専修学校を運営する学校法人が対象の補助金です。専修学校の教育条件の維持・向上と生徒の学費負担を軽減するため、教育にかかる経常的な経費の一部を新潟県が補助します。詳細な金額や申請方法は要綱PDF（要ダウンロード）をご確認ください。"
+    }
+  ]
+}

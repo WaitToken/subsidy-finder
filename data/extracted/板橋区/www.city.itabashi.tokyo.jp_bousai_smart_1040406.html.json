@@ -1,0 +1,84 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.itabashi.tokyo.jp/bousai/smart/1040406.html"
+    ],
+    "extracted_at": "2026-05-15T01:22:37.712514+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "板橋区宅配ボックス導入助成事業",
+      "operating_body": "板橋区",
+      "category": "環境",
+      "subcategory": "温室効果ガス削減・物流効率化",
+      "target_summary": "板橋区内の戸建住宅所有者・居住者、区内事業所の所有者または賃借者、区内集合住宅の所有者または管理組合。住民税（法人住民税）を滞納していないこと。",
+      "target_household": [
+        "一般世帯",
+        "事業者",
+        "集合住宅管理組合"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "宅配ボックス導入にかかる経費の一部を補助。IoT対応・戸建/事業所：補助対象経費の1/2（上限17万円）、IoT対応・集合住宅：補助対象経費の1/2（上限25万円）、通常・戸建/事業所：補助対象経費の3/10（上限3万円）、通常・集合住宅：補助対象経費の3/10（上限10万円）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 250000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "本体費用（門柱・IoT対応機器等含む）",
+        "施工費用"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "IoT対応・戸建住宅または事業所",
+          "amount_yen": 170000,
+          "rate_percent": 50,
+          "note": "補助対象経費の2分の1、上限17万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "IoT対応・集合住宅",
+          "amount_yen": 250000,
+          "rate_percent": 50,
+          "note": "補助対象経費の2分の1、上限25万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "通常（非IoT）・戸建住宅または事業所",
+          "amount_yen": 30000,
+          "rate_percent": 30,
+          "note": "補助対象経費の10分の3、上限3万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "通常（非IoT）・集合住宅",
+          "amount_yen": 100000,
+          "rate_percent": 30,
+          "note": "補助対象経費の10分の3、上限10万円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-04-01",
+      "application_end": "2027-02-15",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "交付申請書",
+        "見積書",
+        "設置予定箇所の写真",
+        "同意書",
+        "その他手引き記載の書類"
+      ],
+      "status": "募集中",
+      "status_note": "予算上限到達で早期終了の可能性あり",
+      "related_programs": [],
+      "contact": "資源環境部 環境政策課 ゼロカーボン推進係 〒173-8501 東京都板橋区板橋二丁目66番1号 板橋区役所北館7階 電話：03-3579-2622",
+      "source_url": "https://www.city.itabashi.tokyo.jp/bousai/smart/1040406.html",
+      "plain_summary": "板橋区内に宅配ボックスを設置したい住宅所有者・居住者・事業者・集合住宅管理組合が対象。IoT対応ボックスなら最大25万円（戸建・事業所は最大17万円）、通常ボックスなら最大10万円（戸建・事業所は最大3万円）を費用の一部として補助。令和8年4月1日〜令和9年2月15日に郵送・電子申請・窓口で申請。予算上限に達した時点で受付終了。"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.kawasaki.jp/300/cmsfiles/contents/0000185/185300/260424_sinsei_tebiki_kyoudou.pdf"
+    ],
+    "extracted_at": "2026-05-15T03:08:51.235600+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "川崎市太陽光発電設備等設置費補助金（共同住宅編）",
+      "operating_body": "川崎市",
+      "category": "環境",
+      "subcategory": "再生可能エネルギー・太陽光発電・蓄電池",
+      "target_audience": "事業者",
+      "target_summary": "川崎市内に所在する共同住宅の管理組合、共同住宅の所有者、またはそれらから許諾を受けた者。川崎市EV用充電インフラ補助金との同時申請が条件。",
+      "target_residency_required": false,
+      "benefit_summary": "太陽光発電設備（FIT非適用）：7万円/kW（設置費用の1/2、上限なし・50kW未満）。蓄電池（新設FIT非適用太陽光と連系）：10万円/kWh（設置費用の1/2、上限70万円/件）。補助単価・費用の1/2・限度額のうち最も低い額を交付。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 700000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "設備本体購入費",
+        "工事費用（消費税額除く）"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "太陽光発電設備（FIT非適用）",
+          "rate_percent": 50,
+          "note": "7万円/kW（設置費用の1/2）、上限なし（ただし出力2kW以上50kW未満）"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "蓄電池（新設FIT非適用太陽光発電設備と連系するもの）",
+          "amount_yen": 700000,
+          "rate_percent": 50,
+          "note": "10万円/kWh（設置費用の1/2）、上限70万円/件"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "予算状況により早期終了の可能性あり。設備設置工事完了期限：2027年1月31日。設置完了届提出期限：工事完了後30日以内または2027年2月12日のいずれか早い日まで。",
+      "application_start": "2026-04-24",
+      "application_end": "2026-12-28",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "required_documents": [
+        "交付申請書（第1号様式）",
+        "補助金算定表（Excelファイル）",
+        "所有者の同意書（第2号様式）（該当者のみ）",
+        "最新の納税証明書の写し",
+        "現況カラー写真",
+        "契約書のコピー（工事請負契約書・売買契約書等）",
+        "管理組合総会の決議書（該当者のみ）",
+        "補助対象設備に係る設置図（機器配置図・システム系統図・単線結線図）",
+        "年間の想定発電量及び想定電力消費量の計算書",
+        "川崎市EV用充電インフラ補助金交付申請書の写し",
+        "設置完了届（第7号様式）",
+        "領収書等のコピー",
+        "設置完了後の現況カラー写真",
+        "接続契約申込確認書類のコピー",
+        "太陽光パネルの出力対比表・蓄電池の保証書または出荷証明書のコピー",
+        "住民票の写し（個人）または履歴事項全部証明書等（法人）"
+      ],
+      "status": "募集中",
+      "status_note": "予算上限到達で早期終了の可能性あり",
+      "related_programs": [
+        {
+          "program_name": "川崎市電気自動車等用充電設備設置費補助金（川崎市EV用充電インフラ補助金）",
+          "relation_type": "前提",
+          "note": "同時申請が本補助金の交付条件"
+        },
+        {
+          "program_name": "戸建住宅ネット・ゼロ・エネルギー・ハウス（ZEH）化等支援事業（環境省）",
+          "relation_type": "関連",
+          "note": "蓄電池の要件として令和7年度以降の補助対象製品登録が必要"
+        }
+      ],
+      "contact": "川崎市環境局脱炭素戦略推進室 TEL: 044-200-2178（月〜金 9:00〜11:45、13:00〜16:45）E-mail: 30taisetsu@city.kawasaki.jp",
+      "source_url": "https://www.city.kawasaki.jp/300/cmsfiles/contents/0000185/185300/260424_sinsei_tebiki_kyoudou.pdf",
+      "plain_summary": "川崎市内の共同住宅の管理組合や所有者が対象です。太陽光発電設備（FIT非適用）は7万円/kW（費用の1/2）、蓄電池は10万円/kWh（費用の1/2・上限70万円）が現金で補助されます。川崎市EV充電インフラ補助金との同時申請が必須。2026年4月24日〜12月28日にオンラインで申請できますが、予算がなくなり次第終了します。"
+    }
+  ]
+}

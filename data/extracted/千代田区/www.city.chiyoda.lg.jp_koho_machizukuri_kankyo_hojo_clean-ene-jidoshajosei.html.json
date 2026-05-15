@@ -1,0 +1,35 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.chiyoda.lg.jp/koho/machizukuri/kankyo/hojo/clean-ene-jidoshajosei.html"
+    ],
+    "extracted_at": "2026-05-14T23:58:35.770358+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度千代田区クリーンエネルギー自動車購入費等助成制度",
+      "operating_body": "千代田区",
+      "category": "環境",
+      "subcategory": "クリーンエネルギー自動車",
+      "target_summary": "千代田区内でクリーンエネルギー自動車を購入する者（詳細不明）",
+      "target_residency_required": true,
+      "benefit_summary": "クリーンエネルギー自動車の購入費等を助成（詳細不明）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "終了",
+      "status_note": "制度内容の見直しのため申請受付を休止。令和9年度以降の実施は未定。",
+      "related_programs": [],
+      "contact": "環境まちづくり部環境政策課エネルギー対策係 〒102-8688 東京都千代田区九段南1-2-1 電話番号：03-5211-4256 ファクス：03-3264-8956 メールアドレス：kankyouseisaku@city.chiyoda.lg.jp",
+      "source_url": "https://www.city.chiyoda.lg.jp/koho/machizukuri/kankyo/hojo/clean-ene-jidoshajosei.html",
+      "plain_summary": "※受付終了。令和8年度は制度内容の見直しのため申請受付を休止しています。令和9年度以降の実施は未定です。詳細はお問い合わせください。"
+    }
+  ]
+}

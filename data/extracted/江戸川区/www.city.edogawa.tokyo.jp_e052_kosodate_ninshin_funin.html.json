@@ -1,0 +1,74 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.edogawa.tokyo.jp/e052/kosodate/ninshin/funin.html"
+    ],
+    "extracted_at": "2026-05-15T01:29:23.635431+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "江戸川区特定不妊治療費助成事業",
+      "operating_body": "江戸川区",
+      "category": "医療・健康",
+      "subcategory": "不妊治療",
+      "target_summary": "保険適用前（令和4年3月31日以前）に開始した治療に対する東京都特定不妊治療費助成事業の承認決定を受けた方",
+      "target_residency_required": true,
+      "benefit_summary": "特定不妊治療費の一部を助成（事業終了）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "終了",
+      "status_note": "保険適用前（令和4年3月31日以前）に開始した治療を対象とした事業は終了",
+      "related_programs": [],
+      "source_url": "https://www.city.edogawa.tokyo.jp/e052/kosodate/ninshin/funin.html",
+      "plain_summary": "※受付終了。江戸川区の特定不妊治療費助成事業は終了しました。令和4年4月以降に開始した不妊治療・先進医療についての区の助成もありません。東京都の助成事業については東京都福祉局のホームページをご確認ください。"
+    },
+    {
+      "program_name": "東京都特定不妊治療費（先進医療）助成事業",
+      "operating_body": "東京都",
+      "category": "医療・健康",
+      "subcategory": "不妊治療・先進医療",
+      "target_summary": "1回の特定不妊治療（保険診療）と併用して自費で先進医療を実施した方",
+      "target_residency_required": true,
+      "benefit_summary": "特定不妊治療（保険診療）と併用した先進医療に係る費用の一部を助成",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_window_note": "原則、電子申請。申請先は東京都。",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "status": "募集中",
+      "related_programs": [],
+      "source_url": "https://www.city.edogawa.tokyo.jp/e052/kosodate/ninshin/funin.html",
+      "plain_summary": "東京都が実施する助成事業で、保険診療の不妊治療と一緒に自費で受けた先進医療の費用の一部が助成されます。江戸川区では上乗せ助成はありません。申請先は東京都で、原則オンライン申請です。詳細は東京都福祉局のホームページをご確認ください。"
+    },
+    {
+      "program_name": "東京都不妊検査等助成事業",
+      "operating_body": "東京都",
+      "category": "医療・健康",
+      "subcategory": "不妊検査・一般不妊治療",
+      "target_summary": "保険医療機関にて不妊検査および一般不妊治療を行った方",
+      "target_residency_required": true,
+      "benefit_summary": "不妊検査および一般不妊治療に要した費用の一部を助成",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_window_note": "原則、電子申請。申請先は東京都。",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "status": "募集中",
+      "related_programs": [],
+      "source_url": "https://www.city.edogawa.tokyo.jp/e052/kosodate/ninshin/funin.html",
+      "plain_summary": "東京都が実施する助成事業で、保険医療機関で受けた不妊検査や一般不妊治療にかかった費用の一部が助成されます。申請先は東京都で、原則オンライン申請です。詳細は東京都福祉局のホームページをご確認ください。"
+    }
+  ]
+}

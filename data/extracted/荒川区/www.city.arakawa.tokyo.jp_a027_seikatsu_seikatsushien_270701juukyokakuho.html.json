@@ -1,0 +1,142 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.arakawa.tokyo.jp/a027/seikatsu/seikatsushien/270701juukyokakuho.html"
+    ],
+    "extracted_at": "2026-05-15T01:31:52.320142+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "住居確保給付金（家賃補助）",
+      "operating_body": "荒川区",
+      "category": "ひとり親・低所得",
+      "subcategory": "住居確保支援",
+      "target_summary": "荒川区内に住宅を賃借して居住している（または新たに賃借する）方で、離職・廃業から2年以内または休業等により収入が著しく減少し、住居を失った・失うおそれのある方。収入・資産要件あり。",
+      "target_household": [
+        "単身",
+        "2人世帯",
+        "3人世帯",
+        "4人以上世帯"
+      ],
+      "target_income_max_yen": 153700,
+      "target_residency_required": true,
+      "benefit_summary": "家賃相当額（上限：単身53,700円、2人64,000円、3人69,800円）を最長9か月支給。貸主口座に直接振込。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 628200,
+      "benefit_tiers": [
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "単身",
+          "amount_yen": 53700,
+          "note": "月額上限。最長9か月で累計最大482,300円"
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "2人世帯",
+          "amount_yen": 64000,
+          "note": "月額上限。最長9か月で累計最大576,000円"
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "3人世帯",
+          "amount_yen": 69800,
+          "note": "月額上限。最長9か月で累計最大628,200円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "随時受付（予約制・来所申請が原則）",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "職業訓練受講給付金",
+          "relation_type": "併用可能",
+          "note": "職業訓練受講給付金との併給は可能"
+        },
+        {
+          "program_name": "生活福祉資金（総合支援資金）",
+          "relation_type": "関連",
+          "note": "住居確保給付金受給者向けに荒川区社会福祉協議会が貸付を実施"
+        },
+        {
+          "program_name": "生活福祉資金（緊急小口資金）",
+          "relation_type": "関連",
+          "note": "住居確保給付金受給者向けに荒川区社会福祉協議会が貸付を実施"
+        }
+      ],
+      "contact": "福祉部福祉推進課 地域共生推進係（荒川区役所1階8番窓口）電話：03-3802-3094",
+      "source_url": "https://www.city.arakawa.tokyo.jp/a027/seikatsu/seikatsushien/270701juukyokakuho.html",
+      "plain_summary": "荒川区内に家賃を払って住んでいる方で、仕事を辞めたり収入が大きく減ったりして家賃が払えなくなりそうな方に、家賃を直接大家さんに支払ってもらえる制度です。月額最大69,800円（世帯人数による）が最長9か月支給されます。窓口に事前予約のうえ申請してください。"
+    },
+    {
+      "program_name": "住居確保給付金（転宅費用補助）",
+      "operating_body": "荒川区",
+      "category": "ひとり親・低所得",
+      "subcategory": "住居確保支援",
+      "target_summary": "荒川区内に居住し、世帯員の死亡・離職・廃業・休業等による収入減少で住居を失った・失うおそれのある方。家計改善支援事業において転居が必要と認められ、転居費用の捻出が困難な方。収入・資産要件あり。",
+      "target_household": [
+        "単身",
+        "2人世帯",
+        "3人世帯",
+        "4人以上世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "転居に要する費用（初期費用・原状回復費用・運搬費用・鍵交換費用）を支給。上限：単身279,200円、2人300,000円、3人324,000円。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 324000,
+      "eligible_expense_categories": [
+        "初期費用",
+        "ハウスクリーニング等の原状回復費用",
+        "家財の運搬費用",
+        "鍵交換費用"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "単身",
+          "amount_yen": 279200,
+          "note": "住宅扶助特別基準額69,800円×4"
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "2人世帯",
+          "amount_yen": 300000,
+          "note": "住宅扶助特別基準額75,000円×4"
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "3人世帯",
+          "amount_yen": 324000,
+          "note": "住宅扶助特別基準額81,000円×4"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "随時受付（予約制・来所申請が原則）",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "職業訓練受講給付金",
+          "relation_type": "併用可能",
+          "note": "職業訓練受講給付金との併給は可能"
+        },
+        {
+          "program_name": "家計改善支援事業",
+          "relation_type": "前提",
+          "note": "家計改善支援事業において転居が必要と認められることが要件"
+        }
+      ],
+      "contact": "福祉部福祉推進課 地域共生推進係（荒川区役所1階8番窓口）電話：03-3802-3094",
+      "source_url": "https://www.city.arakawa.tokyo.jp/a027/seikatsu/seikatsushien/270701juukyokakuho.html",
+      "plain_summary": "荒川区内に住んでいる方で、家族の死亡や離職・休業等で収入が大きく減り、引っ越しが必要になった方に、引っ越し費用（初期費用・原状回復・運搬・鍵交換）を補助してもらえます。上限は世帯人数によって279,200円〜324,000円。窓口に事前予約のうえ申請してください。"
+    }
+  ]
+}

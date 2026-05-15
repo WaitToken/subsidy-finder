@@ -1,0 +1,65 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.edogawa.tokyo.jp/e031/kurashi/sodanannai/sogi-kuminsogi.html"
+    ],
+    "extracted_at": "2026-05-15T01:28:59.254700+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "区民葬儀にかかる火葬費用助成金",
+      "operating_body": "江戸川区",
+      "category": "その他",
+      "subcategory": "葬祭費用助成",
+      "target_summary": "区民葬儀を利用し、特別区が指定する民間火葬場において最も低廉な火葬料金（87,000円）を負担した方。亡くなられた方の住民登録が死亡日に23区内にあった場合、または23区外であっても火葬費用負担者の住民登録が江戸川区にある場合が対象。",
+      "target_household": [
+        "葬儀施行者",
+        "火葬費用負担者"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "大人の場合は最大27,000円、小人（満6歳以下）の場合は最大15,000円を助成金として振り込み",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 27000,
+      "benefit_tiers": [
+        {
+          "condition_type": "年齢区分",
+          "condition_label": "大人",
+          "amount_yen": 27000
+        },
+        {
+          "condition_type": "年齢区分",
+          "condition_label": "小人（満6歳以下）",
+          "amount_yen": 15000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "火葬を執り行った日の翌日から2年間",
+      "application_start": "2026-04-01",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "区民葬儀取扱指定店が発行した葬儀代金の領収書の写し",
+        "請求書や立替明細書など区民葬儀の利用内容が確認できる書類",
+        "霊柩車会社発行の領収書（霊柩車券利用の場合）",
+        "指定する民間火葬場が発行した火葬料の領収書の写し（宛名が申請者のフルネーム）",
+        "申請者の本人確認書類の写し（住民登録地記載のもの）",
+        "申請者名義の金融機関名・口座番号等のわかるものの写し",
+        "代理申請の場合：委任状等",
+        "代理人の本人確認書類の写し（代理申請・代理受領の場合）",
+        "代理人名義の金融機関名・口座番号等のわかるものの写し（代理受領の場合）",
+        "亡くなられた方が死亡日において23区外に住所を有していたことを確認できる書類（火葬許可証の写し、住民票の除票等）（23区外の場合のみ）"
+      ],
+      "status": "予定",
+      "status_note": "令和8年4月1日以降の利用分から対象",
+      "related_programs": [],
+      "contact": "生活振興部区民課システム係 電話：03-5662-1597（直通）",
+      "source_url": "https://www.city.edogawa.tokyo.jp/e031/kurashi/sodanannai/sogi-kuminsogi.html",
+      "plain_summary": "江戸川区の区民葬儀を利用し、区が指定する民間火葬場で最も安い火葬料金（87,000円）を払った方に、火葬費用の一部を助成します。大人は最大27,000円、満6歳以下の小人は最大15,000円が現金で振り込まれます。令和8年4月1日以降の火葬が対象で、火葬日の翌日から2年以内に電子申請・郵送・窓口で申請できます。"
+    }
+  ]
+}

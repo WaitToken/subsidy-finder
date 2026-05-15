@@ -1,0 +1,54 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "http://www.pref.kanagawa.jp/docs/en7/cnt/f531013/"
+    ],
+    "extracted_at": "2026-05-15T02:10:19.101860+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "神奈川県高校生等奨学給付金（国公立高等学校等）",
+      "operating_body": "神奈川県",
+      "category": "子育て・教育",
+      "subcategory": "高校生奨学給付金",
+      "target_summary": "保護者が神奈川県内に住所を有し、生活保護（生業扶助）受給世帯または住民税所得割非課税世帯（家計急変により非課税相当となった世帯を含む）で、国公立高等学校等に在籍する高校生等がいる世帯。専攻科在籍の場合は課税世帯の一部も対象。",
+      "target_household": [
+        "生活保護（生業扶助）受給世帯",
+        "住民税所得割非課税世帯",
+        "家計急変により非課税相当となった世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "授業料以外の教育費に活用できる返還不要の給付金。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2025-07-01",
+      "application_end": "2025-12-15",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "end_date": "2025-06-30",
+          "note": "新入生対象一部早期（前倒し）給付"
+        },
+        {
+          "round_number": 2,
+          "start_date": "2025-07-01",
+          "end_date": "2025-12-15",
+          "note": "通常給付・家計急変世帯対象給付。電子申請または紙申請"
+        }
+      ],
+      "application_method": "複数",
+      "status": "終了",
+      "status_note": "令和7年度の申請受付は終了。令和8年度の制度内容は検討中。",
+      "related_programs": [],
+      "contact": "神奈川県内公立高校等在学：各学校事務室 / 神奈川県外の国公立高校等在学：神奈川県教育委員会財務課高校奨学金グループ 045-210-8251",
+      "source_url": "http://www.pref.kanagawa.jp/docs/en7/cnt/f531013/",
+      "plain_summary": "※受付終了（令和7年度）。神奈川県内に住む保護者の世帯で、生活保護受給または住民税非課税の世帯が対象。国公立高校等に在籍する高校生の授業料以外の教育費に使える返還不要の給付金です。令和8年度の制度内容は現在検討中で、確定次第更新されます。"
+    }
+  ]
+}

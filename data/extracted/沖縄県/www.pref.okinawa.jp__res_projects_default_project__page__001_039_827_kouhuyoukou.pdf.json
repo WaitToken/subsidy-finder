@@ -1,0 +1,71 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/039/827/kouhuyoukou.pdf"
+    ],
+    "extracted_at": "2026-05-15T02:51:45.618938+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "世界自然遺産地域活動支援事業補助金",
+      "operating_body": "沖縄県",
+      "category": "環境",
+      "subcategory": "自然環境保全・観光地景観形成",
+      "target_audience": "事業者",
+      "target_summary": "沖縄県内に事業所を有する法人、または法人格を有さず営利を目的としない民間団体（やんばる３村・西表島の自然環境保全活動を行うもの）",
+      "target_residency_required": true,
+      "benefit_summary": "補助対象経費（人件費・賃金・報償費・旅費・需用費・役務費・委託料・使用料及び賃借料・備品購入費）の上限300万円（税抜）に対し、初年度9/10以内、2年目9/10、3年目以降8/10以内の補助率で補助金を交付",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 3000000,
+      "benefit_rate_percent": 90,
+      "eligible_expense_categories": [
+        "人件費",
+        "賃金",
+        "報償費",
+        "旅費",
+        "需用費",
+        "役務費",
+        "委託料",
+        "使用料及び賃借料",
+        "備品購入費"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "交付初年度・2年目",
+          "rate_percent": 90,
+          "note": "対象経費上限300万円（税抜）の9/10以内"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "3年目以降",
+          "rate_percent": 80,
+          "note": "対象経費上限300万円（税抜）の8/10以内"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_window_note": "予算の範囲内で選定委員会が審査のうえ採択件数を決定",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "世界自然遺産地域活動支援事業補助金交付申請書（様式第１号）",
+        "事業実施主体の概要（別紙１）",
+        "事業実施計画書（別紙２）",
+        "業務全体のフロー・工程表（別紙３）",
+        "事業収支予算（別紙４）",
+        "事業実施主体の規約・前年度の決算書等",
+        "その他参考となる書類"
+      ],
+      "status": "不明",
+      "status_note": "予算の範囲内で決定。他の補助金との重複受給不可",
+      "related_programs": [],
+      "source_url": "https://www.pref.okinawa.jp/_res/projects/default_project/_page_/001/039/827/kouhuyoukou.pdf",
+      "plain_summary": "沖縄県のやんばる３村（国頭村・大宜味村・東村）や西表島の世界自然遺産地域で、自然環境保全・クリーン活動・周知広報・人材育成などに取り組む県内の法人・非営利団体が対象です。対象経費の上限300万円（税抜）に対し、初年度・2年目は最大9割、3年目以降は8割の補助金が受けられます。申請は交付申請書と必要書類を沖縄県知事あてに提出し、選定委員会の審査を経て採択されます。"
+    }
+  ]
+}

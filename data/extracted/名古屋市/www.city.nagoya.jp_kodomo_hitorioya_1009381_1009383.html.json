@@ -1,0 +1,65 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.nagoya.jp/kodomo/hitorioya/1009381/1009383.html"
+    ],
+    "extracted_at": "2026-05-15T03:16:25.497803+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "高等学校卒業程度認定試験合格支援給付金",
+      "operating_body": "名古屋市",
+      "category": "ひとり親・低所得",
+      "subcategory": "資格取得・就労支援",
+      "target_audience": "個人",
+      "target_summary": "名古屋市内在住の20歳未満の児童を扶養するひとり親家庭の母・父またはその扶養している児童で、母子・父子自立支援プログラムの策定支援を受けており、安定した就労に結びつくと認められる方。過去に本給付金を受給していない方。高校卒業者・既に大学入学資格を持つ方は対象外。",
+      "target_household": [
+        "ひとり親家庭"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "講座の受講開始時・受講修了時・合格時の3段階で受講料の一部を支給。通信制は最大15万円、通学制・通学通信併用は最大30万円。受講開始時40%、受講修了時累計50%、合格時累計60%相当（上限あり）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 300000,
+      "benefit_rate_percent": 60,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "通信制（累計上限）",
+          "amount_yen": 150000,
+          "note": "受講開始時上限10万円、修了時累計12.5万円、合格時累計15万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "通学制・通学通信併用（累計上限）",
+          "amount_yen": 300000,
+          "note": "受講開始時上限20万円、修了時累計25万円、合格時累計30万円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_window_note": "講座受講開始前に区役所（または支所）への事前相談・事前指定が必要",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "母子・父子自立支援プログラム",
+          "relation_type": "前提",
+          "note": "同プログラムの策定支援を受けていることが申請要件"
+        },
+        {
+          "program_name": "高等学校等就学支援金制度",
+          "relation_type": "代替",
+          "note": "高等学校等就学支援金の支給対象となる場合は本給付金の対象外"
+        }
+      ],
+      "contact": "子ども青少年局 子ども未来企画部 子ども未来企画課 児童手当・ひとり親家庭等の福祉担当 TEL: 052-972-2522 FAX: 052-972-4204 Email: a2522-10@kodomoseishonen.city.nagoya.lg.jp",
+      "source_url": "https://www.city.nagoya.jp/kodomo/hitorioya/1009381/1009383.html",
+      "plain_summary": "名古屋市内に住むひとり親家庭のお父さん・お母さんや扶養しているお子さんが、高校卒業程度認定試験（高卒認定）の合格を目指す講座を受けると、受講料の一部が助成されます。通信制は最大15万円、通学制は最大30万円が3段階（開始時・修了時・合格時）に分けて支給されます。受講前に必ず区役所へ事前相談・事前指定が必要です。"
+    }
+  ]
+}

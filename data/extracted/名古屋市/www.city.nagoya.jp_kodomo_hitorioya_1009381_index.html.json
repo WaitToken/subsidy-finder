@@ -1,0 +1,87 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.nagoya.jp/kodomo/hitorioya/1009381/index.html"
+    ],
+    "extracted_at": "2026-05-15T03:16:40.746910+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "自立支援給付金",
+      "operating_body": "名古屋市",
+      "category": "ひとり親・低所得",
+      "subcategory": "就業支援",
+      "target_audience": "個人",
+      "target_summary": "ひとり親家庭の母または父で、就職・転職に有利な資格や知識を修得しようとしている方",
+      "target_residency_required": true,
+      "benefit_summary": "就職・転職に有利な資格・知識修得のための給付金を支給（金額は要事前相談）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_window_note": "事前相談が必要",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "source_url": "https://www.city.nagoya.jp/kodomo/hitorioya/1009381/index.html",
+      "plain_summary": "名古屋市内のひとり親家庭のお母さん・お父さんが、就職や転職に役立つ資格・知識を取得する際に給付金が支給されます。申請には事前相談が必要です。詳しくは名古屋市の窓口にご相談ください。"
+    },
+    {
+      "program_name": "高等学校卒業程度認定試験合格支援給付金",
+      "operating_body": "名古屋市",
+      "category": "ひとり親・低所得",
+      "subcategory": "就業支援・教育",
+      "target_audience": "個人",
+      "target_summary": "ひとり親家庭の母、父またはその子どもで、資格取得・就職・転職のため高等学校卒業程度認定試験の合格を目指す講座を受講する方",
+      "target_residency_required": true,
+      "benefit_summary": "高卒認定試験合格を目指す講座の受講料の一部を助成",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_window_note": "事前相談が必要",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "source_url": "https://www.city.nagoya.jp/kodomo/hitorioya/1009381/index.html",
+      "plain_summary": "名古屋市内のひとり親家庭のお母さん・お父さん、またはそのお子さんが高卒認定試験の合格を目指す講座を受講すると、受講料の一部が助成されます。申請には事前相談が必要です。"
+    },
+    {
+      "program_name": "ひとり親家庭等就業支援講習会",
+      "operating_body": "名古屋市",
+      "category": "ひとり親・低所得",
+      "subcategory": "就業支援",
+      "target_audience": "個人",
+      "target_summary": "ひとり親家庭の方",
+      "target_residency_required": true,
+      "benefit_summary": "就業支援講習会の開催および就業相談窓口「ジョイナス.ナゴヤ」の利用",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年度第1期の申込期間は令和8年5月7日から5月28日",
+      "application_start": "2026-05-07",
+      "application_end": "2026-05-28",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "start_date": "2026-05-07",
+          "end_date": "2026-05-28",
+          "note": "令和8年度第1期、事前申込必要"
+        }
+      ],
+      "application_method": "窓口",
+      "status": "募集中",
+      "status_note": "令和8年度第1期　申込期間：2026年5月7日〜5月28日",
+      "related_programs": [],
+      "source_url": "https://www.city.nagoya.jp/kodomo/hitorioya/1009381/index.html",
+      "plain_summary": "名古屋市がひとり親家庭の方を対象に就業支援講習会を開催しています。令和8年度第1期の申込期間は2026年5月7日〜5月28日です（事前申込必要）。就業相談窓口「ジョイナス.ナゴヤ」も利用できます。"
+    }
+  ]
+}

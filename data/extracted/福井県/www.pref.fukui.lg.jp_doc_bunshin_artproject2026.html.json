@@ -1,0 +1,166 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.fukui.lg.jp/doc/bunshin/artproject2026.html"
+    ],
+    "extracted_at": "2026-05-15T02:16:55.160614+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和８年度ふくいアートプロジェクト助成金（プロジェクト支援）",
+      "operating_body": "福井県",
+      "category": "その他",
+      "subcategory": "文化芸術",
+      "target_summary": "福井県内に主たる活動拠点を置き、構成員が2名以上の団体。文化芸術の力を活用して地域の新たな文化創造に取り組む事業を実施するもの。",
+      "target_residency_required": true,
+      "benefit_summary": "通常枠：最大150万円（採択10件）、特別枠：最大200万円（採択1〜2件）を助成。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 2000000,
+      "selection_quota": 12,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "通常枠",
+          "amount_yen": 1500000,
+          "note": "採択数10件、プレゼン審査"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "特別枠（優れた取組）",
+          "amount_yen": 2000000,
+          "note": "採択数1〜2件、プレゼン審査"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-03-19",
+      "application_end": "2026-04-09",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "required_documents": [
+        "事業計画書（様式第1号）",
+        "収支予算書（様式第2号）",
+        "団体の会則、定款および会員名簿",
+        "これまでの活動実績がわかる資料",
+        "事業紹介原稿"
+      ],
+      "status": "終了",
+      "status_note": "応募を締め切り済み",
+      "related_programs": [],
+      "contact": "福井県交流文化部文化・スポーツ局文化課 電話：0776-20-0582 メール：art@pref.fukui.lg.jp",
+      "source_url": "https://www.pref.fukui.lg.jp/doc/bunshin/artproject2026.html",
+      "plain_summary": "※受付終了。福井県内に拠点を持つ2名以上の団体が対象。地域の文化創造に取り組むアートプロジェクトに、通常枠150万円（10件）、特別枠200万円（1〜2件）を助成。令和8年4月9日に募集を締め切りました。"
+    },
+    {
+      "program_name": "令和８年度ふくいアートプロジェクト助成金（活動基盤強化支援）",
+      "operating_body": "福井県",
+      "category": "その他",
+      "subcategory": "文化芸術",
+      "target_summary": "福井県内に主たる活動拠点を置き、構成員が2名以上の団体。文化芸術の力を活用して地域の新たな文化創造に取り組む事業を実施するもの。",
+      "target_residency_required": true,
+      "benefit_summary": "通常枠：最大50万円（採択20件）、特別枠：最大100万円（採択1〜2件）を助成。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 1000000,
+      "selection_quota": 22,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "通常枠",
+          "amount_yen": 500000,
+          "note": "採択数20件、プレゼン審査"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "特別枠（優れた取組）",
+          "amount_yen": 1000000,
+          "note": "採択数1〜2件、プレゼン審査"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-03-19",
+      "application_end": "2026-04-09",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "required_documents": [
+        "事業計画書（様式第1号）",
+        "収支予算書（様式第2号）",
+        "団体の会則、定款および会員名簿",
+        "これまでの活動実績がわかる資料",
+        "事業紹介原稿"
+      ],
+      "status": "終了",
+      "status_note": "応募を締め切り済み",
+      "related_programs": [],
+      "contact": "福井県交流文化部文化・スポーツ局文化課 電話：0776-20-0582 メール：art@pref.fukui.lg.jp",
+      "source_url": "https://www.pref.fukui.lg.jp/doc/bunshin/artproject2026.html",
+      "plain_summary": "※受付終了。福井県内に拠点を持つ2名以上の団体が対象。文化芸術活動の基盤強化に取り組む事業に、通常枠50万円（20件）、特別枠100万円（1〜2件）を助成。令和8年4月9日に募集を締め切りました。"
+    },
+    {
+      "program_name": "令和８年度ふくいアートプロジェクト助成金（活動活性化支援）",
+      "operating_body": "福井県",
+      "category": "その他",
+      "subcategory": "文化芸術",
+      "target_summary": "福井県内に主たる活動拠点を置き、構成員が2名以上の団体。既存の文化芸術活動をもとに、活動の当事者を増やすために地域や県民に開く新しい試みを盛り込んだ事業を実施するもの。",
+      "target_residency_required": true,
+      "benefit_summary": "最大20万円を助成（採択10件、書面審査）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 200000,
+      "selection_quota": 10,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-03-19",
+      "application_end": "2026-04-09",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "required_documents": [
+        "事業計画書（様式第1号）",
+        "収支予算書（様式第2号）",
+        "団体の会則、定款および会員名簿",
+        "これまでの活動実績がわかる資料",
+        "事業紹介原稿"
+      ],
+      "status": "終了",
+      "status_note": "応募を締め切り済み",
+      "related_programs": [],
+      "contact": "福井県交流文化部文化・スポーツ局文化課 電話：0776-20-0582 メール：art@pref.fukui.lg.jp",
+      "source_url": "https://www.pref.fukui.lg.jp/doc/bunshin/artproject2026.html",
+      "plain_summary": "※受付終了。福井県内に拠点を持つ2名以上の団体が対象。既存の文化芸術活動を地域に開く新しい試みに、最大20万円（10件）を助成。令和8年4月9日に募集を締め切りました。"
+    },
+    {
+      "program_name": "令和８年度ふくいアートプロジェクト助成金（担い手育成支援）",
+      "operating_body": "福井県",
+      "category": "その他",
+      "subcategory": "文化芸術",
+      "target_summary": "福井県内に主たる活動拠点を置き、構成員が2名以上の団体。アートプロジェクトの実施に向けて、新たな担い手がアートプロジェクトの思考や運営方法等を調査研究する取組みを行うもの。",
+      "target_residency_required": true,
+      "benefit_summary": "最大10万円を助成（採択5件、書面審査）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 100000,
+      "selection_quota": 5,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "令和8年9月30日まで。ただし予算枠に達し次第終了。",
+      "application_start": "2026-03-19",
+      "application_end": "2026-09-30",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "required_documents": [
+        "事業計画書（様式第1の2号）",
+        "収支予算書（様式第2の2号）"
+      ],
+      "status": "募集中",
+      "status_note": "予算枠に達し次第終了。令和8年9月30日まで受付。",
+      "related_programs": [],
+      "contact": "福井県交流文化部文化・スポーツ局文化課 電話：0776-20-0582 メール：art@pref.fukui.lg.jp",
+      "source_url": "https://www.pref.fukui.lg.jp/doc/bunshin/artproject2026.html",
+      "plain_summary": "福井県内に拠点を持つ2名以上の団体が対象。アートプロジェクトの担い手育成を目的とした調査研究活動に、最大10万円（5件）を助成。令和8年9月30日まで募集中ですが、予算に達し次第終了です。メールで申請書を提出します。"
+    }
+  ]
+}

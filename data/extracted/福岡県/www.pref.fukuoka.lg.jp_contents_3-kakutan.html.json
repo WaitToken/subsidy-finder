@@ -1,0 +1,41 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.fukuoka.lg.jp/contents/3-kakutan.html"
+    ],
+    "extracted_at": "2026-05-15T02:42:07.861053+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "福岡県医療的ケア児支援人材育成研修費補助金（喀痰吸引等研修（３号研修））",
+      "operating_body": "福岡県",
+      "category": "障害者支援",
+      "subcategory": "医療的ケア児支援・人材育成",
+      "target_audience": "事業者",
+      "target_summary": "福岡県内に居住する医療的ケア児に喀痰吸引等を行うことを予定している県内の障がい福祉サービス事業所等の事業者（障害福祉サービス事業、障害児通所支援事業、知事が特に必要と認める事業を実施するもの）",
+      "target_residency_required": true,
+      "benefit_summary": "事業所の従業員が受講した喀痰吸引等研修（３号研修）の受講費用（基本研修・実地研修のテキスト代・保険料を含む）を補助率10/10（全額）補助。補助基準額は1人あたり3万円×修了者数（1年度・1人1回まで）と実費のうち低い方",
+      "benefit_type": "現金",
+      "benefit_rate_percent": 100,
+      "eligible_expense_categories": [
+        "基本研修受講費用",
+        "実地研修受講費用",
+        "テキスト代",
+        "保険料"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [],
+      "source_url": "https://www.pref.fukuoka.lg.jp/contents/3-kakutan.html",
+      "plain_summary": "福岡県内の障がい福祉サービス事業所などが対象の補助金です。医療的ケア児に喀痰吸引等を行う予定の従業員が「喀痰吸引等研修（３号研修）」を受講した場合、1人あたり上限3万円×修了者数を補助率10割（全額）で助成します。人件費・交通費などは対象外です。"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.shinagawa.tokyo.jp/PC/kenkou/20260225165811.html"
+    ],
+    "extracted_at": "2026-05-15T00:51:06.683284+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "産科医療特別給付事業",
+      "operating_body": "公益財団法人日本医療機能評価機構",
+      "category": "医療・健康",
+      "subcategory": "産科医療・脳性まひ補償",
+      "target_summary": "2009年1月1日から2021年12月31日までに出生し、一定の在胎週数・体重基準を満たし、先天性・新生児期の要因によらない身体障害者障害程度等級1または2級相当の脳性まひと診断されたお子様",
+      "target_residency_required": false,
+      "benefit_summary": "特別給付金1,200万円（一括）を支給",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 12000000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2025-01-10",
+      "application_end": "2029-12-31",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "募集中",
+      "related_programs": [
+        {
+          "program_name": "産科医療補償制度",
+          "relation_type": "関連",
+          "note": "産科医療補償制度の個別審査で補償対象外となった児等が対象。未申請のお子様も申請可能。"
+        }
+      ],
+      "contact": "公益財団法人日本医療機能評価機構 産科医療特別給付事業専用コールセンター 電話0120-299-056（受付時間9:30〜17:00、土日祝日・年末年始を除く）",
+      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/20260225165811.html",
+      "plain_summary": "2009年〜2021年に生まれ、在胎週数・体重の基準を満たし、先天性・新生児期の要因によらない重度脳性まひ（身体障害1・2級相当）と診断されたお子様に、特別給付金として1,200万円が一括で支給される制度です。申請期間は2025年1月10日〜2029年12月31日で、産科医療補償制度に未申請でも申請できます。"
+    }
+  ]
+}

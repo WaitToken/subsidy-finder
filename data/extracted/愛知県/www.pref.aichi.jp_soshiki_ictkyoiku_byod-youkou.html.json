@@ -1,0 +1,139 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.aichi.jp/soshiki/ictkyoiku/byod-youkou.html"
+    ],
+    "extracted_at": "2026-05-15T02:25:16.159338+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "県立学校学習者用端末購入支援金（低所得世帯補助）",
+      "operating_body": "愛知県",
+      "category": "子育て・教育",
+      "subcategory": "高校生端末購入支援",
+      "target_summary": "愛知県立高等学校または特別支援学校高等部に入学する生徒の保護者等で、生活保護（生業扶助）受給世帯または住民税所得割が保護者等全員非課税の世帯",
+      "target_household": [
+        "低所得世帯",
+        "生活保護世帯",
+        "住民税所得割非課税世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "学校指定端末価格の全額（上限10万円）を現金で交付",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 100000,
+      "benefit_rate_percent": 100,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "委員会が別に定める期日まで（入学年度に申請）",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "県立高等学校等端末購入支援金交付申請審査依頼書（別記様式第3号）",
+        "生活保護受給証明書（生活保護世帯の場合、入学年度4月1日以降発行）",
+        "課税証明書または非課税証明書（住民税所得割非課税世帯の場合）"
+      ],
+      "status": "予定",
+      "status_note": "令和8年4月1日施行",
+      "related_programs": [],
+      "source_url": "https://www.pref.aichi.jp/soshiki/ictkyoiku/byod-youkou.html",
+      "plain_summary": "愛知県立の高校・特別支援学校高等部に入学する生徒の保護者が対象です。生活保護を受けている世帯や住民税所得割が非課税の低所得世帯には、学校指定の端末（パソコン等）の購入費用が最大10万円まで全額補助されます。指定事業者のサイトで端末を購入し、委員会が定める期日までに申請が必要です。令和8年4月入学者から適用されます。"
+    },
+    {
+      "program_name": "県立学校学習者用端末購入支援金（ひとり親世帯補助）",
+      "operating_body": "愛知県",
+      "category": "ひとり親・低所得",
+      "subcategory": "高校生端末購入支援",
+      "target_summary": "愛知県立高等学校または特別支援学校高等部に入学する生徒の保護者等で、入学年度11月1日現在に児童扶養手当を受給しているひとり親世帯",
+      "target_household": [
+        "ひとり親世帯",
+        "児童扶養手当受給世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "学校指定端末価格の3/4（上限10万円）を現金で交付",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 75000,
+      "benefit_rate_percent": 75,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "委員会が別に定める期日まで（入学年度に申請）",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "県立高等学校等端末購入支援金交付申請審査依頼書（別記様式第3号）",
+        "入学年度11月分の児童扶養手当の受給が確認できる書類（児童扶養手当証書の写し、受給証明書、認定通知書の写し等）"
+      ],
+      "status": "予定",
+      "status_note": "令和8年4月1日施行",
+      "related_programs": [],
+      "source_url": "https://www.pref.aichi.jp/soshiki/ictkyoiku/byod-youkou.html",
+      "plain_summary": "愛知県立の高校・特別支援学校高等部に入学する生徒の保護者が対象です。児童扶養手当を受けているひとり親世帯には、学校指定の端末（パソコン等）の購入費用の4分の3（最大約7.5万円）が補助されます。指定事業者のサイトで端末を購入し、委員会が定める期日までに申請が必要です。令和8年4月入学者から適用されます。"
+    },
+    {
+      "program_name": "県立学校学習者用端末購入支援金（多子世帯補助）",
+      "operating_body": "愛知県",
+      "category": "子育て・教育",
+      "subcategory": "高校生端末購入支援",
+      "target_summary": "愛知県立高等学校または特別支援学校高等部に入学する生徒の保護者等で、住民税所得割の合計が264,500円未満かつ23歳未満の扶養する子等が3人以上いる多子世帯",
+      "target_household": [
+        "多子世帯（23歳未満の扶養子が3人以上）"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "学校指定端末価格の3/4（上限10万円）を現金で交付",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 75000,
+      "benefit_rate_percent": 75,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "委員会が別に定める期日まで（入学年度に申請）",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "県立高等学校等端末購入支援金交付申請審査依頼書（別記様式第3号）",
+        "保護者等全員分の課税証明書または非課税証明書（3人以上の被扶養者・住民税所得割が確認できるもの）",
+        "住民票（世帯全員記載・被扶養者全員の年齢確認できるもの）"
+      ],
+      "status": "予定",
+      "status_note": "令和8年4月1日施行",
+      "related_programs": [],
+      "source_url": "https://www.pref.aichi.jp/soshiki/ictkyoiku/byod-youkou.html",
+      "plain_summary": "愛知県立の高校・特別支援学校高等部に入学する生徒の保護者が対象です。住民税所得割の合計が264,500円未満で、23歳未満の扶養している子が3人以上いる多子世帯には、端末購入費の4分の3（最大約7.5万円）が補助されます。指定事業者のサイトで端末を購入し、委員会が定める期日までに申請が必要です。令和8年4月入学者から適用されます。"
+    },
+    {
+      "program_name": "県立学校学習者用端末購入支援金（特別支援学校高等部補助）",
+      "operating_body": "愛知県",
+      "category": "障害者支援",
+      "subcategory": "高校生端末購入支援",
+      "target_summary": "愛知県立特別支援学校高等部に入学する生徒（前年中の収入に関わらず全員対象）",
+      "target_household": [
+        "特別支援学校高等部入学者"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "学校指定端末価格から特別支援教育就学奨励費（ICT機器購入費）の上限額を差し引いた金額を現金で交付（上限10万円）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 100000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "委員会が別に定める期日まで（入学年度に申請）",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "県立高等学校等端末購入支援金交付申請書（別記様式第4号）または指定事業者経由の申請",
+        "領収書等（指定事業者以外から購入の場合）",
+        "学校長の意見書"
+      ],
+      "status": "予定",
+      "status_note": "令和8年4月1日施行",
+      "related_programs": [],
+      "source_url": "https://www.pref.aichi.jp/soshiki/ictkyoiku/byod-youkou.html",
+      "plain_summary": "愛知県立特別支援学校高等部に入学する生徒は、収入に関係なく全員が対象です。学校で使う端末（パソコン等）の購入費用から就学奨励費（ICT機器購入費）の上限額を差し引いた金額（最大10万円）が補助されます。指定事業者のサイトで端末を購入し、委員会が定める期日までに申請が必要です。令和8年4月入学者から適用されます。"
+    }
+  ]
+}

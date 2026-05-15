@@ -1,0 +1,46 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sendai.jp/kodomo-kyufu/kosodateouenteate.html"
+    ],
+    "extracted_at": "2026-05-15T03:00:16.110883+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "物価高対応子育て応援手当",
+      "operating_body": "仙台市",
+      "category": "子育て・教育",
+      "subcategory": "子育て給付金",
+      "target_audience": "個人",
+      "target_summary": "令和7年9月分児童手当の受給者、または令和7年10月1日〜令和8年3月31日までに出生した児童の父母等で、仙台市に住民票がある方",
+      "target_age_min": 0,
+      "target_age_max": 18,
+      "target_household": [
+        "子育て世帯",
+        "乳幼児〜高校3年生の子を持つ世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "対象児童1人につき2万円を現金支給（児童手当の支給口座に振込）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 20000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年5月31日（日曜日）消印有効",
+      "application_start": "2025-02-27",
+      "application_end": "2026-05-31",
+      "application_rounds": [],
+      "application_method": "複数",
+      "status": "募集中",
+      "status_note": "令和8年5月31日申請期限",
+      "related_programs": [],
+      "contact": "仙台市物価高対応子育て応援手当専用ダイヤル：0120-207-049（平日8:30〜17:00）",
+      "source_url": "https://www.city.sendai.jp/kodomo-kyufu/kosodateouenteate.html",
+      "plain_summary": "仙台市に住む0歳から高校3年生までの子どもを育てている保護者に、子ども1人あたり2万円が現金で支給されます。児童手当の認定手続き済みの方は申請不要で自動的に振り込まれます。そうでない方はオンラインまたは郵送で令和8年5月31日までに申請してください。"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.chuo.lg.jp/a0012/syohisikatsu/20260401.html"
+    ],
+    "extracted_at": "2026-05-15T00:04:48.709292+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "区民葬儀にかかる火葬費用の助成",
+      "operating_body": "中央区",
+      "category": "その他",
+      "subcategory": "葬儀・火葬費用助成",
+      "target_summary": "特別区区民葬儀を利用し、特別区指定の民間火葬場で最も低廉な火葬料金（87,000円）を支払った方のうち、亡くなられた方の住民登録が死亡日に中央区にあった方（または火葬費用を負担した方の住民登録が中央区にある方）",
+      "target_residency_required": true,
+      "benefit_summary": "亡くなられた方が大人の場合は27,000円、小人（満6歳以下）の場合は15,000円を助成",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 27000,
+      "benefit_tiers": [
+        {
+          "condition_type": "年齢区分",
+          "condition_label": "大人",
+          "amount_yen": 27000
+        },
+        {
+          "condition_type": "年齢区分",
+          "condition_label": "小人（満6歳以下）",
+          "amount_yen": 15000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "火葬を執り行った日の翌日から2年間",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "中央区区民葬儀補助金交付申請書兼請求書",
+        "葬儀社が発行した領収書（利用した区民葬儀の種別がわかるもの）",
+        "対象となる火葬場が発行した明細書及び領収書（宛名が申請者のフルネームのもの）",
+        "申請者の本人確認書類",
+        "申請者名義の振込金融機関名・口座番号が分かるもの",
+        "委任状（領収書の宛名が申請者と異なる場合や代理受領の場合）",
+        "代理人の本人確認書類（代理申請の場合）",
+        "代理人名義の金融機関口座番号が分かるもの（代理受領時）",
+        "火葬許可証のコピーまたは亡くなられた方の死亡が記載されている住民票の除票（23区外の場合）"
+      ],
+      "status": "募集中",
+      "related_programs": [
+        {
+          "program_name": "特別区区民葬儀",
+          "relation_type": "前提",
+          "note": "区民葬儀を利用していることが申請要件"
+        }
+      ],
+      "contact": "中央区おくやみコーナー（中央区役所1階）　電話：03-3546-5663",
+      "source_url": "https://www.city.chuo.lg.jp/a0012/syohisikatsu/20260401.html",
+      "plain_summary": "亡くなられた方の住民登録が中央区にあった場合（または火葬費用を負担した方が中央区在住の場合）、区民葬儀を利用し指定の民間火葬場で火葬した費用の一部として、大人は27,000円、小人（6歳以下）は15,000円が現金で助成されます。火葬日の翌日から2年以内に、区役所1階のおくやみコーナーへ窓口または郵送で申請できます。"
+    }
+  ]
+}

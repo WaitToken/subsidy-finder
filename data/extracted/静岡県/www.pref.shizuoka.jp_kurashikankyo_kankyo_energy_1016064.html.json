@@ -1,0 +1,84 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.shizuoka.jp/kurashikankyo/kankyo/energy/1016064.html"
+    ],
+    "extracted_at": "2026-05-15T02:24:03.928033+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度静岡県中小企業等カーボンニュートラル促進事業費補助金（省エネ設備導入支援）【脱炭素スタート応援枠】",
+      "operating_body": "静岡県",
+      "category": "環境",
+      "subcategory": "省エネ設備導入支援",
+      "target_summary": "県内に事業所を有する中小企業等で、年間エネルギー使用量（原油換算）300kl未満の事業所。県税の未納がなく、反社会的勢力でないこと等の要件を満たすもの。",
+      "target_residency_required": true,
+      "benefit_summary": "CO2排出量を5%以上削減できる省エネルギー設備・機器の導入費用の3分の1以内を補助（上限200万円、下限20万円）。断熱窓・断熱材も対象。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 2000000,
+      "benefit_rate_percent": 33,
+      "eligible_expense_categories": [
+        "省エネルギー設備・機器導入費",
+        "断熱窓",
+        "断熱材"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-04-15",
+      "application_end": "2026-05-15",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "終了",
+      "status_note": "公募期間：令和8年4月15日～令和8年5月15日（取得日2026-05-15時点で期間終了）",
+      "related_programs": [
+        {
+          "program_name": "温室効果ガス排出削減計画書制度",
+          "relation_type": "前提",
+          "note": "申請にあたり参画が必須"
+        }
+      ],
+      "contact": "一般社団法人静岡県環境資源協会 TEL: 054-270-6165（平日10時〜12時、13時〜17時） Email: sizhojo@siz-kankyou.or.jp",
+      "source_url": "https://www.pref.shizuoka.jp/kurashikankyo/kankyo/energy/1016064.html",
+      "plain_summary": "※受付終了。静岡県内の中小企業等（年間エネルギー使用量300kl未満の事業所）が対象。省エネ設備・機器の導入費用の3分の1（上限200万円・下限20万円）を補助します。断熱窓・断熱材も対象。申請は2026年4月15日〜5月15日でした。"
+    },
+    {
+      "program_name": "令和8年度静岡県中小企業等カーボンニュートラル促進事業費補助金（省エネ設備導入支援）【大規模削減枠】",
+      "operating_body": "静岡県",
+      "category": "環境",
+      "subcategory": "省エネ設備導入支援",
+      "target_summary": "県内に事業所を有する中小企業等で、年間エネルギー使用量（原油換算）300kl以上1,500kl未満の事業所。県税の未納がなく、反社会的勢力でないこと等の要件を満たすもの。",
+      "target_residency_required": true,
+      "benefit_summary": "CO2排出量を5%以上削減できる省エネルギー設備・機器の導入費用の2分の1以内を補助（上限1,000万円、下限20万円）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 10000000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "省エネルギー設備・機器導入費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-04-15",
+      "application_end": "2026-05-15",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "終了",
+      "status_note": "公募期間：令和8年4月15日～令和8年5月15日（取得日2026-05-15時点で期間終了）",
+      "related_programs": [
+        {
+          "program_name": "温室効果ガス排出削減計画書制度",
+          "relation_type": "前提",
+          "note": "申請にあたり参画が必須"
+        }
+      ],
+      "contact": "一般社団法人静岡県環境資源協会 TEL: 054-270-6165（平日10時〜12時、13時〜17時） Email: sizhojo@siz-kankyou.or.jp",
+      "source_url": "https://www.pref.shizuoka.jp/kurashikankyo/kankyo/energy/1016064.html",
+      "plain_summary": "※受付終了。静岡県内の中小企業等（年間エネルギー使用量300kl以上1,500kl未満の事業所）が対象。省エネ設備・機器の導入費用の2分の1（上限1,000万円・下限20万円）を補助します。申請は2026年4月15日〜5月15日でした。"
+    }
+  ]
+}

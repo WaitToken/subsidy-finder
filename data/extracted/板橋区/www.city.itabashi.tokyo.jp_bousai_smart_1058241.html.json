@@ -1,0 +1,62 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.itabashi.tokyo.jp/bousai/smart/1058241.html"
+    ],
+    "extracted_at": "2026-05-15T01:22:54.297500+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "板橋区EVバイク車両購入補助事業",
+      "operating_body": "板橋区",
+      "category": "環境",
+      "subcategory": "電動バイク・EVバイク普及促進",
+      "target_summary": "板橋区内に事務所または事業所を有する事業者（個人事業主・法人）で、区内に登録したEVバイク車両を購入し、所有・使用者であること",
+      "target_household": [
+        "事業者（法人・個人事業主）"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "EVバイク車両1台につき4万円（補助対象経費が4万円未満の場合はその額・千円未満切捨て）を現金で補助。1事業者につき3台まで申請可能。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 40000,
+      "eligible_expense_categories": [
+        "車両本体購入費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2025-07-01",
+      "application_end": "2026-03-31",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "板橋区EVバイク車両購入補助事業補助金交付申請書",
+        "購入車両の自動車検査証または標識交付証明書等の写し",
+        "住民税（法人住民税）の納税証明書",
+        "購入領収書等の支払完了を確認できる書類",
+        "委任状（販売業者が代理申請する場合）"
+      ],
+      "status": "終了",
+      "status_note": "受付終了（令和8年4月1日更新時点）",
+      "related_programs": [
+        {
+          "program_name": "クリーンエネルギー自動車導入促進補助金",
+          "relation_type": "前提",
+          "note": "補助対象車両として一般社団法人次世代自動車振興センターの認定が必要"
+        },
+        {
+          "program_name": "電動バイクの普及促進事業",
+          "relation_type": "前提",
+          "note": "公益財団法人東京都環境公社の補助対象車両として認定されていることが条件"
+        }
+      ],
+      "contact": "資源環境部 環境政策課 ゼロカーボン推進係 〒173-8501 東京都板橋区板橋二丁目66番1号 板橋区役所北館7階 電話：03-3579-2622",
+      "source_url": "https://www.city.itabashi.tokyo.jp/bousai/smart/1058241.html",
+      "plain_summary": "※受付終了。板橋区内に事務所・事業所を持つ事業者が、国または都の補助対象車両として認定されたEVバイクを購入した場合、1台あたり最大4万円を現金で補助する制度です。1事業者につき3台まで申請可能。申請は郵送・電子申請・窓口で受け付けていましたが、令和8年3月31日をもって受付終了しています。"
+    }
+  ]
+}

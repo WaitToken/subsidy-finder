@@ -1,0 +1,61 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.nagasaki.jp/bunrui/hukushi-hoken/fukushi/syyogaifukushi/toseki-jyosei/"
+    ],
+    "extracted_at": "2026-05-15T02:46:26.037356+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "長崎県透析患者通院交通費助成事業",
+      "operating_body": "長崎県",
+      "category": "障害者支援",
+      "subcategory": "医療・通院支援",
+      "target_audience": "個人",
+      "target_summary": "長崎県内に居住し、人工透析療法による治療のために医療機関へ通院している方で、市町村民税非課税世帯に属し、自立支援医療費（更生医療）の負担上限月額が2,500円（受給者証がない場合は前年収入80万円以下）であり、かつ1か月の通院交通費が20,000円を超えている方",
+      "target_residency_required": true,
+      "benefit_summary": "1か月の通院交通費が20,000円を超えた場合、超えた金額の2分の1を助成（月額上限15,000円）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 15000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "通院交通費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "note": "3月～6月分の交通費：7月14日まで申請"
+        },
+        {
+          "round_number": 2,
+          "note": "7月～10月分の交通費：11月14日まで申請"
+        },
+        {
+          "round_number": 3,
+          "note": "11月～2月分の交通費：3月14日まで申請"
+        }
+      ],
+      "application_method": "窓口",
+      "required_documents": [
+        "長崎県透析患者通院交通費助成事業申請書（様式第1号）",
+        "通院証明書（様式第2号）※医療機関に記入してもらう",
+        "身体障害者手帳の写し",
+        "自立支援医療費（更生医療）の受給者証の写し（受給者証がない場合は住民票の写し・市町村民税所得課税証明書）",
+        "領収書（タクシー・介護タクシー利用者のみ）",
+        "振込先口座の名義人・口座番号が分かる書類（通帳・キャッシュカードの写し等）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "長崎県障害福祉課社会参加支援班 〒850-8570 長崎県長崎市尾上町3-1 電話：095-895-2453（平日9:00〜17:45）",
+      "source_url": "https://www.pref.nagasaki.jp/bunrui/hukushi-hoken/fukushi/syyogaifukushi/toseki-jyosei/",
+      "plain_summary": "長崎県内に住んで人工透析のために病院に通っている方で、非課税世帯かつ月の交通費が2万円を超えている場合、超えた分の半額（月最大1万5,000円）を助成してもらえます。申請は年3回の期間ごとに、長崎県障害福祉課へ必要書類を提出してください。"
+    }
+  ]
+}

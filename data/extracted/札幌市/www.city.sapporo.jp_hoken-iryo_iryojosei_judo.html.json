@@ -1,0 +1,68 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sapporo.jp/hoken-iryo/iryojosei/judo.html"
+    ],
+    "extracted_at": "2026-05-15T02:58:25.614622+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "重度心身障がい者医療費助成",
+      "operating_body": "札幌市",
+      "category": "障害者支援",
+      "subcategory": "医療費助成",
+      "target_audience": "個人",
+      "target_summary": "札幌市在住で、身体障害者手帳1〜3級（3級は内部障がいのみ）、療育手帳A、精神障害者保健福祉手帳1級のいずれかを所持し、所得制限の範囲内にある方。65歳以上は後期高齢者医療制度への加入が要件。",
+      "target_residency_required": true,
+      "benefit_summary": "医療機関での自己負担額を助成。精神障がい者（非課税世帯）は通院・入院ともに初診時一部負担金のみ（医科580円、歯科510円等）。課税世帯は総医療費の1割（通院：上限3,000円/月、入院：上限57,600円/月）。受給者証提示による窓口軽減または後払い還付の形で支給。",
+      "benefit_type": "現金",
+      "benefit_rate_percent": 90,
+      "benefit_tiers": [
+        {
+          "condition_type": "所得区分",
+          "condition_label": "精神障がい・住民税非課税・通院",
+          "note": "初診時一部負担金のみ（医科580円、歯科510円、はりきゅう柔道整復270円）"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "精神障がい・住民税課税・通院",
+          "rate_percent": 10,
+          "note": "総医療費の1割、限度額3,000円/月（院内処方は6,000円/月）"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "精神障がい・住民税非課税・入院（令和6年8月〜）",
+          "note": "初診時一部負担金のみ（医科580円、歯科510円）"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "精神障がい・住民税課税・入院（令和6年8月〜）",
+          "rate_percent": 10,
+          "note": "総医療費の1割、限度額57,600円/月"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "随時申請可能。新規申請は区役所福祉助成係へ。所得制限範囲内となった方は令和7年7月中旬以降に申請可能（令和7年8月以降有効分）。",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "重度心身障がい者医療費助成金支給申請書（区役所福祉助成係で入手可）",
+        "申請者の本人確認書類（マイナンバーカード表面・運転免許証等）",
+        "医療機関等が発行した領収書の原本（明細のわかるもの）",
+        "公的医療保険の被保険者名義の預金通帳または口座情報がわかるもの",
+        "受給者証",
+        "公的医療保険情報を確認できる書類（資格確認書、資格情報のお知らせ、またはマイナポータル画面）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "各区役所保健福祉課福祉助成係（中央区：011-205-3302、北区：011-757-2462、東区：011-741-2461、白石区：011-861-2446、厚別区：011-895-2474、豊平区：011-822-2453、清田区：011-889-2037、南区：011-582-4741、西区：011-641-6943、手稲区：011-681-2487）",
+      "source_url": "https://www.city.sapporo.jp/hoken-iryo/iryojosei/judo.html",
+      "plain_summary": "札幌市在住で重い障がいのある方（身体障害1〜3級・療育手帳A・精神手帳1級）の医療費を市が助成します。受給者証を医療機関に提示すると、自己負担が初診時一部負担金や1割程度まで軽減されます。申請は各区役所福祉助成係へオンライン・郵送・窓口で随時受け付けています。"
+    }
+  ]
+}

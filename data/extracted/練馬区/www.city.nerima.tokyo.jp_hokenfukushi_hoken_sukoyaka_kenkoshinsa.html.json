@@ -1,0 +1,80 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/kenkoshinsa.html"
+    ],
+    "extracted_at": "2026-05-15T01:23:29.810255+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "妊婦健康診査費用助成",
+      "operating_body": "練馬区",
+      "category": "子育て・教育",
+      "subcategory": "妊娠・出産支援",
+      "target_summary": "練馬区在住で母子健康手帳の交付を受けた妊婦（令和6年10月1日以降に妊娠届を提出した方は都内助産所でも利用可）",
+      "target_residency_required": true,
+      "benefit_summary": "妊婦健康診査受診票（14回分）・妊婦超音波検査受診票（4回分）・妊婦子宮頸がん検診受診票（1回分）を交付し、医療機関等での受診費用を上限額の範囲で助成。1回目健診：上限11,670円、2〜14回目：各5,460円、超音波検査：各5,300円、子宮頸がん検診：3,400円",
+      "benefit_type": "サービス提供",
+      "benefit_amount_max_yen": 85690,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "妊婦健康診査受診票1回目（水色）",
+          "amount_yen": 11670,
+          "note": "問診・体重・血圧・血液検査等（初回）"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "妊婦健康診査受診票2〜14回目（黄色）×13回",
+          "amount_yen": 5460,
+          "note": "1回あたり上限5,460円、最大13回分"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "妊婦超音波検査受診票1〜4回目（白色）×4回",
+          "amount_yen": 5300,
+          "note": "1回あたり上限5,300円、最大4回分"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "妊婦子宮頸がん検診受診票1回（桃色）",
+          "amount_yen": 3400,
+          "note": "子宮頸がん検診"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "母子健康手帳（交付時に受診票が配布される）"
+      ],
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "新生児聴覚検査費用の助成",
+          "relation_type": "関連"
+        },
+        {
+          "program_name": "産婦健康診査費用の助成",
+          "relation_type": "関連"
+        },
+        {
+          "program_name": "1か月児健康診査費用の助成",
+          "relation_type": "関連"
+        },
+        {
+          "program_name": "助産所または都外医療機関等での妊婦健康診査費用等の助成",
+          "relation_type": "関連"
+        }
+      ],
+      "contact": "健康部 健康推進課 母子保健係 TEL: 03-5984-4621 FAX: 03-5984-1211",
+      "source_url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/sukoyaka/kenkoshinsa.html",
+      "plain_summary": "練馬区に住む妊婦さんが対象です。母子健康手帳をもらうときに渡される受診票（健診14回・超音波4回・子宮頸がん検診1回）を医療機関や都内の一部助産所に出すことで、健診費用の一部が助成されます。1回目の健診は最大11,670円など、受診票の種類ごとに助成上限額が決まっています。受診票は紛失しても原則再発行できないので大切に保管してください。"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.mie.lg.jp/KYOZAIMU/HP/singakusien/index.htm"
+    ],
+    "extracted_at": "2026-05-15T02:26:23.581734+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "奨学給付金（家計急変世帯用）",
+      "operating_body": "三重県教育委員会",
+      "category": "子育て・教育",
+      "subcategory": "高校生修学支援",
+      "target_summary": "保護者等の収入が急変した高校生世帯（公立高校等の専攻科以外・専攻科含む）",
+      "target_residency_required": true,
+      "benefit_summary": "返還不要の給付金を支給",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "申請書（様式１－３）",
+        "給付金の振込について（様式１－３別紙２）",
+        "添付書類（申請の手引き参照）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "在学する学校または三重県教育委員会事務局教育財務課修学支援班（電話：059-224-2940）。私立高校在学者は三重県環境生活部私学課（電話：059-224-2161）",
+      "source_url": "https://www.pref.mie.lg.jp/KYOZAIMU/HP/singakusien/index.htm",
+      "plain_summary": "保護者などの収入が急に減った高校生がいる家庭を対象に、返さなくてよい給付金を支給する制度です。公立・私立どちらの高校でも対象になります。申請書類を在籍校または三重県教育委員会（059-224-2940）に提出してください。"
+    },
+    {
+      "program_name": "修学奨学金（緊急採用）",
+      "operating_body": "三重県教育委員会",
+      "category": "子育て・教育",
+      "subcategory": "高校生修学支援",
+      "target_summary": "保護者等の収入が急変した高校生世帯",
+      "target_residency_required": true,
+      "benefit_summary": "無利子の貸付金（奨学金）を緊急採用として貸付",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "奨学生申込書（第１号様式）",
+        "緊急採用申込理由書（様式１）",
+        "保護者の収入証明書類等"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "在学する学校または三重県教育委員会事務局教育財務課修学支援班（電話：059-224-2940）",
+      "source_url": "https://www.pref.mie.lg.jp/KYOZAIMU/HP/singakusien/index.htm",
+      "plain_summary": "保護者などの収入が急に減った高校生を対象に、利子なしでお金を貸し付ける制度です（奨学金なので返還が必要）。申請には申込書・理由書・収入証明書類などが必要です。詳しくは在籍校または三重県教育委員会（059-224-2940）にお問い合わせください。"
+    },
+    {
+      "program_name": "修学奨学金（返還猶予）",
+      "operating_body": "三重県教育委員会",
+      "category": "子育て・教育",
+      "subcategory": "高校生修学支援",
+      "target_summary": "修学奨学金を返還中で、失業・休業等の事由が発生した方",
+      "target_residency_required": true,
+      "benefit_summary": "修学奨学金の返還を一定期間猶予するサービス",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "返還猶予申込書（第１２号様式）",
+        "猶予事由を証明する書類"
+      ],
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "修学奨学金（緊急採用）",
+          "relation_type": "関連",
+          "note": "修学奨学金の返還中に失業・休業等が生じた場合に返還猶予を申請可能"
+        }
+      ],
+      "contact": "在学する学校または三重県教育委員会事務局教育財務課修学支援班（電話：059-224-2940）",
+      "source_url": "https://www.pref.mie.lg.jp/KYOZAIMU/HP/singakusien/index.htm",
+      "plain_summary": "三重県の修学奨学金を返済中の方が失業や休業などで返済が難しくなった場合に、返済を一時的に待ってもらえる制度です。返還猶予申込書と事由を証明する書類が必要です。詳しくは三重県教育委員会（059-224-2940）にお問い合わせください。"
+    }
+  ]
+}

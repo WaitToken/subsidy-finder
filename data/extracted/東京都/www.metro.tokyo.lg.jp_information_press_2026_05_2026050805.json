@@ -1,0 +1,74 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.metro.tokyo.lg.jp/information/press/2026/05/2026050805"
+    ],
+    "extracted_at": "2026-05-15T02:09:22.068940+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度 町会・自治会防災備蓄倉庫設置等助成",
+      "operating_body": "東京都",
+      "category": "その他",
+      "subcategory": "防災・地域防災力強化",
+      "target_summary": "都内に所在する単一の町会・自治会（都内区市町村に届出・名簿登録されている団体）。ただし令和7年度に本助成を受けた団体は申請不可。",
+      "target_residency_required": true,
+      "benefit_summary": "防災用備蓄倉庫の設置又は修繕にかかる費用（本体購入費・運搬・設置・工事・建築確認費用含む）を助成対象経費の10分の10、上限70万円まで助成。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 700000,
+      "benefit_rate_percent": 100,
+      "eligible_expense_categories": [
+        "防災用備蓄倉庫本体購入費",
+        "運搬費",
+        "設置費",
+        "工事費",
+        "撤去費",
+        "建築確認費用"
+      ],
+      "selection_quota": 200,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "第1回〜第4回の合計200町会・自治会を採択予定。各回の申請受付期間内に申請。",
+      "application_start": "2026-07-06",
+      "application_end": "2026-10-30",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "start_date": "2026-07-06",
+          "end_date": "2026-07-31",
+          "note": "交付決定予定：9月上旬、事業実施期間：交付決定日以降〜2027年1月29日"
+        },
+        {
+          "round_number": 2,
+          "start_date": "2026-08-03",
+          "end_date": "2026-08-31",
+          "note": "交付決定予定：10月上旬"
+        },
+        {
+          "round_number": 3,
+          "start_date": "2026-09-01",
+          "end_date": "2026-09-30",
+          "note": "交付決定予定：11月上旬"
+        },
+        {
+          "round_number": 4,
+          "start_date": "2026-10-01",
+          "end_date": "2026-10-30",
+          "note": "交付決定予定：12月上旬"
+        }
+      ],
+      "application_method": "不明",
+      "status": "予定",
+      "status_note": "第1回申請受付は令和8年7月6日から",
+      "related_programs": [],
+      "contact": "東京都生活文化局",
+      "source_url": "https://www.metro.tokyo.lg.jp/information/press/2026/05/2026050805",
+      "plain_summary": "東京都内の町会・自治会が防災用備蓄倉庫を購入または修繕するときの費用を、最大70万円まで全額（10/10）助成してくれる制度です。対象は200団体。令和8年7月〜10月に4回に分けて申請を受け付けます。昨年度（令和7年度）にすでにこの助成を受けた団体は申請できません。"
+    }
+  ]
+}

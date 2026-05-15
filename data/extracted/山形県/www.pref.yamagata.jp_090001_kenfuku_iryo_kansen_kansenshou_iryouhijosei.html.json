@@ -1,0 +1,53 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.yamagata.jp/090001/kenfuku/iryo/kansen/kansenshou/iryouhijosei.html"
+    ],
+    "extracted_at": "2026-05-15T02:02:16.118281+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "ウイルス性肝炎治療に係る医療費助成（山形県肝炎治療特別促進事業）",
+      "operating_body": "山形県",
+      "category": "医療・健康",
+      "subcategory": "感染症・ウイルス性肝炎",
+      "target_summary": "山形県内に住所を有し、各種医療保険に加入している方（及びその被扶養者）で、B型・C型ウイルス性肝炎の治療（インターフェロン治療・核酸アナログ製剤治療・インターフェロンフリー治療）を受けている方。他の法令等により国・地方公共団体の負担による医療給付が行われる方は除く。",
+      "target_residency_required": true,
+      "benefit_summary": "医療保険適用となった肝炎治療（初診料・再診料・検査料・入院料・薬剤料等）について、月額自己負担限度額を超えた分を助成。自己負担限度額は世帯の市町村民税（所得割）が235,000円以上の場合は月額20,000円、235,000円未満の場合は月額10,000円。",
+      "benefit_type": "現金",
+      "benefit_tiers": [
+        {
+          "condition_type": "所得区分",
+          "condition_label": "世帯の市町村民税（所得割）235,000円以上",
+          "note": "月額自己負担限度額20,000円（超過分を助成）"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "世帯の市町村民税（所得割）235,000円未満",
+          "note": "月額自己負担限度額10,000円（超過分を助成）"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "お住まいの地域を管轄する保健所（村山・最上・置賜・庄内保健所）に随時申請。申請から受給者証交付まで1か月程度。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "肝炎治療受給者証交付申請書（様式第1-1号）",
+        "診断書（治療種別・新規/更新等に応じた様式第2-1号〜第2-8号のいずれか）",
+        "有効期間内の被保険者証・資格情報のお知らせ・資格確認書・マイナポータル資格情報のいずれか（写）",
+        "（必要に応じて）インターフェロンフリー治療（再治療）に対する意見書（様式第2-9号）",
+        "（必要に応じて）検査内容及び治療内容に係る資料確認票（様式第2-10号）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "お住まいの地域を管轄する保健所（村山・最上・置賜・庄内保健所）",
+      "source_url": "https://www.pref.yamagata.jp/090001/kenfuku/iryo/kansen/kansenshou/iryouhijosei.html",
+      "plain_summary": "山形県に住んでいて、B型またはC型のウイルス性肝炎の治療を受けている方が対象です。治療にかかる医療費のうち、月ごとの自己負担額が一定額（所得に応じて月1万円または2万円）を超えた分を県が助成します。お住まいの保健所に申請書と診断書などを提出してください。"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.kumamoto.jp/soshiki/35/165774.html"
+    ],
+    "extracted_at": "2026-05-15T02:47:46.365695+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "熊本県不育症検査費助成事業",
+      "operating_body": "熊本県",
+      "category": "医療・健康",
+      "subcategory": "不育症・母子保健",
+      "target_audience": "個人",
+      "target_summary": "熊本県内（熊本市を除く）に住民票を有し、既往流死産回数が2回以上ある方",
+      "target_residency_required": true,
+      "benefit_summary": "先進医療として行われる不育症検査費用の7割を助成。上限6万円。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 60000,
+      "benefit_rate_percent": 70,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "不育症検査が終了した日の属する年度の末日（3月31日）まで",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "required_documents": [
+        "熊本県不育症検査費助成事業申請書",
+        "熊本県不育症検査費助成事業受検証明書（医療機関記入）",
+        "不育症検査を実施した保険医療機関等が発行した領収書（原本）",
+        "住民票（原本、マイナンバーなし、3か月以内交付）",
+        "振込口座がわかる書類（通帳やキャッシュカードの写し）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "熊本県子ども未来課 母子保健班 検査費助成担当 〒862-8570 熊本市中央区水前寺6-18-1",
+      "source_url": "https://www.pref.kumamoto.jp/soshiki/35/165774.html",
+      "plain_summary": "熊本県内（熊本市を除く）に住んでいて、流産や死産を2回以上経験したことがある方が対象です。先進医療として実施される不育症検査にかかった費用の7割（最大6万円）を助成してもらえます。検査が終わった年度の3月31日までに、必要書類を熊本県子ども未来課へ郵送で申請してください。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.saitama.lg.jp/001/009/013/p002373.html"
+    ],
+    "extracted_at": "2026-05-15T03:01:28.004527+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度浄化槽設置整備事業補助金",
+      "operating_body": "さいたま市",
+      "category": "環境",
+      "subcategory": "浄化槽・水質保全",
+      "target_audience": "個人",
+      "target_summary": "さいたま市内の浄化槽処理促進区域内において、既存の単独処理浄化槽または汲み取り便槽を使用している専用住宅の所有者（賃借人は賃貸人の承諾が必要）。新築・確認申請を伴う増築・改築は対象外。",
+      "target_residency_required": true,
+      "benefit_summary": "合併処理浄化槽の設置費用（5人槽332,000円・7人槽414,000円・10人槽548,000円を上限）＋既存浄化槽等の処分費用（上限100,000円）＋配管工事費用（上限200,000円）を補助。最大合計848,000円（10人槽の場合）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 848000,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "設置費用（5人槽）",
+          "amount_yen": 332000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "設置費用（7人槽）",
+          "amount_yen": 414000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "設置費用（10人槽）",
+          "amount_yen": 548000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "既存単独処理浄化槽・くみ取り便槽の処分または雨水貯留施設への再利用費用（全人槽共通上限）",
+          "amount_yen": 100000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "配管工事費用（全人槽共通上限）",
+          "amount_yen": 200000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年4月1日〜令和9年1月29日（土日祝除く）。工事完了・実績報告は令和9年2月26日まで、完了検査は令和9年3月12日まで。",
+      "application_start": "2026-04-01",
+      "application_end": "2027-01-29",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "補助金申請書",
+        "登録浄化槽管理票（C票）",
+        "保証登録証",
+        "接道状況がわかる地図等"
+      ],
+      "status": "募集中",
+      "status_note": "予算の範囲内で交付（予算上限到達で早期終了の可能性あり）",
+      "related_programs": [],
+      "contact": "さいたま市 環境局/環境共生部/環境対策課 水質土壌係 TEL: 048-829-1331 FAX: 048-829-1991",
+      "source_url": "https://www.city.saitama.lg.jp/001/009/013/p002373.html",
+      "plain_summary": "さいたま市内の浄化槽処理促進区域内で、古い単独処理浄化槽や汲み取り便槽を合併処理浄化槽（10人槽以下）に入れ替える方に補助金が出ます。設置費用（最大54.8万円）・処分費用（上限10万円）・配管工事費用（上限20万円）が補助対象で、最大約84.8万円。令和8年4月1日〜令和9年1月29日に市役所窓口またはオンラインで申請できます。"
+    }
+  ]
+}

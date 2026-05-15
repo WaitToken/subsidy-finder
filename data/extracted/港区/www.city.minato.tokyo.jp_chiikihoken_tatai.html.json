@@ -1,0 +1,58 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.minato.tokyo.jp/chiikihoken/tatai.html"
+    ],
+    "extracted_at": "2026-05-15T00:07:06.109162+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "多胎妊婦の妊婦健康診査費用助成",
+      "operating_body": "港区",
+      "category": "子育て・教育",
+      "subcategory": "妊婦健康診査",
+      "target_summary": "多胎児を妊娠しており、港区に住所を有する妊婦で、妊婦健康診査受診票14回分を超えて自費で受診した方（出産後1年以内に申請）",
+      "target_household": [
+        "多胎妊婦"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "妊婦健康診査15回目〜19回目（1人あたり最大5回）の自費受診費用の一部を助成。1回あたり令和7年度5,280円・令和8年度5,460円を上限に助成。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 27300,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "令和7年度（1回あたり上限）",
+          "amount_yen": 5280,
+          "note": "1回あたり上限額。妊婦1人あたり5回まで（最大26,400円）"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "令和8年度（1回あたり上限）",
+          "amount_yen": 5460,
+          "note": "1回あたり上限額。妊婦1人あたり5回まで（最大27,300円）"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "出産後1年以内",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "港区多胎妊婦健康診査費用助成金支給申請書",
+        "自費で支払った15回目以降の妊婦健康診査費用の領収書・明細書（母子健康手帳に受診日の記載があるもの）の写し",
+        "全てのお子様の母子健康手帳（表紙および「妊娠中の経過」欄で受診状況が確認できること）の写し",
+        "銀行等の口座番号が分かるもの（窓口の場合）"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "みなと保健所健康推進課地域保健係 電話：03-6400-0084 FAX：03-3455-4539",
+      "source_url": "https://www.city.minato.tokyo.jp/chiikihoken/tatai.html",
+      "plain_summary": "港区に住んでいる双子など多胎妊娠中の方が、無料の妊婦健診（14回分）を超えて自費で受診した15〜19回目の費用の一部を助成してもらえる制度です。1回あたり令和8年度は最大5,460円、妊婦1人につき5回分まで助成されます。出産後1年以内に申請書・領収書・母子手帳の写しを郵送か窓口で提出してください。"
+    }
+  ]
+}

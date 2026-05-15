@@ -1,0 +1,36 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.niigata.lg.jp/sec/chiikiiryo/syokuzairyohi.html"
+    ],
+    "extracted_at": "2026-05-15T02:11:37.099275+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "医療施設食材料費高騰対策緊急支援事業支援金",
+      "operating_body": "新潟県",
+      "category": "医療・健康",
+      "subcategory": "医療機関支援",
+      "target_summary": "令和8年4月1日時点で新潟県内の公立を除く病院又は有床診療所を運営する法人。対象施設は令和7年4月〜令和8年5月の全部または一部の期間に給食費を負担し食事を提供した施設（県・市町村・一部事務組合が開設の施設は除く）。",
+      "target_residency_required": true,
+      "benefit_summary": "29,820円×許可病床数を支給。食事提供期間が14ヶ月に満たない場合は2,130円×提供月数×許可病床数。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-04-01",
+      "application_end": "2026-06-30",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "予定",
+      "status_note": "令和8年4月1日から受付開始",
+      "related_programs": [],
+      "source_url": "https://www.pref.niigata.lg.jp/sec/chiikiiryo/syokuzairyohi.html",
+      "plain_summary": "食材料費の価格高騰に対応するため、新潟県内の民間病院・有床診療所を運営する法人に支援金を交付します。金額は「29,820円×許可病床数」（食事提供期間が14ヶ月未満の場合は「2,130円×提供月数×許可病床数」）。申請は令和8年4月1日〜6月30日まで受け付けます。"
+    }
+  ]
+}

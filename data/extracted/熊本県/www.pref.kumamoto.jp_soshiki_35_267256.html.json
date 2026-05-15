@@ -1,0 +1,63 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.kumamoto.jp/soshiki/35/267256.html"
+    ],
+    "extracted_at": "2026-05-15T02:48:08.854723+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度（2026年度）熊本県私学助成園等物価高騰対策支援金",
+      "operating_body": "熊本県",
+      "category": "その他",
+      "subcategory": "物価高騰対策・施設運営支援",
+      "target_audience": "事業者",
+      "target_summary": "熊本県内の私学助成幼稚園および認可外保育施設（熊本市を除く）。令和8年3月31日時点で施設を開設・管理し、今後も事業継続の意思を有する施設。令和7年4月1日から令和8年3月31日までの全期間休止中の施設および市町村・一部事務組合・地方独立行政法人が開設する施設は除く。",
+      "target_residency_required": true,
+      "benefit_summary": "利用定員に応じて72,000円・240,000円・432,000円の支援金を定額支給",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 432000,
+      "eligible_expense_categories": [
+        "光熱水費",
+        "燃料費"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "利用定員19人以下",
+          "amount_yen": 72000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "利用定員20人以上59人以下",
+          "amount_yen": 240000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "利用定員60人以上",
+          "amount_yen": 432000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_end": "2026-06-12",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "required_documents": [
+        "様式1「令和8年度（2026年度）熊本県私学助成園等物価高騰対策支援金交付申請書兼実績報告書兼請求書」",
+        "振込口座情報が分かる資料（通帳の写し等）",
+        "委任状兼口座振替申出書（申請者と振込口座名義が異なる場合のみ）"
+      ],
+      "status": "募集中",
+      "status_note": "期限厳守",
+      "related_programs": [],
+      "contact": "熊本県健康福祉部子ども・障がい福祉局子ども未来課幼児教育・保育班 Tel 096-333-2227",
+      "source_url": "https://www.pref.kumamoto.jp/soshiki/35/267256.html",
+      "plain_summary": "熊本県内の私立幼稚園（私学助成園）や認可外保育施設（熊本市除く）を対象に、物価高騰による光熱費・燃料費の負担を軽減するための支援金です。利用定員に応じて7万2千円・24万円・43万2千円が支給されます。申請は電子メールで受け付けており、2026年6月12日（金）が締切です（期限厳守）。"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kyouiku/1026613/1034909.html"
+    ],
+    "extracted_at": "2026-05-15T03:11:14.749726+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "相模原市立学校通学費補助金",
+      "operating_body": "相模原市",
+      "category": "子育て・教育",
+      "subcategory": "通学費補助",
+      "target_audience": "個人",
+      "target_summary": "相模原市立小学校・中学校・義務教育学校の通学区域内に通い、学校長の許可を受けて公共交通機関を利用して通学している児童生徒の保護者。通学距離がおおむね2km以上（徒歩1.8km以上）または身体的理由により1カ月以上通学定期券を購入していること。他の法令等による通学費助成を受けていないこと。",
+      "target_residency_required": true,
+      "benefit_summary": "通学定期券購入費用の2分の1を補助（6カ月通学定期券の額を基準に算出）",
+      "benefit_type": "現金",
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "通学定期券購入費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "前期分（4月〜9月利用）は令和8年10月1日〜10月31日に交付申請、後期分（10月〜3月利用）は令和9年3月1日〜3月31日に交付申請。事前登録は定期券購入前または購入後速やかに。",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "start_date": "2026-10-01",
+          "end_date": "2026-10-31",
+          "note": "前期分（令和8年4月1日〜9月30日利用分）の交付申請・実績報告期間。事前登録は令和8年4月7日受付開始。"
+        },
+        {
+          "round_number": 2,
+          "start_date": "2027-03-01",
+          "end_date": "2027-03-31",
+          "note": "後期分（令和8年10月1日〜令和9年3月31日利用分）の交付申請・実績報告期間。前期に事前登録済みの場合は再登録不要。"
+        }
+      ],
+      "application_method": "オンライン",
+      "required_documents": [
+        "通学定期券またはIC定期券購入控の画像"
+      ],
+      "status": "募集中",
+      "status_note": "期日を過ぎると補助金の交付ができないため注意",
+      "related_programs": [],
+      "contact": "学務課 電話：042-769-8282（学務班）／042-769-9262（就学支援班）／042-769-9263（学校経理班）　ファクス：042-758-9036",
+      "source_url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kyouiku/1026613/1034909.html",
+      "plain_summary": "相模原市立の小・中学校などに公共交通機関を使って通学している子どもの保護者が対象です。通学距離がおおむね2km以上（または身体的理由）で定期券を購入している場合、定期券代の半額を補助してもらえます。申請はオンラインで行い、前期分は10月、後期分は翌3月が申請期間です。"
+    }
+  ]
+}

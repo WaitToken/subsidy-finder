@@ -1,0 +1,234 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.chiba.jp/hokenfukushi/kenkofukushi/shien/nitijouseikatu.html"
+    ],
+    "extracted_at": "2026-05-15T03:04:34.127090+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "小児慢性特定疾病児童日常生活用具給付事業",
+      "operating_body": "千葉市",
+      "category": "医療・健康",
+      "subcategory": "小児慢性特定疾病・日常生活用具",
+      "target_audience": "個人",
+      "target_summary": "千葉市小児慢性特定疾病医療受給者証（国制度）を持つ小児慢性特定疾病児童で、障害者自立支援法の施策の対象にならない方、かつ在宅療養が可能で日常生活用具の給付を必要とする方（種目ごとに詳細な対象要件あり）",
+      "target_residency_required": true,
+      "benefit_summary": "便器・特殊マット・特殊便器・特殊寝台・歩行支援用具・入浴補助用具・特殊尿器・体位変換器・車椅子・頭部保護帽・電気式たん吸引器・クールベスト・紫外線カットクリーム・ネブライザー・パルスオキシメーター・ストーマ装具・人工鼻・チューブ型包帯など日常生活用具を基準額を上限に給付。世帯収入に応じた自己負担あり。",
+      "benefit_type": "現物給付",
+      "benefit_amount_max_yen": 173250,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "便器",
+          "amount_yen": 4900
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "特殊マット",
+          "amount_yen": 21560
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "特殊便器",
+          "amount_yen": 166320
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "特殊寝台",
+          "amount_yen": 169400
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "歩行支援用具",
+          "amount_yen": 66000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "入浴補助用具",
+          "amount_yen": 99000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "特殊尿器",
+          "amount_yen": 73700
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "体位変換器",
+          "amount_yen": 16500
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "車椅子",
+          "amount_yen": 77440
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "頭部保護帽",
+          "amount_yen": 13380
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "電気式たん吸引器",
+          "amount_yen": 62040
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "クールベスト",
+          "amount_yen": 22000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "紫外線カットクリーム（年1回）",
+          "amount_yen": 41580
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "ネブライザー（吸入器）",
+          "amount_yen": 39600
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "パルスオキシメーター",
+          "amount_yen": 173250
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "ストーマ装具（消化器系・年1回）",
+          "amount_yen": 113520
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "ストーマ装具（尿路系・年1回）",
+          "amount_yen": 149160
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "人工鼻（年1回）",
+          "amount_yen": 128700
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "チューブ型包帯（年1回）",
+          "amount_yen": 170500
+        }
+      ],
+      "goods_items": [
+        {
+          "item_name": "便器",
+          "quantity_note": "耐用年数8年",
+          "stock_limited": false
+        },
+        {
+          "item_name": "特殊マット",
+          "quantity_note": "耐用年数5年",
+          "stock_limited": false
+        },
+        {
+          "item_name": "特殊便器",
+          "quantity_note": "耐用年数8年",
+          "stock_limited": false
+        },
+        {
+          "item_name": "特殊寝台",
+          "quantity_note": "耐用年数8年",
+          "stock_limited": false
+        },
+        {
+          "item_name": "歩行支援用具",
+          "quantity_note": "耐用年数8年",
+          "stock_limited": false
+        },
+        {
+          "item_name": "入浴補助用具",
+          "quantity_note": "耐用年数8年",
+          "stock_limited": false
+        },
+        {
+          "item_name": "特殊尿器",
+          "quantity_note": "耐用年数5年",
+          "stock_limited": false
+        },
+        {
+          "item_name": "体位変換器",
+          "quantity_note": "耐用年数5年",
+          "stock_limited": false
+        },
+        {
+          "item_name": "車椅子",
+          "quantity_note": "耐用年数5年",
+          "stock_limited": false
+        },
+        {
+          "item_name": "頭部保護帽",
+          "quantity_note": "耐用年数3年",
+          "stock_limited": false
+        },
+        {
+          "item_name": "電気式たん吸引器",
+          "quantity_note": "耐用年数5年",
+          "stock_limited": false
+        },
+        {
+          "item_name": "クールベスト",
+          "quantity_note": "耐用年数1年",
+          "stock_limited": false
+        },
+        {
+          "item_name": "紫外線カットクリーム",
+          "quantity_note": "年1回給付",
+          "stock_limited": false
+        },
+        {
+          "item_name": "ネブライザー（吸入器）",
+          "quantity_note": "耐用年数5年",
+          "stock_limited": false
+        },
+        {
+          "item_name": "パルスオキシメーター",
+          "quantity_note": "耐用年数5年",
+          "stock_limited": false
+        },
+        {
+          "item_name": "ストーマ装具（消化器系）",
+          "quantity_note": "年1回給付",
+          "stock_limited": false
+        },
+        {
+          "item_name": "ストーマ装具（尿路系）",
+          "quantity_note": "年1回給付",
+          "stock_limited": false
+        },
+        {
+          "item_name": "人工鼻",
+          "quantity_note": "年1回給付",
+          "stock_limited": false
+        },
+        {
+          "item_name": "チューブ型包帯",
+          "quantity_note": "年1回給付",
+          "stock_limited": false
+        }
+      ],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "小児慢性特定疾病児童日常生活用具給付申請書",
+        "小児慢性特定疾病医療受給者証の写し",
+        "給付を受けようとする用具の見積書",
+        "世帯全員の所得等に関する状況を確認できる書類（市県民税所得証明書、市民税・県民税特別徴収税額通知書など）または生活保護受給証明書"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "千葉市健康福祉部健康支援課 難病対策班 TEL:043-238-9968／各区保健福祉センター健康課（中央:043-221-2583、花見川:043-275-6297、稲毛:043-284-6495、若葉:043-233-8715、緑:043-292-5066、美浜:043-270-2287）",
+      "source_url": "https://www.city.chiba.jp/hokenfukushi/kenkofukushi/shien/nitijouseikatu.html",
+      "plain_summary": "千葉市に住む小児慢性特定疾病の医療受給者証を持つお子さんに、車椅子・特殊寝台・パルスオキシメーターなど日常生活用具を給付する制度です。種目ごとに基準額（最大約17万3千円）が決まっており、世帯収入に応じた自己負担があります。お住まいの区の保健福祉センター健康課へ申請書類を提出してください。"
+    }
+  ]
+}

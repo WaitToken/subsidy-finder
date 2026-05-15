@@ -1,0 +1,75 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/seikatsu/20260226tsuika.html"
+    ],
+    "extracted_at": "2026-05-15T03:06:08.933526+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "最高裁判決を踏まえた生活保護費等の追加給付",
+      "operating_body": "横浜市",
+      "category": "ひとり親・低所得",
+      "subcategory": "生活保護",
+      "target_audience": "個人",
+      "target_summary": "平成25年8月から令和8年3月の間に横浜市で生活保護を受給していた世帯（現在受給中の方・既に廃止された方を含む。ただし既にお亡くなりになった方は対象外）",
+      "target_residency_required": true,
+      "benefit_summary": "平成25年の生活扶助費基準改定により減額された分の差額を追加給付。世帯の人数・受給時期・受給期間により異なり、1世帯あたり数百円〜20万円程度。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 200000,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "60歳代一人暮らし・8か月受給（障害等加算なし）",
+          "amount_yen": 4000,
+          "note": "平成25年8月から8か月受給の場合の目安"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "60歳代一人暮らし・1年間受給（障害等加算なし）",
+          "amount_yen": 12000,
+          "note": "目安"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "60歳代一人暮らし・3年間受給（障害等加算なし）",
+          "amount_yen": 65000,
+          "note": "目安"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "70歳代夫婦・8か月受給（障害等加算なし）",
+          "amount_yen": 7000,
+          "note": "平成25年8月から8か月受給の場合の目安"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "70歳代夫婦・1年間受給（障害等加算なし）",
+          "amount_yen": 21000,
+          "note": "目安"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "70歳代夫婦・3年間受給（障害等加算なし）",
+          "amount_yen": 111000,
+          "note": "目安"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_window_note": "夏頃の申出開始を予定（現在調整中）。現在受給中の方は職権により追加給付予定（申請不要）。既に廃止の方は申出が必要。",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "予定",
+      "status_note": "夏頃の給付・申出開始を予定。詳細は決まり次第、横浜市ホームページ・広報よこはま等でお知らせ",
+      "related_programs": [],
+      "contact": "横浜市生活保護費等追加給付コールセンター　電話：0120-593-264（9:00〜19:00、土日祝除く）／FAX：0120-059-726　※別途相談窓口 0120-179-445（9:00〜17:00、土日祝除く）",
+      "source_url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/fukushi-kaigo/seikatsu/20260226tsuika.html",
+      "plain_summary": "平成25年〜令和8年3月の間に横浜市で生活保護を受けていた世帯に、当時の基準改定で減らされた分の差額を追加給付します。給付額は世帯の人数・受給期間によって異なり、数百円〜20万円程度です。現在受給中の方は手続き不要で夏頃に支給予定。受給が終わっている方は申出が必要ですが、受付時期は現在調整中です。"
+    }
+  ]
+}

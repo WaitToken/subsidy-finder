@@ -1,0 +1,48 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.metro.tokyo.lg.jp/information/press/2026/05/2026051214"
+    ],
+    "extracted_at": "2026-05-15T02:09:45.415029+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "ドローンを活用したツアー造成等支援補助金",
+      "operating_body": "東京都",
+      "category": "就労・起業",
+      "subcategory": "観光・ツーリズム",
+      "target_summary": "東京都内に本社または主たる営業所を置く旅行事業者",
+      "target_residency_required": true,
+      "benefit_summary": "1旅行商品あたり最大500万円（補助率：3分の2以内）。対象経費は商品造成経費・商品販売経費・商品運営経費。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 5000000,
+      "benefit_rate_percent": 67,
+      "eligible_expense_categories": [
+        "現地調査費",
+        "ドローン活用に係るシステム構築費",
+        "広告掲載経費",
+        "広報ツール作成経費",
+        "ツアー催行に係る経費",
+        "スタッフ手配経費"
+      ],
+      "selection_quota": 10,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年7月15日（水）必着",
+      "application_start": "2026-05-12",
+      "application_end": "2026-07-15",
+      "application_rounds": [],
+      "application_method": "複数",
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "東京都産業労働局観光部受入環境課経営支援担当（〒163-8001 東京都新宿区西新宿二丁目8番1号 都庁第一本庁舎19階）",
+      "source_url": "https://www.metro.tokyo.lg.jp/information/press/2026/05/2026051214",
+      "plain_summary": "東京都内に本社または主たる営業所がある旅行事業者が対象です。ドローンを活用して障害者・高齢者も楽しめる都内観光ツアーを造成・販売・運営する取組に対し、1旅行商品あたり最大500万円（経費の3分の2以内）が補助されます。2026年5月12日〜7月15日（必着）に電子申請（jGrants）または郵送で申請できます。採択予定は10件です。"
+    }
+  ]
+}

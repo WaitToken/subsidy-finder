@@ -1,0 +1,53 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.arakawa.tokyo.jp/a026/fukushisuishin/airconjyosei/eakonnjyoseikinkaisi.html"
+    ],
+    "extracted_at": "2026-05-15T01:31:10.014642+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "低所得世帯向けエアコン購入費助成",
+      "operating_body": "荒川区",
+      "category": "ひとり親・低所得",
+      "subcategory": "熱中症対策・生活環境整備",
+      "target_summary": "荒川区に住民登録があり区内に居所がある、住民税所得割が全員非課税の世帯または児童扶養手当受給世帯。エアコンを所有していないか故障で使用できる状態にない世帯。生活保護受給世帯は除く。",
+      "target_household": [
+        "住民税非課税世帯",
+        "児童扶養手当受給世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "1住所地あたり最大10万円（税込）。本体購入上限7万8千円＋配送・設置工事・撤去・リサイクル等その他経費（本体補助額との差額分）。区指定店舗で省エネ多段階評価点2.0以上の機器を購入した場合に助成。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 100000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年12月28日まで。令和9年2月末までに設置完了が必要。",
+      "application_end": "2026-12-28",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "来庁者自身の本人確認書類",
+        "代理の場合：世帯主および代理人の本人確認書類・委任状",
+        "令和7年1月1日時点（令和8年7月1日以降来庁の場合は令和8年1月1日時点）で他自治体に住民登録がある場合は、課税証明書または非課税証明書"
+      ],
+      "status": "募集中",
+      "status_note": "先着順ではなく期限制。令和9年2月末までに設置完了が条件",
+      "related_programs": [
+        {
+          "program_name": "東京ゼロエミポイント",
+          "relation_type": "併用可能",
+          "note": "東京ゼロエミポイントとの併用は可能。ただし東京ゼロエミポイント以外の助成事業との併用は不可。"
+        }
+      ],
+      "contact": "荒川区福祉推進課 地域共生推進係 エアコン助成相談窓口（荒川区がん予防・健康づくりセンター4階）／03-3802-3111（内線3904）",
+      "source_url": "https://www.city.arakawa.tokyo.jp/a026/fukushisuishin/airconjyosei/eakonnjyoseikinkaisi.html",
+      "plain_summary": "熱中症対策として、荒川区在住の住民税非課税世帯または児童扶養手当受給世帯で、エアコンを持っていない（または故障で使えない）世帯に、エアコンの購入・設置費用を最大10万円まで助成します。購入前に必ず区役所のエアコン助成相談窓口に来庁してください。申請期限は2026年12月28日です。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.kumamoto.jp/kiji00363054/index.html"
+    ],
+    "extracted_at": "2026-05-15T03:25:59.859352+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "こども自転車用ヘルメット購入補助",
+      "operating_body": "熊本市",
+      "category": "子育て・教育",
+      "subcategory": "交通安全",
+      "target_audience": "個人",
+      "target_summary": "熊本市在住・住民票あり・自転車を利用している平成19年(2007年)4月2日以降生まれのこども(の保護者)",
+      "target_age_min": 0,
+      "target_age_max": 18,
+      "target_residency_required": true,
+      "benefit_summary": "自転車用ヘルメット購入費用を上限2,000円まで補助(購入額が2,000円未満の場合は実費相当額)",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 2000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "予算額に達し次第終了",
+      "application_start": "2026-04-01",
+      "application_end": "2026-05-31",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "required_documents": [
+        "領収書またはレシート(使用者氏名記入)",
+        "住所が確認できる書類(保険証の場合は住所記載の裏面等)"
+      ],
+      "status": "募集中",
+      "status_note": "予算上限到達で早期終了の可能性あり",
+      "related_programs": [],
+      "contact": "熊本市役所 都市建設局 交通政策部 地域交通支援課 TEL:096-328-2259",
+      "source_url": "https://www.city.kumamoto.jp/kiji00363054/index.html",
+      "plain_summary": "熊本市在住で、2007年4月2日以降に生まれたこどもが対象です。安全基準マーク付きの自転車ヘルメットを新品で購入すると、最大2,000円が補助されます。申請は2026年4月1日〜5月31日の間に電子申請フォームのみで受け付けています。予算がなくなり次第終了です。"
+    }
+  ]
+}

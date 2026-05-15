@@ -1,0 +1,79 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.niigata.lg.jp/iryo/korei/koreisha-reform.html"
+    ],
+    "extracted_at": "2026-05-15T03:12:04.985268+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "高齢者向け住宅リフォーム助成",
+      "operating_body": "新潟市",
+      "category": "高齢者・介護",
+      "subcategory": "住宅改修",
+      "target_audience": "個人",
+      "target_summary": "65歳以上で介護保険の要介護または要支援の認定を受けた方がいる世帯。世帯員全員の前年の収入合計が600万円未満であること。",
+      "target_age_min": 65,
+      "target_household": [
+        "要介護認定世帯",
+        "要支援認定世帯"
+      ],
+      "target_income_max_yen": 6000000,
+      "target_residency_required": true,
+      "benefit_summary": "住宅リフォーム工事費用の一部を助成。生活保護世帯は100%（上限30万円）、所得税非課税世帯は75%（上限22.5万円）、所得税課税世帯は50%（上限15万円）。1世帯1回限り。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 300000,
+      "benefit_rate_percent": 100,
+      "eligible_expense_categories": [
+        "手すり取り付け",
+        "床段差解消",
+        "玄関先から道路までの段差解消",
+        "すべり止め・床材変更",
+        "浴室改修・浴槽取替え"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "所得区分",
+          "condition_label": "生活保護世帯",
+          "amount_yen": 300000,
+          "rate_percent": 100
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "所得税非課税世帯",
+          "amount_yen": 225000,
+          "rate_percent": 75
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "所得税課税世帯",
+          "amount_yen": 150000,
+          "rate_percent": 50
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "工事着工の1か月前までに要相談。助成決定前の着工は助成不可。",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "添付書類（オンライン申請の場合はデータアップロード）"
+      ],
+      "status": "募集中",
+      "related_programs": [
+        {
+          "program_name": "介護保険住宅改修費支給",
+          "relation_type": "併用可能",
+          "note": "介護保険の住宅改修費を併用する場合は、その給付部分を除いた額が対象"
+        }
+      ],
+      "contact": "各区役所健康福祉課高齢介護担当（北区:025-387-1325、東区:025-250-2320、中央区:025-223-7216、江南区:025-382-4383、秋葉区:0250-25-5679、南区:025-372-6320、西区:025-264-7330、西蒲区:0256-72-8362）",
+      "source_url": "https://www.city.niigata.lg.jp/iryo/korei/koreisha-reform.html",
+      "plain_summary": "新潟市在住で65歳以上の要介護・要支援の方がいる世帯（世帯収入600万円未満）が対象。自宅の手すり設置や段差解消などのリフォーム費用を助成します。生活保護世帯は全額（上限30万円）、非課税世帯は75%（上限22.5万円）、課税世帯は50%（上限15万円）。工事着工の1か月前までに区役所へ相談が必要です。オンラインまたは紙で申請できます。"
+    }
+  ]
+}

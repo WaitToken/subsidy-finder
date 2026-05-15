@@ -1,0 +1,57 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sendai.jp/kodomo-kyufu/jidouteate_r6_seidokaisei.html"
+    ],
+    "extracted_at": "2026-05-15T03:00:05.582610+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "児童手当（令和6年12月支給分・制度改正後）",
+      "operating_body": "仙台市",
+      "category": "子育て・教育",
+      "subcategory": "児童手当",
+      "target_audience": "個人",
+      "target_summary": "仙台市在住で、0歳〜高校生年齢（18歳到達後最初の3月31日まで）の児童を養育している方。所得制限なし。監護相当・生計費負担をしている大学生年齢（19〜22歳）の子も多子加算カウント対象。",
+      "target_age_min": 0,
+      "target_age_max": 18,
+      "target_household": [
+        "子育て世帯",
+        "多子世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "児童1人あたり月額手当を支給。第3子以降は月額30,000円（多子加算）。年6回（偶数月）支給。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 30000,
+      "benefit_tiers": [
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "第3子以降（多子加算）",
+          "amount_yen": 30000,
+          "note": "改正前は15,000円から30,000円に増額"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和6年8月30日までに申請すると12月13日が初回支給予定。令和7年3月31日まで受付。",
+      "application_end": "2025-03-31",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "required_documents": [
+        "児童手当認定請求書",
+        "保険証等の写し",
+        "振込希望口座情報"
+      ],
+      "status": "終了",
+      "status_note": "制度改正の申請受付は令和7年3月31日まで。取得日（2026-05-15）時点では受付終了。",
+      "related_programs": [],
+      "contact": "仙台市児童手当コールセンター：0570-008-363（8:30〜18:00、土日祝含む）",
+      "source_url": "https://www.city.sendai.jp/kodomo-kyufu/jidouteate_r6_seidokaisei.html",
+      "plain_summary": "※受付終了。仙台市在住で0歳〜高校生年齢の子を育てている方に毎月児童手当を支給します。令和6年10月の制度改正で所得制限が撤廃され、高校生まで支給対象が拡大。第3子以降は月3万円に増額。年6回（偶数月）支給。新たに申請が必要な方は令和7年3月31日までに郵送等で手続きが必要でした。"
+    }
+  ]
+}

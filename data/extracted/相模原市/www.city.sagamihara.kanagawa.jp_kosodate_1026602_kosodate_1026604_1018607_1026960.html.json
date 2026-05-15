@@ -1,0 +1,91 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018607/1026960.html"
+    ],
+    "extracted_at": "2026-05-15T03:10:21.964550+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "妊婦支援給付金",
+      "operating_body": "相模原市",
+      "category": "子育て・教育",
+      "subcategory": "妊娠・出産支援",
+      "target_audience": "個人",
+      "target_summary": "相模原市内在住で、令和7年4月1日以降に妊婦給付認定申請をした妊婦",
+      "target_residency_required": true,
+      "benefit_summary": "妊娠1回につき5万円、妊娠した胎児（子ども）1人につき5万円を2回に分けて支給。単胎の場合は合計10万円、双子の場合は合計15万円。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 150000,
+      "benefit_tiers": [
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "単胎（1人）",
+          "amount_yen": 100000,
+          "note": "妊娠1回分5万円＋胎児1人分5万円"
+        },
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "双胎（双子）",
+          "amount_yen": 150000,
+          "note": "妊娠1回分5万円＋胎児2人分10万円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "1回目：医療機関で妊娠が確定した日から2年以内。2回目：出産予定日の8週間前から2年以内",
+      "application_start": "2025-04-01",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "募集中",
+      "related_programs": [
+        {
+          "program_name": "出産・子育て応援ギフト",
+          "relation_type": "代替",
+          "note": "令和7年3月31日までの制度。申請受付は終了"
+        },
+        {
+          "program_name": "妊婦等包括相談支援事業",
+          "relation_type": "関連",
+          "note": "経済的支援と併せて、保健師による面談・相談サポートを実施"
+        }
+      ],
+      "contact": "こども家庭課 電話：042-769-8345（平日8:30〜12:00、13:00〜17:00）／相模原市コールセンター 電話：042-770-7777（8:00〜21:00・年中無休）",
+      "source_url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018607/1026960.html",
+      "plain_summary": "相模原市に住む妊婦さんが対象です。妊娠1回につき5万円＋赤ちゃん1人につき5万円（計10万円、双子なら15万円）が現金で振り込まれます。妊娠届出の際に申請でき、所得制限はありません。申請期限は妊娠確定日から2年以内です。"
+    },
+    {
+      "program_name": "出産・子育て応援ギフト",
+      "operating_body": "相模原市",
+      "category": "子育て・教育",
+      "subcategory": "妊娠・出産支援",
+      "target_audience": "個人",
+      "target_summary": "令和5年2月1日から令和7年3月31日までに妊娠届出をした人、または同期間に生まれた児童を養育する人",
+      "target_residency_required": true,
+      "benefit_summary": "出産準備・子育て支援サービスに利用できる経済的支援（ギフト）を支給。申請受付は終了。",
+      "benefit_type": "不明",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_end": "2025-03-31",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "終了",
+      "status_note": "申請受付終了",
+      "related_programs": [
+        {
+          "program_name": "妊婦支援給付金",
+          "relation_type": "代替",
+          "note": "令和7年4月1日より妊婦支援給付金に制度化"
+        }
+      ],
+      "contact": "こども家庭課 電話：042-769-8345",
+      "source_url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026604/1018607/1026960.html",
+      "plain_summary": "※受付終了。令和5年2月〜令和7年3月末に妊娠届出をした人や、その期間に生まれた子を育てる人向けの経済的支援（ギフト）です。現在は申請を受け付けていません。令和7年4月以降は「妊婦支援給付金」に引き継がれています。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/youjikyouikumushouka/riyoukyufu-ninteishinsei.html"
+    ],
+    "extracted_at": "2026-05-15T00:05:33.398408+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "子育てのための施設等利用給付",
+      "operating_body": "中央区",
+      "category": "子育て・教育",
+      "subcategory": "幼児教育・保育の無償化",
+      "target_summary": "幼児教育・保育の無償化に基づく「子育てのための施設等利用給付認定」を受けた方で、自治体が確認した施設・事業を利用している方",
+      "target_residency_required": true,
+      "benefit_summary": "自治体確認を受けた施設・事業の利用料が無償化（給付）の対象となる。上限額は利用施設・事業により異なる。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "認定開始日は申請日以降（さかのぼり不可）。施設利用開始前に申請が必要。令和8年4月1日からの認定は4月1日までに提出。",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "子育てのための施設等利用給付認定申請書",
+        "保育を必要とする事由の証明書類（就労証明書等）",
+        "世帯状況に応じた書類（施設等利用給付のごあんない参照）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "保育課保育入園係 電話：03-3546-5227、03-3546-5387、03-3546-9587（平日 8:30〜17:00）／保育課保育給付係（請求）電話：03-3546-5422",
+      "source_url": "https://www.city.chuo.lg.jp/a0021/kosodate/kosodate/hoikuen/youjikyouikumushouka/riyoukyufu-ninteishinsei.html",
+      "plain_summary": "幼児教育・保育の無償化の制度で、中央区が確認した保育施設や事業を利用している方が対象です。施設・事業の利用料が給付（実質無料）になります。上限額は施設によって異なります。窓口・郵送・電子申請で手続きできます。認定は申請日以降からのため、施設利用開始前に必ず申請してください。"
+    }
+  ]
+}

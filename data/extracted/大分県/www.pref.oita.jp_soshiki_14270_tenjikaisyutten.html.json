@@ -1,0 +1,66 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.oita.jp/soshiki/14270/tenjikaisyutten.html"
+    ],
+    "extracted_at": "2026-05-15T02:49:51.629154+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和８年度ドローン関連個別商談会出展事業費補助金",
+      "operating_body": "大分県ドローン協議会（大分県 商工観光労働部 先端技術挑戦課）",
+      "category": "就労・起業",
+      "subcategory": "販路開拓・展示商談会出展支援",
+      "target_audience": "事業者",
+      "target_summary": "大分県ドローン協議会の会員（会員でない場合は入会が必要）。国内外の展示商談会等へ出展するドローン関連事業者。",
+      "target_residency_required": true,
+      "benefit_summary": "【通常枠】補助率1/2以内・上限30万円（採択予定2件程度）、【賃上げ枠】補助率2/3以内・上限40万円（採択予定1件程度）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 400000,
+      "benefit_rate_percent": 67,
+      "eligible_expense_categories": [
+        "展示商談会出展費用"
+      ],
+      "selection_quota": 3,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "通常枠",
+          "amount_yen": 300000,
+          "rate_percent": 50,
+          "note": "採択予定件数 2件程度"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "賃上げ枠",
+          "amount_yen": 400000,
+          "rate_percent": 67,
+          "note": "採択予定件数 1件程度"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-04-21",
+      "application_end": "2026-05-29",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "ドローン関連個別商談会出展事業認定申請書（第１号様式）",
+        "事業計画書（第２号様式）",
+        "収支予算書（第３号様式）",
+        "賃金増加率試算表（第４号様式）※賃上げ枠のみ",
+        "出展予定の展示商談会の概要（パンフレット・チラシ等）"
+      ],
+      "status": "終了",
+      "status_note": "応募受付期間：令和8年4月21日〜5月29日（取得日2026-05-15時点で受付期間内だが、締切は2026-05-29）",
+      "related_programs": [],
+      "contact": "大分県ドローン協議会事務局 / 大分県 商工観光労働部 先端技術挑戦課 電話：097-506-2477（津下）",
+      "source_url": "https://www.pref.oita.jp/soshiki/14270/tenjikaisyutten.html",
+      "plain_summary": "大分県ドローン協議会の会員企業が、国内外の展示商談会などに出展するときの費用を補助してもらえる制度です。通常枠は経費の1/2以内・最大30万円、賃上げ枠は経費の2/3以内・最大40万円が支給されます。令和8年4月21日〜5月29日17時までに申請書類を提出する必要があります。"
+    }
+  ]
+}

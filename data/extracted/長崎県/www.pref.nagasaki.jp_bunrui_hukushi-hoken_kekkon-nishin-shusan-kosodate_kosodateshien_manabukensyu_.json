@@ -1,0 +1,35 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.nagasaki.jp/bunrui/hukushi-hoken/kekkon-nishin-shusan-kosodate/kosodateshien/manabukensyu/"
+    ],
+    "extracted_at": "2026-05-15T02:46:35.495319+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "長崎県学ぶ保育士等応援事業補助金",
+      "operating_body": "長崎県",
+      "category": "子育て・教育",
+      "subcategory": "保育士支援・保育の質向上",
+      "target_audience": "事業者",
+      "target_summary": "園内研修を実施する保育施設・事業者（幼児教育・保育施設等）",
+      "target_residency_required": true,
+      "benefit_summary": "園内研修の充実に係る補助金（金額・補助率の詳細は記載なし）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [],
+      "contact": "長崎県こども未来課 TEL: 095-895-2681 FAX: 095-895-2554",
+      "source_url": "https://www.pref.nagasaki.jp/bunrui/hukushi-hoken/kekkon-nishin-shusan-kosodate/kosodateshien/manabukensyu/",
+      "plain_summary": "長崎県が実施する、保育施設の園内研修を充実させることを目的とした補助金です。保育士の専門性を高め、幼児教育・保育の質の向上をめざします。補助金額や申請方法などの詳細はページに記載がないため、長崎県こども未来課（095-895-2681）にお問い合わせください。"
+    }
+  ]
+}

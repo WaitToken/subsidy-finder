@@ -1,0 +1,53 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260513_02_01"
+    ],
+    "extracted_at": "2026-05-15T02:08:51.140996+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "マンション共用部分リフォーム融資利子補給",
+      "operating_body": "東京都",
+      "category": "住まい",
+      "subcategory": "マンション改修・耐震",
+      "target_summary": "マンション管理組合が(独)住宅金融支援機構の「マンション共用部分リフォーム融資」を利用してマンション共用部分の改良・修繕工事や耐震改修工事を行う場合",
+      "target_household": [
+        "マンション管理組合"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "住宅金融支援機構の融資金利が1%低利になるよう東京都が管理組合へ利子補給。利子補給対象額の上限は1戸あたり200万円（耐震改修工事を伴う場合は600万円）×住宅戸数。利子補給期間は融資返済期間（最大20年）。",
+      "benefit_type": "現金",
+      "eligible_expense_categories": [
+        "共用部分改良・修繕工事費",
+        "耐震改修工事費",
+        "専門家診断費用",
+        "調査設計費",
+        "長期修繕計画作成費",
+        "昇降機安全対策工事費",
+        "機械式駐車場安全対策工事費",
+        "太陽光発電設備設置工事費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [
+        {
+          "program_name": "マンション共用部分リフォーム融資（住宅金融支援機構）",
+          "relation_type": "前提",
+          "note": "同融資の借入れが本利子補給の前提条件"
+        }
+      ],
+      "contact": "東京都マンションポータルサイト (https://www.mansion-tokyo.metro.tokyo.lg.jp/kanri/02syuzen-josei.html)",
+      "source_url": "https://www.metro.tokyo.lg.jp/documents/d/tosei/20260513_02_01",
+      "plain_summary": "マンション管理組合が住宅金融支援機構の共用部分リフォーム融資を使って改修・耐震工事をするとき、東京都が金利を年1%分負担してくれる制度です。利子補給は最大20年間受けられ、対象額の上限は1戸あたり200万円（耐震工事ありは600万円）×戸数です。詳細は東京都マンションポータルサイトで確認できます。"
+    }
+  ]
+}

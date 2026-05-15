@@ -1,0 +1,79 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.hiroshima.lg.jp/site/eco/shoenehojokin-r8.html"
+    ],
+    "extracted_at": "2026-05-15T02:31:59.275769+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "中小企業省エネ設備等導入支援補助金",
+      "operating_body": "広島県",
+      "category": "環境",
+      "subcategory": "省エネ設備導入",
+      "target_summary": "広島県内に事業所を有する中小企業者（みなし大企業は除く）・個人事業主・中小企業団体等・その他法人（医療法人・社会福祉法人・NPO法人等）で、従業員300人以下の法人",
+      "target_residency_required": true,
+      "benefit_summary": "省エネ設備等の導入に係る経費の1/2を補助（上限500万円）。省エネ診断に基づく設備導入の場合は補助率2/3。予算額5億円。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 5000000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "省エネ設備等導入費用"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "通常の省エネ設備導入",
+          "amount_yen": 5000000,
+          "rate_percent": 50,
+          "note": "上限500万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "省エネ診断に基づく設備導入",
+          "amount_yen": 5000000,
+          "rate_percent": 67,
+          "note": "上限500万円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_window_note": "申請方法は調整中。決まり次第、順次公開予定。",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "start_date": "2026-06-15",
+          "end_date": "2026-07-15",
+          "note": "先着順ではなく、応募多数の場合は抽選"
+        },
+        {
+          "round_number": 2,
+          "start_date": "2026-09-01",
+          "end_date": "2026-10-15",
+          "note": "先着順ではなく、応募多数の場合は抽選"
+        }
+      ],
+      "application_method": "不明",
+      "status": "予定",
+      "status_note": "抽選（応募多数の場合）",
+      "related_programs": [
+        {
+          "program_name": "広島県省エネ伴走支援事業",
+          "relation_type": "関連",
+          "note": "省エネ診断として活用可能。診断を受けると補助率が2/3に向上"
+        },
+        {
+          "program_name": "国の省エネ診断事業",
+          "relation_type": "関連",
+          "note": "省エネ診断として活用可能。診断を受けると補助率が2/3に向上"
+        }
+      ],
+      "source_url": "https://www.pref.hiroshima.lg.jp/site/eco/shoenehojokin-r8.html",
+      "plain_summary": "広島県内に事業所を持つ中小企業・個人事業主（従業員300人以下）が省エネ設備を導入するとき、経費の1/2（省エネ診断を受けた場合は2/3）、最大500万円を補助してもらえます。2026年6月〜7月（1期）と9月〜10月（2期）に募集予定。応募多数の場合は抽選となります。申請方法は決まり次第公開予定です。"
+    }
+  ]
+}

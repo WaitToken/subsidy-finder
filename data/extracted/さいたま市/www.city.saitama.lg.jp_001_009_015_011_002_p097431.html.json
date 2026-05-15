@@ -1,0 +1,74 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.saitama.lg.jp/001/009/015/011/002/p097431.html"
+    ],
+    "extracted_at": "2026-05-15T03:02:29.068806+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度 さいたま市創エネ・蓄エネ設備導入補助金",
+      "operating_body": "さいたま市",
+      "category": "環境",
+      "subcategory": "創エネ・蓄エネ設備",
+      "target_audience": "事業者",
+      "target_summary": "さいたま市内に所在する事業所を自ら所有または日常的に使用する事業者・団体（自治会含む）。0円ソーラー事業者も対象。",
+      "target_residency_required": true,
+      "benefit_summary": "補助対象経費から国等補助金を控除した額の1/2以内、1件あたり上限60万円。対象設備：太陽光発電設備・蓄電池・コージェネレーションシステム。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 600000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "太陽光発電設備設置費",
+        "蓄電池設置費",
+        "コージェネレーションシステム設置費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "先着順。受付期間は令和8年5月18日〜令和9年3月1日。",
+      "application_start": "2026-05-18",
+      "application_end": "2026-03-01",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "交付申請書（様式第1号）",
+        "定款・商業登記事項証明書またはその他基本規則の写し",
+        "補助対象事業実施予定場所の現況カラー写真",
+        "建築物の登記事項証明書または固定資産税公租証明書（建築物設置の場合）",
+        "土地の登記事項証明書・公図の写し（建築物設置の場合）",
+        "補助対象設備の仕様書",
+        "補助対象経費の内訳が記載された見積書の写し",
+        "日常的使用を証する賃貸借契約書等（所有者と申請者が異なる場合）",
+        "さいたま市法人市民税納税証明書の写し（納税義務者の場合）",
+        "既設太陽光発電設備の確認書類（蓄電池のみ申請の場合）"
+      ],
+      "status": "募集中",
+      "status_note": "先着順。令和8年度予算420万円。",
+      "related_programs": [
+        {
+          "program_name": "省エネ・断熱住宅普及促進補助金",
+          "relation_type": "関連",
+          "note": "ZEH・給湯機・断熱改修への補助金（市民・住宅向け）"
+        },
+        {
+          "program_name": "重点対策加速化事業補助金（太陽光発電設備・蓄電池）",
+          "relation_type": "関連",
+          "note": "事業者向けの太陽光発電設備・蓄電池への補助金"
+        },
+        {
+          "program_name": "太陽光発電設備等共同購入事業「みんなのおうちに太陽光」",
+          "relation_type": "関連",
+          "note": "市民・住宅向けの太陽光発電と蓄電池の購入支援（令和7年度〜）"
+        }
+      ],
+      "contact": "環境局 環境共生部 ゼロカーボン推進戦略課 普及推進係 TEL: 048-829-1316 FAX: 048-829-1991",
+      "source_url": "https://www.city.saitama.lg.jp/001/009/015/011/002/p097431.html",
+      "plain_summary": "さいたま市内の事業所に太陽光発電・蓄電池・コージェネレーションシステムを導入する事業者・団体が対象。補助対象経費（国補助金控除後）の1/2以内、1件最大60万円を現金で補助。令和8年5月18日〜令和9年3月1日まで先着順で受付（予算420万円）。電子申請または郵送・持参で申請可。"
+    }
+  ]
+}

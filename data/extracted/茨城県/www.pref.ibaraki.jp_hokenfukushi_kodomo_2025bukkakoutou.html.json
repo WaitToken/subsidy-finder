@@ -1,0 +1,45 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.ibaraki.jp/hokenfukushi/kodomo/2025bukkakoutou.html"
+    ],
+    "extracted_at": "2026-05-15T02:03:50.590459+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和7年度茨城県幼児教育・保育施設物価高騰対策支援金",
+      "operating_body": "茨城県",
+      "category": "子育て・教育",
+      "subcategory": "幼児教育・保育施設支援",
+      "target_summary": "令和7年10月1日時点において、茨城県内で幼稚園・保育所・地域型保育事業所・認定こども園・認可外保育施設（居宅訪問型除く）を運営する法人または個人であり、当該施設が休止・廃止していない者",
+      "target_household": [
+        "幼児教育・保育施設の開設者・運営法人・個人"
+      ],
+      "target_residency_required": false,
+      "benefit_summary": "給食提供人数1人あたり2,500円を支援金として給付（令和7年4月2日〜10月1日開設の施設は6か月分として1,250円×給食提供人数）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2025-10-27",
+      "application_end": "2025-12-12",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "申請書兼誓約書（宣誓・同意書および施設内訳書）",
+        "振込先口座の通帳の写し（表紙および見開き部分）",
+        "給食実施状況確認書類"
+      ],
+      "status": "終了",
+      "status_note": "令和7年12月12日をもって受付終了",
+      "related_programs": [],
+      "contact": "茨城県福祉部子ども政策局子ども未来課 物価高騰対策支援金担当 TEL: 029-301-3252（平日9時〜17時）",
+      "source_url": "https://www.pref.ibaraki.jp/hokenfukushi/kodomo/2025bukkakoutou.html",
+      "plain_summary": "※受付終了。茨城県内の幼稚園・保育所・認定こども園・認可外保育施設を運営する法人や個人が対象。コメなど食材料費の高騰による負担を軽減するため、給食提供人数1人あたり2,500円の支援金が現金で給付されます。申請は電子申請（いばらき電子申請・届出サービス）または郵送書面で、受付は2025年12月12日に終了しています。"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.shinagawa.tokyo.jp/PC/kankyo/kankyo-kankyo/20241118102002.html"
+    ],
+    "extracted_at": "2026-05-15T00:49:43.366096+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "品川区民間公衆喫煙所設置費用助成金",
+      "operating_body": "品川区",
+      "category": "環境",
+      "subcategory": "喫煙環境整備",
+      "target_summary": "品川区内に建築物を所有または使用する方、もしくは敷地内に一般開放可能な屋内喫煙場所（屋外密閉型含む）を設置しようとする方",
+      "target_residency_required": false,
+      "benefit_summary": "喫煙場所の設置費用（工事費・設備費・備品購入費・機械装置費等）に対し、対象経費の10分の10（全額）を助成。上限額は喫煙場所の種別・面積により200万円〜1,000万円。初回のみ助成。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 10000000,
+      "benefit_rate_percent": 100,
+      "eligible_expense_categories": [
+        "工事費",
+        "設備費",
+        "備品購入費",
+        "機械装置費"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "屋内喫煙場所 2.5㎡以上5㎡未満",
+          "amount_yen": 2000000,
+          "rate_percent": 100
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "屋内喫煙場所 5㎡以上10㎡未満",
+          "amount_yen": 4000000,
+          "rate_percent": 100
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "屋内喫煙場所 10㎡以上15㎡未満",
+          "amount_yen": 6000000,
+          "rate_percent": 100
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "屋内喫煙場所 15㎡以上20㎡未満",
+          "amount_yen": 8000000,
+          "rate_percent": 100
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "屋内喫煙場所 20㎡以上",
+          "amount_yen": 10000000,
+          "rate_percent": 100
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "屋外密閉型（コンテナ型等）2.5㎡以上4㎡未満",
+          "amount_yen": 3000000,
+          "rate_percent": 100
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "屋外密閉型（コンテナ型等）4㎡以上5㎡未満",
+          "amount_yen": 4000000,
+          "rate_percent": 100
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "屋外密閉型（コンテナ型等）5㎡以上6㎡未満",
+          "amount_yen": 5000000,
+          "rate_percent": 100
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "屋外密閉型（コンテナ型等）6㎡以上7㎡未満",
+          "amount_yen": 6000000,
+          "rate_percent": 100
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "屋外密閉型（コンテナ型等）7㎡以上8㎡未満",
+          "amount_yen": 7000000,
+          "rate_percent": 100
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "屋外密閉型（コンテナ型等）8㎡以上9㎡未満",
+          "amount_yen": 8000000,
+          "rate_percent": 100
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "屋外密閉型（コンテナ型等）9㎡以上10㎡未満",
+          "amount_yen": 9000000,
+          "rate_percent": 100
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "屋外密閉型（コンテナ型等）10㎡以上",
+          "amount_yen": 10000000,
+          "rate_percent": 100
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "事前相談必須。詳細は要綱を確認のこと。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "地域活動課生活安全担当 電話：03-5742-6592 FAX：03-5742-6878",
+      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/kankyo/kankyo-kankyo/20241118102002.html",
+      "plain_summary": "品川区内で一般開放できる屋内喫煙所を設置する建物のオーナーや利用者が対象です。設置費用の全額（最大1,000万円）が助成されます。面積によって上限額が変わります。申請前に必ず区に事前相談が必要です。"
+    },
+    {
+      "program_name": "品川区民間公衆喫煙所維持管理費用助成金",
+      "operating_body": "品川区",
+      "category": "環境",
+      "subcategory": "喫煙環境整備",
+      "target_summary": "品川区内に建築物を所有または使用する方、もしくは敷地内に一般開放可能な喫煙場所を設置・運営している方",
+      "target_residency_required": false,
+      "benefit_summary": "喫煙場所の維持管理費用（家賃・賃借料・更新料・電気代・空気清浄機保守点検費・火災保険料・清掃委託費等）に対し、対象経費の10分の10（全額）を助成。上限額は150万円。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 1500000,
+      "benefit_rate_percent": 100,
+      "eligible_expense_categories": [
+        "家賃",
+        "賃借料",
+        "更新料",
+        "電気代",
+        "空気清浄機保守点検費",
+        "火災保険料",
+        "清掃・ゴミ処理委託費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "事前相談必須。詳細は要綱を確認のこと。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "地域活動課生活安全担当 電話：03-5742-6592 FAX：03-5742-6878",
+      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/kankyo/kankyo-kankyo/20241118102002.html",
+      "plain_summary": "品川区内で一般開放できる喫煙所を運営している建物のオーナーや利用者が対象です。家賃・電気代・清掃費など維持管理にかかる費用の全額（最大150万円）が助成されます。申請前に必ず区に事前相談が必要です。"
+    }
+  ]
+}

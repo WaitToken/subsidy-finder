@@ -1,0 +1,92 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.okinawa.jp/kyoiku/shogaifukushi/1007022/1026357/1026374.html"
+    ],
+    "extracted_at": "2026-05-15T02:52:54.794046+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "臨時特例交付金（沖縄県福祉・介護職員処遇改善支援事業補助金）",
+      "operating_body": "沖縄県",
+      "category": "その他",
+      "subcategory": "福祉・介護職員処遇改善",
+      "target_audience": "事業者",
+      "target_summary": "福祉・介護職員等ベースアップ等支援加算を取得している障害福祉・障害児サービス事業所（令和6年4月から取得見込みの事業所を含む）かつ令和6年2・3月分から実際に賃上げを行う事業所",
+      "target_residency_required": true,
+      "benefit_summary": "サービス区分に応じた交付率（0.7%〜2.1%）で算出した補助金を交付。障害福祉職員の賃金を2%程度引き上げるための措置。",
+      "benefit_type": "現金",
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "居宅介護・重度訪問介護・同行援護・行動援護・重度障害者等包括支援",
+          "rate_percent": 2,
+          "note": "交付率1.6%"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "施設入所支援・短期入所・療養介護",
+          "rate_percent": 2,
+          "note": "交付率1.6%"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "共同生活援助（介護サービス包括型・日中サービス支援型・外部サービス利用型）",
+          "rate_percent": 1,
+          "note": "交付率1.1%"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "児童発達支援・医療型児童発達支援・放課後等デイサービス・居宅訪問型児童発達支援・保育所等訪問支援",
+          "rate_percent": 1,
+          "note": "交付率1.1%"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "生活介護",
+          "rate_percent": 1,
+          "note": "交付率0.8%"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "自立訓練（機能訓練・生活訓練）",
+          "rate_percent": 1,
+          "note": "交付率0.9%"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "就労移行支援・就労継続支援A型・B型・就労定着支援・自立生活援助",
+          "rate_percent": 1,
+          "note": "交付率0.7%"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "福祉型障害児入所施設・医療型障害児入所施設",
+          "rate_percent": 2,
+          "note": "交付率2.1%"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_end": "2024-04-15",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "required_documents": [
+        "様式第1号 交付申請書",
+        "様式第2号 特別な事情に係る届出書（必要な場合）",
+        "様式第3号 変更承認申請書（必要な場合）",
+        "様式第4号 補助金中止（廃止）承認申請書（必要な場合）"
+      ],
+      "status": "終了",
+      "status_note": "令和6年4月15日に申請締め切り済み",
+      "related_programs": [],
+      "contact": "沖縄県 生活福祉部 障害福祉課 電話：098-866-2190 ファクス：098-866-6916",
+      "source_url": "https://www.pref.okinawa.jp/kyoiku/shogaifukushi/1007022/1026357/1026374.html",
+      "plain_summary": "※受付終了。「デフレ完全脱却のための総合経済対策」に基づき、障害福祉・障害児サービス事業所が福祉・介護職員の賃金を2%程度引き上げるための補助金です。サービス区分によって交付率（0.7%〜2.1%）が異なります。申請は令和6年4月15日に締め切られました。電子申請のみ受付。"
+    }
+  ]
+}

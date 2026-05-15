@@ -1,0 +1,38 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.katsushika.lg.jp/kenkou/1000055/1032109.html"
+    ],
+    "extracted_at": "2026-05-15T01:28:13.254687+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "電力・ガス・食料品等価格高騰重点支援給付金（3万円）",
+      "operating_body": "葛飾区",
+      "category": "ひとり親・低所得",
+      "subcategory": "物価高騰対策給付金",
+      "target_summary": "①住民税均等割非課税世帯（令和5年4月1日時点で葛飾区在住、世帯全員が令和4or5年度住民税均等割非課税）、②家計急変世帯（令和4年1月以降に収入が予期せず減少し、世帯全員が住民税非課税相当水準以下）、③住民税均等割のみ課税世帯、④転入非課税等世帯（令和5年4月2日〜9月30日転入）",
+      "target_residency_required": true,
+      "benefit_summary": "1世帯あたり3万円を1回限り給付",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 30000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和5年10月31日で受付終了（家計急変・転入低所得世帯は令和5年9月30日で終了）",
+      "application_end": "2023-10-31",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "終了",
+      "status_note": "令和5年10月31日で受付終了（家計急変・転入低所得世帯分は令和5年9月30日終了）",
+      "related_programs": [],
+      "contact": "福祉管理課 03-5654-8243",
+      "source_url": "https://www.city.katsushika.lg.jp/kenkou/1000055/1032109.html",
+      "plain_summary": "※受付終了。葛飾区に住む住民税均等割が非課税の世帯や、収入が急に減った世帯などに、1世帯あたり3万円を給付していた制度です。令和5年10月31日に申請受付は終了しました。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.chiba.jp/hokenfukushi/iryoeisei/seisaku/fushin_mashin_optional_r6.html"
+    ],
+    "extracted_at": "2026-05-15T03:03:41.781605+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "麻しん風しん混合ワクチン任意予防接種助成事業",
+      "operating_body": "千葉市",
+      "category": "医療・健康",
+      "subcategory": "予防接種",
+      "target_audience": "個人",
+      "target_summary": "千葉市に住民登録があり、①昭和47年10月1日以前生まれで麻しん抗体価が低い方、②昭和47年10月2日以降生まれで麻しんワクチン未接種の方、③造血細胞移植後に麻しんワクチン未接種の方、または風しん抗体検査で抗体価が低い方（0歳児は対象外、定期接種対象者・過去に本事業利用済の方は除く）",
+      "target_residency_required": true,
+      "benefit_summary": "麻しん風しん混合ワクチン任意予防接種の費用を助成（1人1回まで）。市内指定協力医療機関で接種可能。",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "住所・年齢・氏名が確認できるもの（マイナンバーカード、資格確認書、健康保険証等）",
+        "【風しん対策】風しん抗体価が記載されている書類（結果通知書、母子手帳写し等）",
+        "【麻しん対策①】麻しん抗体価が記載されている書類（結果通知書等）",
+        "【麻しん対策③】造血細胞移植を証明する書類",
+        "母子健康手帳",
+        "予診票（千葉市指定のもの）"
+      ],
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "風しん抗体検査助成（妊娠希望女性・配偶者等対象）",
+          "relation_type": "関連",
+          "note": "妊娠を希望する女性およびその配偶者等を対象に風しん抗体検査を無料で受けられる制度"
+        }
+      ],
+      "contact": "保健福祉局医療衛生部医療政策課予防接種事業 TEL: 043-238-9941 FAX: 043-245-5554",
+      "source_url": "https://www.city.chiba.jp/hokenfukushi/iryoeisei/seisaku/fushin_mashin_optional_r6.html",
+      "plain_summary": "千葉市に住民登録があり、麻しんまたは風しんの抗体が低い方（一部条件あり）を対象に、麻しん風しん混合ワクチンの任意予防接種費用を助成します。1人1回まで、市内の指定協力医療機関で受けられます。接種時に必要書類を持参して医療機関を予約・受診してください。"
+    }
+  ]
+}

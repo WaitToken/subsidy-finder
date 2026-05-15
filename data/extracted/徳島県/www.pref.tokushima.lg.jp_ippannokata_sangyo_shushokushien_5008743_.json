@@ -1,0 +1,43 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.tokushima.lg.jp/ippannokata/sangyo/shushokushien/5008743/"
+    ],
+    "extracted_at": "2026-05-15T02:36:47.303622+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "徳島県奨学金返還支援制度",
+      "operating_body": "徳島県",
+      "category": "就労・起業",
+      "subcategory": "奨学金返還支援",
+      "target_audience": "個人",
+      "target_summary": "徳島県内の対象事業所に就業し「助成候補者」として認定された奨学金返還中の方（就業3年未満）。対象分野は理学・工学・薬学・農学・情報等で、製造業・情報サービス業・農林業等に従事する方。",
+      "target_residency_required": true,
+      "benefit_summary": "県内対象事業所に3年以上就業することを条件に、奨学金の返還を支援（助成）する。就業期間中、年1回の就業状況報告が必要。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "就業開始後、各報告期限（初回就業開始月により異なる）までに就業状況を報告。認定取消を避けるため期限厳守が必要。",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "就業状況報告書（様式第5号）",
+        "在職証明書（初回報告時および変更があった場合）",
+        "住民票の写し（マイナンバー記載不要・初回報告時および変更があった場合）",
+        "奨学金の返還状況を証する書類（奨学金返還証明書またはスカラネットパーソナル詳細情報の印刷物等）"
+      ],
+      "status": "募集中",
+      "status_note": "令和8年4月下旬以降、事務局が新設予定。事務局連絡先が変更となる見込み。",
+      "related_programs": [],
+      "contact": "徳島県 TEL: 088-621-2500（代表）／令和8年4月下旬以降は「徳島県奨学金返還支援制度事務局」（詳細未定）",
+      "source_url": "https://www.pref.tokushima.lg.jp/ippannokata/sangyo/shushokushien/5008743/",
+      "plain_summary": "徳島県内の対象事業所（製造業・情報サービス業・農林業など）に就職し「助成候補者」に認定された方が対象です。3年以上県内で働き続けることで、奨学金の返還を支援してもらえます。就業開始後は毎年、決められた期限までに就業状況を報告する必要があります。報告を怠ると認定が取り消されるので注意が必要です。"
+    }
+  ]
+}

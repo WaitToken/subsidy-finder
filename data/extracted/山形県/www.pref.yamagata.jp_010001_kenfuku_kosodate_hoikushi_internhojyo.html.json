@@ -1,0 +1,69 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.yamagata.jp/010001/kenfuku/kosodate/hoikushi/internhojyo.html"
+    ],
+    "extracted_at": "2026-05-15T02:01:16.370445+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和７年度山形県保育インターン等旅費支援補助金",
+      "operating_body": "山形県",
+      "category": "子育て・教育",
+      "subcategory": "保育士養成・就職支援",
+      "target_summary": "北海道・東北・関東・新潟の保育士養成施設に在学する学生（山形県内からの通学生を除く）で、山形県内の保育所等でインターン等（保育実習・就業体験・ボランティア・就職活動）を行う学生。かつ他の補助金等の交付を受けていないこと。",
+      "target_household": [
+        "学生"
+      ],
+      "target_residency_required": false,
+      "benefit_summary": "インターン等に要した公共交通機関の経費（交付要綱別表第１に基づく額）を補助",
+      "benefit_type": "現金",
+      "eligible_expense_categories": [
+        "交通費（公共交通機関）"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "交通機関利用年月日に応じて申請期限が異なる（最終期限：令和8年3月23日）",
+      "application_start": "2025-04-01",
+      "application_end": "2026-03-23",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "end_date": "2025-08-25",
+          "note": "令和7年4月1日〜6月30日の利用分。当日消印有効。"
+        },
+        {
+          "round_number": 2,
+          "end_date": "2025-11-25",
+          "note": "令和7年7月1日〜9月30日の利用分。当日消印有効。"
+        },
+        {
+          "round_number": 3,
+          "end_date": "2026-02-18",
+          "note": "令和7年10月1日〜12月31日の利用分。当日消印有効。"
+        },
+        {
+          "round_number": 4,
+          "end_date": "2026-03-23",
+          "note": "令和8年1月1日〜2月28日の利用分。当日消印有効。"
+        }
+      ],
+      "application_method": "郵送",
+      "required_documents": [
+        "令和７年度山形県保育インターン等旅費支援事業費補助金交付申請書",
+        "令和７年度山形県保育インターン等旅費支援事業費補助金事業実績書",
+        "保育士養成施設在学証明書類（学生証の写し・在学証明書等）",
+        "学生本人名義の口座情報が確認できるもの（通帳の見開き部分の写し等）"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "source_url": "https://www.pref.yamagata.jp/010001/kenfuku/kosodate/hoikushi/internhojyo.html",
+      "plain_summary": "山形県外（北海道・東北・関東・新潟）の保育士養成施設に通う学生が、山形県内の保育所などでインターンや就職活動をする際の交通費を山形県が補助してくれる制度です。利用した公共交通機関の費用が対象で、利用時期ごとに申請期限が異なります（最終締切は2026年3月23日・消印有効）。"
+    }
+  ]
+}

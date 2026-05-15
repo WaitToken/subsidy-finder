@@ -1,0 +1,54 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.saitama.lg.jp/001/009/015/011/002/index.html"
+    ],
+    "extracted_at": "2026-05-15T03:02:12.553015+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度 さいたま市創エネ・蓄エネ設備導入補助金",
+      "operating_body": "さいたま市",
+      "category": "環境",
+      "subcategory": "再生可能エネルギー・蓄電池",
+      "target_audience": "事業者",
+      "target_summary": "太陽光発電設備や蓄電池を事業所に導入する事業者・自治会",
+      "target_residency_required": true,
+      "benefit_summary": "太陽光発電設備・蓄電池の導入費用の一部を補助金として交付",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [],
+      "source_url": "https://www.city.saitama.lg.jp/001/009/015/011/002/index.html",
+      "plain_summary": "さいたま市内の事業所に太陽光発電設備や蓄電池を導入する事業者・自治会を対象に、費用の一部を補助する制度です。令和8年度の制度で、詳細な補助額や申請方法はページに記載がありません。"
+    },
+    {
+      "program_name": "令和7年度さいたま市電気自動車等普及促進対策補助金",
+      "operating_body": "さいたま市",
+      "category": "環境",
+      "subcategory": "電気自動車・次世代自動車",
+      "target_audience": "両方",
+      "target_summary": "電気自動車(EV)、燃料電池自動車(FCV)及びV2H充放電機器を導入する者（事業者・個人を含む）",
+      "target_residency_required": true,
+      "benefit_summary": "電気自動車、燃料電池自動車、V2H充放電機器の導入にかかる経費の一部を補助",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [],
+      "source_url": "https://www.city.saitama.lg.jp/001/009/015/011/002/index.html",
+      "plain_summary": "さいたま市で電気自動車・燃料電池自動車・V2H充放電機器を購入・導入する人や事業者に対して、費用の一部を補助する制度です（令和7年度）。詳細な補助額や申請方法はページに記載がありません。"
+    }
+  ]
+}

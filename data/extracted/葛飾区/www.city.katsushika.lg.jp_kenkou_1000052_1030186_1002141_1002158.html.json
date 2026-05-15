@@ -1,0 +1,72 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/1002141/1002158.html"
+    ],
+    "extracted_at": "2026-05-15T01:27:45.495918+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "自立支援住宅改修費助成",
+      "operating_body": "葛飾区",
+      "category": "高齢者・介護",
+      "subcategory": "住宅改修",
+      "target_summary": "葛飾区に住民登録している65歳以上の事業対象者で、運動機能が低下している方（またはこれに準ずる方）のうち、介護保険の要支援・要介護認定を受けておらず、在宅生活継続のために住宅改修が必要と認められる方",
+      "target_age_min": 65,
+      "target_household": [
+        "高齢者"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "住宅改修費用（手すり取付け・段差解消・床材変更・引き戸取替え・便器洋式化等）の助成。限度額20万円の範囲内で自己負担1割（生活保護受給者は自己負担なし）。助成は一個人で1回限り。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 180000,
+      "benefit_rate_percent": 90,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "一般（限度額20万円以内）",
+          "amount_yen": 180000,
+          "rate_percent": 90,
+          "note": "自己負担1割（限度額20万円の範囲内）"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "生活保護受給者（限度額20万円以内）",
+          "amount_yen": 200000,
+          "rate_percent": 100,
+          "note": "自己負担なし（限度額20万円の範囲内）"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "介護保険証",
+        "施行業者の見積書",
+        "工事図面",
+        "（賃貸の場合）住宅所有者の承諾書"
+      ],
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "介護保険による住宅改修",
+          "relation_type": "代替",
+          "note": "要支援・要介護認定を受けている方は介護保険による住宅改修が対象（本助成は介護認定を受けていない方向け）"
+        },
+        {
+          "program_name": "住宅設備改修費助成",
+          "relation_type": "関連",
+          "note": "介護保険の対象にならない改修工事について葛飾区が独自に助成する制度"
+        }
+      ],
+      "contact": "高齢者支援課在宅サービス係 / 高齢者総合相談センター｜〒124-8555 葛飾区立石5-13-1 葛飾区役所2階 201番窓口｜電話：03-5654-8299 ファクス：03-5698-1531",
+      "source_url": "https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/1002141/1002158.html",
+      "plain_summary": "葛飾区に住む65歳以上で、要支援・要介護の認定を受けていないが運動機能が低下している方が対象です。自宅の手すり取付けや段差解消など転倒防止のための改修費用を助成してくれます。限度額は20万円で、自己負担は1割（生活保護受給者は無料）。工事前に必ず相談・申請が必要です。一人1回限りの助成です。"
+    }
+  ]
+}

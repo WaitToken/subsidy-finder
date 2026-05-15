@@ -1,0 +1,51 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sakai.lg.jp/kenko/fukushikaigo/koreishafukushi/life_support/kurumaisubank.html"
+    ],
+    "extracted_at": "2026-05-15T03:17:58.992028+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "車いすバンク事業",
+      "operating_body": "堺市",
+      "category": "高齢者・介護",
+      "subcategory": "福祉用具貸与",
+      "target_audience": "個人",
+      "target_summary": "堺市内に居住し、疾病等により歩行が困難な65歳以上の方（要支援・要介護認定を受けていない方を優先）",
+      "target_age_min": 65,
+      "target_residency_required": true,
+      "benefit_summary": "車いすを無償で貸与（貸与期間は3カ月上限）",
+      "benefit_type": "現物給付",
+      "benefit_tiers": [],
+      "goods_items": [
+        {
+          "item_name": "車いす",
+          "quantity_note": "1人1台・貸与期間3カ月上限",
+          "stock_limited": false
+        }
+      ],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "申請書（区役所地域福祉課窓口またはダウンロード）"
+      ],
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "介護保険サービス（福祉用具貸与）",
+          "relation_type": "代替",
+          "note": "要支援・要介護認定を受けている人は介護保険サービスを優先"
+        }
+      ],
+      "contact": "健康福祉局 長寿社会部 長寿支援課 電話番号：072-228-8347 ファクス：072-228-8918",
+      "source_url": "https://www.city.sakai.lg.jp/kenko/fukushikaigo/koreishafukushi/life_support/kurumaisubank.html",
+      "plain_summary": "堺市内に住んでいて、病気などで歩くのが難しい65歳以上の方に、車いすを無料で貸してもらえる制度です（最長3カ月）。お住まいの区役所地域福祉課に申請書を提出してください。要介護・要支援の認定を受けている方は介護保険サービスが優先されます。"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.ehime.jp/page/17663.html"
+    ],
+    "extracted_at": "2026-05-15T02:40:18.166967+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "愛媛県不育症検査費用助成事業",
+      "operating_body": "愛媛県",
+      "category": "医療・健康",
+      "subcategory": "不育症検査",
+      "target_audience": "個人",
+      "target_summary": "愛媛県内（松山市を除く）に住所を有し、既往流死産回数が2回以上ある方",
+      "target_residency_required": true,
+      "benefit_summary": "先進医療として実施される不育症検査（抗ネオセルフβ2グリコプロテインI複合体抗体検査等）に係る費用の7割相当額（上限6万円）を助成",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 60000,
+      "benefit_rate_percent": 70,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "検査が終了した日の属する年度内に申請。令和7年度分（令和7年4月～令和8年3月実施分）の申請期限は令和8年3月31日",
+      "application_end": "2026-03-31",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "愛媛県不育症検査費用助成事業申請書",
+        "愛媛県不育症検査費用助成事業受検証明書（主治医記入）",
+        "申請者の住民票（申請前3か月以内発行、原本）",
+        "口座振替申込書兼債権者登録票",
+        "不育症検査費用助成金請求書",
+        "医療機関発行の領収書及び明細書（原本）"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "健康増進課 母子保健係 Tel：089-912-2405 Fax：089-912-2399 / 住民票所在地を管轄する保健所",
+      "source_url": "https://www.pref.ehime.jp/page/17663.html",
+      "plain_summary": "愛媛県（松山市除く）に住んでいて、流産・死産を2回以上経験したことがある方が対象です。先進医療として行われる不育症検査（抗ネオセルフβ2グリコプロテインI複合体抗体検査など）の費用の7割（最大6万円）を助成してもらえます。検査が終わった年度内（令和7年度分は2026年3月31日まで）に、住民票のある市町を管轄する保健所へ必要書類を持参して申請してください。"
+    }
+  ]
+}

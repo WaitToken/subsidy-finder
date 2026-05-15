@@ -1,0 +1,52 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-byouki/20230531104944.html"
+    ],
+    "extracted_at": "2026-05-15T00:51:27.497317+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "アピアランスケア支援事業（ウィッグ・胸部補正具等購入費用助成）",
+      "operating_body": "品川区",
+      "category": "医療・健康",
+      "subcategory": "がん患者支援・アピアランスケア",
+      "target_summary": "申請日時点で品川区に住民登録があり、がん等の疾病の治療または傷病等に伴う外見の変化によりアピアランスケア用品の購入等を必要としている方。かつ、品川区または他自治体・法令に基づく同種の助成を生涯で2回以上受けていない方。",
+      "target_household": [
+        "がん患者",
+        "がん等の疾病・傷病による外見変化のある方"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "ウィッグ（かつら）・帽子・胸部補正具・エピテーゼ等のアピアランスケア用品の購入またはレンタル等にかかった実費を、上限10万円（消費税込）助成。生涯2回まで受給可能。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 100000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "購入等費用を支払った日（領収書等に記載の日）の翌日から1年以内",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "品川区アピアランスケア支援助成金申請書兼口座振替依頼書",
+        "がん等の治療を受けていることを証する書類（診療明細書、お薬手帳、診療方針計画書、医師の意見書等）の写し",
+        "購入等の経費や支払った日付がわかる書類（領収書等）",
+        "申請者の本人確認書類（個人番号カード、運転免許証、健康保険証等）の写し"
+      ],
+      "status": "募集中",
+      "related_programs": [
+        {
+          "program_name": "品川区がん患者補正具購入等費用助成",
+          "relation_type": "関連",
+          "note": "過去に同事業を1度利用した方は本事業でもう1回申請可能"
+        }
+      ],
+      "contact": "品川区健康推進部健康課保健衛生担当 電話：03-5742-6743 FAX：03-5742-6883",
+      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/kenkou/kenkou-byouki/20230531104944.html",
+      "plain_summary": "品川区に住民登録があり、がんなどの治療や病気・けがによって外見が変わった方が対象です。ウィッグ（かつら）・帽子・胸部補正具・エピテーゼなどの購入またはレンタル費用を、実費で最大10万円まで現金で助成してもらえます。生涯2回まで利用可能。購入した日の翌日から1年以内にオンラインまたは郵送で申請してください。"
+    }
+  ]
+}

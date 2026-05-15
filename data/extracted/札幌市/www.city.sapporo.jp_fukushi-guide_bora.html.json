@@ -1,0 +1,147 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sapporo.jp/fukushi-guide/bora.html"
+    ],
+    "extracted_at": "2026-05-15T02:57:43.553951+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "札幌市地域福祉振興助成金（活動費助成）",
+      "operating_body": "札幌市",
+      "category": "その他",
+      "subcategory": "地域福祉・ボランティア支援",
+      "target_audience": "事業者",
+      "target_summary": "札幌市内で活動するボランティア団体・非営利在宅福祉サービス提供団体・ボランティア活動支援非営利団体。5人以上、1年以上継続活動、市から直接・間接的に助成を受けていない、札幌市社会福祉協議会へボランティア登録済みであること等の要件を満たす団体。",
+      "target_residency_required": true,
+      "benefit_summary": "助成対象経費の2分の1以内、かつ助成限度額（新規申請団体：15万円、継続申請団体：初回助成額に交付割合を乗じた額）のいずれか低い額を助成。同一団体への助成は最大5回まで（特例あり）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 150000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "資材購入費",
+        "交通費",
+        "ボランティア保険料",
+        "会場費"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "新規申請団体",
+          "amount_yen": 150000,
+          "note": "助成対象経費の1/2以内かつ15万円が上限"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "継続申請団体（2回目）",
+          "rate_percent": 80,
+          "note": "初回助成額×0.8（助成対象経費の1/2以内との低い方）"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "継続申請団体（3回目）",
+          "rate_percent": 60,
+          "note": "初回助成額×0.6（助成対象経費の1/2以内との低い方）"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "継続申請団体（4回目）",
+          "rate_percent": 40,
+          "note": "初回助成額×0.4（助成対象経費の1/2以内との低い方）"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "継続申請団体（5回目）",
+          "rate_percent": 20,
+          "note": "初回助成額×0.2（助成対象経費の1/2以内との低い方）。計算結果が3万円未満の場合は3万円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-05-11",
+      "application_end": "2026-06-12",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "required_documents": [
+        "申請書（申請要領に従い作成・押印）"
+      ],
+      "status": "募集中",
+      "status_note": "予算に限りがあり、申請団体数によっては限度額を引き下げる場合あり",
+      "related_programs": [
+        {
+          "program_name": "札幌市地域福祉振興助成金（単発事業助成）",
+          "relation_type": "関連",
+          "note": "定期活動以外の単発事業で一時的に多額の費用が必要な場合の助成"
+        },
+        {
+          "program_name": "札幌市地域福祉振興助成金（立ち上げ支援助成）",
+          "relation_type": "関連",
+          "note": "新たにボランティア団体を設立し活動を始める際の経費助成"
+        }
+      ],
+      "contact": "札幌市保健福祉局総務部地域福祉・生活支援課（〒060-8611 札幌市中央区北1条西2丁目市役所本庁舎3階 / 電話 011-211-2932）",
+      "source_url": "https://www.city.sapporo.jp/fukushi-guide/bora.html",
+      "plain_summary": "札幌市内で高齢者・障がい者支援などの福祉活動をするボランティア団体等が対象です。活動にかかった経費の半額（新規は上限15万円）を現金で助成してもらえます。令和8年5月11日〜6月12日（必着）までに申請書を郵送で提出してください。"
+    },
+    {
+      "program_name": "札幌市地域福祉振興助成金（単発事業助成）",
+      "operating_body": "札幌市",
+      "category": "その他",
+      "subcategory": "地域福祉・ボランティア支援",
+      "target_audience": "事業者",
+      "target_summary": "定期的に開催する活動以外の単発事業で、一時的に多額の費用を必要とする場合のボランティア団体等。札幌市内で活動し、所定の要件を満たす非営利団体。",
+      "target_residency_required": true,
+      "benefit_summary": "単発事業にかかる経費の一部を助成。詳細は申請要領を参照。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-05-11",
+      "application_end": "2026-06-12",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "status": "募集中",
+      "related_programs": [
+        {
+          "program_name": "札幌市地域福祉振興助成金（活動費助成）",
+          "relation_type": "関連"
+        }
+      ],
+      "contact": "札幌市保健福祉局総務部地域福祉・生活支援課（〒060-8611 札幌市中央区北1条西2丁目市役所本庁舎3階 / 電話 011-211-2932）",
+      "source_url": "https://www.city.sapporo.jp/fukushi-guide/bora.html",
+      "plain_summary": "定期活動以外の単発イベントや事業で一時的に費用がかかるボランティア団体が対象です。その経費の一部を現金で助成してもらえます。令和8年5月11日〜6月12日（必着）までに申請書を郵送で提出してください。"
+    },
+    {
+      "program_name": "札幌市地域福祉振興助成金（立ち上げ支援助成）",
+      "operating_body": "札幌市",
+      "category": "その他",
+      "subcategory": "地域福祉・ボランティア支援",
+      "target_audience": "事業者",
+      "target_summary": "新たにボランティア団体を設立し活動を始めようとする非営利団体。札幌市内で活動し、所定の要件を満たすこと。",
+      "target_residency_required": true,
+      "benefit_summary": "新規ボランティア団体の立ち上げに必要な経費の一部を助成。詳細は申請要領を参照。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-05-11",
+      "application_end": "2026-06-12",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "status": "募集中",
+      "related_programs": [
+        {
+          "program_name": "札幌市地域福祉振興助成金（活動費助成）",
+          "relation_type": "関連"
+        }
+      ],
+      "contact": "札幌市保健福祉局総務部地域福祉・生活支援課（〒060-8611 札幌市中央区北1条西2丁目市役所本庁舎3階 / 電話 011-211-2932）",
+      "source_url": "https://www.city.sapporo.jp/fukushi-guide/bora.html",
+      "plain_summary": "これからボランティア団体を新しく作って活動を始めたい方向けです。立ち上げに必要な経費の一部を現金で助成してもらえます。令和8年5月11日〜6月12日（必着）までに申請書を郵送で提出してください。"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.nagasaki.jp/bunrui/hukushi-hoken/fukushi/syyogaifukushi/jyosei/"
+    ],
+    "extracted_at": "2026-05-15T02:46:10.220168+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "医療費の公的助成（負担）制度（自立支援医療・福祉医療）",
+      "operating_body": "長崎県",
+      "category": "障害者支援",
+      "target_audience": "個人",
+      "target_summary": "障害のある方",
+      "target_residency_required": true,
+      "benefit_summary": "障害のある方の医療費の一部を補助（自立支援医療・福祉医療）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [],
+      "contact": "障害福祉課 TEL: 095-895-2451 / FAX: 095-823-5082 / 〒850-8570 長崎県長崎市尾上町3番1号",
+      "source_url": "https://www.pref.nagasaki.jp/bunrui/hukushi-hoken/fukushi/syyogaifukushi/jyosei/",
+      "plain_summary": "障害のある方の医療費の一部を補助する制度です。自立支援医療と福祉医療の2種類があります。詳細な金額や申請方法はページに記載がないため、長崎県障害福祉課（095-895-2451）にお問い合わせください。"
+    }
+  ]
+}

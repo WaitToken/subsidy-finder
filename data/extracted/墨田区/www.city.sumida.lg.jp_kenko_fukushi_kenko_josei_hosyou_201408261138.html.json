@@ -1,0 +1,44 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/josei_hosyou/201408261138.html"
+    ],
+    "extracted_at": "2026-05-15T00:09:35.501893+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "B型・C型ウイルス肝炎治療の医療費助成制度",
+      "operating_body": "東京都（墨田区保健所が申請窓口）",
+      "category": "医療・健康",
+      "subcategory": "ウイルス肝炎治療医療費助成",
+      "target_summary": "B型・C型ウイルス肝炎の治療（インターフェロン治療、B型肝炎の核酸アナログ製剤治療、C型肝炎のインターフェロンフリー治療）を受ける患者",
+      "target_residency_required": true,
+      "benefit_summary": "根治を目的とするB型・C型肝炎治療にかかる医療費を助成",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "B型・C型ウイルス肝炎治療医療費助成制度（東京都保健医療局）",
+          "relation_type": "関連"
+        },
+        {
+          "program_name": "B型・C型肝炎ウイルス検診（無料）",
+          "relation_type": "関連",
+          "note": "保健予防課にて無料検診を実施"
+        }
+      ],
+      "contact": "墨田区保健所 健康推進課 地域保健担当（すみだ保健子育て総合センター2階）〒130-8628 墨田区横川五丁目7番4号 電話：03-3622-9130",
+      "source_url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/josei_hosyou/201408261138.html",
+      "plain_summary": "B型・C型ウイルス肝炎の治療を受けている方を対象に、インターフェロン治療や核酸アナログ製剤治療、インターフェロンフリー治療にかかる医療費を助成する制度です。詳細は東京都保健医療局のページで確認でき、申請は墨田区保健所の健康推進課（電話：03-3622-9130）へご相談ください。"
+    }
+  ]
+}

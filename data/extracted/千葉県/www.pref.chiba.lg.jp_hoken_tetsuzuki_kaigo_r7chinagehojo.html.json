@@ -1,0 +1,36 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.chiba.lg.jp/hoken/tetsuzuki/kaigo/r7chinagehojo.html"
+    ],
+    "extracted_at": "2026-05-15T02:07:48.470422+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和7年度千葉県介護分野の職員の賃上げ・職場環境改善支援事業補助金",
+      "operating_body": "千葉県",
+      "category": "その他",
+      "subcategory": "介護・福祉事業者支援",
+      "target_summary": "千葉県内の介護サービス事業者等",
+      "target_residency_required": true,
+      "benefit_summary": "介護分野における賃上げ・職場環境改善に必要な経費を交付（金額は千葉県交付要綱に記載）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_end": "2026-04-19",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "終了",
+      "status_note": "令和8年4月19日をもって申請終了",
+      "related_programs": [],
+      "contact": "介護職員等処遇改善加算等 厚生労働省コールセンター 電話：050-3733-0222 受付時間：午前9時から午後6時まで（土曜日、日曜日含む）",
+      "source_url": "https://www.pref.chiba.lg.jp/hoken/tetsuzuki/kaigo/r7chinagehojo.html",
+      "plain_summary": "※受付終了。千葉県内の介護サービス事業者を対象に、職員の賃上げや職場環境改善に必要な経費を補助する制度です。令和8年4月19日に申請受付は終了しました。問い合わせは厚生労働省コールセンター（050-3733-0222）へ。"
+    }
+  ]
+}

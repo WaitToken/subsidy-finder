@@ -1,0 +1,62 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.yamagata.jp/010002/20220610funin.html"
+    ],
+    "extracted_at": "2026-05-15T02:01:30.502163+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度山形県不妊治療（生殖補助医療）費助成事業",
+      "operating_body": "山形県",
+      "category": "医療・健康",
+      "subcategory": "不妊治療",
+      "target_summary": "令和8年2月1日から令和9年1月31日の期間に公的医療保険が適用される不妊治療（生殖補助医療）を受け、申請する治療を行った日に山形県内に住所を有している方",
+      "target_residency_required": true,
+      "benefit_summary": "採卵術：1回5万円、胚移植術：1回4万円、精巣内精子採取術：1回9万円を助成（現金）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 90000,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "採卵術（卵子を採取できなかった場合も含む）",
+          "amount_yen": 50000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "胚移植術",
+          "amount_yen": 40000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "精巣内精子採取術",
+          "amount_yen": 90000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "治療を行った日の翌々月末日まで（令和8年2〜3月分は令和8年5月29日、令和9年1月分は令和9年3月12日）",
+      "application_start": "2026-04-01",
+      "application_end": "2027-03-12",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "令和8年度不妊治療（生殖補助医療）費助成事業申請書",
+        "対象治療に関する医療機関発行の領収書（コピー）と医療費明細書（コピー）",
+        "（領収書提出不可の場合）医療機関記載の治療証明書および医療費明細書（コピー）",
+        "申請者の住所を確認できる書類（住民票抄本または謄本の原本、発行から3か月以内）",
+        "振込口座の通帳の写し（見開き1ページ目）"
+      ],
+      "status": "募集中",
+      "status_note": "治療日ごとに申請期限が異なる（翌々月末日等）",
+      "related_programs": [],
+      "contact": "村山総合支庁（村山保健所）こども家庭支援課 TEL:023-627-1203 / 最上総合支庁（最上保健所）こども家庭支援課 TEL:0233-29-1361 / 置賜総合支庁（置賜保健所）こども家庭支援課 TEL:0238-22-3205 / 庄内総合支庁（庄内保健所）こども家庭支援課 TEL:0235-66-5674",
+      "source_url": "https://www.pref.yamagata.jp/010002/20220610funin.html",
+      "plain_summary": "山形県に住んでいて、保険適用の不妊治療（生殖補助医療）を受けた方に、採卵術5万円・胚移植術4万円・精巣内精子採取術9万円を現金で助成します。治療を行った月の翌々月末日までに、やまがたe申請または保健所窓口・郵送で申請してください。対象治療期間は令和8年2月1日〜令和9年1月31日です。"
+    }
+  ]
+}

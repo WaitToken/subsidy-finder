@@ -1,0 +1,144 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.nagano.lg.jp/chiiki-fukushi/kenko/fukushi/konkyu/puropo.html"
+    ],
+    "extracted_at": "2026-05-15T02:21:00.189638+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "住居確保給付金",
+      "operating_body": "長野県・各市",
+      "category": "ひとり親・低所得",
+      "subcategory": "生活困窮者支援",
+      "target_summary": "離職などにより収入が減少し、家賃の支払いが困難になり住居を失うおそれのある方。一定の資産・収入要件あり。",
+      "target_household": [
+        "生活困窮者",
+        "離職者"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "再就職に向けた活動を行うことを条件に、一定期間、家賃相当額を支給。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "県内各地のまいさぽ（生活就労支援センター）にて随時受付",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "生活就労支援センター\"まいさぽ\"（県内各地）",
+      "source_url": "https://www.pref.nagano.lg.jp/chiiki-fukushi/kenko/fukushi/konkyu/puropo.html",
+      "plain_summary": "離職などで収入が減り家賃の支払いが難しくなった方に、再就職活動をすることを条件として、一定期間、家賃相当額を支給する制度です。一定の収入・資産要件があります。お近くの「まいさぽ」窓口にご相談ください。"
+    },
+    {
+      "program_name": "転居費用補助（住居確保給付金関連）",
+      "operating_body": "長野県・各市",
+      "category": "ひとり親・低所得",
+      "subcategory": "生活困窮者支援",
+      "target_summary": "収入が大きく減少し、家賃の安い住宅への転居が必要な方。家計改善の支援において転居で家計が改善すると認められることなどを要件とする。",
+      "target_household": [
+        "生活困窮者"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "転居（引っ越し）費用を補助。受給には一定の収入・資産要件あり。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "県内各地のまいさぽ（生活就労支援センター）にて随時受付",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "生活就労支援センター\"まいさぽ\"（県内各地）",
+      "source_url": "https://www.pref.nagano.lg.jp/chiiki-fukushi/kenko/fukushi/konkyu/puropo.html",
+      "plain_summary": "収入が大きく減って家賃の安い住宅への引っ越しが必要な方に、引っ越し費用を補助してくれる制度です。一定の収入・資産の条件があります。お近くの「まいさぽ」窓口にご相談ください。"
+    },
+    {
+      "program_name": "就労準備支援事業",
+      "operating_body": "長野県・各市",
+      "category": "就労・起業",
+      "subcategory": "生活困窮者支援",
+      "target_summary": "直ちに就労することが難しい生活困窮者。",
+      "target_household": [
+        "生活困窮者"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "一定期間、日常生活自立・社会生活自立・経済的自立に向けた基礎能力形成の支援（通所・合宿形式）。就労体験や就職活動支援を含む。",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "生活就労支援センター\"まいさぽ\"（県内各地）",
+      "source_url": "https://www.pref.nagano.lg.jp/chiiki-fukushi/kenko/fukushi/konkyu/puropo.html",
+      "plain_summary": "すぐに働くことが難しい生活に困っている方に、生活習慣づくりや社会能力の習得、事業所での就労体験など、就職に向けた準備を一定期間サポートしてくれる制度です。まずは「まいさぽ」窓口にご相談ください。"
+    },
+    {
+      "program_name": "一時生活支援事業",
+      "operating_body": "長野県・各市",
+      "category": "ひとり親・低所得",
+      "subcategory": "生活困窮者支援",
+      "target_summary": "住居を持たない方、または不安定な住居形態にある方。一定の資産・収入要件あり。",
+      "target_household": [
+        "ホームレス・住居不安定者",
+        "生活困窮者"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "一定期間、宿泊場所・衣食の提供および退所後の就労に向けた支援を実施。",
+      "benefit_type": "複合",
+      "benefit_tiers": [],
+      "goods_items": [
+        {
+          "item_name": "宿泊場所の提供",
+          "quantity_note": "一定期間",
+          "stock_limited": false
+        },
+        {
+          "item_name": "衣食の提供",
+          "quantity_note": "一定期間",
+          "stock_limited": false
+        }
+      ],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "生活就労支援センター\"まいさぽ\"（県内各地）",
+      "source_url": "https://www.pref.nagano.lg.jp/chiiki-fukushi/kenko/fukushi/konkyu/puropo.html",
+      "plain_summary": "住む場所がない、または住居が不安定な生活困窮者に、一定期間、宿泊場所と食事・衣類を提供し、退所後の就職に向けた支援も行う制度です。一定の収入・資産要件があります。「まいさぽ」窓口にご相談ください。"
+    },
+    {
+      "program_name": "家計改善支援事業",
+      "operating_body": "長野県・各市",
+      "category": "ひとり親・低所得",
+      "subcategory": "生活困窮者支援",
+      "target_summary": "家計収支などに課題がある生活困窮者。",
+      "target_household": [
+        "生活困窮者"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "家計再建に向けた相談支援（公的制度の利用支援、家計表の作成、法テラス等へのつなぎ、必要に応じた貸付のあっせん等）。",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "生活就労支援センター\"まいさぽ\"（県内各地）",
+      "source_url": "https://www.pref.nagano.lg.jp/chiiki-fukushi/kenko/fukushi/konkyu/puropo.html",
+      "plain_summary": "家計のやりくりに困っている方に、家計表の作成や公的制度の活用、法テラスへの紹介、必要に応じた貸付のあっせんなど、家計再建に向けた相談・支援を行ってくれる制度です。「まいさぽ」窓口にご相談ください。"
+    }
+  ]
+}

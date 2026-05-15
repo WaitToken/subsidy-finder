@@ -1,0 +1,51 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sakai.lg.jp/kenko/fukushikaigo/koreishafukushi/life_support/kinkyutsuho.html"
+    ],
+    "extracted_at": "2026-05-15T03:17:49.405674+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "高齢者緊急通報システム事業",
+      "operating_body": "堺市",
+      "category": "高齢者・介護",
+      "subcategory": "緊急通報・見守り",
+      "target_audience": "個人",
+      "target_summary": "【1】病弱等のひとり暮らし高齢者、または高齢者のみの世帯の方。【2】昼間または夜間に独居となる病弱等の高齢者（同居家族が就労・就学等で日中または夜間の大半不在）。協力員2名の登録が必要。",
+      "target_residency_required": true,
+      "benefit_summary": "消防局や委託先業者に通報できる緊急通報装置を高齢者宅に設置。設置時本人負担金は生活保護世帯・所得税非課税世帯は無料、課税世帯は8,400円。対象者【2】は機器代が別途実費。",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [
+        {
+          "condition_type": "所得区分",
+          "condition_label": "生活保護世帯・所得税非課税世帯",
+          "amount_yen": 0,
+          "note": "設置時本人負担金が無料"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "課税世帯",
+          "amount_yen": 8400,
+          "note": "設置時本人負担金8,400円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "堺市高齢者緊急通報システム利用申請書（様式第1号（第6条関係））"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "健康福祉局 長寿社会部 長寿支援課 電話番号：072-228-8347 ファクス：072-228-8918 〒590-0078 堺市堺区南瓦町3番1号 堺市役所本館7階",
+      "source_url": "https://www.city.sakai.lg.jp/kenko/fukushikaigo/koreishafukushi/life_support/kinkyutsuho.html",
+      "plain_summary": "堺市在住のひとり暮らし高齢者や高齢者のみの世帯の方を対象に、緊急時に消防局等へ通報できる装置を自宅に設置してもらえます。設置費用は生活保護・非課税世帯は無料、課税世帯は8,400円（昼夜独居の方は機器代が別途実費）。申請は各区役所の地域福祉課の窓口へ。協力員2名の登録が必要です。"
+    }
+  ]
+}

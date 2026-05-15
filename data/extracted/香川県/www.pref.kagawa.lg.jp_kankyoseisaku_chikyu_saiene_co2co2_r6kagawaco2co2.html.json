@@ -1,0 +1,75 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.kagawa.lg.jp/kankyoseisaku/chikyu/saiene/co2co2/r6kagawaco2co2.html"
+    ],
+    "extracted_at": "2026-05-15T02:38:56.074861+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和６年度かがわ中小事業者CO2CO2削減支援補助金",
+      "operating_body": "香川県",
+      "category": "環境",
+      "subcategory": "省エネ・再エネ設備導入",
+      "target_audience": "事業者",
+      "target_summary": "県内に本社を有する中小企業等（資本金10億円未満）および県内に住所を有する個人事業者",
+      "target_residency_required": true,
+      "benefit_summary": "省エネ設備：補助対象経費の2分の1以内（上限150万円）、再エネ設備（太陽光発電）：公称最大出力kW数×5万円（上限200万円）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 2000000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "太陽光発電設備導入費",
+        "高効率空調機器導入費",
+        "高効率照明機器導入費",
+        "高効率給湯機器導入費"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "省エネ設備（高効率空調・照明・給湯機器）",
+          "amount_yen": 1500000,
+          "rate_percent": 50,
+          "note": "補助対象経費の2分の1以内、上限150万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "再エネ設備（太陽光発電設備）",
+          "amount_yen": 2000000,
+          "note": "公称最大出力（kW）×5万円、上限200万円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "先着順受付、予算額超過時は受付終了・抽選で採択。令和6年7月31日をもって受付終了済み。",
+      "application_end": "2024-07-31",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "交付申請書（様式第1号）",
+        "事業計画書及び収支予算書（別紙1）",
+        "誓約書（別記様式第1号）",
+        "確認書（別記様式第2号）",
+        "CO2削減効果計算書",
+        "県税の完納証明書",
+        "県証紙"
+      ],
+      "status": "終了",
+      "status_note": "予算額超過により申請受付終了（令和6年7月31日受付分で終了・抽選で採択者決定）",
+      "related_programs": [
+        {
+          "program_name": "二酸化炭素排出抑制対策事業費交付金（地域脱炭素移行・再エネ推進交付金）",
+          "relation_type": "関連",
+          "note": "国の交付金を活用した県補助金"
+        }
+      ],
+      "contact": "香川県環境森林部環境政策課カーボンニュートラル推進室 TEL：087-832-3215 Mail：kankyoseisaku@pref.kagawa.lg.jp",
+      "source_url": "https://www.pref.kagawa.lg.jp/kankyoseisaku/chikyu/saiene/co2co2/r6kagawaco2co2.html",
+      "plain_summary": "※受付終了。香川県内の中小企業や個人事業者が、省エネ設備（高効率空調・照明・給湯機器）や太陽光発電設備を導入する際に費用の一部を補助する制度です。省エネ設備は経費の2分の1・上限150万円、太陽光発電は出力kW×5万円・上限200万円が補助されます。令和6年7月31日に予算超過のため受付は終了しました。"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.hamamatsu.shizuoka.jp/ringyou/shinko/forestry/ringyou/index.html"
+    ],
+    "extracted_at": "2026-05-15T03:14:49.005876+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "天竜材の家百年住居る事業費補助金",
+      "operating_body": "浜松市",
+      "category": "住まい",
+      "subcategory": "木造住宅・地域材利用促進",
+      "target_audience": "個人",
+      "target_summary": "浜松市内に新築・増築する自ら居住するためのFSC認証材使用住宅の建築主。居住面積66㎡以上、FSC認証材を構造材の80%以上かつ5立方メートル以上使用すること。建築を請け負う業者が浜松地域材利用促進協議会の正会員または登録会員であること。市税を完納していること。",
+      "target_residency_required": true,
+      "benefit_summary": "FSC認証材1立方メートル当たり2万円、上限40万円。COC認証取得工務店が建築した場合は追加助成10万円（合計最大50万円）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 500000,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "基本助成（FSC認証材購入費用）",
+          "amount_yen": 400000,
+          "note": "1立方メートル当たり2万円、上限40万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "COC認証取得工務店による建築（追加助成含む合計）",
+          "amount_yen": 500000,
+          "note": "基本助成40万円＋追加助成10万円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "予算がなくなり次第受付終了。4月の上棟日は15日以降、3月の上棟日は15日までが受付期間。申請は上棟日の2週間前（木材検査ありの場合は2か月前）までに提出。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "交付申請書（様式第1号）",
+        "木拾い表（様式第2号）",
+        "建築確認済証の写し",
+        "各階平面図（建築確認申請に使用した図面の写し）",
+        "現地案内図",
+        "木材検査依頼書（様式第6号）※木材検査時",
+        "実績報告書（様式第7号）",
+        "県産材販売管理票（第1次〜第4次）",
+        "木材検査合格書またはしずおか優良木材製品出荷証明書またはJAS製品であることの証明書",
+        "上棟時の写真",
+        "請求書（様式第9号）",
+        "委任状（必要に応じて）"
+      ],
+      "status": "募集中",
+      "status_note": "予算上限到達で早期終了の可能性あり。令和8年度から補助条件・申請様式が変更。",
+      "related_programs": [
+        {
+          "program_name": "天竜材ぬくもり空間創出事業",
+          "relation_type": "関連",
+          "note": "店舗・施設等の非住宅建築物の木造・木質化が対象（本事業は住宅のみ対象）"
+        }
+      ],
+      "contact": "一般社団法人浜松地域材利用促進協議会（浜松市中央区国吉町131番地）電話：053-423-3010",
+      "source_url": "https://www.city.hamamatsu.shizuoka.jp/ringyou/shinko/forestry/ringyou/index.html",
+      "plain_summary": "浜松市内に自分が住むための新築・増築住宅を建てる方で、天竜産のFSC認証材を一定量以上使う場合に補助金がもらえます。1立方メートルあたり2万円、最大40万円で、COC認証取得の工務店で建てると10万円の追加補助（合計最大50万円）があります。予算がなくなり次第終了なので、上棟前に浜松地域材利用促進協議会へ早めに相談・申請してください。"
+    }
+  ]
+}

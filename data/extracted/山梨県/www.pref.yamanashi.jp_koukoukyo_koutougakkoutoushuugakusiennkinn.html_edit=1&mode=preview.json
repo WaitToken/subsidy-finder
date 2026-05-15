@@ -1,0 +1,52 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.yamanashi.jp/koukoukyo/koutougakkoutoushuugakusiennkinn.html?edit=1&mode=preview"
+    ],
+    "extracted_at": "2026-05-15T02:17:19.864154+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "高等学校等就学支援金（公立）",
+      "operating_body": "山梨県",
+      "category": "子育て・教育",
+      "subcategory": "高校学費支援",
+      "target_summary": "山梨県内の公立高等学校等（全日制・定時制・通信制）に在籍する生徒",
+      "target_residency_required": true,
+      "benefit_summary": "授業料に充てるための就学支援金を支給。全日制：年間118,800円、定時制：年間最大1,620円×30単位（通算74単位まで）、通信制：年間最大310円×30単位（通算74単位まで）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 118800,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "全日制課程",
+          "amount_yen": 118800,
+          "note": "年間118,800円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "定時制課程",
+          "note": "年間最大1,620円×30単位（通算74単位まで）、最大120,960円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "通信制課程",
+          "note": "年間最大310円×30単位（通算74単位まで）、最大23,000円程度"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "在籍する学校を通じて申請手続きを行う",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "source_url": "https://www.pref.yamanashi.jp/koukoukyo/koutougakkoutoushuugakusiennkinn.html?edit=1&mode=preview",
+      "plain_summary": "山梨県内の公立高校などに通う生徒を対象に、授業料の一部を国・県が負担する「就学支援金」が支給されます。全日制は年間118,800円、定時制や通信制は単位数に応じた金額が支給されます。申請は在籍している学校を通じて行います。"
+    }
+  ]
+}

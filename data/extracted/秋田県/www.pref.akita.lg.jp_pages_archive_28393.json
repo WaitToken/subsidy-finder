@@ -1,0 +1,125 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.akita.lg.jp/pages/archive/28393"
+    ],
+    "extracted_at": "2026-05-15T02:00:37.457027+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "すこやか子育て支援事業（保育料助成）",
+      "operating_body": "秋田県・市町村",
+      "category": "子育て・教育",
+      "subcategory": "保育料助成",
+      "target_summary": "秋田県内在住の就学前（0歳〜）の子どもを対象施設（認可保育所・幼稚園・認定こども園・認可外保育施設等）に預ける保護者。所得制限あり（幼稚園：世帯年収約680万円まで、保育所：世帯年収約640万円まで）",
+      "target_age_min": 0,
+      "target_age_max": 5,
+      "target_household": [
+        "子育て世帯",
+        "ひとり親家庭"
+      ],
+      "target_income_max_yen": 6800000,
+      "target_residency_required": true,
+      "benefit_summary": "市町村民税所得割課税額に応じて保育料の1/2または1/4を助成。ひとり親家庭は一律1/2助成。第2子以降は全額助成。第3子以降が生まれた世帯は所得制限を緩和し（世帯年収約930万円まで）第2子以降の保育料を半額助成。",
+      "benefit_type": "現金",
+      "benefit_rate_percent": 50,
+      "benefit_tiers": [
+        {
+          "condition_type": "所得区分",
+          "condition_label": "市町村民税所得割課税額による（標準）",
+          "rate_percent": 50,
+          "note": "1/2または1/4"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "ひとり親家庭",
+          "rate_percent": 50,
+          "note": "一律1/2"
+        },
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "第2子以降",
+          "rate_percent": 100,
+          "note": "全額助成"
+        },
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "第2子以降（第3子以降が生まれた世帯・世帯年収約930万円まで）",
+          "rate_percent": 50,
+          "note": "所得制限緩和あり"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "すこやか子育て支援事業（副食費助成）",
+          "relation_type": "併用可能",
+          "note": "保育料助成に加えて副食費助成も実施"
+        }
+      ],
+      "contact": "市町村窓口（実施・内容は市町村によって異なる）",
+      "source_url": "https://www.pref.akita.lg.jp/pages/archive/28393",
+      "plain_summary": "秋田県に住む0歳〜就学前の子どもを保育所・幼稚園などに預けている家庭に、保育料の一部（1/2または1/4）を助成します。ひとり親家庭は一律半額、第2子以降は全額無料になります。詳細や申請は市町村窓口へ。"
+    },
+    {
+      "program_name": "すこやか子育て支援事業（副食費助成）",
+      "operating_body": "秋田県・市町村",
+      "category": "子育て・教育",
+      "subcategory": "副食費助成",
+      "target_summary": "秋田県内在住の3歳〜就学前の子どもを認可保育所・幼稚園・認定こども園・認可外保育施設等に預ける保護者。認可外保育施設以外は世帯年収約360万円以上が対象（360万円未満は国の制度により副食費免除）。",
+      "target_age_min": 3,
+      "target_age_max": 5,
+      "target_household": [
+        "子育て世帯",
+        "ひとり親家庭"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "市町村民税所得割課税額に応じて副食費の1/2または1/4を助成。ひとり親家庭は一律1/2助成。第2子以降の副食費を全額助成。令和元年10月から実施。",
+      "benefit_type": "現金",
+      "benefit_rate_percent": 50,
+      "benefit_tiers": [
+        {
+          "condition_type": "所得区分",
+          "condition_label": "市町村民税所得割課税額による（標準）",
+          "rate_percent": 50,
+          "note": "1/2または1/4"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "ひとり親家庭",
+          "rate_percent": 50,
+          "note": "一律1/2"
+        },
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "第2子以降",
+          "rate_percent": 100,
+          "note": "全額助成"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "すこやか子育て支援事業（保育料助成）",
+          "relation_type": "併用可能",
+          "note": "保育料助成と合わせて利用可能"
+        }
+      ],
+      "contact": "市町村窓口（実施・内容は市町村によって異なる）",
+      "source_url": "https://www.pref.akita.lg.jp/pages/archive/28393",
+      "plain_summary": "秋田県に住む3歳〜就学前の子どもが幼稚園・保育所などを利用している家庭に、給食の副食費（おかず代）を一部助成します。所得に応じて1/2または1/4が助成され、第2子以降は全額無料。申請は市町村窓口へ。"
+    }
+  ]
+}

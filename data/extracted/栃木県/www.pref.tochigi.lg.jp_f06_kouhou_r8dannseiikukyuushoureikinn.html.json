@@ -1,0 +1,55 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.tochigi.lg.jp/f06/kouhou/r8dannseiikukyuushoureikinn.html"
+    ],
+    "extracted_at": "2026-05-15T02:05:07.118471+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8(2026)年度とちぎ男性育休推進企業奨励金",
+      "operating_body": "栃木県",
+      "category": "就労・起業",
+      "subcategory": "男性育休推進・仕事と育児の両立",
+      "target_summary": "栃木県内に事業所を有する中小企業事業主等。令和8年4月1日以降に男性従業員が通算1か月以上の育児休業を取得し、令和9年3月31日までに原職等に復帰していること。とちぎ女性活躍応援団に登録していること。育児・介護休業法第22条第1項の雇用環境整備措置を2つ以上実施していること。育児休業中の過ごし方等に関する情報提供等を実施すること。",
+      "target_household": [
+        "中小企業事業主"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "基本奨励金20万円。同一事業主において初めて通算1か月以上3か月未満の男性育休を取得させた場合は10万円加算（合計30万円）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 300000,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "通算1か月以上（基本）",
+          "amount_yen": 200000,
+          "note": "基本奨励金"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "通算1か月以上3か月未満を初めて取得させた場合（加算込み）",
+          "amount_yen": 300000,
+          "note": "基本20万円＋加算10万円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "原則、育児休業から現職等に復帰した日から2か月以内に申請。郵送の場合は当日消印有効。先着順で予算額到達次第終了。",
+      "application_start": "2026-05-11",
+      "application_end": "2027-03-13",
+      "application_rounds": [],
+      "application_method": "複数",
+      "status": "募集中",
+      "status_note": "先着順。予算額に達した場合は期間中でも受付終了",
+      "related_programs": [],
+      "contact": "電話番号：028-678-9937 / Email：uketsuke@danseiikukyu-shoureikin.pref.tochigi.lg.jp / 受付時間：午前9時～午後5時（土日・祝日、年末年始を除く）　事務局運営：（株）TMC経営支援センター / 栃木県労働政策課 TEL:028-623-3536",
+      "source_url": "https://www.pref.tochigi.lg.jp/f06/kouhou/r8dannseiikukyuushoureikinn.html",
+      "plain_summary": "栃木県内の中小企業が対象。男性従業員に通算1か月以上の育児休業を取得させると、企業に20万円の奨励金が支給されます。初めて取得させた場合はさらに10万円が加算され最大30万円に。2026年5月11日〜2027年3月13日（消印有効）に申請できます。先着順で予算に達し次第終了。インターネットまたは郵送で申請可能です。"
+    }
+  ]
+}

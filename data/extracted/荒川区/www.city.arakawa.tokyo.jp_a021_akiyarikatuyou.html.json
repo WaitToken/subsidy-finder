@@ -1,0 +1,58 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.arakawa.tokyo.jp/a021/akiyarikatuyou.html"
+    ],
+    "extracted_at": "2026-05-15T01:30:55.998267+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "空家利活用創業賃料補助金",
+      "operating_body": "荒川区",
+      "category": "就労・起業",
+      "subcategory": "創業支援・賃料補助",
+      "target_summary": "「空き家利活用事業補助金」の交付決定を受けた中小企業者で、法人登記・開業届出・新事業展開から5年未満の個人または法人。区内の空家を賃借して地域貢献事業を行う方。住民税を滞納していないこと。",
+      "target_residency_required": true,
+      "benefit_summary": "補助対象物件の賃料について、1〜12か月目は月額5万円、13〜24か月目は月額3万円を補助（最大24か月）。合計最大96万円。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 960000,
+      "eligible_expense_categories": [
+        "賃借料"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "1〜12か月目",
+          "amount_yen": 50000,
+          "note": "月額5万円 × 12か月 = 60万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "13〜24か月目",
+          "amount_yen": 30000,
+          "note": "月額3万円 × 12か月 = 36万円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "補助金交付決定日・物件賃借開始日・創業日・事業開始日のうち最も遅い日の属する月の翌月から24か月以内",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [
+        {
+          "program_name": "空き家利活用事業補助金",
+          "relation_type": "前提",
+          "note": "交付決定を受けていることが申請の前提条件"
+        }
+      ],
+      "contact": "荒川区産業経済部経営支援課 TEL: 03-3802-3111（内線458）/ Email: sogyoitshien@city.arakawa.lg.jp",
+      "source_url": "https://www.city.arakawa.tokyo.jp/a021/akiyarikatuyou.html",
+      "plain_summary": "荒川区の空家を借りて創業する中小企業者が対象の賃料補助制度です。「空き家利活用事業補助金」の交付決定が前提条件となります。創業から5年未満の個人・法人に対し、最初の12か月は月5万円、その後12か月は月3万円、最大24か月・合計96万円の賃料補助が受けられます。"
+    }
+  ]
+}

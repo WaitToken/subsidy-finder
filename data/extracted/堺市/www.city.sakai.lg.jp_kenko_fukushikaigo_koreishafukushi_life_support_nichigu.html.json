@@ -1,0 +1,146 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sakai.lg.jp/kenko/fukushikaigo/koreishafukushi/life_support/nichigu.html"
+    ],
+    "extracted_at": "2026-05-15T03:18:18.755923+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "高齢者日常生活用具給付等事業（自動消火器）",
+      "operating_body": "堺市",
+      "category": "高齢者・介護",
+      "subcategory": "日常生活用具給付",
+      "target_audience": "個人",
+      "target_summary": "ひとり暮らし高齢者等（市民税非課税世帯）で要介護認定を受けており、障害老人の日常生活自立度（寝たきり度）B以上、または認知症高齢者の日常生活自立度2以上の方",
+      "target_residency_required": true,
+      "benefit_summary": "自動消火器を給付（上限額28,700円）。生活保護世帯は自己負担なし、市民税非課税世帯は購入費の1割負担。",
+      "benefit_type": "現物給付",
+      "benefit_amount_max_yen": 28700,
+      "benefit_tiers": [
+        {
+          "condition_type": "所得区分",
+          "condition_label": "生活保護世帯",
+          "amount_yen": 28700,
+          "note": "自己負担なし（全額給付）"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "市民税非課税世帯",
+          "rate_percent": 90,
+          "note": "購入費の1割負担（給付は9割）"
+        }
+      ],
+      "goods_items": [
+        {
+          "item_name": "自動消火器",
+          "quantity_note": "1人1点",
+          "stock_limited": false
+        }
+      ],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "堺市高齢者日常生活用具給付申請書（様式第1号）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "健康福祉局 長寿社会部 長寿支援課 電話：072-228-8347 FAX：072-228-8918",
+      "source_url": "https://www.city.sakai.lg.jp/kenko/fukushikaigo/koreishafukushi/life_support/nichigu.html",
+      "plain_summary": "堺市に住む、ひとり暮らしの要介護高齢者（市民税非課税）で、寝たきり度B以上または認知症自立度2以上の方に自動消火器を給付します。上限28,700円で、生活保護世帯は無料、非課税世帯は1割負担。区役所の地域福祉課に申請書を提出してください。"
+    },
+    {
+      "program_name": "高齢者日常生活用具給付等事業（電磁調理器）",
+      "operating_body": "堺市",
+      "category": "高齢者・介護",
+      "subcategory": "日常生活用具給付",
+      "target_audience": "個人",
+      "target_summary": "ひとり暮らし高齢者等（市民税非課税世帯）で要介護認定を受けており、認知症高齢者の日常生活自立度2以上の方",
+      "target_residency_required": true,
+      "benefit_summary": "電磁調理器を給付（上限額21,000円）。生活保護世帯は自己負担なし、市民税非課税世帯は購入費の1割負担。",
+      "benefit_type": "現物給付",
+      "benefit_amount_max_yen": 21000,
+      "benefit_tiers": [
+        {
+          "condition_type": "所得区分",
+          "condition_label": "生活保護世帯",
+          "amount_yen": 21000,
+          "note": "自己負担なし（全額給付）"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "市民税非課税世帯",
+          "rate_percent": 90,
+          "note": "購入費の1割負担（給付は9割）"
+        }
+      ],
+      "goods_items": [
+        {
+          "item_name": "電磁調理器",
+          "quantity_note": "1人1点",
+          "stock_limited": false
+        }
+      ],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "堺市高齢者日常生活用具給付申請書（様式第1号）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "健康福祉局 長寿社会部 長寿支援課 電話：072-228-8347 FAX：072-228-8918",
+      "source_url": "https://www.city.sakai.lg.jp/kenko/fukushikaigo/koreishafukushi/life_support/nichigu.html",
+      "plain_summary": "堺市に住む、ひとり暮らしの要介護高齢者（市民税非課税）で、認知症自立度2以上の方に電磁調理器を給付します。上限21,000円で、生活保護世帯は無料、非課税世帯は1割負担。区役所の地域福祉課に申請書を提出してください。"
+    },
+    {
+      "program_name": "高齢者日常生活用具給付等事業（シルバーカー）",
+      "operating_body": "堺市",
+      "category": "高齢者・介護",
+      "subcategory": "日常生活用具給付",
+      "target_audience": "個人",
+      "target_summary": "ひとり暮らし高齢者等（市民税非課税世帯）で要支援1〜要介護1の認定を受けており、障害老人の日常生活自立度（寝たきり度）A1以下の方",
+      "target_residency_required": true,
+      "benefit_summary": "シルバーカーを給付（上限額15,000円）。生活保護世帯は自己負担なし、市民税非課税世帯は購入費の1割負担。",
+      "benefit_type": "現物給付",
+      "benefit_amount_max_yen": 15000,
+      "benefit_tiers": [
+        {
+          "condition_type": "所得区分",
+          "condition_label": "生活保護世帯",
+          "amount_yen": 15000,
+          "note": "自己負担なし（全額給付）"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "市民税非課税世帯",
+          "rate_percent": 90,
+          "note": "購入費の1割負担（給付は9割）"
+        }
+      ],
+      "goods_items": [
+        {
+          "item_name": "シルバーカー",
+          "quantity_note": "1人1点",
+          "stock_limited": false
+        }
+      ],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "堺市高齢者日常生活用具給付申請書（様式第1号）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "健康福祉局 長寿社会部 長寿支援課 電話：072-228-8347 FAX：072-228-8918",
+      "source_url": "https://www.city.sakai.lg.jp/kenko/fukushikaigo/koreishafukushi/life_support/nichigu.html",
+      "plain_summary": "堺市に住む、ひとり暮らしの要支援1〜要介護1の高齢者（市民税非課税）で、寝たきり度A1以下の方にシルバーカーを給付します。上限15,000円で、生活保護世帯は無料、非課税世帯は1割負担。区役所の地域福祉課に申請書を提出してください。"
+    }
+  ]
+}

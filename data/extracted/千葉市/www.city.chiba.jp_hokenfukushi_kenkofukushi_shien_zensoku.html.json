@@ -1,0 +1,66 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.chiba.jp/hokenfukushi/kenkofukushi/shien/zensoku.html"
+    ],
+    "extracted_at": "2026-05-15T03:04:53.612316+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "千葉市ぜんそく等小児指定疾病医療費助成事業",
+      "operating_body": "千葉市",
+      "category": "医療・健康",
+      "subcategory": "小児慢性疾患医療費助成",
+      "target_audience": "個人",
+      "target_summary": "千葉市内に住所を有する18歳未満の児童（対象疾病により20歳または25歳まで延長あり）で、国の小児慢性特定疾病医療支援事業に該当せず継続的な通院等を必要とする者。生活保護受給世帯で自己負担がない場合は対象外。",
+      "target_age_min": 0,
+      "target_age_max": 20,
+      "target_household": [
+        "18歳未満の児童を持つ世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "医療費の自己負担額（3割分・就学前児は2割分）から保護者一部負担額（所得に応じた自己負担上限月額）を差し引いた額を償還払いで助成。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "新規申請は令和7年9月30日で受付終了。更新申請は認定証の有効期間満了前に申請が必要。",
+      "application_end": "2025-09-30",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "千葉市小児慢性特定疾病医療費支給認定申請（届出）書・千葉市ぜんそく等小児指定疾病医療費助成認定証交付申請（届出）書",
+        "疾病ごとの医療意見書",
+        "市県民税の所得割額を証明する書類（市県民税所得証明書等）",
+        "世帯構成が確認できる住民票（続柄入り）",
+        "健康保険の資格が確認できるもの（資格情報のお知らせ・資格確認書・マイナポータルの資格情報画面印刷等）"
+      ],
+      "status": "終了",
+      "status_note": "新規申請は令和7年9月30日で受付終了。既存認定者の更新は令和9年3月31日まで経過措置あり。令和9年3月をもって事業終了。",
+      "related_programs": [
+        {
+          "program_name": "子ども医療費助成制度",
+          "relation_type": "関連",
+          "note": "令和6年8月診療分より拡充されたことを踏まえ本事業の見直し・終了が決定"
+        },
+        {
+          "program_name": "小児慢性特定疾病医療支援事業",
+          "relation_type": "関連",
+          "note": "国制度。本事業は国制度に該当しない児童を対象とする市独自制度"
+        },
+        {
+          "program_name": "指定難病医療費助成制度",
+          "relation_type": "関連",
+          "note": "本事業終了後の代替として申請可能な場合あり"
+        }
+      ],
+      "contact": "千葉市健康福祉部健康支援課 難病対策班 TEL:043-238-9968 FAX:043-238-9946",
+      "source_url": "https://www.city.chiba.jp/hokenfukushi/kenkofukushi/shien/zensoku.html",
+      "plain_summary": "※受付終了。千葉市に住む18歳未満の子どもで、ぜんそくなどの慢性疾患がある場合に医療費の一部を助成する制度です。新規申請は2025年9月30日に終了しており、制度自体も2027年3月に廃止予定です。既に認定証をお持ちの方は更新申請をすれば2027年3月31日まで助成を受けられます。"
+    }
+  ]
+}

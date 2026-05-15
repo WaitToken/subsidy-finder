@@ -1,0 +1,58 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: tokyo_subsidy
+      POSTGRES_USER: dev
+      POSTGRES_PASSWORD: dev
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dev -d tokyo_subsidy"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  web:
+    build:
+      context: ./next-app
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://dev:dev@db:5432/tokyo_subsidy
+      NODE_ENV: development
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./next-app:/app
+      - /app/node_modules
+      - /app/.next
+
+  # 抽出パイプライン (cron で動かすイメージ)
+  extractor:
+    build:
+      context: .
+      dockerfile: extractor.Dockerfile
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://dev:dev@db:5432/tokyo_subsidy
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src
+    command: ["python", "-m", "src.run", "--seeds", "data/seeds.yaml", "--limit-sources", "5"]
+    profiles: ["batch"]  # docker compose --profile batch up extractor
+
+volumes:
+  pgdata:

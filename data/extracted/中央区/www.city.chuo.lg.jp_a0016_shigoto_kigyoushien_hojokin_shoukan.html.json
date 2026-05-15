@@ -1,0 +1,81 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.chuo.lg.jp/a0016/shigoto/kigyoushien/hojokin/shoukan.html"
+    ],
+    "extracted_at": "2026-05-15T00:05:12.988375+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度中央区中小企業ホームページ作成費補助金",
+      "operating_body": "中央区",
+      "category": "就労・起業",
+      "subcategory": "中小企業支援・IT化促進",
+      "target_summary": "中央区内に本店登記または主たる事業所を有する中小企業者・個人事業主。一般枠は区内で1年以上事業を営み、法人・個人住民税を滞納していない者。創業枠①は区内で創業1年未満の者。創業枠②は3か月以内に創業予定の者。過去に同補助を受けていないこと等の共通要件あり。",
+      "target_residency_required": true,
+      "benefit_summary": "一般枠：対象経費の2分の1（上限30万円）。創業枠：対象経費の3分の2（上限30万円）。千円未満切り捨て。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 300000,
+      "benefit_rate_percent": 67,
+      "eligible_expense_categories": [
+        "ホームページ制作委託費",
+        "ドメイン取得費用"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "一般枠",
+          "amount_yen": 300000,
+          "rate_percent": 50,
+          "note": "対象経費の2分の1、限度額30万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "創業枠（①・②）",
+          "amount_yen": 300000,
+          "rate_percent": 67,
+          "note": "対象経費の3分の2、限度額30万円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "先着順で予算額に達し次第受付終了",
+      "application_end": "2027-01-29",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "start_date": "2026-05-01",
+          "end_date": "2026-09-30",
+          "note": "申請受付終了"
+        },
+        {
+          "round_number": 2,
+          "start_date": "2026-10-01",
+          "end_date": "2027-01-29",
+          "note": "先着順。予算額に達し次第受付終了。"
+        }
+      ],
+      "application_method": "オンライン",
+      "required_documents": [
+        "中央区中小企業ホームページ作成費補助金交付申請書",
+        "補助事業計画書",
+        "企業概要",
+        "ホームページの作成または改修に係る見積書（受注業者の主たる業務がホームページ制作であることがわかる資料を含む）",
+        "【法人】履歴事項全部証明書 / 【個人事業主】個人事業の開業届出書の写し",
+        "【一般枠：法人】直近1年分の法人事業税・法人都民税の納税証明書 / 【一般枠：個人事業主】個人事業税・住民税の納税証明書",
+        "【改修の場合】現在のホームページの写し",
+        "その他区長が必要と認める書類"
+      ],
+      "status": "募集中",
+      "status_note": "上半期分は申請受付終了。下半期分は令和8年10月1日受付開始。先着順で予算額に達し次第終了。",
+      "related_programs": [],
+      "contact": "区民部商工観光課中小企業振興係 〒104-8404 築地一丁目1番1号 本庁舎7階 電話：03-3546-5487",
+      "source_url": "https://www.city.chuo.lg.jp/a0016/shigoto/kigyoushien/hojokin/shoukan.html",
+      "plain_summary": "中央区内の中小企業・個人事業主が新たにホームページを作成するか、既存のものを全面改修する際に制作費の一部を補助します。一般枠は費用の2分の1（上限30万円）、創業枠は3分の2（上限30万円）。上半期（5月〜9月）の申請は終了。下半期は2026年10月1日〜2027年1月29日にオンラインで受付（先着順）。"
+    }
+  ]
+}

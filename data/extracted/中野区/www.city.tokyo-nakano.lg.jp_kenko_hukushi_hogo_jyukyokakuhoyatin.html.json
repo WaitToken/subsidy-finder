@@ -1,0 +1,81 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/hogo/jyukyokakuhoyatin.html"
+    ],
+    "extracted_at": "2026-05-15T00:59:33.722714+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "住居確保給付金（家賃補助）",
+      "operating_body": "中野区",
+      "category": "ひとり親・低所得",
+      "subcategory": "生活困窮者支援・住居確保",
+      "target_summary": "離職・廃業または休業等により経済的に困窮し、住居を失っているまたは失うおそれのある方。申請月の世帯収入が収入基準額以下、預貯金等金融資産が資産基準額以下であること。生活保護未受給者。",
+      "target_household": [
+        "単身世帯",
+        "2人世帯",
+        "3人世帯",
+        "4人世帯",
+        "5人世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "世帯構成・家賃額・収入等に応じて家賃相当分の給付金を支給（家主等へ直接振込）。支給上限額は単身世帯53,700円、2人世帯64,000円、3人世帯以上69,800円（月額）。支給期間は原則3か月間（最長9か月間）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 628200,
+      "benefit_tiers": [
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "単身世帯",
+          "amount_yen": 53700,
+          "note": "月額支給上限額"
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "2人世帯",
+          "amount_yen": 64000,
+          "note": "月額支給上限額"
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "3人世帯",
+          "amount_yen": 69800,
+          "note": "月額支給上限額"
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "4人世帯",
+          "amount_yen": 69800,
+          "note": "月額支給上限額"
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "5人世帯",
+          "amount_yen": 69800,
+          "note": "月額支給上限額"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "原則窓口申請。やむを得ない場合は郵送申請も可。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "住居確保給付金（家賃補助）申請書（様式1-1）",
+        "住居確保給付金（家賃補助）申請確認書（様式1-1A）",
+        "入居住宅に関する状況通知書（様式2-3）または入居予定住宅に関する状況通知書（様式2-1）",
+        "離職状況等に関する申立書（参考様式5-1A）等",
+        "その他申請時必要書類（詳細はリーフレット参照）"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "中野くらしサポート（中野区役所4階）／電話：03-3228-8950／受付時間：平日8:30〜17:00（相談受付は16:30まで）",
+      "source_url": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/hogo/jyukyokakuhoyatin.html",
+      "plain_summary": "離職・廃業・休業等で家賃が払えなくなりそうな方（世帯収入・預貯金が基準以下）を対象に、中野区が家主へ直接家賃を支払う制度です。支給上限は単身月5.37万円、2人世帯6.4万円、3人以上6.98万円で、最長9か月間受け取れます。申請は中野区役所4階の中野くらしサポート窓口へ。"
+    }
+  ]
+}

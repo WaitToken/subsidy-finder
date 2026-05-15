@@ -1,0 +1,47 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.nerima.tokyo.jp/hokenfukushi/koreisha/jutaku/yobo_kaishu.html"
+    ],
+    "extracted_at": "2026-05-15T01:23:55.842020+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "自立支援住宅改修給付（予防給付）",
+      "operating_body": "練馬区",
+      "category": "高齢者・介護",
+      "subcategory": "住宅改修",
+      "target_summary": "65歳以上で、要介護・要支援認定申請の結果「非該当」の判定を受け、身体状況などに関する一定の要件を満たす方",
+      "target_age_min": 65,
+      "target_household": [
+        "高齢者単身・高齢者世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "手すりの取り付け、段差の解消、床・通路面の材料変更、扉の取り替え、便器の取り替え等の住宅改修費用を給付（限度額20万円）。費用の1割が利用者負担。生活保護世帯や対象の老齢福祉年金受給者は限度額内自己負担なし。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 200000,
+      "benefit_rate_percent": 90,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "工事着工前に事前申請が必要。工事前・工事後に施工箇所の日付入り写真の提出が必要。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "施工箇所の日付入り写真（工事前・工事後）",
+        "高齢者自立支援住宅改修給付申請書",
+        "高齢者自立支援住宅改修給付工事計画書",
+        "高齢者自立支援住宅改修給付承諾書"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "高齢施策担当部 介護保険課 給付係　電話：03-5984-4591（直通）／管轄の地域包括支援センター",
+      "source_url": "https://www.city.nerima.tokyo.jp/hokenfukushi/koreisha/jutaku/yobo_kaishu.html",
+      "plain_summary": "65歳以上で介護認定の結果「非該当」になった方が対象。手すりの設置や段差解消などの住宅改修費用を最大20万円まで給付（費用の9割相当）。工事前に管轄の地域包括支援センターへ申請が必要。生活保護世帯などは自己負担なし。"
+    }
+  ]
+}

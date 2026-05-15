@@ -1,0 +1,36 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.okinawa.jp/kyoiku/shogaifukushi/1007022/1026357/1027257.html"
+    ],
+    "extracted_at": "2026-05-15T02:53:05.497826+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "沖縄県福祉・介護職員処遇改善支援事業補助金（令和6年2月からの福祉・介護職員処遇改善臨時特例交付金）",
+      "operating_body": "沖縄県",
+      "category": "その他",
+      "subcategory": "福祉・介護職員処遇改善",
+      "target_audience": "事業者",
+      "target_summary": "障害福祉サービス事業所・施設、障害児通所支援事業所等の運営事業者",
+      "target_residency_required": true,
+      "benefit_summary": "福祉・介護職員の処遇改善を目的とした臨時特例交付金（補助金）。具体的な支給額・補助率は詳細情報の記載なし。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "status_note": "申請方法・申請スケジュール等は詳細が決まり次第お知らせとのこと",
+      "related_programs": [],
+      "contact": "厚生労働省コールセンター TEL: 050-3733-0230（受付時間 9:00〜18:00 土日含む）／沖縄県 生活福祉部 障害福祉課 TEL: 098-866-2190",
+      "source_url": "https://www.pref.okinawa.jp/kyoiku/shogaifukushi/1007022/1026357/1027257.html",
+      "plain_summary": "沖縄県が障害福祉サービス事業所や障害児通所支援事業所などを対象に、福祉・介護職員の処遇改善のための補助金（国の臨時特例交付金）を交付する制度です。申請方法や金額の詳細は未公表で、決まり次第お知らせされます。問い合わせは厚生労働省コールセンター（050-3733-0230）へ。"
+    }
+  ]
+}

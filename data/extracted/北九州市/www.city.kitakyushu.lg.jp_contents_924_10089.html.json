@@ -1,0 +1,64 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.kitakyushu.lg.jp/contents/924_10089.html"
+    ],
+    "extracted_at": "2026-05-15T03:24:05.691978+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "児童手当",
+      "operating_body": "北九州市",
+      "category": "子育て・教育",
+      "subcategory": "児童手当",
+      "target_audience": "個人",
+      "target_summary": "北九州市内に住所があり、18歳に到達後の最初の3月31日までの児童を養育している方（所得制限・上限は令和6年10月分から撤廃）",
+      "target_age_min": 0,
+      "target_age_max": 18,
+      "target_residency_required": true,
+      "benefit_summary": "児童1人当たり月額10,000円〜30,000円（年齢・出生順による）。2月・4月・6月・8月・10月・12月の10日に前2か月分を振込。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 30000,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "0歳〜3歳未満（第1子・第2子）",
+          "amount_yen": 15000,
+          "note": "月額"
+        },
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "0歳〜3歳未満（第3子以降）",
+          "amount_yen": 30000,
+          "note": "月額"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "3歳以上〜高校生年代（第1子・第2子）",
+          "amount_yen": 10000,
+          "note": "月額"
+        },
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "3歳以上〜高校生年代（第3子以降）",
+          "amount_yen": 30000,
+          "note": "月額"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "出生日や転入日等の翌日から15日以内に申請すると出生・転入等の月の翌月分から支給。15日を超えると申請月の翌月分から支給。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "status_note": "令和6年10月分（令和6年12月支払分）から所得制限・所得上限が撤廃",
+      "related_programs": [],
+      "source_url": "https://www.city.kitakyushu.lg.jp/contents/924_10089.html",
+      "plain_summary": "北九州市に住む18歳（高校生年代）までの子どもを育てている保護者に、毎月現金が支給される制度です。月額は子どもの年齢・何人目かによって1万円〜3万円。2・4・6・8・10・12月の10日に前2か月分がまとめて振り込まれます。令和6年10月分からは所得制限がなくなりすべての家庭が対象です。"
+    }
+  ]
+}

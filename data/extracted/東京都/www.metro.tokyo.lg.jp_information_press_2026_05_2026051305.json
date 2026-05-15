@@ -1,0 +1,39 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.metro.tokyo.lg.jp/information/press/2026/05/2026051305"
+    ],
+    "extracted_at": "2026-05-15T02:10:00.549947+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度東京都個人住宅利子補給助成",
+      "operating_body": "東京都",
+      "category": "住まい",
+      "subcategory": "木造住宅密集地域・不燃化促進",
+      "target_summary": "防災都市づくり推進計画の整備地域・重点整備地域、または東京都木造住宅密集地域整備事業地区において、耐火または準耐火構造の自己用住宅に建替えを行う個人。都道府県税・区市町村税を滞納していないこと。",
+      "target_residency_required": true,
+      "benefit_summary": "金融機関からの借入金に対し、10年間にわたり利子補給を実施。利用者負担利率の1%相当額（1%未満の場合は当該金利）を補給。",
+      "benefit_type": "現金",
+      "selection_quota": 5,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "募集戸数5戸に達した時点で申込みを締め切り",
+      "application_start": "2026-05-18",
+      "application_end": "2027-02-26",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "募集中",
+      "status_note": "募集戸数5戸に達した時点で受付終了",
+      "related_programs": [],
+      "contact": "住宅政策本部民間住宅部計画課 電話 03-5320-4952",
+      "source_url": "https://www.metro.tokyo.lg.jp/information/press/2026/05/2026051305",
+      "plain_summary": "東京都の木造住宅密集地域に住んでいて、耐火・準耐火構造の自宅に建替える方が対象です。建替えのために借りたお金の利子を、東京都が10年間にわたって一部負担（年1%相当）してくれる制度です。募集は5戸限定で、令和8年5月18日から令和9年2月26日まで受け付けます（5戸に達し次第終了）。"
+    }
+  ]
+}

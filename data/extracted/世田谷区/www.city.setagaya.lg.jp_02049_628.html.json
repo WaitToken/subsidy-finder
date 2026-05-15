@@ -1,0 +1,34 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.setagaya.lg.jp/02049/628.html"
+    ],
+    "extracted_at": "2026-05-15T00:56:13.895792+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "防災区民組織資機材助成",
+      "operating_body": "世田谷区",
+      "category": "その他",
+      "subcategory": "防災・災害対策",
+      "target_summary": "世田谷区内の防災区民組織",
+      "target_residency_required": true,
+      "benefit_summary": "防災活動に必要な資機材の助成（詳細は要綱参照）",
+      "benefit_type": "不明",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "不明",
+      "related_programs": [],
+      "contact": "災害対策課 電話: 03-5432-2262 / FAX: 03-5432-3014\n各総合支所地域振興課地域振興・防災（世田谷:03-5432-2831、北沢:03-5478-8028、玉川:03-3702-1603、砧:03-3482-2169、烏山:03-3326-9249）",
+      "source_url": "https://www.city.setagaya.lg.jp/02049/628.html",
+      "plain_summary": "世田谷区内の防災区民組織が、防災活動に必要な資機材の購入に際して助成を受けられる制度です。申請は各総合支所の地域振興課地域振興・防災担当の窓口に申請書を提出して行います。詳細は要綱をご確認ください。"
+    }
+  ]
+}

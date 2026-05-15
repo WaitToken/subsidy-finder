@@ -1,0 +1,73 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.ibaraki.jp/hokenfukushi/seisyonen/seisyonen/hitorioyakyufukin/kannibann.html"
+    ],
+    "extracted_at": "2026-05-15T02:04:10.558770+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "茨城県低所得の子育て世帯生活応援特別給付金（ひとり親世帯分）",
+      "operating_body": "茨城県",
+      "category": "ひとり親・低所得",
+      "subcategory": "子育て世帯生活応援",
+      "target_summary": "①令和8年1月分の児童扶養手当の支給を受けているひとり親世帯、または②公的年金給付等（遺族年金・障害年金・老齢年金・労災年金・遺族補償等）を受給していることにより児童扶養手当の支給を受けていない方（児童扶養手当の申請をしていれば全額・一部停止と推測できる方も含む）",
+      "target_household": [
+        "ひとり親世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "養育している児童一人当たり一律5万円を現金で支給",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 50000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "①の方は申請不要（自動振込）。②の方（公的年金給付等受給者）は令和8年4月30日まで申請が必要。",
+      "application_end": "2026-04-30",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "給付金申請書（公的年金給付等受給者用）",
+        "簡易な収入（所得）額の申立書",
+        "本人確認書類（運転免許証、健康保険証等）",
+        "受取口座情報が分かる書類",
+        "児童扶養手当の支給要件を確認できる書類",
+        "令和6年の収入（所得）に係る給与明細書・年金振込通知書等の写し"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "茨城県福祉部子ども政策局青少年家庭課 青少年・母子福祉グループ　電話：029-301-2183 / FAX：029-301-2189",
+      "source_url": "https://www.pref.ibaraki.jp/hokenfukushi/seisyonen/seisyonen/hitorioyakyufukin/kannibann.html",
+      "plain_summary": "茨城県に住み、令和8年1月に児童扶養手当を受けているひとり親の方などが対象です。養育している子ども1人につき5万円が現金で支給されます。①手当受給者は申請不要で自動振込、②公的年金受給者は令和8年4月30日までに市町村担当課へ申請が必要です。"
+    },
+    {
+      "program_name": "茨城県低所得の子育て世帯生活応援特別給付金（低所得の子育て世帯分）",
+      "operating_body": "茨城県",
+      "category": "ひとり親・低所得",
+      "subcategory": "子育て世帯生活応援",
+      "target_summary": "令和8年1月分の児童手当を受給しており、令和6年分の市町村民税均等割が課されていない方または市町村民税均等割を免除された方",
+      "target_household": [
+        "子育て世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "養育している児童一人当たり一律5万円を現金で支給",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 50000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_window_note": "申請不要。令和8年1月以降に市町村から児童手当を支給している口座へ自動振込。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "茨城県福祉部子ども政策局青少年家庭課 青少年・母子福祉グループ　電話：029-301-2183 / FAX：029-301-2189",
+      "source_url": "https://www.pref.ibaraki.jp/hokenfukushi/seisyonen/seisyonen/hitorioyakyufukin/kannibann.html",
+      "plain_summary": "茨城県に住み、令和8年1月分の児童手当を受けていて、かつ令和6年分の市町村民税均等割が非課税または免除されている子育て世帯が対象です。子ども1人につき5万円が現金で支給されます。申請は不要で、児童手当の振込口座へ自動的に振り込まれます。"
+    }
+  ]
+}

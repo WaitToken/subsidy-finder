@@ -1,0 +1,104 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.setagaya.lg.jp/03665/24196.html",
+      "https://www.city.setagaya.lg.jp/03665/31163.html"
+    ],
+    "extracted_at": "2026-05-14T03:00:00Z",
+    "extractor_version": "0.2.0",
+    "schema_version": "0.2",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "\"ずっと、世田谷。\" 子育て・若者夫婦世帯定住応援事業",
+      "operating_body": "世田谷区",
+      "category": "住まい",
+      "subcategory": "住宅取得支援",
+      "target_summary": "区内に5年以上居住する、未就学児を養育する子育て世帯または夫婦のいずれかが39歳以下の若者夫婦のみの世帯。同性パートナー・事実婚・ひとり親世帯を含む。",
+      "target_age_max": 39,
+      "target_household": ["子育て世帯", "若者夫婦世帯", "ひとり親世帯"],
+      "target_residency_required": true,
+      "benefit_summary": "区内で住宅を取得・転居した際の定住応援金 (現金+ポイントの複合給付)",
+      "benefit_type": "複合",
+      "benefit_amount_max_yen": 400000,
+      "application_window_type": "イベント基準",
+      "application_window_note": "転居日から90日以内に申請。受付開始は2026年6月1日",
+      "application_start": "2026-06-01",
+      "application_method": "オンライン",
+      "required_documents": ["住民票の写し", "売買契約書または建築工事請負契約書"],
+      "status": "募集中",
+      "status_note": "予算上限到達で早期終了の可能性あり",
+      "related_programs": [
+        {
+          "program_name": "\"ずっと、世田谷。\" 多世代近居・同居応援事業",
+          "relation_type": "併用可能",
+          "note": "併用で最大70万円相当"
+        }
+      ],
+      "contact": "世田谷区補助金受付窓口 TEL: 03-5432-2260",
+      "source_url": "https://www.city.setagaya.lg.jp/03665/31163.html",
+      "plain_summary": "世田谷区に5年以上住んでいて、未就学児がいるご家庭か、39歳以下のご夫婦のみの世帯が、区内で家を買って住み始めると、現金30万円とせたがやPay10万ポイント (合計40万円相当) がもらえます。同性パートナーやひとり親も対象。2026年6月1日から申請開始、転居から90日以内に申請を。"
+    },
+    {
+      "program_name": "\"ずっと、世田谷。\" 子育て・若者夫婦世帯住み替え応援事業",
+      "operating_body": "世田谷区",
+      "category": "住まい",
+      "subcategory": "賃貸住み替え支援",
+      "target_summary": "未就学児を養育する子育て世帯または夫婦のいずれかが39歳以下の若者夫婦のみの世帯で、区内の民間賃貸住宅へ転居した方",
+      "target_age_max": 39,
+      "target_household": ["子育て世帯", "若者夫婦世帯", "ひとり親世帯"],
+      "target_residency_required": true,
+      "benefit_summary": "区内の民間賃貸住宅へ転居した場合の住み替え応援金",
+      "benefit_type": "ポイント・電子マネー",
+      "benefit_amount_max_yen": 100000,
+      "application_window_type": "イベント基準",
+      "application_window_note": "転居日から90日以内に申請。受付開始は2026年6月1日",
+      "application_start": "2026-06-01",
+      "application_method": "オンライン",
+      "required_documents": ["住民票の写し", "賃貸借契約書"],
+      "status": "募集中",
+      "status_note": "予算上限到達で早期終了の可能性あり",
+      "related_programs": [
+        {
+          "program_name": "\"ずっと、世田谷。\" 子育て・若者夫婦世帯定住応援事業",
+          "relation_type": "代替",
+          "note": "賃貸ではなく住宅取得の場合はこちら"
+        }
+      ],
+      "contact": "世田谷区補助金受付窓口 TEL: 03-5432-2260",
+      "source_url": "https://www.city.setagaya.lg.jp/03665/31164.html",
+      "plain_summary": "未就学児がいるご家庭、または39歳以下のご夫婦のみの世帯が、世田谷区内の賃貸住宅に引っ越すと、せたがやPayで10万円分のポイント (現金ではなく区独自の電子マネー) がもらえます。引っ越してから90日以内に申請してください。"
+    },
+    {
+      "program_name": "\"ずっと、世田谷。\" 多世代近居・同居応援事業",
+      "operating_body": "世田谷区",
+      "category": "住まい",
+      "subcategory": "三世代近居支援",
+      "target_summary": "18歳未満の子を養育する子育て世帯とその親世帯が、区内で新たに近居・同居する場合 (区外からの転入または区内転居)",
+      "target_age_max": 18,
+      "target_household": ["子育て世帯", "三世代世帯"],
+      "target_residency_required": true,
+      "benefit_summary": "子育て世帯と親世帯の近居・同居の初期費用を補助",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 300000,
+      "application_window_type": "予算枠まで",
+      "application_window_note": "予算上限に達した時点で受付終了",
+      "application_method": "オンライン",
+      "required_documents": ["住民票の写し", "親子関係を証明する書類"],
+      "status": "募集中",
+      "status_note": "予算上限到達で早期終了の可能性あり",
+      "related_programs": [
+        {
+          "program_name": "\"ずっと、世田谷。\" 子育て・若者夫婦世帯定住応援事業",
+          "relation_type": "併用可能",
+          "note": "併用で最大70万円相当"
+        }
+      ],
+      "contact": "世田谷区補助金受付窓口 TEL: 03-5432-2260",
+      "source_url": "https://www.city.setagaya.lg.jp/03665/31165.html",
+      "plain_summary": "世田谷区に住む子育て世帯 (18歳未満のお子さんがいる) とそのおじいちゃん・おばあちゃん世帯が、新たに近くに住むまたは同居する場合、引っ越しの初期費用として最大30万円もらえます。定住応援事業との併用で最大70万円相当に。"
+    }
+  ]
+}

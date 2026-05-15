@@ -1,0 +1,53 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.gunma.jp/uploaded/attachment/701241.pdf"
+    ],
+    "extracted_at": "2026-05-15T02:06:32.281254+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "こどもの居場所づくり支援補助金",
+      "operating_body": "群馬県",
+      "category": "子育て・教育",
+      "subcategory": "こどもの居場所・子ども食堂",
+      "target_summary": "こどもの居場所づくりを行う申請団体（詳細は交付要綱参照）",
+      "target_residency_required": true,
+      "benefit_summary": "こどもの居場所づくりに係る事業費を補助（詳細金額は要綱参照）。交付決定通知書の送付後に購入・実施したものが対象。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "事業完了後、令和9年2月15日までに実績報告書を送付。申請書類は先着順受付。",
+      "application_end": "2027-02-15",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "交付申請書",
+        "必要書類（所定様式に添付）",
+        "実績報告書（事業完了後）"
+      ],
+      "status": "募集中",
+      "status_note": "先着順",
+      "related_programs": [
+        {
+          "program_name": "こどもの居場所づくりマッチングコーディネーター",
+          "relation_type": "関連",
+          "note": "食品提供等のマッチング支援を行うコーディネーターが利用可能"
+        },
+        {
+          "program_name": "こどもの居場所づくりアドバイザー",
+          "relation_type": "関連",
+          "note": "居場所開設・運営に関する相談支援を行うアドバイザーが利用可能"
+        }
+      ],
+      "contact": "群馬県生活こども部 こども・子育て支援課 子育て支援係 TEL: 027-226-2622 / FAX: 027-226-2100 / kosodateka@pref.gunma.lg.jp",
+      "source_url": "https://www.pref.gunma.jp/uploaded/attachment/701241.pdf",
+      "plain_summary": "群馬県が、こどもの居場所づくりを行う団体に対して事業費を補助する制度です。郵送またはメールで申請書類を提出し、交付決定通知書が届いてから事業を開始する必要があります。先着順受付で、事業完了後は令和9年2月15日までに実績報告書の提出が必要です。"
+    }
+  ]
+}

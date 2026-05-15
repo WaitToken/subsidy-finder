@@ -1,0 +1,46 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.saga.lg.jp/kiji003110574/index.html"
+    ],
+    "extracted_at": "2026-05-15T02:44:27.944345+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "第二種健康診断特例区域治療支援事業",
+      "operating_body": "長崎県（佐賀県在住者の窓口：長崎県福祉保健部原爆被爆者援護課）",
+      "category": "医療・健康",
+      "subcategory": "原爆被爆体験者医療費助成",
+      "target_audience": "個人",
+      "target_summary": "第二種健康診断特例区域医療受給者証を所持している方（第二種健康診断受診者証を所持し、造血機能障害・肝臓機能障害・細胞増殖機能障害など11種類の障害を伴う疾病に罹患している方）",
+      "target_residency_required": true,
+      "benefit_summary": "被爆者と同等の医療費助成。令和6年12月1日以降、原爆投下以前の精神疾患・遺伝性疾患・先天性疾患・軽度むし歯（C1/C2/Ce）を除くほぼすべての医療費が助成対象。",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "令和6年12月1日より開始",
+      "application_start": "2024-12-01",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "第二種健康診断特例区域医療受給者証"
+      ],
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "被爆体験者精神影響等調査研究事業",
+          "relation_type": "関連",
+          "note": "精神疾患及びその合併症については本事業でも引き続き助成対象"
+        }
+      ],
+      "contact": "長崎県 福祉保健部 原爆被爆者援護課 〒850-8570 長崎市尾上町3番1号 電話番号：095（895）2475 ／ 佐賀県内各保健福祉事務所（佐賀中部：0952-30-1673、鳥栖：0942-83-3579、唐津：0955-73-4187、伊万里：0955-23-5186、杵藤：0954-22-2103）",
+      "source_url": "https://www.pref.saga.lg.jp/kiji003110574/index.html",
+      "plain_summary": "原子爆弾の被爆体験者のうち「第二種健康診断特例区域医療受給者証」を持っている方を対象に、2024年12月から被爆者と同じレベルの医療費助成が始まりました。ほぼすべての病気の医療費が助成されます。詳しくは長崎県原爆被爆者援護課または佐賀県内の保健福祉事務所にお問い合わせください。"
+    }
+  ]
+}

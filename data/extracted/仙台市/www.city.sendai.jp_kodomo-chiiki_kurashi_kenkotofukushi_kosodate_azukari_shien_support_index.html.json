@@ -1,0 +1,46 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sendai.jp/kodomo-chiiki/kurashi/kenkotofukushi/kosodate/azukari/shien/support/index.html"
+    ],
+    "extracted_at": "2026-05-15T02:59:19.132779+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "仙台すくすくサポート事業",
+      "operating_body": "仙台市",
+      "category": "子育て・教育",
+      "subcategory": "子育て支援・一時預かり",
+      "target_audience": "個人",
+      "target_summary": "仙台市内に在住する、子どもを預けたい方（利用会員）および子どもを預かることができる方（協力会員）",
+      "target_residency_required": true,
+      "benefit_summary": "地域の協力会員が子どもを預かるサービス（ファミリー・サポート・センター事業）。幼児教育・保育の無償化対象事業。ひとり親家庭等には協力会員への報酬の一部を助成する制度あり。",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "募集中",
+      "related_programs": [
+        {
+          "program_name": "幼児教育・保育の無償化",
+          "relation_type": "関連",
+          "note": "仙台すくすくサポート事業は無償化（施設等利用費）の対象事業"
+        },
+        {
+          "program_name": "ひとり親家庭等支援助成",
+          "relation_type": "関連",
+          "note": "仙台すくすくサポート事業を利用したひとり親家庭等への協力会員報酬の一部助成"
+        }
+      ],
+      "contact": "仙台すくすくサポート事業事務局 TEL: 022-214-5001 / FAX: 022-214-8784 / メール: sukusuku@city.sendai.jp（仙台市青葉区上杉1-5-12 上杉分庁舎9階）",
+      "source_url": "https://www.city.sendai.jp/kodomo-chiiki/kurashi/kenkotofukushi/kosodate/azukari/shien/support/index.html",
+      "plain_summary": "仙台市に住む子育て中の方が対象です。「預けたい方（利用会員）」と「預かれる方（協力会員）」が一緒に子育てを支え合う事業です。幼児教育・保育の無償化対象でもあり、ひとり親家庭等には報酬の一部助成もあります。入会には説明動画の視聴や書類提出が必要です。"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.minato.tokyo.jp/chiikihoken/kodomo/syusankosodate07.html"
+    ],
+    "extracted_at": "2026-05-15T00:06:51.058951+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "妊婦支援給付金 1回目（妊娠中）",
+      "operating_body": "港区",
+      "category": "子育て・教育",
+      "subcategory": "妊娠・出産支援",
+      "target_summary": "令和7年4月1日以降に妊娠届出をし、みなとプレママ応援事業（プレママ面談）を受けた方（妊産婦本人のみ申請可）",
+      "target_residency_required": true,
+      "benefit_summary": "妊娠1回につき5万円（現金または東京都発行の電子クーポンを選択）",
+      "benefit_type": "複合",
+      "benefit_amount_max_yen": 50000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "プレママ面談の際に案内・申請",
+      "application_start": "2025-04-01",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "母子健康手帳"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "妊婦のための支援給付担当 電話番号：03-6722-0310 受付時間：平日9時～17時（12月29日～1月3日を除く）",
+      "source_url": "https://www.city.minato.tokyo.jp/chiikihoken/kodomo/syusankosodate07.html",
+      "plain_summary": "令和7年4月1日以降に妊娠届を出して港区のプレママ面談を受けた妊婦の方が対象です。妊娠1回につき5万円を、現金（口座振込）か東京都発行の電子クーポン（ギフト券）から選んで受け取れます。プレママ面談のときに申請方法を案内してもらえます。"
+    },
+    {
+      "program_name": "妊婦支援給付金 2回目（出産時）",
+      "operating_body": "港区",
+      "category": "子育て・教育",
+      "subcategory": "妊娠・出産支援",
+      "target_summary": "令和7年4月1日以降に出産し、こんにちは赤ちゃん訪問を受けた方（流産・死産・人工妊娠中絶等を経験した方や、お子様を亡くされた方も申請可）",
+      "target_residency_required": true,
+      "benefit_summary": "子1人につき5万円（現金または東京都発行の電子クーポンを選択）",
+      "benefit_type": "複合",
+      "benefit_amount_max_yen": 50000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "こんにちは赤ちゃん訪問の際に案内・申請",
+      "application_start": "2025-04-01",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "母子健康手帳",
+        "医師による胎児心拍を確認した際の診断書等（妊娠届出前に流産等を経験した場合）"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "妊婦のための支援給付担当 電話番号：03-6722-0310 受付時間：平日9時～17時（12月29日～1月3日を除く）",
+      "source_url": "https://www.city.minato.tokyo.jp/chiikihoken/kodomo/syusankosodate07.html",
+      "plain_summary": "令和7年4月1日以降に出産し、港区の「こんにちは赤ちゃん訪問」を受けた方が対象です。子ども1人につき5万円を、現金（口座振込）か東京都発行の電子クーポン（ギフト券）から選んで受け取れます。流産・死産等を経験した方も申請できます。こんにちは赤ちゃん訪問のときに案内があります。"
+    }
+  ]
+}

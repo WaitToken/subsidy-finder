@@ -1,0 +1,40 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.arakawa.tokyo.jp/a009/seikatsu/seikatsushien/kyufukin.html"
+    ],
+    "extracted_at": "2026-05-15T01:30:44.569151+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "物価高騰対応給付金",
+      "operating_body": "荒川区",
+      "category": "その他",
+      "subcategory": "物価高騰対策",
+      "target_summary": "令和7年12月25日時点で荒川区に住民登録がある方（同世帯で令和8年3月31日までに出生した子どもも対象）。DV等で避難中の方も証明書があれば対象。",
+      "target_residency_required": true,
+      "benefit_summary": "区民一人当たり4,000円を現金給付（世帯主口座に世帯全員分を一括振込）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "申請不要の方は自動振込。申請が必要な方は2026年6月30日（必着）まで。",
+      "application_end": "2026-06-30",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "申請書（黄色い封書）",
+        "DV避難者の場合は避難中の証明書"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "荒川区物価高騰対応給付金コールセンター　電話番号：0120-925-030　受付時間：午前8時30分〜午後5時15分（AI音声は24時間対応）",
+      "source_url": "https://www.city.arakawa.tokyo.jp/a009/seikatsu/seikatsushien/kyufukin.html",
+      "plain_summary": "令和7年12月25日時点で荒川区に住民登録がある方に、一人当たり4,000円が現金で支給されます。以前に給付を受けた方は申請不要で自動振込。それ以外の方には黄色い封書で申請書が届き、2026年6月30日までにオンラインまたは郵送で申請が必要です。"
+    }
+  ]
+}

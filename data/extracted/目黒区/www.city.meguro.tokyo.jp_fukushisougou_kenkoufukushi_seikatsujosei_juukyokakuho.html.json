@@ -1,0 +1,165 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.meguro.tokyo.jp/fukushisougou/kenkoufukushi/seikatsujosei/juukyokakuho.html"
+    ],
+    "extracted_at": "2026-05-15T00:53:12.713252+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "住居確保給付金（家賃補助）",
+      "operating_body": "目黒区",
+      "category": "ひとり親・低所得",
+      "subcategory": "住居確保・生活困窮支援",
+      "target_summary": "離職・廃業から2年以内（条件により4年以内）または個人の責任によらない就業機会の減少により離職・廃業と同程度の状況に陥り、経済的に困窮している方。就労能力・就労意欲があり、再就職に向けた活動を行う方。収入・金融資産が一定基準以下であること。原則、過去に家賃補助を受給した方は対象外。",
+      "target_income_max_yen": 417800,
+      "target_residency_required": true,
+      "benefit_summary": "月ごとに家賃相当額を支給（代理納付）。支給上限額は世帯人数により53,700円〜83,800円。支給期間は原則3か月（最長9か月）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 83800,
+      "benefit_tiers": [
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "1人世帯",
+          "amount_yen": 53700
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "2人世帯",
+          "amount_yen": 64000
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "3〜5人世帯",
+          "amount_yen": 69800
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "6人世帯",
+          "amount_yen": 75000
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "7人世帯以上",
+          "amount_yen": 83800
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "随時受付（月末郵送の場合は翌月受付扱いになる場合あり）",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "相談受付・申込票",
+        "住居確保給付金支給申請書",
+        "住居確保給付金申請時確認書",
+        "入居住宅に関する状況通知書",
+        "賃貸借物件の契約状況等に関する申立書",
+        "直近3か月分の預貯金通帳",
+        "直近1か月分の収入関係書類（給与明細等）"
+      ],
+      "status": "募集中",
+      "related_programs": [
+        {
+          "program_name": "住居確保給付金（転居費用補助）",
+          "relation_type": "関連",
+          "note": "同制度内の別給付。家賃補助と転居費用補助は別申請"
+        },
+        {
+          "program_name": "家計改善支援事業",
+          "relation_type": "関連",
+          "note": "転居費用補助の対象認定に必要"
+        }
+      ],
+      "contact": "福祉総合課 くらしの相談係 電話：03-5722-9370 ファクス：03-5722-9062",
+      "source_url": "https://www.city.meguro.tokyo.jp/fukushisougou/kenkoufukushi/seikatsujosei/juukyokakuho.html",
+      "plain_summary": "目黒区で、離職・廃業などにより家賃の支払いが難しくなった方に、毎月の家賃を補助してもらえる制度です。収入や資産が一定以下であることが条件で、世帯人数に応じて月53,700円〜83,800円が家主へ直接振り込まれます。原則3か月間（最長9か月）。めぐろ くらしの相談窓口（03-5722-9370）に相談のうえ申請してください。"
+    },
+    {
+      "program_name": "住居確保給付金（転居費用補助）",
+      "operating_body": "目黒区",
+      "category": "ひとり親・低所得",
+      "subcategory": "住居確保・生活困窮支援",
+      "target_summary": "収入が大きく減少し、申請日の属する月において世帯収入額が著しく減少した月から2年以内の方で、家賃の安い住宅への転居が必要な方。家計改善支援事業により転居の必要性等が認められた方が対象。",
+      "target_income_max_yen": 417800,
+      "target_residency_required": true,
+      "benefit_summary": "転居に要する実費（家財運搬費、礼金・仲介手数料・家賃債務保証料・住宅保険料などの初期費用、原状回復費用、鍵交換費用）を支給。目黒区内転居の場合の上限額は1人世帯279,200円〜7人世帯以上388,000円。支給は代理納付が原則。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 388000,
+      "eligible_expense_categories": [
+        "家財運搬費（引越し費用）",
+        "礼金",
+        "仲介手数料",
+        "家賃債務保証料",
+        "住宅保険料",
+        "原状回復費用（ハウスクリーニング等）",
+        "鍵交換費用"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "1人世帯",
+          "amount_yen": 279200
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "2人世帯",
+          "amount_yen": 300000
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "3人世帯",
+          "amount_yen": 324000
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "4人世帯",
+          "amount_yen": 344000
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "5人世帯",
+          "amount_yen": 364000
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "6人世帯",
+          "amount_yen": 364000
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "7人世帯以上",
+          "amount_yen": 388000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "家計改善支援事業により転居の必要性が認められた方に個別に申請書類を交付",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "申請書類一式（家計改善支援により転居の必要性等を認められた方に個別に交付）"
+      ],
+      "status": "募集中",
+      "related_programs": [
+        {
+          "program_name": "住居確保給付金（家賃補助）",
+          "relation_type": "関連",
+          "note": "同制度内の別給付"
+        },
+        {
+          "program_name": "家計改善支援事業",
+          "relation_type": "前提",
+          "note": "転居費用補助の申請には家計改善支援事業による転居必要性の認定が前提"
+        }
+      ],
+      "contact": "福祉総合課 くらしの相談係 電話：03-5722-9370 ファクス：03-5722-9062",
+      "source_url": "https://www.city.meguro.tokyo.jp/fukushisougou/kenkoufukushi/seikatsujosei/juukyokakuho.html",
+      "plain_summary": "目黒区で、収入が大きく減って家賃の安い住宅への転居が必要になった方に、引越し費用や礼金・仲介手数料などの初期費用を補助してもらえる制度です。区の家計改善支援を受けて転居が必要と認められた方が対象で、目黒区内転居の場合の上限は1人世帯279,200円〜最大388,000円。まずはくらしの相談窓口（03-5722-9370）へご相談ください。"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.saga.lg.jp/kiji003114097/index.html"
+    ],
+    "extracted_at": "2026-05-15T02:45:10.383960+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "佐賀県介護サービス事業者による留学生への奨学金等支給に係る補助金",
+      "operating_body": "佐賀県",
+      "category": "その他",
+      "subcategory": "介護人材確保",
+      "target_audience": "事業者",
+      "target_summary": "佐賀県内で介護保険法に基づき指定または許可を受けた介護事業を実施する事業者",
+      "target_residency_required": true,
+      "benefit_summary": "事業者が留学生に支給する学費・生活費等の貸与または給付に係る経費の3分の1を補助（経費ごとに上限額あり）",
+      "benefit_type": "現金",
+      "benefit_rate_percent": 33,
+      "eligible_expense_categories": [
+        "学費",
+        "生活費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和7年7月25日17時15分必着（郵送の場合）",
+      "application_end": "2025-07-25",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "佐賀県健康福祉部長寿社会課 介護人材担当 宮本 TEL:0952-25-7105 E-mail：kaigoshidou@pref.saga.lg.jp",
+      "source_url": "https://www.pref.saga.lg.jp/kiji003114097/index.html",
+      "plain_summary": "佐賀県内の介護サービス事業者が対象の補助金です。介護福祉士の資格取得を目指す留学生に対して、日本語学校や介護福祉士養成施設在籍中の学費・生活費を貸与または給付する事業者に、その経費の3分の1を補助します。申請は令和7年7月25日（郵送必着）までです。"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.tokushima.lg.jp/ippannokata/kurashi/shizen/7312332/"
+    ],
+    "extracted_at": "2026-05-15T02:35:56.071849+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度徳島県地域脱炭素移行・再エネ推進事業補助金（事業者向け太陽光発電設備・蓄電池補助事業）",
+      "operating_body": "徳島県",
+      "category": "環境",
+      "subcategory": "再生可能エネルギー・脱炭素",
+      "target_audience": "事業者",
+      "target_summary": "徳島県内（北島町の区域を除く）に事業所を有する中小企業者等（中小企業者、中小企業団体、社会福祉法人、医療法人、学校法人、一般社団・財団法人、公益社団・財団法人、NPO法人、協同組合等）。PPA事業者・リース事業者も申請可。",
+      "target_residency_required": true,
+      "benefit_summary": "太陽光発電設備：パネル出力またはパワコン出力の小さい値（kW）×5万円（上限500万円/事業所）。蓄電池：補助対象経費の1/3（1kWhあたり上限単価あり）。太陽光＋蓄電池の合計上限1,000万円/事業所。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 10000000,
+      "benefit_rate_percent": 33,
+      "eligible_expense_categories": [
+        "太陽光モジュール購入費",
+        "パワーコンディショナー購入費",
+        "運搬費",
+        "調整・据付費",
+        "工事費",
+        "蓄電池本体購入費",
+        "蓄電池用パワーコンディショナー購入費"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "太陽光発電設備のみ",
+          "amount_yen": 5000000,
+          "note": "出力（kW）×5万円、上限500万円/事業所"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "太陽光発電設備＋蓄電池",
+          "amount_yen": 10000000,
+          "note": "太陽光＋蓄電池の合計上限1,000万円/事業所"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "交付申請の提出期日は令和8年9月30日まで。事業完了（支払含む）は令和9年1月31日まで。",
+      "application_end": "2026-09-30",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "登記事項証明書",
+        "納税証明書",
+        "事業実施計画書",
+        "見積書",
+        "図面",
+        "支払いを証明する書類（完了後）",
+        "工事写真（完了後）",
+        "電力会社との契約書（完了後）",
+        "業務用蓄電池（20kWh以上）の場合：交付要件チェックリスト及び根拠資料"
+      ],
+      "status": "募集中",
+      "status_note": "申請受付順に審査・交付決定。予算上限到達で早期終了の可能性あり。",
+      "related_programs": [
+        {
+          "program_name": "国（環境省）地域脱炭素移行・再エネ推進交付金",
+          "relation_type": "前提",
+          "note": "国の交付要綱・交付要領等も遵守が必要。同一設備での国補助金との重複受給は不可。"
+        }
+      ],
+      "contact": "徳島県 電話番号：088-621-2500（代表）",
+      "source_url": "https://www.pref.tokushima.lg.jp/ippannokata/kurashi/shizen/7312332/",
+      "plain_summary": "徳島県内に事業所を持つ中小企業者等が対象です。事業所に太陽光発電設備や蓄電池を新たに設置する費用を補助します。太陽光は出力kW×5万円（上限500万円）、蓄電池は費用の1/3（合計上限1,000万円）が補助されます。申請は令和8年9月30日まで、事業完了は令和9年1月31日までです。"
+    }
+  ]
+}

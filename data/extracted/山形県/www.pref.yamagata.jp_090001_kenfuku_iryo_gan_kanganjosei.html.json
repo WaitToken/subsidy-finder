@@ -1,0 +1,48 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.yamagata.jp/090001/kenfuku/iryo/gan/kanganjosei.html"
+    ],
+    "extracted_at": "2026-05-15T02:01:57.027989+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "肝がん・重度肝硬変治療研究促進事業 医療費助成",
+      "operating_body": "山形県",
+      "category": "医療・健康",
+      "subcategory": "肝疾患医療費助成",
+      "target_summary": "山形県内に住所を有し、医療保険に加入している、B型・C型肝炎ウイルスに起因する肝がん・重度肝硬変患者で、世帯年収が約370万円未満の方。厚生労働省研究班への臨床情報提供に同意することが必要。",
+      "target_income_max_yen": 3700000,
+      "target_residency_required": true,
+      "benefit_summary": "助成要件を満たした月の対象医療費（肝がん・重度肝硬変の入院治療または肝がんの通院治療）の自己負担額が1万円になる。入院は窓口で1万円負担、通院は一旦全額支払い後に県保健所へ医療費償還払い請求書を提出して助成を受ける。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "随時、お住まいの地域を管轄する県保健所（村山・最上・置賜・庄内保健所）に申請",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "参加者証交付申請書（様式第1号）",
+        "臨床調査個人票及び同意書（様式第2号）",
+        "本人の公的医療保険の資格情報を確認できるもの",
+        "限度額適用認定証等の本人の高額療養費の所得区分を確認できるもの（70歳未満・70歳以上75歳未満）",
+        "非課税証明書（被用者保険加入の市町村民税非課税者のみ・70歳未満）",
+        "本人及び世帯全員の住民税課税・非課税証明書類（70歳以上75歳未満で所得区分が一般の方、75歳以上）",
+        "本人及び世帯全員の住民票の写し",
+        "医療記録票（様式第8-1号）のコピー（B欄に過去23か月以内に○・△・▲いずれかの印のある月が計1回以上あるもの）",
+        "所得区分照会への同意書（様式第15号）",
+        "肝炎治療月額管理票のコピー（肝炎治療受給者証が交付されている方のみ）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "山形県 健康福祉部 健康福祉企画課 感染症対策担当（〒990-8570 山形市松波二丁目8-1）／お住まいの地域を管轄する県保健所（村山・最上・置賜・庄内保健所）",
+      "source_url": "https://www.pref.yamagata.jp/090001/kenfuku/iryo/gan/kanganjosei.html",
+      "plain_summary": "山形県内に住んでいるB型・C型肝炎ウイルスが原因の肝がん・重度肝硬変の患者で、世帯年収が約370万円未満の方が対象です。指定医療機関での入院・一部通院治療について、その月の医療費の自己負担額が1万円になります。お住まいの地域の県保健所に必要書類を提出して申請します。"
+    }
+  ]
+}

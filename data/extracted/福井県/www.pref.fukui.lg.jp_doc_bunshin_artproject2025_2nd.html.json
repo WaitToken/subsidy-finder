@@ -1,0 +1,96 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.fukui.lg.jp/doc/bunshin/artproject2025_2nd.html"
+    ],
+    "extracted_at": "2026-05-15T02:16:20.483861+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和７年度アートプロジェクト支援事業助成金（２次募集）活動基盤強化枠",
+      "operating_body": "福井県",
+      "category": "その他",
+      "subcategory": "文化芸術・地域活性化",
+      "target_summary": "福井県内に主たる活動拠点を置く団体（法人格の有無・種別問わず）。ただし１次募集で採択された団体は応募不可。地域の魅力向上に寄与する継続的な文化芸術事業を実施する団体。",
+      "target_residency_required": true,
+      "benefit_summary": "対象経費の1/2以内、上限50万円を助成",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 500000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "文化芸術事業実施に係る経費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和７年７月２５日（金）17時必着（終了済み）",
+      "application_start": "2025-07-01",
+      "application_end": "2025-07-25",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "事業計画書（様式第１号）",
+        "収支予算書（様式第２号）",
+        "団体の会則・定款および役員名簿",
+        "活動実績がわかる資料"
+      ],
+      "status": "終了",
+      "status_note": "２次募集の受付は令和７年７月２５日をもって終了",
+      "related_programs": [
+        {
+          "program_name": "令和７年度アートプロジェクト支援事業助成金（１次募集）",
+          "relation_type": "関連",
+          "note": "１次募集で採択された団体は２次募集に応募不可"
+        }
+      ],
+      "contact": "福井県交流文化部文化・スポーツ局文化課 電話：0776-20-0582 E-mail：art@pref.fukui.lg.jp",
+      "source_url": "https://www.pref.fukui.lg.jp/doc/bunshin/artproject2025_2nd.html",
+      "plain_summary": "※受付終了。福井県内に拠点を持つ団体が、地域の文化資源を活かしたアートプロジェクトに取り組む際、経費の2分の1以内・最大50万円を助成する「活動基盤強化枠」です。事前相談が応募の条件で、電子メールまたは郵送で書類を提出します。"
+    },
+    {
+      "program_name": "令和７年度アートプロジェクト支援事業助成金（２次募集）活動活性化枠",
+      "operating_body": "福井県",
+      "category": "その他",
+      "subcategory": "文化芸術・地域活性化",
+      "target_summary": "福井県内に主たる活動拠点を置く団体（法人格の有無・種別問わず）。ただし１次募集で採択された団体は応募不可。既存事業に新たなチャレンジを盛り込んだ文化芸術事業を実施する団体。",
+      "target_residency_required": true,
+      "benefit_summary": "対象経費の1/2以内、上限20万円を助成",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 200000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "文化芸術事業実施に係る経費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和７年７月２５日（金）17時必着（終了済み）",
+      "application_start": "2025-07-01",
+      "application_end": "2025-07-25",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "事業計画書（様式第１号）",
+        "収支予算書（様式第２号）",
+        "団体の会則・定款および役員名簿",
+        "活動実績がわかる資料"
+      ],
+      "status": "終了",
+      "status_note": "２次募集の受付は令和７年７月２５日をもって終了",
+      "related_programs": [
+        {
+          "program_name": "令和７年度アートプロジェクト支援事業助成金（１次募集）",
+          "relation_type": "関連",
+          "note": "１次募集で採択された団体は２次募集に応募不可"
+        }
+      ],
+      "contact": "福井県交流文化部文化・スポーツ局文化課 電話：0776-20-0582 E-mail：art@pref.fukui.lg.jp",
+      "source_url": "https://www.pref.fukui.lg.jp/doc/bunshin/artproject2025_2nd.html",
+      "plain_summary": "※受付終了。福井県内に拠点を持つ団体が、既存の文化芸術事業に新たな取り組みを加えて実施する際、経費の2分の1以内・最大20万円を助成する「活動活性化枠」です。事前相談が応募の条件で、電子メールまたは郵送で書類を提出します。"
+    }
+  ]
+}

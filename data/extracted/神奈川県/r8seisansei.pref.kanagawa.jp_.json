@@ -1,0 +1,147 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://r8seisansei.pref.kanagawa.jp/"
+    ],
+    "extracted_at": "2026-05-15T02:10:44.265000+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度中小企業生産性向上促進事業費補助金（一般枠）",
+      "operating_body": "神奈川県",
+      "category": "就労・起業",
+      "subcategory": "生産性向上・設備導入",
+      "target_summary": "神奈川県内の中小企業者等（一般枠）",
+      "target_residency_required": true,
+      "benefit_summary": "生産性向上に資する設備導入費等に対し、補助対象経費の1/2以内（中小企業）または2/3以内（小規模事業者）、最大500万円（下限25万円）を補助",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 5000000,
+      "benefit_rate_percent": 67,
+      "eligible_expense_categories": [
+        "設備導入費",
+        "ITサービス導入費（上限50万円）",
+        "施設工事費（上限100万円）"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "中小企業",
+          "rate_percent": 50,
+          "note": "補助対象経費の1/2以内、最大500万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "小規模事業者",
+          "rate_percent": 67,
+          "note": "補助対象経費の2/3以内、最大500万円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "【6月公募】令和8年6月30日（火曜日）17時まで",
+      "application_end": "2026-06-30",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "end_date": "2026-06-30",
+          "note": "6月公募。電子申請システムにて受付"
+        }
+      ],
+      "application_method": "オンライン",
+      "status": "募集中",
+      "status_note": "先着順ではなく公募審査型",
+      "related_programs": [],
+      "contact": "生産性向上補助金事務局（受託者：テルウェル東日本株式会社）受付時間：平日9時00分〜17時00分",
+      "source_url": "https://r8seisansei.pref.kanagawa.jp/",
+      "plain_summary": "神奈川県内の中小企業が、設備導入などで生産性を上げるための費用を補助してもらえる制度です。中小企業は費用の半額以内、小規模事業者は3分の2以内が補助され、最大500万円（下限25万円）もらえます。2026年6月30日17時までにオンラインで申請できます。"
+    },
+    {
+      "program_name": "令和8年度中小企業生産性向上促進事業費補助金（グループ化支援枠）",
+      "operating_body": "神奈川県",
+      "category": "就労・起業",
+      "subcategory": "生産性向上・設備導入・M&A",
+      "target_summary": "M&Aによる事業買収等を行った神奈川県内の中小企業者",
+      "target_residency_required": true,
+      "benefit_summary": "1グループ化あたり最大4,000万円（1申請あたり下限500万円）。補助率は中小企業1/2以内、小規模事業者2/3以内",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 40000000,
+      "benefit_rate_percent": 67,
+      "eligible_expense_categories": [
+        "設備導入費",
+        "ITサービス導入費（上限50万円）",
+        "施設工事費（上限100万円）"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "中小企業",
+          "rate_percent": 50,
+          "note": "補助対象経費の1/2以内、1グループ最大4,000万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "小規模事業者",
+          "rate_percent": 67,
+          "note": "補助対象経費の2/3以内、1グループ最大4,000万円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "【6月公募】令和8年6月30日（火曜日）17時まで",
+      "application_end": "2026-06-30",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "end_date": "2026-06-30",
+          "note": "6月公募。電子申請システムにて受付"
+        }
+      ],
+      "application_method": "オンライン",
+      "status": "募集中",
+      "status_note": "先着順ではなく公募審査型",
+      "related_programs": [],
+      "contact": "生産性向上補助金事務局（受託者：テルウェル東日本株式会社）受付時間：平日9時00分〜17時00分",
+      "source_url": "https://r8seisansei.pref.kanagawa.jp/",
+      "plain_summary": "M&Aで事業を買収した神奈川県内の中小企業向けの補助金です。1グループあたり最大4,000万円（下限500万円）が補助されます。補助率は中小企業が費用の半額以内、小規模事業者が3分の2以内です。2026年6月30日17時までにオンラインで申請できます。"
+    },
+    {
+      "program_name": "令和8年度中小企業生産性向上促進事業費補助金（創業者成長支援枠）",
+      "operating_body": "神奈川県",
+      "category": "就労・起業",
+      "subcategory": "創業支援・生産性向上",
+      "target_summary": "令和5年4月1日以降に創業した神奈川県内の中小企業者等",
+      "target_residency_required": true,
+      "benefit_summary": "補助対象経費の2/3以内（中小企業・小規模事業者ともに同率）、最大300万円（下限25万円）を補助",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 3000000,
+      "benefit_rate_percent": 67,
+      "eligible_expense_categories": [
+        "設備導入費",
+        "ITサービス導入費（上限50万円）",
+        "施設工事費（上限100万円）"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年8月31日（月曜日）17時まで",
+      "application_end": "2026-08-31",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "end_date": "2026-08-31",
+          "note": "電子申請システムにて受付"
+        }
+      ],
+      "application_method": "オンライン",
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "生産性向上補助金事務局（受託者：テルウェル東日本株式会社）受付時間：平日9時00分〜17時00分",
+      "source_url": "https://r8seisansei.pref.kanagawa.jp/",
+      "plain_summary": "2023年4月1日以降に創業した神奈川県内の中小企業向け補助金です。設備導入費などにかかった費用の3分の2以内、最大300万円（下限25万円）が補助されます。2026年8月31日17時までにオンラインで申請できます。"
+    }
+  ]
+}

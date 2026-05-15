@@ -1,0 +1,101 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.nerima.tokyo.jp/hokenfukushi/koreisha/nichijo/jiritsushienyogu.html"
+    ],
+    "extracted_at": "2026-05-15T01:24:10.070836+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "高齢者自立支援用具給付",
+      "operating_body": "練馬区",
+      "category": "高齢者・介護",
+      "subcategory": "自立支援用具",
+      "target_summary": "練馬区内に住所を有し居住している65歳以上の方で、介護保険の要介護または要支援状態になるおそれがあり、自立支援用具の利用が必要と認められる方",
+      "target_age_min": 65,
+      "target_residency_required": true,
+      "benefit_summary": "腰掛便座（上限51,500円）、入浴補助用具（上限90,000円）、歩行支援用具/手すり（上限47,000円）、スロープ（上限50,500円）、シルバーカー（上限25,000円）、安全つえ（上限6,000円）、電磁調理器（上限15,000円）を現物給付。年間給付限度額は種目合計10万円。購入費用の1割が自己負担（生活保護受給者等は自己負担なし）。",
+      "benefit_type": "現物給付",
+      "benefit_amount_max_yen": 100000,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "腰掛便座",
+          "amount_yen": 51500
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "入浴補助用具（入浴用いす、浴槽用手すり、浴槽内いす、入浴台、浴室内すのこ、浴槽内すのこ）",
+          "amount_yen": 90000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "歩行支援用具（手すり）",
+          "amount_yen": 47000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "スロープ",
+          "amount_yen": 50500
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "シルバーカー",
+          "amount_yen": 25000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "安全つえ（1点つえ）",
+          "amount_yen": 6000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "電磁調理器",
+          "amount_yen": 15000
+        }
+      ],
+      "goods_items": [
+        {
+          "item_name": "腰掛便座",
+          "stock_limited": false
+        },
+        {
+          "item_name": "入浴補助用具（入浴用いす、浴槽用手すり、浴槽内いす、入浴台、浴室内すのこ、浴槽内すのこ）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "歩行支援用具（手すり）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "スロープ",
+          "stock_limited": false
+        },
+        {
+          "item_name": "シルバーカー",
+          "stock_limited": false
+        },
+        {
+          "item_name": "安全つえ（1点つえ）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "電磁調理器",
+          "stock_limited": false
+        }
+      ],
+      "application_window_type": "通年",
+      "application_window_note": "事前相談・申請が必須。申請前の個人購入・注文は対象外。年間給付限度額は毎年4月1日から翌年3月31日まで。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "source_url": "https://www.city.nerima.tokyo.jp/hokenfukushi/koreisha/nichijo/jiritsushienyogu.html",
+      "plain_summary": "練馬区に住む65歳以上で、要介護・要支援になるおそれがある方に、手すりや入浴補助用具などの自立支援用具を現物で給付する制度です。年間の上限額は10万円で、費用の1割が自己負担（生活保護受給者等は無料）。必ず事前に区の窓口へ相談・申請してください。個人で先に購入した場合は対象外です。"
+    }
+  ]
+}

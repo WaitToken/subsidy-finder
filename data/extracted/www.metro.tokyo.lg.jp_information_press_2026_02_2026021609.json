@@ -1,0 +1,60 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021609"
+    ],
+    "extracted_at": "2026-05-14T23:48:43.303309+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度 創業助成事業",
+      "operating_body": "東京都・公益財団法人東京都中小企業振興公社",
+      "category": "就労・起業",
+      "subcategory": "創業支援",
+      "target_summary": "都内創業予定者、または創業して5年未満の中小企業者等。申請時点で個人事業主または法人代表者として経営に従事している期間が通算5年未満であること。TOKYO創業ステーションの事業計画書策定支援終了者等、指定された創業支援事業の利用が必要。",
+      "target_residency_required": true,
+      "benefit_summary": "助成対象経費（賃借料・広告費・器具備品購入費・産業財産権出願・導入費・専門家指導費・従業員人件費・市場調査・分析費）の3分の2以内、上限400万円を助成。助成対象期間は交付決定日から最長2年間。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 4000000,
+      "benefit_rate_percent": 67,
+      "eligible_expense_categories": [
+        "賃借料",
+        "広告費",
+        "器具備品購入費",
+        "産業財産権出願・導入費",
+        "専門家指導費",
+        "従業員人件費",
+        "市場調査・分析費"
+      ],
+      "selection_quota": 200,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "start_date": "2026-04-07",
+          "end_date": "2026-04-16",
+          "note": "電子申請のみ。面接審査あり（2026年7月2日〜9日）。交付決定日：2026年9月1日"
+        },
+        {
+          "round_number": 2,
+          "start_date": "2026-09-29",
+          "end_date": "2026-10-08",
+          "note": "電子申請のみ。面接審査あり（2027年1月6日〜14日）。交付決定日：2027年3月1日"
+        }
+      ],
+      "application_method": "オンライン",
+      "status": "予定",
+      "status_note": "令和8年度都議会予算可決（令和8年3月31日まで）を条件に実施",
+      "related_programs": [],
+      "contact": "産業労働局、公益財団法人東京都中小企業振興公社（TOKYO創業ステーション）",
+      "source_url": "https://www.metro.tokyo.lg.jp/information/press/2026/02/2026021609",
+      "plain_summary": "東京都内で創業を予定している人や、創業して5年未満の中小企業者が対象です。店舗の賃料や広告費など創業初期に必要な経費の3分の2まで、最大400万円が助成されます。申請にはTOKYO創業ステーションの支援プログラム利用などが必要で、第1回は2026年4月7〜16日、第2回は9月29日〜10月8日に電子申請で受け付けます。"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.bunkyo.lg.jp/b012/p007847.html"
+    ],
+    "extracted_at": "2026-05-14T23:59:04.719097+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "文京区食料品等物価高騰対応給付金",
+      "operating_body": "文京区",
+      "category": "その他",
+      "subcategory": "物価高騰対応給付金",
+      "target_summary": "令和8年（2026年）1月1日時点で文京区の住民基本台帳に記録されている方（世帯主）。ただし一定の除外要件あり。",
+      "target_residency_required": true,
+      "benefit_summary": "給付対象者1人あたり5,000円を振込支給。令和7年度住民税が非課税または均等割のみ課税の世帯には、1世帯あたり5,000円を加算給付（対象外要件あり）。",
+      "benefit_type": "現金",
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "全員給付（1人あたり）",
+          "amount_yen": 5000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "非課税・均等割のみ課税世帯への加算（1世帯あたり）",
+          "amount_yen": 5000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "支給確認書（確認が必要な世帯）の返送期限は令和8年7月31日（金）消印有効。支給通知書世帯の口座変更等は令和8年3月30日までにオンラインまたはコールセンターへ。",
+      "application_end": "2026-07-31",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "支給要件確認書（支給確認書）",
+        "世帯主の本人確認書類（マイナンバーカード表面・運転免許証・パスポート等いずれか1点）",
+        "振込先口座確認書類（金融機関名・口座番号・口座名義が確認できるもの）",
+        "【加算分・申請世帯のみ】文京区食料品等物価高騰対応給付金申請書（請求書）",
+        "【加算分該当世帯のみ】世帯員全員分の令和7年度住民税の課税・非課税証明書（文京区以外で課税の場合）"
+      ],
+      "status": "募集中",
+      "status_note": "支給通知書・支給要件確認書は既に発送済み（2026年3月）",
+      "related_programs": [],
+      "contact": "文京区食料品等物価高騰対応給付金コールセンター：03-6743-1599（平日9時〜17時）／窓口：文京シビックセンター5階北側区民会議室B",
+      "source_url": "https://www.city.bunkyo.lg.jp/b012/p007847.html",
+      "plain_summary": "2026年1月1日時点で文京区に住民登録がある方に、1人あたり5,000円を銀行口座に振り込みます。さらに住民税が非課税か均等割のみの世帯には1世帯5,000円を加算します。原則手続き不要ですが、口座変更や確認書が届いた方は2026年7月31日（消印有効）までに電子申請か郵送で手続きが必要です。"
+    }
+  ]
+}

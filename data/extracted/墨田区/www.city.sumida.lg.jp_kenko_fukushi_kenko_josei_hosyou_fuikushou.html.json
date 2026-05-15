@@ -1,0 +1,34 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/josei_hosyou/fuikushou.html"
+    ],
+    "extracted_at": "2026-05-15T00:09:43.293927+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "不育症検査の助成（東京都の制度）",
+      "operating_body": "東京都",
+      "category": "医療・健康",
+      "subcategory": "不育症",
+      "target_summary": "不育症検査を受ける方（詳細は東京都福祉保健局のページを参照）",
+      "target_residency_required": false,
+      "benefit_summary": "不育症検査に対する助成（詳細は東京都福祉保健局のページを参照）",
+      "benefit_type": "不明",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "不明",
+      "related_programs": [],
+      "contact": "東京都福祉保健局家庭支援課（申請窓口）／墨田区健康推進課（すみだ保健子育て総合センター 横川5-7-4）",
+      "source_url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/josei_hosyou/fuikushou.html",
+      "plain_summary": "東京都が実施する不育症検査の助成制度です。申請窓口は東京都福祉保健局家庭支援課で、2020年1月6日から受付が開始されています。詳細は東京都福祉保健局のページをご確認ください。"
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.kobe.lg.jp/a01110/kurashi/sumai/jutaku/information/rekka-shindan.html"
+    ],
+    "extracted_at": "2026-05-15T03:20:24.164916+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "マンション管理適正化支援補助金（劣化調査診断費）",
+      "operating_body": "神戸市",
+      "category": "住まい",
+      "subcategory": "マンション管理適正化",
+      "target_audience": "事業者",
+      "target_summary": "神戸市内にある分譲マンションの管理組合（竣工から40年以上経過、マンション管理状況の届出済み）",
+      "target_residency_required": true,
+      "benefit_summary": "劣化調査診断費の補助。築50年未満は補助対象経費の3分の1、築50年以上は2分の1を補助（上限15万円）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 150000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "外壁・内壁・天井・床等の住宅本体に関する調査",
+        "屋上・屋根・バルコニー・共用廊下等の防水に関する調査",
+        "給排水管及びその設備に関する調査",
+        "電気・ガス・通信・消防・エレベーター・機械式駐車場等の設備に関する調査",
+        "手すり・扉・階段・配管などの鉄製品・金属製品・配線等に関する調査"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "築50年未満",
+          "rate_percent": 33,
+          "note": "上限15万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "築50年以上",
+          "rate_percent": 50,
+          "note": "上限15万円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "2026年12月25日までに申請、2027年3月9日までに実績報告書を提出",
+      "application_end": "2026-12-25",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "申請書",
+        "見積書",
+        "契約書（写し）",
+        "委託先からの領収書（写し）",
+        "調査報告書（写し）"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "神戸市すまいの安心支援センター「すまいるネット」 TEL：078-647-9908（10時〜17時、水曜・日曜・祝日定休）",
+      "source_url": "https://www.city.kobe.lg.jp/a01110/kurashi/sumai/jutaku/information/rekka-shindan.html",
+      "plain_summary": "神戸市内の分譲マンション管理組合（竣工40年以上経過）が対象。建物の外壁・設備などの劣化調査診断にかかる費用の一部を補助。築50年未満は費用の3分の1、築50年以上は2分の1（上限15万円）を補助。2026年12月25日までに申請が必要。"
+    },
+    {
+      "program_name": "マンション管理適正化支援補助金（長期修繕計画作成費）",
+      "operating_body": "神戸市",
+      "category": "住まい",
+      "subcategory": "マンション管理適正化",
+      "target_audience": "事業者",
+      "target_summary": "神戸市内にある分譲マンションの管理組合（長期修繕計画が未作成、専有面積の2分の1以上が住宅用途、竣工から5年以上経過、マンション管理状況の届出済み）",
+      "target_residency_required": true,
+      "benefit_summary": "長期修繕計画の作成費の補助。補助対象経費の2分の1、上限30万円",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 300000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "国の長期修繕計画標準様式に準拠した長期修繕計画の作成にあたり外部専門家に委託する費用"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "2026年12月25日までに申請、2027年3月9日までに実績報告書を提出",
+      "application_end": "2026-12-25",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "申請書",
+        "見積書",
+        "契約書（写し）",
+        "委託先からの領収書（写し）",
+        "長期修繕計画書（写し）"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "神戸市すまいの安心支援センター「すまいるネット」 TEL：078-647-9908（10時〜17時、水曜・日曜・祝日定休）",
+      "source_url": "https://www.city.kobe.lg.jp/a01110/kurashi/sumai/jutaku/information/rekka-shindan.html",
+      "plain_summary": "神戸市内の分譲マンション管理組合（長期修繕計画が未作成、竣工5年以上経過）が対象。専門家に委託して長期修繕計画を新たに作成する費用の2分の1（上限30万円）を補助。2026年12月25日までに申請が必要。"
+    },
+    {
+      "program_name": "マンション管理適正化支援補助金（長期修繕計画見直し費）",
+      "operating_body": "神戸市",
+      "category": "住まい",
+      "subcategory": "マンション管理適正化",
+      "target_audience": "事業者",
+      "target_summary": "神戸市内にある分譲マンションの管理組合（長期修繕計画作成済みで最終更新から10年以上経過、専有面積の2分の1以上が住宅用途、竣工から40年以上経過、マンション管理状況の届出済み）",
+      "target_residency_required": true,
+      "benefit_summary": "長期修繕計画の見直し費の補助。補助対象経費の2分の1、上限15万円",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 150000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "国の長期修繕計画標準様式に準拠した長期修繕計画の見直しにあたり外部専門家に委託する費用"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "2026年12月25日までに申請、2027年3月9日までに実績報告書を提出",
+      "application_end": "2026-12-25",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "申請書",
+        "見積書",
+        "契約書（写し）",
+        "委託先からの領収書（写し）",
+        "長期修繕計画書（写し）"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "神戸市すまいの安心支援センター「すまいるネット」 TEL：078-647-9908（10時〜17時、水曜・日曜・祝日定休）",
+      "source_url": "https://www.city.kobe.lg.jp/a01110/kurashi/sumai/jutaku/information/rekka-shindan.html",
+      "plain_summary": "神戸市内の分譲マンション管理組合（長期修繕計画作成済みで最終更新から10年以上経過、竣工40年以上経過）が対象。専門家に委託して長期修繕計画を見直す費用の2分の1（上限15万円）を補助。2026年12月25日までに申請が必要。"
+    },
+    {
+      "program_name": "マンション管理適正化支援補助金（再生手法の比較検討費）",
+      "operating_body": "神戸市",
+      "category": "住まい",
+      "subcategory": "マンション管理適正化",
+      "target_audience": "事業者",
+      "target_summary": "神戸市内にある分譲マンションの管理組合（専有面積の2分の1以上が住宅用途、竣工から40年以上経過、管理規約あり・総会年1回以上開催、マンション管理状況の届出済み、過去の補助交付回数が3回未満）",
+      "target_residency_required": true,
+      "benefit_summary": "再生手法の比較検討に外部専門家へ委託する費用の補助。補助対象経費の2分の1、上限50万円",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 500000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "現状調査",
+        "区分所有者等の意向調査",
+        "改修手法検討",
+        "建替え手法検討",
+        "マンション更新・再建手法検討",
+        "マンション敷地売却・除却敷地売却手法検討",
+        "敷地売却・敷地分割手法検討",
+        "再生手法の比較検討",
+        "事業協力者の導入可能性の検討",
+        "管理組合における再生検討組織の運営支援"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "2026年12月25日までに申請（12月26日以降の申請は受付不可）、2027年3月9日までに実績報告書を提出",
+      "application_end": "2026-12-25",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "申請書",
+        "見積書",
+        "契約書（写し）",
+        "委託先からの領収書（写し）",
+        "再生手法の比較検討報告書（写し）"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "神戸市すまいの安心支援センター「すまいるネット」 TEL：078-647-9908（10時〜17時、水曜・日曜・祝日定休）",
+      "source_url": "https://www.city.kobe.lg.jp/a01110/kurashi/sumai/jutaku/information/rekka-shindan.html",
+      "plain_summary": "神戸市内の分譲マンション管理組合（竣工40年以上経過）が対象。改修・建替え・敷地売却など今後の方向性を検討するために専門家へ委託する費用の2分の1（上限50万円）を補助。過去の利用は3回まで。2026年12月25日までに申請が必要。"
+    }
+  ]
+}

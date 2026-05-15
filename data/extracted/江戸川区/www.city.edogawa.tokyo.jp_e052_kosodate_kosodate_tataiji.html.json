@@ -1,0 +1,47 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.edogawa.tokyo.jp/e052/kosodate/kosodate/tataiji.html"
+    ],
+    "extracted_at": "2026-05-15T01:29:11.539528+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "多胎児家庭移動経費補助事業",
+      "operating_body": "江戸川区",
+      "category": "子育て・教育",
+      "subcategory": "多胎児支援",
+      "target_summary": "江戸川区に住民票があり、0歳・1歳・2歳の多胎児（双子・三つ子等）を養育する家庭で、保健師による訪問または面接を受けた方",
+      "target_age_min": 0,
+      "target_age_max": 2,
+      "target_household": [
+        "多胎児家庭"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "0歳・1歳・2歳の各年齢につき1回、タクシーにも利用できる「こども商品券（24,000円分）」を配付。最大3回で計72,000円分。",
+      "benefit_type": "商品券・クーポン",
+      "benefit_amount_max_yen": 72000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "各年齢（0歳・1歳・2歳）の次の誕生日を迎える前までに保健師による訪問または面接を受けること。誕生日を超えた場合は配付不可。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "申請書兼ふたご・みつごの子育て質問票",
+        "母子健康手帳",
+        "申請者の本人確認書類（写真付き1点、または写真なし2点）",
+        "お知らせハガキ"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "健康サービス課母子保健係 電話：03-5661-2466（土日祝・年末年始を除く午前8時30分〜午後5時）",
+      "source_url": "https://www.city.edogawa.tokyo.jp/e052/kosodate/kosodate/tataiji.html",
+      "plain_summary": "江戸川区に住む双子・三つ子などの多胎児を育てている家庭が対象です。0歳・1歳・2歳のそれぞれのタイミングで、保健師の訪問または面接を受けると、タクシーにも使える「こども商品券（2万4千円分）」をもらえます。最大3回で合計7万2千円分。区からハガキが届いたら健康サポートセンターに連絡して予約してください。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sakai.lg.jp/kenko/fukushikaigo/koreishafukushi/life_support/shortstay.html"
+    ],
+    "extracted_at": "2026-05-15T03:18:28.279459+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "高齢者生活管理指導短期入所（ショートステイ）事業",
+      "operating_body": "堺市",
+      "category": "高齢者・介護",
+      "subcategory": "介護予防・家族支援",
+      "target_audience": "個人",
+      "target_summary": "基本チェックリストにより生活機能の低下がみられる65歳以上のひとり暮らし等高齢者で、一時的に養護する必要がある方",
+      "target_age_min": 65,
+      "target_residency_required": true,
+      "benefit_summary": "養護老人ホームなどへの短期入所（送迎あり）。生活保護世帯は負担なし。その他の世帯は食費・滞在費等の実費負担。利用日数は年間7日程度（ダブルケアの家族がいる場合は年間30日程度）。",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "生活保護世帯",
+          "amount_yen": 0,
+          "note": "負担なし"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "その他の世帯",
+          "note": "食費、滞在費、その他レクリエーションに要した材料費等の実費分を負担"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "健康福祉局 長寿社会部 長寿支援課 電話番号：072-228-8347 ファクス：072-228-8918",
+      "source_url": "https://www.city.sakai.lg.jp/kenko/fukushikaigo/koreishafukushi/life_support/shortstay.html",
+      "plain_summary": "生活機能が低下している65歳以上のひとり暮らし等の高齢者を対象に、養護老人ホームなどに短期間入所（送迎あり）できるサービスです。年間7日程度（ダブルケア世帯は30日程度）利用でき、生活保護世帯は無料、その他の世帯は食費などの実費のみ負担します。詳細は長寿支援課（072-228-8347）へお問い合わせください。"
+    }
+  ]
+}

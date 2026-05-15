@@ -1,0 +1,39 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.ehime.jp/page/142962.html"
+    ],
+    "extracted_at": "2026-05-15T02:40:02.927695+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和８年度愛媛県電気自動車普及拡大支援事業費補助金",
+      "operating_body": "愛媛県",
+      "category": "環境",
+      "subcategory": "電気自動車購入支援",
+      "target_audience": "事業者",
+      "target_summary": "愛媛県内の市町（県が個人に直接補助するものではなく、市町が実施するEV購入補助事業に対して県が市町へ補助金を交付する間接補助）",
+      "target_residency_required": true,
+      "benefit_summary": "市町が実施するEV購入補助事業に対し、補助対象経費の1/2（上限10万円）を市町へ補助",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 100000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "EV購入に係る補助事業経費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "募集中",
+      "related_programs": [],
+      "source_url": "https://www.pref.ehime.jp/page/142962.html",
+      "plain_summary": "愛媛県が、市町が実施する電気自動車（EV）の購入補助事業に対して、費用の半額（上限10万円）を市町に補助する間接補助の制度です。県から個人への直接補助ではありません。EV購入を希望する個人は、お住まいの市町の窓口やホームページで補助制度を確認してください。"
+    }
+  ]
+}

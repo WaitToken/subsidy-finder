@@ -1,0 +1,36 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.nara.lg.jp/n064/p013112.html"
+    ],
+    "extracted_at": "2026-05-15T02:27:06.011516+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "医療費助成のオンライン資格確認に係る医療機関・薬局向けシステム改修補助金",
+      "operating_body": "厚生労働省",
+      "category": "医療・健康",
+      "subcategory": "医療機関・薬局向けシステム改修",
+      "target_summary": "医療費助成のオンライン資格確認を導入するためのレセプトコンピュータ改修を行う医療機関・薬局",
+      "target_residency_required": false,
+      "benefit_summary": "レセプトコンピュータの改修費用に対する補助金を交付（金額は不明）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-05-15",
+      "application_end": "2026-09-30",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "オンライン資格確認等コールセンター（通話無料）0800-080-4583 / 月〜金 8時〜18時、土 8時〜16時（祝日除く）",
+      "source_url": "https://www.pref.nara.lg.jp/n064/p013112.html",
+      "plain_summary": "医療費助成のオンライン資格確認を導入したい医療機関・薬局が対象です。レセプトコンピュータの改修にかかる費用の一部を国（厚生労働省）が補助します。申請は2026年5月15日〜9月30日の間に、医療機関等向け総合ポータルサイトからオンラインで行えます。"
+    }
+  ]
+}

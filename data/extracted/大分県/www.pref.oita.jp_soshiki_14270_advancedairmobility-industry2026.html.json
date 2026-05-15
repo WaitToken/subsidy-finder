@@ -1,0 +1,51 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.oita.jp/soshiki/14270/advancedairmobility-industry2026.html"
+    ],
+    "extracted_at": "2026-05-15T02:49:20.921835+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和８年度 次世代空モビリティ産業研究開発事業費補助金",
+      "operating_body": "大分県",
+      "category": "その他",
+      "subcategory": "産業・技術研究開発",
+      "target_audience": "事業者",
+      "target_summary": "大分県内に住所を有する、または県内に店舗・工場等の事業所を設置している事業者（コンソーシアムも可）。次世代空モビリティ（eVTOL・WIG機）の機体開発や関連技術に係るプロジェクトを実施するもの。",
+      "target_residency_required": true,
+      "benefit_summary": "補助率2/3以内、補助上限額1,000万円",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 10000000,
+      "benefit_rate_percent": 67,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-05-15",
+      "application_end": "2026-06-03",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "required_documents": [
+        "補助事業計画書（別紙１）",
+        "収支予算書（別紙２）",
+        "認定申請書一式_積算表等抜粋（Excel）"
+      ],
+      "status": "募集中",
+      "status_note": "有識者等からなる審査委員会によるプレゼン審査あり",
+      "related_programs": [
+        {
+          "program_name": "チェレンジ中小企業応援資金 おおいた未来創造融資",
+          "relation_type": "関連",
+          "note": "採択事業者が利用可能な県制度融資"
+        }
+      ],
+      "contact": "大分県商工観光労働部 先端技術挑戦課 航空産業振興班（担当：合澤）\nTEL: 097-506-2472\nメール: a14290@pref.oita.lg.jp\n〒870-8501 大分市大手町3丁目1番1号（平日9:00-12:00、13:00-17:00）",
+      "source_url": "https://www.pref.oita.jp/soshiki/14270/advancedairmobility-industry2026.html",
+      "plain_summary": "大分県内に事業所を持つ企業・団体が対象の補助金です。eVTOL（空飛ぶクルマ）やWIG船など次世代空モビリティの機体開発・関連技術の研究開発を支援します。経費の3分の2以内、最大1,000万円が補助されます。申請は令和8年5月15日〜6月3日までにメールで提出し、審査委員会でのプレゼン審査があります。"
+    }
+  ]
+}

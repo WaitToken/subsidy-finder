@@ -1,0 +1,41 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sakai.lg.jp/kenko/fukushikaigo/koreishafukushi/life_support/kamiomutsu.html"
+    ],
+    "extracted_at": "2026-05-15T03:17:38.576056+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "高齢者紙おむつ給付事業",
+      "operating_body": "堺市",
+      "category": "高齢者・介護",
+      "subcategory": "在宅介護支援",
+      "target_audience": "個人",
+      "target_summary": "堺市内に居住・住民票がある65歳以上で、要介護度4または5、かつ市民税非課税世帯に属する方（ねたきりや認知症高齢者で常時紙おむつ使用が必要な方）。生活保護世帯・介護保険施設入所中・医療機関入院中の方は対象外。",
+      "target_age_min": 65,
+      "target_residency_required": true,
+      "benefit_summary": "紙おむつと交換可能な給付券を月1枚（1枚あたり上限6,500円）交付。市に登録された紙おむつ給付事業者に注文し、給付券と交換で紙おむつを受け取る。",
+      "benefit_type": "商品券・クーポン",
+      "benefit_amount_max_yen": 6500,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "給付決定のされた日の属する月からの給付",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "堺市高齢者紙おむつ給付申請書（様式第1号）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "健康福祉局 長寿社会部 長寿支援課 電話番号：072-228-8347 ファクス：072-228-8918",
+      "source_url": "https://www.city.sakai.lg.jp/kenko/fukushikaigo/koreishafukushi/life_support/kamiomutsu.html",
+      "plain_summary": "堺市内に住む65歳以上で、要介護4か5の市民税非課税世帯の方が対象です。常時おむつが必要な寝たきりや認知症の方に、月1枚（上限6,500円分）の紙おむつ給付券がもらえます。区役所地域福祉課の窓口か堺市電子申請システムから申請できます。"
+    }
+  ]
+}

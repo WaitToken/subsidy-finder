@@ -1,0 +1,69 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.okinawa.jp/kurashikankyo/shizenseibutsu/1004724/1004727/1039827.html"
+    ],
+    "extracted_at": "2026-05-15T02:52:27.350317+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度世界自然遺産地域活動支援事業補助金",
+      "operating_body": "沖縄県",
+      "category": "環境",
+      "subcategory": "自然環境保全・世界自然遺産",
+      "target_audience": "事業者",
+      "target_summary": "やんばる3村（国頭村、大宜味村、東村）及び西表島において、自然環境及び良好な景観の保全に資する活動を行う法人等の団体（公募要領の交付対象団体要件を満たす者）",
+      "target_residency_required": false,
+      "benefit_summary": "補助対象経費上限額300万円（税抜）に対し、補助率9/10（最大270万円）以内。ただし過去2回補助を受けた団体は8/10（最大240万円）以内。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 2700000,
+      "benefit_rate_percent": 90,
+      "eligible_expense_categories": [
+        "自然環境の保全・継承にかかる活動費",
+        "観光地景観形成にかかるクリーン活動費",
+        "自然資源の適正な利用や保全に関する周知・広報・PR費",
+        "人材育成にかかる活動費"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "過去2回未満の補助受給団体",
+          "amount_yen": 2700000,
+          "rate_percent": 90,
+          "note": "補助対象経費上限300万円（税抜）の9/10"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "過去2回補助を受けた団体",
+          "amount_yen": 2400000,
+          "rate_percent": 80,
+          "note": "補助対象経費上限300万円（税抜）の8/10"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年6月4日（木曜日）正午必着。沖縄県環境部自然保護課へ提出書類6部を提出。",
+      "application_start": "2026-05-14",
+      "application_end": "2026-06-04",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "交付申請書（第1号様式）",
+        "別紙1",
+        "別紙2",
+        "別紙3",
+        "別紙4",
+        "誓約書"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "沖縄県 環境部 自然保護課 〒900-8570 沖縄県那覇市泉崎1-2-2 行政棟4階（北側） 電話：098-866-2243 ファクス：098-866-2855",
+      "source_url": "https://www.pref.okinawa.jp/kurashikankyo/shizenseibutsu/1004724/1004727/1039827.html",
+      "plain_summary": "沖縄県のやんばる3村（国頭村・大宜味村・東村）と西表島で、自然環境や景観の保全活動を行う法人等の団体が対象です。活動にかかった経費の最大9割（最大270万円）を補助してもらえます。提出書類を6部揃えて、2026年6月4日正午までに沖縄県環境部自然保護課へ持参または郵送で申請してください。"
+    }
+  ]
+}

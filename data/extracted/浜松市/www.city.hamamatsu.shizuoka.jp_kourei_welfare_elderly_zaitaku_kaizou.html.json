@@ -1,0 +1,74 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/zaitaku/kaizou.html"
+    ],
+    "extracted_at": "2026-05-15T03:14:31.666885+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "高齢者住宅改造費補助金",
+      "operating_body": "浜松市",
+      "category": "高齢者・介護",
+      "subcategory": "住宅改造",
+      "target_audience": "個人",
+      "target_summary": "60歳以上で要支援1・2または要介護1〜5の認定を受けており、市・県民税非課税世帯かつ市税完納世帯に属し、改造する家屋に現に居住・住所地としている方",
+      "target_age_min": 60,
+      "target_residency_required": true,
+      "benefit_summary": "補助対象経費の1/2に相当する額（上限75万円、厚生労働大臣が定める地域は上限100万円）から他制度補助額を差し引いた額を補助。補助は対象者1人につき1回限り。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 1000000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "手すりの取り付け",
+        "段差の解消",
+        "滑りの防止及び移動の円滑化等のための床または通路面の材料の変更",
+        "引き戸等への扉の取替え",
+        "洋式便器等への便器の取替え",
+        "上記工事に付帯して必要となる住宅改造"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "地域区分",
+          "condition_label": "一般地域",
+          "amount_yen": 750000,
+          "rate_percent": 50,
+          "note": "補助対象経費×1/2、上限75万円から他制度補助額を差し引いた額"
+        },
+        {
+          "condition_type": "地域区分",
+          "condition_label": "厚生労働大臣が定める地域（平成24年厚生労働省告示第120号に基づく地域）",
+          "amount_yen": 1000000,
+          "rate_percent": 50,
+          "note": "補助対象経費×1/2、上限100万円から他制度補助額を差し引いた額"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "年度内に予算上限に到達した場合は申請受付終了。着工前に申請が必要。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "募集中",
+      "status_note": "予算上限到達で早期終了の可能性あり",
+      "related_programs": [
+        {
+          "program_name": "介護保険制度（住宅改修）",
+          "relation_type": "前提",
+          "note": "介護保険制度の適用を優先し、補助額を差し引いて計算する"
+        },
+        {
+          "program_name": "浜松市重度身体障害者住宅改造費補助金",
+          "relation_type": "前提",
+          "note": "他制度の適用を優先し、補助額を差し引いて計算する"
+        }
+      ],
+      "contact": "各福祉事業所担当窓口（中央福祉事業所 長寿支援課：053-457-2062、浜名福祉事業所 長寿保険課：053-585-1123、天竜福祉事業所 長寿保険課：053-922-0130 等）",
+      "source_url": "https://www.city.hamamatsu.shizuoka.jp/kourei/welfare/elderly/zaitaku/kaizou.html",
+      "plain_summary": "浜松市に住む60歳以上で要支援・要介護の認定を受けており、市・県民税が非課税の方が対象です。手すりの設置や段差解消など自宅のバリアフリー改造費用の半額（上限75万円、特定地域は100万円）を補助します。必ず着工前に各福祉事業所の窓口へ相談・申請してください。予算がなくなり次第受付終了です。"
+    }
+  ]
+}

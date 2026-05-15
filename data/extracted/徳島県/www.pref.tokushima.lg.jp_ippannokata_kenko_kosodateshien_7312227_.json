@@ -1,0 +1,46 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.tokushima.lg.jp/ippannokata/kenko/kosodateshien/7312227/"
+    ],
+    "extracted_at": "2026-05-15T02:35:10.585463+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "徳島県ひとり親家庭等生活支援給付金",
+      "operating_body": "徳島県",
+      "category": "ひとり親・低所得",
+      "subcategory": "ひとり親家庭生活支援",
+      "target_audience": "個人",
+      "target_summary": "徳島県内の町村にお住まいで、県が支給する令和8年2月分の児童扶養手当を受給しているひとり親家庭の方（市在住者は対象外）",
+      "target_household": [
+        "ひとり親家庭"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "児童扶養手当の対象児童1人当たり一律2万円を児童扶養手当の受給口座に振り込み",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 20000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "原則申請不要。受給拒否・口座変更の届出は令和8年4月17日（金）まで",
+      "application_end": "2026-04-17",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "受給拒否届出書（様式第1号）（受給拒否の場合）",
+        "支給口座登録等の届出書（様式第2号）（口座変更が必要な場合）"
+      ],
+      "status": "募集中",
+      "status_note": "原則申請不要（自動振込）。受給拒否または口座変更の届出がある場合のみ令和8年4月17日までに届出が必要",
+      "related_programs": [],
+      "contact": "東部福祉事務所 (088)626-8718 / 南部福祉事務所 (0884)74-7368 / 西部福祉事務所 (0883)76-0413",
+      "source_url": "https://www.pref.tokushima.lg.jp/ippannokata/kenko/kosodateshien/7312227/",
+      "plain_summary": "徳島県内の町村に住んでいて、令和8年2月分の児童扶養手当を県から受け取っているひとり親家庭の方が対象です。お子さん1人につき一律2万円が、児童扶養手当と同じ口座に自動で振り込まれるため、原則申請は不要です。受給を断りたい場合や口座変更が必要な場合は、2026年4月17日までに各福祉事務所か町村役場に届け出てください。"
+    }
+  ]
+}

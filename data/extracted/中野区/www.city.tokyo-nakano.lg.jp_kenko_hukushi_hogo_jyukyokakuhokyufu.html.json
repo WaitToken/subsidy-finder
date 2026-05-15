@@ -1,0 +1,58 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/hogo/jyukyokakuhokyufu.html"
+    ],
+    "extracted_at": "2026-05-15T00:58:51.911655+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "住居確保給付金（家賃補助）",
+      "operating_body": "中野区",
+      "category": "ひとり親・低所得",
+      "subcategory": "住居支援・家賃補助",
+      "target_summary": "離職・廃業等により住居を失うおそれのある方で、収入基準額・資産基準額を満たす中野区在住の世帯。支給決定を受けた方が対象（本ページは決定後の手続き案内）。",
+      "target_residency_required": true,
+      "benefit_summary": "家賃相当額を毎月支給（支給上限額：単身世帯53,700円、2人世帯64,000円、3人世帯以上69,800円）。支給期間は原則3か月、最長9か月まで延長可。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 628200,
+      "benefit_tiers": [
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "単身世帯",
+          "amount_yen": 53700
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "2人世帯",
+          "amount_yen": 64000
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "3人世帯以上",
+          "amount_yen": 69800
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "延長申請は支給期間最終月の25日まで（郵送は消印有効）。変更申請は変更事由発生月の末日まで。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "【様式1-2】住居確保給付金（家賃補助）支給申請書（期間（再）延長）",
+        "収入金額が確認できる書類（給与明細、預金通帳の写しなど・世帯全員分）",
+        "資産合計額が確認できる書類（預金通帳の写しなど・世帯全員分）",
+        "【様式1-3】住居確保給付金（家賃補助）変更支給申請書（変更申請の場合）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "中野くらしサポート（中野区役所4階） 電話：03-3228-8950 受付時間：午前8時30分〜午後5時（相談受付は午後4時30分まで）、月〜金（祝日・年末年始除く）",
+      "source_url": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/hogo/jyukyokakuhokyufu.html",
+      "plain_summary": "仕事を失うなどして家賃の支払いが困難になった中野区在住の方に、毎月の家賃を補助してもらえる制度です。単身世帯は最大53,700円、2人世帯は64,000円、3人世帯以上は69,800円を上限に支給されます。支給期間は最初3か月で、条件を満たせば最長9か月まで延長できます。申請や延長は中野くらしサポート（区役所4階）の窓口で受け付けています。"
+    }
+  ]
+}

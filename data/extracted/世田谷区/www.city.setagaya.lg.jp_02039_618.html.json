@@ -1,0 +1,46 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.setagaya.lg.jp/02039/618.html"
+    ],
+    "extracted_at": "2026-05-15T00:55:46.474448+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "公道に面した擁壁改修等工事の補助制度",
+      "operating_body": "世田谷区",
+      "category": "住まい",
+      "subcategory": "擁壁・防災",
+      "target_summary": "公道に面した高さ2mを超える既存擁壁の築造替え工事または斜面への擁壁新設工事を行う土地所有者（個人）。法人・宅地建物取引業者は対象外。",
+      "target_household": [
+        "土地所有者（個人）",
+        "区分所有建物の代表者"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "補助対象経費（擁壁設置工事費・撤去費・伐採費等）の3分の1を補助。上限300万円。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 3000000,
+      "benefit_rate_percent": 33,
+      "eligible_expense_categories": [
+        "擁壁設置工事費",
+        "安全性に問題のある擁壁の撤去費用",
+        "斜面の樹木の伐採・伐根費用"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "交付申請及び改修工事を行う前に事前協議が必要",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "防災街づくり担当部 市街地整備課 宅地防災促進 電話：03-6432-7158 FAX：03-6432-7982",
+      "source_url": "https://www.city.setagaya.lg.jp/02039/618.html",
+      "plain_summary": "世田谷区内で、公道に面した高さ2m超の危険な擁壁を造り替えたり、がけに擁壁を新設する工事をする土地所有者（個人）が対象です。工事費などの3分の1（最大300万円）を補助金として受け取れます。工事前に必ず区へ事前協議を行う必要があります。"
+    }
+  ]
+}

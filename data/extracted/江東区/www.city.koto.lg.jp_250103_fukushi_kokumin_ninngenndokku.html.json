@@ -1,0 +1,47 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.koto.lg.jp/250103/fukushi/kokumin/ninngenndokku.html"
+    ],
+    "extracted_at": "2026-05-15T00:11:02.352648+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "国民健康保険人間ドック受診費助成",
+      "operating_body": "江東区",
+      "category": "医療・健康",
+      "subcategory": "人間ドック助成",
+      "target_summary": "受診日時点で江東区国民健康保険の被保険者であり、受診年度末年齢40歳以上かつ受診日時点で74歳以下の方。受診した年度内に江東区の特定健康診査を受診していないこと、納期到来の保険料を完納していることが条件。",
+      "target_age_min": 40,
+      "target_age_max": 74,
+      "target_residency_required": true,
+      "benefit_summary": "自費で人間ドックを受診した費用の一部を助成。上限額は8,000円（実費が8,000円未満の場合は実費分）。1人年度内1回限り。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 8000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年度（令和8年4月〜令和9年3月）受診分の申請期限は令和9年4月30日（金）必着",
+      "application_end": "2027-04-30",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "受診結果（原本または写し・画像データ・PDFデータ）",
+        "領収書（原本または写し・画像データ）",
+        "本人確認書類（写し・画像データ）",
+        "振込先のわかるもの（通帳等・画像データ）",
+        "人間ドック受診費助成金交付申請書兼口座振替依頼書（郵送・窓口の場合）",
+        "質問票（受診結果に記載がない場合）"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "江東区役所生活支援部医療保険課医療保健係 電話：03-3647-8516 〒135-8383 江東区東陽4丁目11番28号",
+      "source_url": "https://www.city.koto.lg.jp/250103/fukushi/kokumin/ninngenndokku.html",
+      "plain_summary": "江東区の国民健康保険に加入している40〜74歳の方が、特定健康診査を受けずに自費で人間ドックを受診した場合、費用の一部（上限8,000円）を助成してもらえます。令和8年度受診分は令和9年4月30日までに、オンライン・郵送・区役所窓口のいずれかで申請できます。年度内に特定健康診査を受けた場合は対象外です。"
+    }
+  ]
+}

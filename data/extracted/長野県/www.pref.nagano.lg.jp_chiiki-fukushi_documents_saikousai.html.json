@@ -1,0 +1,46 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.nagano.lg.jp/chiiki-fukushi/documents/saikousai.html"
+    ],
+    "extracted_at": "2026-05-15T02:20:07.868254+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "最高裁判決を踏まえた生活保護費の追加給付",
+      "operating_body": "長野県",
+      "category": "ひとり親・低所得",
+      "subcategory": "生活保護",
+      "target_summary": "平成25年8月以降、長野県内の郡部（町村）で生活保護を受給中（停止中含む）または受給していた世帯（廃止世帯含む。ただし既に死亡している方は対象外）",
+      "target_household": [
+        "生活保護受給世帯",
+        "生活保護受給歴のある世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "平成25年生活扶助基準改定により違法とされた基準と新たな水準との差額分を追加給付（金額は未定）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_window_note": "支給時期・申請方法の詳細は未定。決まり次第ホームページで告知予定",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "予定",
+      "status_note": "支給時期などの詳細が決まり次第ホームページで告知予定",
+      "related_programs": [
+        {
+          "program_name": "平成25年生活扶助基準改定に関する最高裁判決への対応（厚生労働省）",
+          "relation_type": "関連",
+          "note": "国が新たな基準水準を設定し、差額分の追加給付方針を決定。長野県はその基準に基づき実施"
+        }
+      ],
+      "contact": "各管轄福祉事務所、または「最高裁判決を踏まえた保護費の追加給付相談センター（厚生労働省委託事業）」電話：0120-179-445（フリーダイヤル）",
+      "source_url": "https://www.pref.nagano.lg.jp/chiiki-fukushi/documents/saikousai.html",
+      "plain_summary": "平成25年の生活保護費引き下げが最高裁で違法とされたため、当時長野県内の町村で生活保護を受けていた世帯に差額分が追加で支給されます。金額や申請方法など詳細は未定で、決まり次第県のホームページでお知らせします。既に亡くなっている方は対象外です。"
+    }
+  ]
+}

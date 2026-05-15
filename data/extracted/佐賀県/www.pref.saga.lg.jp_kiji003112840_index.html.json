@@ -1,0 +1,51 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.saga.lg.jp/kiji003112840/index.html"
+    ],
+    "extracted_at": "2026-05-15T02:44:59.383459+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "SAGA PAPA育休アシスト奨励金",
+      "operating_body": "佐賀県",
+      "category": "子育て・教育",
+      "subcategory": "男性育児休業取得促進",
+      "target_audience": "事業者",
+      "target_summary": "常時雇用する労働者数が100人以下の県内事業所を有する事業主または事業所の長。育児休業制度の規定を就業規則等に設け、SAGA WOMEN'S ACTIONに加入し、男性労働者に通算14日以上の育児休業を取得させる旨を宣言していること等が要件。",
+      "target_residency_required": true,
+      "benefit_summary": "男性の育児休業取得を支援する取組に応じた奨励金を交付（詳細金額は別表に規定）。男性が育児休業を取得する職場づくりに活用可能。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "メールまたは郵送で随時申請受付",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "required_documents": [
+        "SAGA PAPA育休アシスト奨励金交付申請書（様式第1号）",
+        "誓約書（様式第2号の1及び第2号の2）",
+        "その他必要書類"
+      ],
+      "status": "募集中",
+      "related_programs": [
+        {
+          "program_name": "SAGA WOMEN'S ACTION（女性の活躍推進佐賀県会議）",
+          "relation_type": "前提",
+          "note": "加入および男性育児休業取得に関する自主宣言登録が申請要件"
+        },
+        {
+          "program_name": "イクドリ！宣言",
+          "relation_type": "関連",
+          "note": "奨励金の申請とあわせて登録を推奨"
+        }
+      ],
+      "source_url": "https://www.pref.saga.lg.jp/kiji003112840/index.html",
+      "plain_summary": "佐賀県内で100人以下の従業員を雇う事業所の事業主を対象に、男性社員が育児休業を14日以上取れるよう支援した事業所に奨励金を交付します。SAGA WOMEN'S ACTIONへの加入や宣言登録などの条件があります。申請はメールまたは郵送で随時受け付けています。"
+    }
+  ]
+}

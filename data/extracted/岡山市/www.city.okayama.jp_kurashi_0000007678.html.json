@@ -1,0 +1,68 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.okayama.jp/kurashi/0000007678.html"
+    ],
+    "extracted_at": "2026-05-15T03:21:24.272673+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "障害福祉サービス（介護給付費・訓練等給付費・地域相談支援給付費）及び地域生活支援事業",
+      "operating_body": "岡山市",
+      "category": "障害者支援",
+      "subcategory": "障害福祉サービス給付",
+      "target_audience": "個人",
+      "target_summary": "身体障害・知的障害・精神障害等の障害者（児）で、障害福祉サービスや地域生活支援事業を利用する方。介護給付費を希望する場合は障害支援区分の認定が必要。",
+      "target_residency_required": true,
+      "benefit_summary": "居宅介護・重度訪問介護・生活介護・就労支援・グループホームなど各種障害福祉サービスの利用費用の原則9割（サービス費用の1割が利用者負担）を給付。所得に応じた利用者負担上限あり。",
+      "benefit_type": "サービス提供",
+      "benefit_rate_percent": 90,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "利用申請書",
+        "身体障害者手帳（所持者のみ）",
+        "療育手帳（所持者のみ）",
+        "印鑑",
+        "障害者手帳（所持者のみ）",
+        "介護保険被保険者証（所持者のみ）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "岡山市障害福祉課 TEL: 086-803-1235 FAX: 086-803-1755",
+      "source_url": "https://www.city.okayama.jp/kurashi/0000007678.html",
+      "plain_summary": "身体・知的・精神などの障害がある方が、居宅介護や就労支援、グループホームなど各種障害福祉サービスを利用するとき、費用の原則9割を市が給付する制度です。利用者は1割を負担しますが、所得に応じた上限額があります。窓口で申請書を提出し、支給決定後にサービスを利用できます。"
+    },
+    {
+      "program_name": "介護保険移行後の障害福祉サービス利用者負担払い戻し制度（高齢障害者負担軽減）",
+      "operating_body": "岡山市",
+      "category": "障害者支援",
+      "subcategory": "利用者負担払い戻し",
+      "target_audience": "個人",
+      "target_summary": "65歳になるまでに5年以上特定の障害福祉サービス（居宅介護・重度訪問介護・生活介護・短期入所）を利用し、介護保険移行後に相当する介護保険サービスを利用している方で、本人・配偶者が65歳到達前年度に市町村民税非課税者または生活保護受給者等であり、かつ障害支援区分2以上であった方。",
+      "target_residency_required": true,
+      "benefit_summary": "介護保険移行後に利用した相当する介護保険サービスの平成30年4月利用分以降の利用者負担を申請により払い戻し。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "高額障害福祉サービス費申請書"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "岡山市障害福祉課 TEL: 086-803-1235 FAX: 086-803-1755",
+      "source_url": "https://www.city.okayama.jp/kurashi/0000007678.html",
+      "plain_summary": "65歳前に5年以上障害福祉サービスを使っていて、65歳以降に介護保険に移行した方のうち、一定の所得要件（市町村民税非課税等）を満たす方は、介護保険サービスの自己負担分を申請すると払い戻してもらえます。窓口で申請書を提出してください。"
+    }
+  ]
+}

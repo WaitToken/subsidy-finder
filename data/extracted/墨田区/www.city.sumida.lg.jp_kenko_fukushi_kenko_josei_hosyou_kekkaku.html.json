@@ -1,0 +1,57 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/josei_hosyou/kekkaku.html"
+    ],
+    "extracted_at": "2026-05-15T00:10:00.272957+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "結核医療費の公費負担",
+      "operating_body": "墨田区",
+      "category": "医療・健康",
+      "subcategory": "感染症医療費助成",
+      "target_summary": "結核の治療を受けている方（感染症法に基づく申請が必要）",
+      "target_residency_required": true,
+      "benefit_summary": "結核治療にかかわる医療費の公費負担（助成）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "申請書類を保健所が受理した日から対象（受理日前の医療費は対象外）",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "保健予防課感染症係 電話03-5608-6191",
+      "source_url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/josei_hosyou/kekkaku.html",
+      "plain_summary": "結核の治療を受けている方が、感染症法に基づいて申請することで、治療にかかる医療費の助成を受けられる制度です。申請書類が保健所に受理された日から対象となります（それ以前の医療費は対象外）。墨田区の保健予防課感染症係（03-5608-6191）に相談・申請してください。"
+    },
+    {
+      "program_name": "療育給付（結核児童入院医療給付）",
+      "operating_body": "墨田区",
+      "category": "医療・健康",
+      "subcategory": "感染症医療費助成",
+      "target_summary": "骨関節結核またはその他の結核にかかっている18歳未満の児童で、長期入院治療が必要な方",
+      "target_age_max": 17,
+      "target_residency_required": true,
+      "benefit_summary": "入院治療にかかわる医療給付",
+      "benefit_type": "現物給付",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "申請書類を保健所が受理した日から対象（受理日前の医療費は対象外）",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "健康推進課地域保健担当 電話03-3622-9130",
+      "source_url": "https://www.city.sumida.lg.jp/kenko_fukushi/kenko/josei_hosyou/kekkaku.html",
+      "plain_summary": "骨関節結核などにかかっていて、長期入院が必要な18歳未満の子どもを対象に、入院治療の費用を給付してもらえる制度です。申請書類が保健所に受理された日から対象になります。墨田区の健康推進課地域保健担当（03-3622-9130）に相談・申請してください。"
+    }
+  ]
+}

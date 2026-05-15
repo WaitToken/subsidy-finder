@@ -1,0 +1,33 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.suginami.tokyo.jp/kosodatekyouiku/kosodate/iryouhi/index.html"
+    ],
+    "extracted_at": "2026-05-15T01:00:05.477188+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "子どもの医療費助成（マル乳・マル子・マル青医療証）",
+      "operating_body": "杉並区",
+      "category": "子育て・教育",
+      "subcategory": "医療費助成",
+      "target_summary": "杉並区に居住する子ども（乳幼児・小中学生・青少年）を対象とした医療費助成",
+      "target_residency_required": true,
+      "benefit_summary": "保険診療に係る医療費の助成（払い戻し申請あり）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [],
+      "source_url": "https://www.city.suginami.tokyo.jp/kosodatekyouiku/kosodate/iryouhi/index.html",
+      "plain_summary": "杉並区に住む子ども（乳幼児・小中学生・青少年）が対象の医療費助成制度です。マル乳・マル子・マル青の医療証を使って保険診療を受けた際の医療費が助成されます。窓口などで医療証を提示するか、支払った場合は払い戻し申請が可能です。詳細はページ本文に記載がなく、区へお問い合わせください。"
+    }
+  ]
+}

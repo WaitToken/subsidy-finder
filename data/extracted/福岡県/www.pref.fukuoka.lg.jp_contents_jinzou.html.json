@@ -1,0 +1,56 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.fukuoka.lg.jp/contents/jinzou.html"
+    ],
+    "extracted_at": "2026-05-15T02:42:37.655619+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "福岡県腎臓疾患患者福祉給付金",
+      "operating_body": "福岡県",
+      "category": "障害者支援",
+      "subcategory": "医療・通院支援",
+      "target_audience": "個人",
+      "target_summary": "福岡県内（指定都市を除く）に居住し、身体障害者手帳を取得した腎臓疾患患者で、就労等の理由により夜間（原則午後5時以降）に人工透析治療を月5回以上受けており、通院距離が片道10km以上または通院費用が月2,000円以上の方。所得制限あり。生活保護受給者で移送費支給を受ける方等は対象外。",
+      "target_residency_required": true,
+      "benefit_summary": "月額2,000円を給付（前期：4〜9月分を9月30日まで、後期：10〜翌3月分を3月31日まで、年2回申請）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 2000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "前期分（4〜9月）は9月30日まで、後期分（10〜翌3月）は3月31日まで、年2回提出",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "end_date": "2025-09-30",
+          "note": "前期分（4月〜9月）の申請期限"
+        },
+        {
+          "round_number": 2,
+          "end_date": "2026-03-31",
+          "note": "後期分（10月〜翌3月）の申請期限"
+        }
+      ],
+      "application_method": "複数",
+      "required_documents": [
+        "福岡県腎臓疾患患者福祉給付金認定申請書（様式第１号）",
+        "身体障害者手帳の写し",
+        "世帯全員の住民票の写し",
+        "受給資格者及び扶養義務者の前年の所得・扶養親族数の証明書（給与所得者は源泉徴収票可）",
+        "地方税法第34条第1項所定の控除を受けた者の数及び控除額の証明書",
+        "通院証明書（様式第２号）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "お住まいの地域を所管する県の保健福祉（福祉環境）事務所 社会福祉課（例：筑紫保健福祉環境事務所 TEL:092-513-5626、粕屋保健福祉事務所 TEL:092-939-1592 など）",
+      "source_url": "https://www.pref.fukuoka.lg.jp/contents/jinzou.html",
+      "plain_summary": "福岡県内（政令市を除く）に住んでいて、身体障害者手帳を持ち、仕事などの理由で夜間（午後5時以降）に人工透析を月5回以上受けている方に、通院交通費の一部として月2,000円を助成します。申請は年2回（前期分は9月30日、後期分は3月31日まで）、お住まいの地域の県保健福祉事務所へ郵送または窓口で提出できます。所得制限があります。"
+    }
+  ]
+}

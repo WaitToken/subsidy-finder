@@ -1,0 +1,67 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.kumamoto.jp/kiji00363457/index.html"
+    ],
+    "extracted_at": "2026-05-15T03:26:12.783436+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "ごみステーション管理支援補助金",
+      "operating_body": "熊本市",
+      "category": "その他",
+      "subcategory": "環境・ごみ管理",
+      "target_audience": "事業者",
+      "target_summary": "熊本市内の町内自治会等の自治会長（ごみステーションを管理する地域組織）",
+      "target_residency_required": true,
+      "benefit_summary": "毎年4月1日現在の世帯数に応じた上限額または予算書支出額のいずれか低い額を交付。上限額は年額55,000円〜100,000円（世帯数による）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 100000,
+      "eligible_expense_categories": [
+        "ごみ袋・清掃用品購入費",
+        "ネット・シート・網カゴ等購入・補修費",
+        "排出指導・分別指導経費",
+        "看板作成・人感ライト購入・啓発チラシ作成費",
+        "ごみカレンダー配布費",
+        "消耗品費",
+        "印刷製本費",
+        "通信費",
+        "会場使用料",
+        "土地賃借料"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "200世帯以下",
+          "amount_yen": 55000
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "世帯数に応じた最大区分",
+          "amount_yen": 100000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年（2026年）6月30日まで。間に合わない場合は遅延理由書を締切日までに提出（以降は書類申請のみ）",
+      "application_end": "2026-06-30",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "交付申請書兼概算交付申請書",
+        "予算書",
+        "遅延理由書（締切に間に合わない場合）",
+        "計画変更申請書（内容変更・中止・廃止時）"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "各区役所総務企画課（東区：096-367-9121、西区：096-329-1142、南区：096-357-4112、北区：096-272-1110）",
+      "source_url": "https://www.city.kumamoto.jp/kiji00363457/index.html",
+      "plain_summary": "熊本市内の町内自治会を対象に、ごみステーションの管理・美化・動物対策などにかかる費用を補助する制度です。補助金額は自治会の世帯数によって異なり、年額55,000円〜100,000円が上限です。申請は2026年6月30日までに書類またはオンライン（LoGoフォーム）で各区役所総務企画課へ提出してください。"
+    }
+  ]
+}

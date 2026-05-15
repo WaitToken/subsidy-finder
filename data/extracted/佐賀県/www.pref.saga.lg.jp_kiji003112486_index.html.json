@@ -1,0 +1,50 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.saga.lg.jp/kiji003112486/index.html"
+    ],
+    "extracted_at": "2026-05-15T02:44:43.437890+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "医療・福祉・保育施設等物価高騰対応支援金",
+      "operating_body": "佐賀県",
+      "category": "その他",
+      "subcategory": "物価高騰対応支援",
+      "target_audience": "事業者",
+      "target_summary": "佐賀県内の医療機関、福祉施設、保育所等（ただし市町立施設・指定管理含む・休止中施設は対象外）。令和7年3月末までに新規開設または再開された施設も対象。",
+      "target_residency_required": true,
+      "benefit_summary": "施設の運営状況・規模・業種区分に応じた基準単価および加算により算定した支援金を支給。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2025-04-30",
+      "application_end": "2025-07-31",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "required_documents": [
+        "医療・福祉・保育施設等物価高騰対応支援金申請書（様式1号、複数施設の場合は様式1-1号も）",
+        "医療・福祉・保育施設等物価高騰対応支援金入金口座確認書（様式2号）および通帳コピー",
+        "委任状（様式2-2号）（振込先が申請者以外の名義の場合）",
+        "誓約書（様式3号）"
+      ],
+      "status": "終了",
+      "status_note": "令和7年7月31日をもって受付終了",
+      "related_programs": [
+        {
+          "program_name": "医療・福祉・保育施設等物価高騰対応支援金（令和5年度）",
+          "relation_type": "関連",
+          "note": "令和5年度実施の旧様式は使用不可"
+        }
+      ],
+      "contact": "佐賀県医療・福祉・保育施設等物価高騰対応支援金受付センター　電話：0952-41-2160",
+      "source_url": "https://www.pref.saga.lg.jp/kiji003112486/index.html",
+      "plain_summary": "※受付終了。佐賀県が、電気・ガス・燃料等の物価高騰で影響を受けている医療機関・福祉施設・保育所等に対して支援金を支給する制度です。支給額は施設の種類や規模によって異なります。申請はメールまたは郵送で行い、受付期間は令和7年4月30日〜7月31日でしたが、現在は終了しています。"
+    }
+  ]
+}

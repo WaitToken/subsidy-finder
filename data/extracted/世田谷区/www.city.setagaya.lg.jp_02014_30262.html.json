@@ -1,0 +1,53 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.setagaya.lg.jp/02014/30262.html"
+    ],
+    "extracted_at": "2026-05-15T00:55:35.088259+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和7年度世田谷区住民税非課税世帯等への物価高騰生活支援給付金",
+      "operating_body": "世田谷区",
+      "category": "ひとり親・低所得",
+      "subcategory": "物価高騰対策・生活支援",
+      "target_summary": "令和7年12月22日（基準日）時点で世田谷区に住民登録があり、世帯全員の令和7年度住民税が非課税または均等割のみ課税である世帯の世帯主",
+      "target_household": [
+        "住民税非課税世帯",
+        "住民税均等割のみ課税世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "1世帯あたり2万円を支給",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 20000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "オンライン申請：令和8年6月30日23時59分まで、郵送申請：令和8年6月30日消印有効",
+      "application_end": "2026-06-30",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "確認書兼申請書",
+        "本人確認書類（郵送申請の場合）",
+        "口座確認書類（郵送申請の場合）"
+      ],
+      "status": "募集中",
+      "status_note": "確認書兼申請書（封書）発送済み。申請期限は令和8年6月30日。",
+      "related_programs": [
+        {
+          "program_name": "令和6年度世田谷区物価高騰対策給付金",
+          "relation_type": "関連",
+          "note": "前年度受給実績がある世帯は原則手続き不要で振込（支給のお知らせ対象）"
+        }
+      ],
+      "contact": "電話番号：0120-667-517（受付時間：平日午前8時30分〜午後8時）",
+      "source_url": "https://www.city.setagaya.lg.jp/02014/30262.html",
+      "plain_summary": "令和7年12月22日時点で世田谷区に住民登録があり、世帯全員の住民税が非課税か均等割のみの世帯に、1世帯あたり2万円が現金で支給されます。前年度受給実績のある世帯は原則手続き不要。それ以外の世帯は届いた確認書兼申請書で、オンラインまたは郵送で令和8年6月30日までに申請してください。"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.chiba.jp/hokenfukushi/koreishogai/korei/diaper.html"
+    ],
+    "extracted_at": "2026-05-15T03:05:12.659623+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "在宅高齢者等おむつ給付等事業",
+      "operating_body": "千葉市",
+      "category": "高齢者・介護",
+      "subcategory": "おむつ給付・介護用品",
+      "target_audience": "個人",
+      "target_summary": "千葉市内の居宅で介護を受けている介護保険要介護1〜5の高齢者で、常時失禁状態にあり、本人及び同一住所の親族全員が市民税非課税の方（生活保護受給者等を除く）",
+      "target_household": [
+        "要介護1〜5",
+        "市民税非課税世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "紙おむつの給付または布おむつの貸与。要介護1〜3は月額基準額4,000円の9割（最大3,600円）、要介護4〜5は月額基準額8,000円の9割（最大7,200円）を市が業者へ直接支払い。利用者は1割を自己負担。",
+      "benefit_type": "現物給付",
+      "benefit_amount_max_yen": 86400,
+      "benefit_rate_percent": 90,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "要介護1・2・3",
+          "amount_yen": 3600,
+          "note": "月額基準額4,000円の9割。利用者負担1割400円。"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "要介護4・5",
+          "amount_yen": 7200,
+          "note": "月額基準額8,000円の9割。利用者負担1割800円。"
+        }
+      ],
+      "goods_items": [
+        {
+          "item_name": "紙おむつ（尿取りパッド・プール用おむつ・吸水シーツ等おむつ類似品含む）",
+          "quantity_note": "毎月1回配達（布おむつは週1回以上）",
+          "stock_limited": false
+        }
+      ],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "在宅高齢者等おむつ給付等申請書（様式第1号）",
+        "調査同意書（様式第1号の2）",
+        "おむつ給付等事業配達相談連絡票（様式第2号）",
+        "介護保険被保険者証の写し",
+        "税情報が確認できる書類（市外からの転入者等、必要な場合）",
+        "在宅高齢者等おむつ給付等事業における生計に関する申立書（住所と実際の住所が異なる場合等）"
+      ],
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "在宅重度心身障害者おむつ給付事業",
+          "relation_type": "代替",
+          "note": "在宅重度心身障害者おむつ給付事業の給付を受けている方は対象外"
+        },
+        {
+          "program_name": "日常生活用具費の支給",
+          "relation_type": "関連",
+          "note": "障害者（児）向けサービスであり本事業とは異なる"
+        }
+      ],
+      "contact": "中央保健福祉センター高齢障害支援課 043-221-2150 / 花見川 043-275-6425 / 稲毛 043-284-6141 / 若葉 043-233-8558 / 緑 043-292-8138 / 美浜 043-270-3505 / 高齢福祉課 043-245-5166",
+      "source_url": "https://www.city.chiba.jp/hokenfukushi/koreishogai/korei/diaper.html",
+      "plain_summary": "千葉市内に住む要介護1〜5で常時失禁状態にある高齢者のうち、本人と同居親族全員が市民税非課税の方に、紙おむつや布おむつを給付・貸与します。費用の9割を市が業者に直接支払い（要介護1〜3は最大月3,600円、要介護4〜5は最大月7,200円）。各区の高齢障害支援課に申請書類を提出してください。"
+    }
+  ]
+}

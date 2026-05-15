@@ -1,0 +1,61 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.arakawa.tokyo.jp/a026/husokugakukyuuhu.html"
+    ],
+    "extracted_at": "2026-05-15T01:31:27.028364+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "定額減税補足給付金（不足額給付）",
+      "operating_body": "荒川区",
+      "category": "その他",
+      "subcategory": "定額減税・給付金",
+      "target_summary": "令和7年1月1日時点で荒川区に住民登録がある方で、当初調整給付（令和6年の定額減税補足給付金）に不足が生じた方（不足額給付1）、または所得税・住民税所得割の定額減税前税額が0円で税制度上の扶養親族対象外かつ低所得世帯向け給付対象外の方（不足額給付2）",
+      "target_residency_required": true,
+      "benefit_summary": "不足額給付1：当初調整給付額との差額（個別計算）、不足額給付2：原則4万円（令和6年1月1日時点で国外居住者の場合は3万円）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 40000,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "不足額給付2（原則）",
+          "amount_yen": 40000,
+          "note": "原則4万円の定額"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "不足額給付2（令和6年1月1日時点で国外居住者）",
+          "amount_yen": 30000,
+          "note": "3万円が支給"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "不足額給付1",
+          "note": "当初調整給付との差額（個別計算、1万円単位切り上げ）"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_end": "2025-10-24",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "終了",
+      "status_note": "令和7年10月24日をもって申請受付終了",
+      "related_programs": [
+        {
+          "program_name": "定額減税補足給付金（調整給付金）",
+          "relation_type": "関連",
+          "note": "令和6年に行った当初調整給付。本制度はその不足額を追加給付するもの"
+        }
+      ],
+      "contact": "荒川区 福祉部福祉推進課管理係給付金担当 電話：03-3802-3111（代表）／荒川区価格高騰給付金コールセンター：0120-984-054",
+      "source_url": "https://www.city.arakawa.tokyo.jp/a026/husokugakukyuuhu.html",
+      "plain_summary": "※受付終了。令和7年1月1日時点で荒川区に住む方のうち、定額減税の補足給付（調整給付）に不足が生じた方などを対象に、不足額を追加で現金給付する制度です。不足額給付2は原則4万円の定額。申請受付は令和7年10月24日に終了しました。"
+    }
+  ]
+}

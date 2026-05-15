@@ -1,0 +1,81 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.yamanashi.jp/koukoukyo/documents/shougakukyuufukinn.html"
+    ],
+    "extracted_at": "2026-05-15T02:18:01.619754+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "公立高等学校等に在学する生徒のための奨学給付金（高等学校等修学支援事業費補助金）",
+      "operating_body": "山梨県",
+      "category": "子育て・教育",
+      "subcategory": "高校生向け奨学給付金",
+      "target_summary": "令和7年7月1日現在で山梨県内に住所を有する保護者等であり、公立高等学校等に在学する高校生等の保護者（平成26年4月1日以降入学）。保護者等全員の住民税所得割が非課税または生活保護（生業扶助）受給世帯。高等学校等就学支援金の受給権者または学び直し支援対象者を持つ世帯。",
+      "target_household": [
+        "住民税非課税世帯",
+        "生活保護受給世帯",
+        "家計急変世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "生徒1人あたり年額：①生活保護受給世帯→32,300円、②住民税非課税世帯（公立）→143,700円（通信制・専攻科は50,500円）、③専攻科で非課税世帯以外の支給対象→10,100円。返還不要。口座振込。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 143700,
+      "benefit_tiers": [
+        {
+          "condition_type": "所得区分",
+          "condition_label": "生活保護受給世帯（公立）",
+          "amount_yen": 32300
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "住民税非課税世帯（公立・通常課程）",
+          "amount_yen": 143700
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "住民税非課税世帯（通信制・専攻科）",
+          "amount_yen": 50500
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "専攻科・非課税世帯以外の支給対象世帯",
+          "amount_yen": 10100,
+          "note": "住民税所得割合算額105,500円未満、または264,500円未満かつ扶養する子3人以上の世帯"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "県内校在学者は学校が定める期限まで学校へ提出。県外校在学者は9月22日までに山梨県へ郵送申請。",
+      "application_end": "2025-09-22",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "奨学給付金申請書（第1-1、1-2号様式）",
+        "口座振込依頼書（第2号様式）",
+        "課税証明書または非課税証明書（市町村役場発行）またはマイナンバーカードの写し等",
+        "在学証明書（県外公立高校等在学の場合）",
+        "生活保護法第36条の規定による生業扶助受給証明書（生活保護世帯の場合）",
+        "マイナンバー貼付台紙（課税証明書等が提出できない場合）",
+        "扶養誓約書（該当する場合）",
+        "扶養親族申告書（専攻科で扶養する子が3人以上の場合）",
+        "家計急変による申請理由書・年間収支見込計算書（家計急変の場合）"
+      ],
+      "status": "募集中",
+      "related_programs": [
+        {
+          "program_name": "高等学校等就学支援金",
+          "relation_type": "前提",
+          "note": "高等学校等就学支援金の受給権者または学び直し支援対象者であることが要件"
+        }
+      ],
+      "contact": "山梨県教育庁高校教育課 管理奨学担当 〒400-8504 山梨県甲府市丸の内一丁目6番1号",
+      "source_url": "https://www.pref.yamanashi.jp/koukoukyo/documents/shougakukyuufukinn.html",
+      "plain_summary": "山梨県内に住所がある保護者で、公立高校等に通う子どもがいる住民税非課税世帯や生活保護受給世帯の方に、授業料以外の教育費を助けるため年1回給付金が支給されます。金額は最大で年額143,700円（通常の非課税世帯・公立）です。返済不要で、口座振込で受け取れます。県内校在学者は学校へ、県外校在学者は9月22日までに山梨県に郵送で申請してください。"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/teate_josei/1006643/index.html"
+    ],
+    "extracted_at": "2026-05-15T03:10:42.346056+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "児童手当",
+      "operating_body": "相模原市",
+      "category": "子育て・教育",
+      "subcategory": "児童手当",
+      "target_audience": "個人",
+      "target_summary": "相模原市在住で高校生年代以下（18歳到達後の最初の年度末まで）の児童を養育する方（所得制限なし）。父母がともに養育している場合は所得が高い方が受給者。",
+      "target_age_max": 18,
+      "target_household": [
+        "子育て世帯",
+        "ひとり親世帯",
+        "多子世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "3歳未満：第1・2子1万5千円／第3子以降3万円。3歳〜高校生年代：第1・2子1万円／第3子以降3万円（月額）。偶数月（年6回）に2か月分をまとめて支給。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 30000,
+      "benefit_tiers": [
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "3歳未満・第1子または第2子",
+          "amount_yen": 15000,
+          "note": "月額"
+        },
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "3歳未満・第3子以降",
+          "amount_yen": 30000,
+          "note": "月額"
+        },
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "3歳〜高校生年代・第1子または第2子",
+          "amount_yen": 10000,
+          "note": "月額"
+        },
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "3歳〜高校生年代・第3子以降",
+          "amount_yen": 30000,
+          "note": "月額"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "出生・転入等の事由が生じた日の翌日から15日以内に申請。申請した月の翌月分から支給（遡及申請は終了）。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "status_note": "令和6年10月分に遡る申請は令和7年3月31日で受付終了。通常の新規申請・額改定請求は随時受付中。",
+      "related_programs": [],
+      "contact": "子育て給付課 手当給付班 TEL：042-769-8232 / FAX：042-759-4395 〒252-5277 中央区中央2-11-15 市役所本館4階",
+      "source_url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kosodate/1026606/teate_josei/1006643/index.html",
+      "plain_summary": "相模原市に住む高校生年代以下（18歳到達後の年度末まで）の子どもを育てている方に、毎月現金で手当が支給されます。月額は3歳未満の第1・2子が1万5千円、第3子以降は3万円、3歳〜高校生年代の第1・2子が1万円、第3子以降が3万円です。所得制限はありません。偶数月の15日に2か月分まとめて振り込まれます。申請は市役所窓口へ。"
+    }
+  ]
+}

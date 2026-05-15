@@ -1,0 +1,69 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sendai.jp/kodomo-hoken/bansogata.html"
+    ],
+    "extracted_at": "2026-05-15T02:59:32.383046+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "妊婦等包括相談支援事業",
+      "operating_body": "仙台市",
+      "category": "子育て・教育",
+      "subcategory": "妊娠・出産支援",
+      "target_audience": "個人",
+      "target_summary": "仙台市在住の妊婦・子育て世代",
+      "target_residency_required": true,
+      "benefit_summary": "妊娠届出時の面談・出産後の新生児訪問・妊娠8か月頃のアンケート（希望者には面談）を実施し、必要な支援につなぐ相談支援サービス。「せんだいのびすくナビ」を活用した情報発信や継続的な相談支援も提供。",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "妊婦支援給付金",
+          "relation_type": "関連",
+          "note": "面談・新生児訪問の際に妊婦支援給付金の申請案内を行う"
+        }
+      ],
+      "contact": "こども家庭保健課",
+      "source_url": "https://www.city.sendai.jp/kodomo-hoken/bansogata.html",
+      "plain_summary": "仙台市に住む妊婦さんや子育て世代が、妊娠中から出産・育児まで安心して過ごせるよう、面談や新生児訪問、妊娠8か月頃のアンケートを通じて相談支援を受けられる事業です。「せんだいのびすくナビ」でも情報提供が行われます。費用はかかりません。"
+    },
+    {
+      "program_name": "妊婦支援給付金",
+      "operating_body": "仙台市",
+      "category": "子育て・教育",
+      "subcategory": "妊娠・出産支援",
+      "target_audience": "個人",
+      "target_summary": "仙台市に妊娠届を提出した妊婦、または出産された方",
+      "target_residency_required": true,
+      "benefit_summary": "出産育児関連用品の購入費や子育てサービスの利用負担軽減を目的とした経済的支援（詳細は別ページ参照）",
+      "benefit_type": "不明",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "妊娠届出時の面談または出生届出後の新生児訪問時に案内・申請",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "妊婦等包括相談支援事業",
+          "relation_type": "関連",
+          "note": "面談・新生児訪問の際に申請案内を実施"
+        }
+      ],
+      "contact": "こども支援給付課",
+      "source_url": "https://www.city.sendai.jp/kodomo-hoken/bansogata.html",
+      "plain_summary": "仙台市で妊娠届を出した方や出産された方を対象に、赤ちゃん用品の購入費や子育てサービスの利用料を助けるための給付金です。妊娠届出時の面談か、赤ちゃんが生まれた後の新生児訪問の際に申請の案内があります。"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.minato.tokyo.jp/chiikibousai/kannshinn.html"
+    ],
+    "extracted_at": "2026-05-15T00:06:35.185455+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "感震ブレーカー設置費用補助",
+      "operating_body": "港区",
+      "category": "住まい",
+      "subcategory": "防災・地震対策",
+      "target_summary": "港区内に居住し住民登録をしている人（感震ブレーカー未設置の世帯のみ）",
+      "target_residency_required": true,
+      "benefit_summary": "感震ブレーカーの購入費用（工事費除く）を一定割合補助。補助上限額内で区と東京都が1/2ずつ補助。1世帯につき1回(1つ)まで。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "感震ブレーカー設置費用を支払った日から90日以内（ただし2026年2月27日までに申請書必着）",
+      "application_start": "2025-07-07",
+      "application_end": "2026-02-27",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "申請書",
+        "領収書原本（宛名・領収年月日・金額・メーカー/製品名/製品番号・発行事業者住所/名称/印を含むもの）",
+        "カタログ等感震ブレーカーの商品説明資料（求められた場合）"
+      ],
+      "status": "予定",
+      "status_note": "令和8年度分は準備中。令和7年度分の申請期間は2025年7月7日～2026年2月27日",
+      "related_programs": [],
+      "contact": "防災危機管理室防災課地域防災支援係 電話：03-3578-2516 FAX：03-3578-2539",
+      "source_url": "https://www.city.minato.tokyo.jp/chiikibousai/kannshinn.html",
+      "plain_summary": "港区に住民登録をしている人が感震ブレーカーを購入した場合、その費用の一部を港区と東京都が補助してくれる制度です。工事費は対象外で、1世帯1回まで。購入費を支払った日から90日以内（最長2026年2月27日まで）に、領収書原本を持って防災課窓口に申請してください。令和8年度分は準備中です。"
+    }
+  ]
+}

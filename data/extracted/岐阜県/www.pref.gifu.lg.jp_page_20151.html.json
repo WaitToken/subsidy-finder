@@ -1,0 +1,57 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.gifu.lg.jp/page/20151.html"
+    ],
+    "extracted_at": "2026-05-15T02:22:46.738415+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "岐阜県高齢者施設等防災・減災対策等補助金",
+      "operating_body": "岐阜県",
+      "category": "高齢者・介護",
+      "subcategory": "防災・減災対策",
+      "target_summary": "岐阜県内の高齢者施設等（介護・福祉施設）を対象とし、防災体制の強化を図る事業者",
+      "target_residency_required": true,
+      "benefit_summary": "防災・減災対策（スプリンクラー設備、非常用自家発電設備等の整備）および新型コロナウイルス感染拡大防止対策の整備に要する経費に対して補助金を交付する。補助額・補助率の詳細は別紙資料参照。",
+      "benefit_type": "現金",
+      "eligible_expense_categories": [
+        "スプリンクラー設備等整備",
+        "非常用自家発電設備整備",
+        "感染拡大防止対策設備整備",
+        "ブロック塀等安全対策"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年度1次協議分の提出期日までに提出",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "note": "令和8年度1次協議分。提出期日は募集通知PDFを参照"
+        }
+      ],
+      "application_method": "窓口",
+      "required_documents": [
+        "事前協議調査票（別添1）",
+        "補助対象面積確認シート（別添2）"
+      ],
+      "status": "募集中",
+      "status_note": "令和8年度1次協議分を募集中",
+      "related_programs": [
+        {
+          "program_name": "地域介護・福祉空間整備等施設整備交付金",
+          "relation_type": "関連",
+          "note": "本補助金の根拠となる国交付金。交付要綱・実施要綱を参考資料として参照"
+        }
+      ],
+      "contact": "岐阜県健康福祉部高齢福祉課施設整備係 〒500-8570 岐阜市薮田南2-1-1 電話058-272-1111（内線3473）",
+      "source_url": "https://www.pref.gifu.lg.jp/page/20151.html",
+      "plain_summary": "岐阜県の高齢者施設（介護・福祉施設）が対象の補助金です。スプリンクラーや非常用自家発電設備などの防災・減災対策、感染症対策の整備にかかる費用を補助してもらえます。令和8年度の1次協議分を募集中で、必要書類をそろえて岐阜県高齢福祉課施設整備係へ提出期日までに提出してください。"
+    }
+  ]
+}

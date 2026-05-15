@@ -1,0 +1,35 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.fukuoka.lg.jp/contents/env-support.html"
+    ],
+    "extracted_at": "2026-05-15T02:42:15.099836+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "こどもエコクラブ全国助成金情報",
+      "operating_body": "こどもエコクラブ全国事務局",
+      "category": "環境",
+      "target_audience": "不明",
+      "target_summary": "各種団体等（助成事業により異なります）",
+      "target_residency_required": false,
+      "benefit_summary": "こどもたちの活動に役立つ助成事業の情報を提供。詳細は全国事務局のホームページを参照。",
+      "benefit_type": "不明",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "status_note": "募集を締め切っていることがあるため、詳細は問い合わせ先へ要確認",
+      "related_programs": [],
+      "contact": "こどもエコクラブ全国事務局ホームページ",
+      "source_url": "https://www.pref.fukuoka.lg.jp/contents/env-support.html",
+      "plain_summary": "子どもたちの環境活動を支援する助成金情報をまとめたページです。対象や支援内容は助成事業によって異なります。詳しくはこどもエコクラブ全国事務局のホームページをご確認ください。募集が締め切られている場合もあります。"
+    }
+  ]
+}

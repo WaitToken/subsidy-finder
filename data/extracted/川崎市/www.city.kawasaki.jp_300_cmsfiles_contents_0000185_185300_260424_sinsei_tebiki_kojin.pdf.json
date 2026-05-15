@@ -1,0 +1,120 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.kawasaki.jp/300/cmsfiles/contents/0000185/185300/260424_sinsei_tebiki_kojin.pdf"
+    ],
+    "extracted_at": "2026-05-15T03:08:19.857982+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "川崎市太陽光発電設備等設置費補助金（個人住宅編）",
+      "operating_body": "川崎市",
+      "category": "環境",
+      "subcategory": "再生可能エネルギー・脱炭素",
+      "target_audience": "個人",
+      "target_summary": "川崎市内に居住中または居住予定の個人（新築・既築いずれも可）。共同住宅は申請者の専有部分に用いる場合に限る。",
+      "target_residency_required": true,
+      "benefit_summary": "①太陽光発電設備（FIT非適用）：7万円/kW・設置費用の1/2以内・上限28万円。②太陽光発電設備（FIT適用）：4万円/件（定額）。③蓄電池（FIT非適用太陽光と連系）：10万円/kWh・設置費用の1/2以内・上限70万円。④蓄電池（FIT適用太陽光等と連系）：10万円/kWh・設置費用の1/2以内・上限30万円。⑤ZEH/ZEH Oriented：25万円/戸（定額）。⑥ZEH+：40万円/戸（定額）。複数設備の組み合わせ申請可能。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 700000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "設備本体購入費",
+        "設置工事費"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "太陽光発電設備（FIT非適用）",
+          "amount_yen": 280000,
+          "rate_percent": 50,
+          "note": "7万円/kW、設置費用の1/2以内、上限28万円（最小値を採用）"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "太陽光発電設備（FIT適用）",
+          "amount_yen": 40000,
+          "note": "4万円/件の定額"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "蓄電池（FIT非適用太陽光と同時設置・連系）",
+          "amount_yen": 700000,
+          "rate_percent": 50,
+          "note": "10万円/kWh、設置費用の1/2以内、上限70万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "蓄電池（FIT適用太陽光と連系、または既設太陽光と連系）",
+          "amount_yen": 300000,
+          "rate_percent": 50,
+          "note": "10万円/kWh、設置費用の1/2以内、上限30万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "ZEH / ZEH Oriented",
+          "amount_yen": 250000,
+          "note": "25万円/戸の定額"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "ZEH+",
+          "amount_yen": 400000,
+          "note": "40万円/戸の定額"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "予算状況によって早期終了の可能性あり。事業完了（設置工事完了または住宅引渡し）は令和9年1月31日まで。設置完了届は事業完了後30日以内かつ令和9年2月12日まで。",
+      "application_start": "2026-04-24",
+      "application_end": "2026-12-28",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "required_documents": [
+        "交付申請書（第1号様式・オンラインフォーム入力）",
+        "補助金算定表（Excel）",
+        "最新の市民税・県民税・森林環境税の納税証明書（非課税の場合は非課税証明書）",
+        "現況カラー写真",
+        "契約書のコピー（工事請負契約書・売買契約書等）",
+        "所有者の同意書（第2号様式）※申請者と所有者が異なる場合",
+        "ZEH等であることを誓約する資料※ZEH申請時のみ",
+        "太陽光発電設備の設置を証する書類※既設太陽光と連系する蓄電池申請時のみ",
+        "管理組合総会の決議書※共同住宅の場合",
+        "設置完了届（第7号様式）",
+        "領収書等のコピー",
+        "設置完了後の現況カラー写真",
+        "接続契約を申し込んでいることが確認できる書類のコピー",
+        "太陽光パネルの出力対比表・蓄電池の保証書または出荷証明書",
+        "ZEH等に関する資料（BELS評価書・ZEH等工事完了証明書）※ZEH申請時のみ",
+        "住民票の写し（マイナンバー記載なし）",
+        "太陽光発電設備普及事業者登録制度の登録事業者が設置したことを証する資料※該当者のみ"
+      ],
+      "status": "募集中",
+      "status_note": "予算上限到達で早期終了の可能性あり。令和8年度予算総額720百万円（太陽光・蓄電池・ZEH合計）。",
+      "related_programs": [
+        {
+          "program_name": "国・神奈川県の太陽光・ZEH関連補助金",
+          "relation_type": "併用可能",
+          "note": "国・県補助金を控除した額が補助対象経費となる"
+        },
+        {
+          "program_name": "川崎市電気自動車等用充電設備設置費補助金（川崎市EV用充電インフラ補助金）",
+          "relation_type": "関連",
+          "note": "共同住宅編では同時申請が条件"
+        },
+        {
+          "program_name": "戸建住宅ネット・ゼロ・エネルギー・ハウス（ZEH）化等支援事業（環境省）",
+          "relation_type": "前提",
+          "note": "蓄電池の対象製品は令和7年度以降に同事業の補助対象製品として登録されていることが要件"
+        }
+      ],
+      "contact": "川崎市環境局脱炭素戦略推進室 TEL：044-200-2178（月〜金 祝日除く 9:00〜11:45・13:00〜16:45）E-mail：30taisetsu@city.kawasaki.jp",
+      "source_url": "https://www.city.kawasaki.jp/300/cmsfiles/contents/0000185/185300/260424_sinsei_tebiki_kojin.pdf",
+      "plain_summary": "川崎市内に住んでいる（または住む予定の）個人が対象です。太陽光発電設備（FIT非適用）は最大28万円、蓄電池は最大70万円、ZEH+は40万円などを補助してくれます。申請はオンラインで令和8年4月24日〜12月28日まで受け付け（予算がなくなり次第終了）。設備の設置は令和9年1月31日までに完了する必要があります。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.kumamoto.jp/kiji00356626/index.html"
+    ],
+    "extracted_at": "2026-05-15T03:25:50.171732+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "熊本市地方就職支援金",
+      "operating_body": "熊本市",
+      "category": "就労・起業",
+      "subcategory": "地方移住・就職支援",
+      "target_audience": "個人",
+      "target_summary": "東京圏の大学・大学院に在学または卒業・修了した学生で、熊本市に転入し、県内企業に就職する方",
+      "target_residency_required": false,
+      "benefit_summary": "交通費（就職活動に要した交通費の最大1/2、上限3万円）および移転費（実費と113,500円のいずれか低い額）を支給",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 143500,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "交通費",
+        "移転費（運送費用）"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "交通費（就職活動交通費）",
+          "amount_yen": 30000,
+          "rate_percent": 50,
+          "note": "東京圏から熊本県内就職活動場所までの交通費の最大1/2、上限3万円（1回分限り）"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "移転費（熊本市への移住運送費）",
+          "amount_yen": 113500,
+          "note": "移転に要した実費と113,500円のいずれか低い額"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "卒業・修了日から1年以内かつ就業開始日から1年以内（在学中に交通費を申請する場合は就業開始予定日前1年以内）",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "熊本市経済観光局産業部 雇用対策課 / 移住サポートデスク：0120-131-619 / 雇用対策課：096-328-2377",
+      "source_url": "https://www.city.kumamoto.jp/kiji00356626/index.html",
+      "plain_summary": "東京圏の大学・大学院を卒業・修了し、熊本市に転入して県内企業に就職する方へ、就職活動の交通費（最大3万円）と引越し運送費（最大113,500円）を補助する制度です。申請は卒業・修了日および就業開始日からそれぞれ1年以内に、持参または郵送で雇用対策課へ。"
+    }
+  ]
+}

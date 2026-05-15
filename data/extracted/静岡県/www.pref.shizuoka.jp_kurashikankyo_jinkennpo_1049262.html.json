@@ -1,0 +1,55 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.shizuoka.jp/kurashikankyo/jinkennpo/1049262.html"
+    ],
+    "extracted_at": "2026-05-15T02:23:43.515836+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "静岡県NPO物価高騰補助金",
+      "operating_body": "静岡県",
+      "category": "その他",
+      "subcategory": "NPO法人支援・物価高騰対策",
+      "target_summary": "申請日時点で主たる事務所または定款上の事務所が静岡県内にあるNPO法人（令和3年12月31日時点で特定非営利活動に係る事業を営んでおり、新型コロナウイルス感染症および物価高騰の影響を受けている法人）",
+      "target_residency_required": true,
+      "benefit_summary": "1法人当たり最大20万円（補助率：対象経費の3分の2以内）。物価高騰緊急対策のための取組に係る経費を補助。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 200000,
+      "benefit_rate_percent": 67,
+      "eligible_expense_categories": [
+        "備品等購入費",
+        "省エネ工事に係る外注費",
+        "広報に係る外注費（寄附・ボランティア募集）",
+        "イベント実施費用（寄附・ボランティア募集）",
+        "クラウドファンディング・ボランティア募集サイト登録料"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_end": "2023-02-28",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "交付申請書（様式第1号）",
+        "事業実績書（様式第2号）",
+        "収支決算書（様式第3号）",
+        "誓約書（様式第4号）",
+        "通帳の写し等（法人名義の口座）",
+        "取組の金額・発注・納品・支払の日付が分かるもの（領収書、納品書等）",
+        "取組の内容が明確に確認できるもの（備品・工事・イベント等の写真、成果品のサンプル等）",
+        "団体としての事業実態が確認できるもの（事業報告書等）"
+      ],
+      "status": "終了",
+      "status_note": "受付終了",
+      "related_programs": [],
+      "contact": "静岡県くらし・環境部県民生活課 NPO物価高騰補助金担当 〒420-8601 静岡市葵区追手町9-6 TEL: 054-221-3726 FAX: 054-221-2642 Email: npo@pref.shizuoka.lg.jp",
+      "source_url": "https://www.pref.shizuoka.jp/kurashikankyo/jinkennpo/1049262.html",
+      "plain_summary": "※受付終了。静岡県内に事務所があるNPO法人が対象で、新型コロナウイルスや物価高騰の影響を受けた事業活動の継続を支援する補助金です。備品購入や省エネ工事など対象経費の3分の2以内、最大20万円が支給されます。申請は電子申請または郵送で、受付は2023年2月28日に終了しました。"
+    }
+  ]
+}

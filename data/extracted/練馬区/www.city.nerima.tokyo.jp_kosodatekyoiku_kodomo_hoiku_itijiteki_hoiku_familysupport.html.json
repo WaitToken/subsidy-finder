@@ -1,0 +1,66 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/familysupport.html"
+    ],
+    "extracted_at": "2026-05-15T01:24:32.322612+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "ファミリーサポート事業（育児支えあい）",
+      "operating_body": "練馬区",
+      "category": "子育て・教育",
+      "subcategory": "一時保育・育児支援",
+      "target_summary": "練馬区民で生後58日から小学校6年生までの児童の保護者（利用会員として登録が必要）",
+      "target_age_min": 0,
+      "target_age_max": 12,
+      "target_residency_required": true,
+      "benefit_summary": "区が実施する講習を修了した有償ボランティア（援助会員）が子どもを預かる。利用料金は1時間あたり平日800円（土日祝900円）。令和8年7月以降は平日900円（土日祝1,000円）。",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "入会申込兼登録書"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "練馬区ファミリーサポートセンター 電話：03-3993-4100 〒176-0012 練馬区豊玉北5丁目18番12号 地域子ども家庭支援センター練馬分室2階 受付：月曜から土曜日 午前9時から午後5時",
+      "source_url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/familysupport.html",
+      "plain_summary": "練馬区に住む、生後58日〜小学6年生の子どもを持つ保護者が対象です。区の講習を修了したボランティアが子どもを預かってくれるサービスで、利用料金は1時間あたり平日800円（土日祝900円）です。利用するには事前に会員登録が必要で、電子申請または郵送で申し込めます。"
+    },
+    {
+      "program_name": "多胎児ファミサポ利用券",
+      "operating_body": "練馬区",
+      "category": "子育て・教育",
+      "subcategory": "多胎児支援",
+      "target_summary": "ファミリーサポート利用会員に登録した、2歳未満の多胎児がいる世帯",
+      "target_age_max": 2,
+      "target_residency_required": true,
+      "benefit_summary": "多胎児が同時にファミリーサポート事業を利用する場合に1人分の料金で利用できる利用券を交付。登録時に多胎児が満1歳未満の場合は一律96枚、満1歳以上の場合は2歳になる月までの月数×8枚を交付。",
+      "benefit_type": "商品券・クーポン",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "ファミリーサポート事業（育児支えあい）",
+          "relation_type": "前提",
+          "note": "ファミリーサポート利用会員への登録が必要"
+        }
+      ],
+      "contact": "練馬区ファミリーサポートセンター 電話：03-3993-4100",
+      "source_url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/hoiku/itijiteki_hoiku/familysupport.html",
+      "plain_summary": "2歳未満の双子など多胎児がいる練馬区の世帯が対象です。ファミリーサポートを複数の子どもが同時に利用する際、1人分の料金で使える「多胎児ファミサポ利用券」を交付します。登録時に1歳未満なら96枚、1歳以上なら2歳になるまでの月数×8枚が交付されます。"
+    }
+  ]
+}

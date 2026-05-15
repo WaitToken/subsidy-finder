@@ -1,0 +1,86 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.tokushima.lg.jp/ippannokata/sangyo/shokogyo/7238596/"
+    ],
+    "extracted_at": "2026-05-15T02:36:29.618732+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "とくしま創業促進費補助金（スタートアップ枠）",
+      "operating_body": "公益財団法人とくしま産業振興機構・徳島県",
+      "category": "就労・起業",
+      "subcategory": "創業・起業支援",
+      "target_audience": "事業者",
+      "target_summary": "徳島県内で新たに創業する方、または事業承継・第二創業する方。社会的事業分野（光LED関連、特産品活用商業、子育て・社会福祉、まちづくり・過疎地域活性化、その他地域課題解決）に該当すること。審査会による選考あり。",
+      "target_residency_required": true,
+      "benefit_summary": "事業に要する経費の1/2以内、最大200万円を補助（スタートアップ枠）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 2000000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "事業に要する経費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "事前相談（必須）受付期間：令和8年4月6日〜5月13日。申請書類提出期限は令和8年5月20日午後5時必着（持参・簡易書留郵送・Eメール）",
+      "application_start": "2026-04-06",
+      "application_end": "2026-05-20",
+      "application_rounds": [],
+      "application_method": "複数",
+      "status": "終了",
+      "status_note": "申請書類提出期限（令和8年5月20日）が取得日（2026-05-15）時点で近迫または終了",
+      "related_programs": [
+        {
+          "program_name": "移住支援金",
+          "relation_type": "併用可能",
+          "note": "東京圏・大阪圏からの移住者が本県で創業等する場合に併用可能"
+        }
+      ],
+      "contact": "公益財団法人とくしま産業振興機構 経営支援部起業・創業・事業化支援担当 TEL:088-654-0103 FAX:088-653-7910 MAIL:kigyou@our-think.or.jp",
+      "source_url": "https://www.pref.tokushima.lg.jp/ippannokata/sangyo/shokogyo/7238596/",
+      "plain_summary": "徳島県内で新たに創業・事業承継・第二創業する方を対象に、事業に必要な経費の1/2以内（最大200万円）を補助するスタートアップ枠です。光LED関連や子育て・社会福祉など社会的事業分野が対象で、審査会による選考があります。事前相談（必須）の後、2026年5月20日までに申請書類を提出する必要があります。"
+    },
+    {
+      "program_name": "とくしま創業促進費補助金（一般枠）",
+      "operating_body": "公益財団法人とくしま産業振興機構・徳島県",
+      "category": "就労・起業",
+      "subcategory": "創業・起業支援",
+      "target_audience": "事業者",
+      "target_summary": "徳島県内で新たに創業する方、または事業承継・第二創業する方。社会的事業分野（光LED関連、特産品活用商業、子育て・社会福祉、まちづくり・過疎地域活性化、その他地域課題解決）に該当すること。審査会による選考あり。",
+      "target_residency_required": true,
+      "benefit_summary": "事業に要する経費の1/2以内、最大100万円を補助（一般枠）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 1000000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "事業に要する経費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "事前相談（必須）受付期間：令和8年4月6日〜5月13日。申請書類提出期限は令和8年5月20日午後5時必着（持参・簡易書留郵送・Eメール）",
+      "application_start": "2026-04-06",
+      "application_end": "2026-05-20",
+      "application_rounds": [],
+      "application_method": "複数",
+      "status": "終了",
+      "status_note": "申請書類提出期限（令和8年5月20日）が取得日（2026-05-15）時点で近迫または終了",
+      "related_programs": [
+        {
+          "program_name": "移住支援金",
+          "relation_type": "併用可能",
+          "note": "東京圏・大阪圏からの移住者が本県で創業等する場合に併用可能"
+        }
+      ],
+      "contact": "公益財団法人とくしま産業振興機構 経営支援部起業・創業・事業化支援担当 TEL:088-654-0103 FAX:088-653-7910 MAIL:kigyou@our-think.or.jp",
+      "source_url": "https://www.pref.tokushima.lg.jp/ippannokata/sangyo/shokogyo/7238596/",
+      "plain_summary": "徳島県内で新たに創業・事業承継・第二創業する方を対象に、事業に必要な経費の1/2以内（最大100万円）を補助する一般枠です。光LED関連や子育て・社会福祉など社会的事業分野が対象で、審査会による選考があります。事前相談（必須）の後、2026年5月20日までに申請書類を提出する必要があります。"
+    }
+  ]
+}

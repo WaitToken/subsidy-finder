@@ -1,0 +1,69 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.tokyo-nakano.lg.jp/jigyosha/osirase/sougyousiensikin.html"
+    ],
+    "extracted_at": "2026-05-15T00:58:31.694755+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "中野区信用保証料補助事業（創業支援資金）",
+      "operating_body": "中野区",
+      "category": "就労・起業",
+      "subcategory": "信用保証料補助",
+      "target_summary": "中野区産業経済融資（創業支援資金）のあっ旋申込を行い、東京信用保証協会に信用保証料を支払い金融機関から融資を受けた区内事業者。融資実行日から6カ月以内に申請。",
+      "target_residency_required": false,
+      "benefit_summary": "信用保証料の1/3を中野区が補助（東京都が2/3補助。東京都補助対象外の場合も区分1/3を補助）",
+      "benefit_type": "現金",
+      "benefit_rate_percent": 33,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "融資実行日から6カ月以内",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "required_documents": [
+        "中野区信用保証料補助金交付申請書",
+        "中野区信用保証料補助金交付請求書兼口座振替依頼書",
+        "信用保証書の写し、または信用保証決定のお知らせ（東京信用保証協会発行分）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "中野区 区民部 産業振興課",
+      "source_url": "https://www.city.tokyo-nakano.lg.jp/jigyosha/osirase/sougyousiensikin.html",
+      "plain_summary": "中野区内で創業支援資金を利用した事業者向けの補助です。東京信用保証協会に支払った信用保証料のうち、東京都が2/3を補助し、中野区がさらに1/3を補助します（都の補助対象外でも区が1/3を補助）。融資実行から6カ月以内にオンラインフォームで申請してください。"
+    },
+    {
+      "program_name": "中野区信用保証料補助事業（経営改善借換資金・経営安定支援資金）",
+      "operating_body": "中野区",
+      "category": "就労・起業",
+      "subcategory": "信用保証料補助",
+      "target_summary": "中野区産業経済融資（経営改善借換資金または経営安定支援資金）のあっ旋申込を行い、東京信用保証協会に信用保証料を支払い金融機関から融資を受けた区内事業者。融資実行日から6カ月以内に申請。",
+      "target_residency_required": false,
+      "benefit_summary": "信用保証料の1/2相当額を補助（上限30万円）。東京都補助対象外の場合も区が1/2を補助。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 300000,
+      "benefit_rate_percent": 50,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "融資実行日から6カ月以内",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "required_documents": [
+        "中野区信用保証料補助金交付申請書",
+        "中野区信用保証料補助金交付請求書兼口座振替依頼書",
+        "信用保証書の写し、または信用保証決定のお知らせ（東京信用保証協会発行分）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "中野区 区民部 産業振興課",
+      "source_url": "https://www.city.tokyo-nakano.lg.jp/jigyosha/osirase/sougyousiensikin.html",
+      "plain_summary": "中野区内で経営改善借換資金または経営安定支援資金を利用した事業者向けの補助です。東京信用保証協会に支払った信用保証料の1/2（最大30万円）を中野区が補助します。都の補助対象外でも区が1/2を補助。融資実行から6カ月以内にオンラインフォームで申請してください。"
+    }
+  ]
+}

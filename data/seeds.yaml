@@ -1,0 +1,120 @@
+# 全国 自治体マスタ + シードURL
+# スコープ: 47都道府県 + 政令指定都市20 + 東京23特別区 = 90自治体
+#
+# このファイルが自治体マスタの単一情報源 (single source of truth):
+#   - db/load_bodies.py        → operating_bodies テーブルへ投入
+#   - src/run.py               → クロールのシードURL
+#   - next-app/lib/bodies.ts   → scripts/gen_bodies.py で再生成
+#
+# 各エントリ:
+#   code        : 一意キー (英小文字。政令市は -shi で都道府県名と区別)
+#   name        : 正式名称 (略さない)
+#   type        : prefecture | designated_city | ward | city | town | village
+#   prefecture  : 所属都道府県の code (都道府県自身は自分の code)
+#   url         : クロール起点URL (ホームページ)
+#
+# 注意: url は自治体サイト改修で変わります。運用前に必ず疎通確認すること
+#       (scripts/check_seeds.py で一括検証可能)。
+
+sources:
+  # ============================================================
+  # 47 都道府県
+  # ============================================================
+  - { code: hokkaido,  name: 北海道,   type: prefecture, prefecture: hokkaido,  url: "https://www.pref.hokkaido.lg.jp/" }
+  - { code: aomori,    name: 青森県,   type: prefecture, prefecture: aomori,    url: "https://www.pref.aomori.lg.jp/" }
+  - { code: iwate,     name: 岩手県,   type: prefecture, prefecture: iwate,     url: "https://www.pref.iwate.jp/" }
+  - { code: miyagi,    name: 宮城県,   type: prefecture, prefecture: miyagi,    url: "https://www.pref.miyagi.jp/" }
+  - { code: akita,     name: 秋田県,   type: prefecture, prefecture: akita,     url: "https://www.pref.akita.lg.jp/" }
+  - { code: yamagata,  name: 山形県,   type: prefecture, prefecture: yamagata,  url: "https://www.pref.yamagata.jp/" }
+  - { code: fukushima, name: 福島県,   type: prefecture, prefecture: fukushima, url: "https://www.pref.fukushima.lg.jp/" }
+  - { code: ibaraki,   name: 茨城県,   type: prefecture, prefecture: ibaraki,   url: "https://www.pref.ibaraki.jp/" }
+  - { code: tochigi,   name: 栃木県,   type: prefecture, prefecture: tochigi,   url: "https://www.pref.tochigi.lg.jp/" }
+  - { code: gunma,     name: 群馬県,   type: prefecture, prefecture: gunma,     url: "https://www.pref.gunma.jp/" }
+  - { code: saitama,   name: 埼玉県,   type: prefecture, prefecture: saitama,   url: "https://www.pref.saitama.lg.jp/" }
+  - { code: chiba,     name: 千葉県,   type: prefecture, prefecture: chiba,     url: "https://www.pref.chiba.lg.jp/" }
+  - { code: tokyo,     name: 東京都,   type: prefecture, prefecture: tokyo,     url: "https://www.metro.tokyo.lg.jp/" }
+  - { code: kanagawa,  name: 神奈川県, type: prefecture, prefecture: kanagawa,  url: "https://www.pref.kanagawa.jp/" }
+  - { code: niigata,   name: 新潟県,   type: prefecture, prefecture: niigata,   url: "https://www.pref.niigata.lg.jp/" }
+  - { code: toyama,    name: 富山県,   type: prefecture, prefecture: toyama,    url: "https://www.pref.toyama.jp/" }
+  - { code: ishikawa,  name: 石川県,   type: prefecture, prefecture: ishikawa,  url: "https://www.pref.ishikawa.lg.jp/" }
+  - { code: fukui,     name: 福井県,   type: prefecture, prefecture: fukui,     url: "https://www.pref.fukui.lg.jp/" }
+  - { code: yamanashi, name: 山梨県,   type: prefecture, prefecture: yamanashi, url: "https://www.pref.yamanashi.jp/" }
+  - { code: nagano,    name: 長野県,   type: prefecture, prefecture: nagano,    url: "https://www.pref.nagano.lg.jp/" }
+  - { code: gifu,      name: 岐阜県,   type: prefecture, prefecture: gifu,      url: "https://www.pref.gifu.lg.jp/" }
+  - { code: shizuoka,  name: 静岡県,   type: prefecture, prefecture: shizuoka,  url: "https://www.pref.shizuoka.jp/" }
+  - { code: aichi,     name: 愛知県,   type: prefecture, prefecture: aichi,     url: "https://www.pref.aichi.jp/" }
+  - { code: mie,       name: 三重県,   type: prefecture, prefecture: mie,       url: "https://www.pref.mie.lg.jp/" }
+  - { code: shiga,     name: 滋賀県,   type: prefecture, prefecture: shiga,     url: "https://www.pref.shiga.lg.jp/" }
+  - { code: kyoto,     name: 京都府,   type: prefecture, prefecture: kyoto,     url: "https://www.pref.kyoto.jp/" }
+  - { code: osaka,     name: 大阪府,   type: prefecture, prefecture: osaka,     url: "https://www.pref.osaka.lg.jp/" }
+  - { code: hyogo,     name: 兵庫県,   type: prefecture, prefecture: hyogo,     url: "https://web.pref.hyogo.lg.jp/" }
+  - { code: nara,      name: 奈良県,   type: prefecture, prefecture: nara,      url: "https://www.pref.nara.lg.jp/" }
+  - { code: wakayama,  name: 和歌山県, type: prefecture, prefecture: wakayama,  url: "https://www.pref.wakayama.lg.jp/" }
+  - { code: tottori,   name: 鳥取県,   type: prefecture, prefecture: tottori,   url: "https://www.pref.tottori.lg.jp/" }
+  - { code: shimane,   name: 島根県,   type: prefecture, prefecture: shimane,   url: "https://www.pref.shimane.lg.jp/" }
+  - { code: okayama,   name: 岡山県,   type: prefecture, prefecture: okayama,   url: "https://www.pref.okayama.jp/" }
+  - { code: hiroshima, name: 広島県,   type: prefecture, prefecture: hiroshima, url: "https://www.pref.hiroshima.lg.jp/" }
+  - { code: yamaguchi, name: 山口県,   type: prefecture, prefecture: yamaguchi, url: "https://www.pref.yamaguchi.lg.jp/" }
+  - { code: tokushima, name: 徳島県,   type: prefecture, prefecture: tokushima, url: "https://www.pref.tokushima.lg.jp/" }
+  - { code: kagawa,    name: 香川県,   type: prefecture, prefecture: kagawa,    url: "https://www.pref.kagawa.lg.jp/" }
+  - { code: ehime,     name: 愛媛県,   type: prefecture, prefecture: ehime,     url: "https://www.pref.ehime.jp/" }
+  - { code: kochi,     name: 高知県,   type: prefecture, prefecture: kochi,     url: "https://www.pref.kochi.lg.jp/" }
+  - { code: fukuoka,   name: 福岡県,   type: prefecture, prefecture: fukuoka,   url: "https://www.pref.fukuoka.lg.jp/" }
+  - { code: saga,      name: 佐賀県,   type: prefecture, prefecture: saga,      url: "https://www.pref.saga.lg.jp/" }
+  - { code: nagasaki,  name: 長崎県,   type: prefecture, prefecture: nagasaki,  url: "https://www.pref.nagasaki.jp/" }
+  - { code: kumamoto,  name: 熊本県,   type: prefecture, prefecture: kumamoto,  url: "https://www.pref.kumamoto.jp/" }
+  - { code: oita,      name: 大分県,   type: prefecture, prefecture: oita,      url: "https://www.pref.oita.jp/" }
+  - { code: miyazaki,  name: 宮崎県,   type: prefecture, prefecture: miyazaki,  url: "https://www.pref.miyazaki.lg.jp/" }
+  - { code: kagoshima, name: 鹿児島県, type: prefecture, prefecture: kagoshima, url: "https://www.pref.kagoshima.jp/" }
+  - { code: okinawa,   name: 沖縄県,   type: prefecture, prefecture: okinawa,   url: "https://www.pref.okinawa.jp/" }
+
+  # ============================================================
+  # 政令指定都市 20 (code は -shi で都道府県名と区別)
+  # ============================================================
+  - { code: sapporo-shi,    name: 札幌市,   type: designated_city, prefecture: hokkaido,  url: "https://www.city.sapporo.jp/" }
+  - { code: sendai-shi,     name: 仙台市,   type: designated_city, prefecture: miyagi,    url: "https://www.city.sendai.jp/" }
+  - { code: saitama-shi,    name: さいたま市, type: designated_city, prefecture: saitama, url: "https://www.city.saitama.lg.jp/" }
+  - { code: chiba-shi,      name: 千葉市,   type: designated_city, prefecture: chiba,     url: "https://www.city.chiba.jp/" }
+  - { code: yokohama-shi,   name: 横浜市,   type: designated_city, prefecture: kanagawa,  url: "https://www.city.yokohama.lg.jp/" }
+  - { code: kawasaki-shi,   name: 川崎市,   type: designated_city, prefecture: kanagawa,  url: "https://www.city.kawasaki.jp/" }
+  - { code: sagamihara-shi, name: 相模原市, type: designated_city, prefecture: kanagawa,  url: "https://www.city.sagamihara.kanagawa.jp/" }
+  - { code: niigata-shi,    name: 新潟市,   type: designated_city, prefecture: niigata,   url: "https://www.city.niigata.lg.jp/" }
+  - { code: shizuoka-shi,   name: 静岡市,   type: designated_city, prefecture: shizuoka,  url: "https://www.city.shizuoka.lg.jp/" }
+  - { code: hamamatsu-shi,  name: 浜松市,   type: designated_city, prefecture: shizuoka,  url: "https://www.city.hamamatsu.shizuoka.jp/" }
+  - { code: nagoya-shi,     name: 名古屋市, type: designated_city, prefecture: aichi,     url: "https://www.city.nagoya.jp/" }
+  - { code: kyoto-shi,      name: 京都市,   type: designated_city, prefecture: kyoto,     url: "https://www.city.kyoto.lg.jp/" }
+  - { code: osaka-shi,      name: 大阪市,   type: designated_city, prefecture: osaka,     url: "https://www.city.osaka.lg.jp/" }
+  - { code: sakai-shi,      name: 堺市,     type: designated_city, prefecture: osaka,     url: "https://www.city.sakai.lg.jp/" }
+  - { code: kobe-shi,       name: 神戸市,   type: designated_city, prefecture: hyogo,     url: "https://www.city.kobe.lg.jp/" }
+  - { code: okayama-shi,    name: 岡山市,   type: designated_city, prefecture: okayama,   url: "https://www.city.okayama.jp/" }
+  - { code: hiroshima-shi,  name: 広島市,   type: designated_city, prefecture: hiroshima, url: "https://www.city.hiroshima.lg.jp/" }
+  - { code: kitakyushu-shi, name: 北九州市, type: designated_city, prefecture: fukuoka,   url: "https://www.city.kitakyushu.lg.jp/" }
+  - { code: fukuoka-shi,    name: 福岡市,   type: designated_city, prefecture: fukuoka,   url: "https://www.city.fukuoka.lg.jp/" }
+  - { code: kumamoto-shi,   name: 熊本市,   type: designated_city, prefecture: kumamoto,  url: "https://www.city.kumamoto.jp/" }
+
+  # ============================================================
+  # 東京 23特別区
+  # ============================================================
+  - { code: chiyoda,    name: 千代田区, type: ward, prefecture: tokyo, url: "https://www.city.chiyoda.lg.jp/" }
+  - { code: chuo,       name: 中央区,   type: ward, prefecture: tokyo, url: "https://www.city.chuo.lg.jp/" }
+  - { code: minato,     name: 港区,     type: ward, prefecture: tokyo, url: "https://www.city.minato.tokyo.jp/" }
+  - { code: shinjuku,   name: 新宿区,   type: ward, prefecture: tokyo, url: "https://www.city.shinjuku.lg.jp/" }
+  - { code: bunkyo,     name: 文京区,   type: ward, prefecture: tokyo, url: "https://www.city.bunkyo.lg.jp/" }
+  - { code: taito,      name: 台東区,   type: ward, prefecture: tokyo, url: "https://www.city.taito.lg.jp/" }
+  - { code: sumida,     name: 墨田区,   type: ward, prefecture: tokyo, url: "https://www.city.sumida.lg.jp/" }
+  - { code: koto,       name: 江東区,   type: ward, prefecture: tokyo, url: "https://www.city.koto.lg.jp/" }
+  - { code: shinagawa,  name: 品川区,   type: ward, prefecture: tokyo, url: "https://www.city.shinagawa.tokyo.jp/" }
+  - { code: meguro,     name: 目黒区,   type: ward, prefecture: tokyo, url: "https://www.city.meguro.tokyo.jp/" }
+  - { code: ota,        name: 大田区,   type: ward, prefecture: tokyo, url: "https://www.city.ota.tokyo.jp/" }
+  - { code: setagaya,   name: 世田谷区, type: ward, prefecture: tokyo, url: "https://www.city.setagaya.lg.jp/" }
+  - { code: shibuya,    name: 渋谷区,   type: ward, prefecture: tokyo, url: "https://www.city.shibuya.tokyo.jp/" }
+  - { code: nakano,     name: 中野区,   type: ward, prefecture: tokyo, url: "https://www.city.tokyo-nakano.lg.jp/" }
+  - { code: suginami,   name: 杉並区,   type: ward, prefecture: tokyo, url: "https://www.city.suginami.tokyo.jp/" }
+  - { code: toshima,    name: 豊島区,   type: ward, prefecture: tokyo, url: "https://www.city.toshima.lg.jp/" }
+  - { code: kita,       name: 北区,     type: ward, prefecture: tokyo, url: "https://www.city.kita.lg.jp/" }
+  - { code: arakawa,    name: 荒川区,   type: ward, prefecture: tokyo, url: "https://www.city.arakawa.tokyo.jp/" }
+  - { code: itabashi,   name: 板橋区,   type: ward, prefecture: tokyo, url: "https://www.city.itabashi.tokyo.jp/" }
+  - { code: nerima,     name: 練馬区,   type: ward, prefecture: tokyo, url: "https://www.city.nerima.tokyo.jp/" }
+  - { code: adachi,     name: 足立区,   type: ward, prefecture: tokyo, url: "https://www.city.adachi.tokyo.jp/" }
+  - { code: katsushika, name: 葛飾区,   type: ward, prefecture: tokyo, url: "https://www.city.katsushika.lg.jp/" }
+  - { code: edogawa,    name: 江戸川区, type: ward, prefecture: tokyo, url: "https://www.city.edogawa.tokyo.jp/" }

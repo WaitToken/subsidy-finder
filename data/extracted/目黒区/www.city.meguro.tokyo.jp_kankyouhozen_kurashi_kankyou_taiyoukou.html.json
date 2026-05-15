@@ -1,0 +1,116 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.meguro.tokyo.jp/kankyouhozen/kurashi/kankyou/taiyoukou.html"
+    ],
+    "extracted_at": "2026-05-15T00:54:00.257128+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "住宅用再生可能エネルギー及び省エネルギー設備設置費助成（設備：太陽光・蓄電池等）",
+      "operating_body": "目黒区",
+      "category": "環境",
+      "subcategory": "再生可能エネルギー・省エネ設備",
+      "target_summary": "目黒区内の住宅に太陽光発電システム・家庭用蓄電システム・家庭用燃料電池システム・CO2冷媒ヒートポンプ給湯器・ハイブリッド給湯器・分譲マンション共用部LED照明を設置する区民個人、またはマンション管理者・管理組合法人",
+      "target_residency_required": true,
+      "benefit_summary": "設備の種類に応じて助成。太陽光：1kWあたり3万円（上限15万円）、家庭用蓄電システム：設備本体価格の1/3以内（上限7万円）、家庭用燃料電池システム：7万円、CO2冷媒ヒートポンプ給湯器：5万円、ハイブリッド給湯器：5万円、分譲マンション共用部LED照明：10万円。複数設備への同時申請可",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 150000,
+      "benefit_rate_percent": 33,
+      "eligible_expense_categories": [
+        "設備本体価格"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "太陽光発電システム",
+          "amount_yen": 150000,
+          "note": "1kWあたり3万円、上限15万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "家庭用蓄電システム",
+          "amount_yen": 70000,
+          "rate_percent": 33,
+          "note": "設備本体価格の3分の1以内、上限7万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "家庭用燃料電池システム",
+          "amount_yen": 70000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "CO2冷媒ヒートポンプ給湯器",
+          "amount_yen": 50000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "ハイブリッド給湯器（ヒートポンプ・ガス瞬間式併用型給湯器）",
+          "amount_yen": 50000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "分譲マンション共用部LED照明",
+          "amount_yen": 100000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-06-01",
+      "application_end": "2027-01-29",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "助成金交付申請書（個人用またはマンション管理組合用）",
+        "設備の設置に関する書類",
+        "住民票（設置場所と居住場所の確認用）"
+      ],
+      "status": "予定",
+      "status_note": "令和8年6月1日受付開始。先着順・予算額到達で早期終了の可能性あり",
+      "related_programs": [],
+      "contact": "環境保全課 温暖化対策係 電話：03-5722-9034 ファクス：03-5722-9401",
+      "source_url": "https://www.city.meguro.tokyo.jp/kankyouhozen/kurashi/kankyou/taiyoukou.html",
+      "plain_summary": "目黒区に住んでいる人が、自宅に太陽光発電・蓄電池・燃料電池・省エネ給湯器・LED照明などを設置すると、費用の一部を助成してもらえます。助成額は設備によって異なり、太陽光は最大15万円など。令和8年6月1日〜令和9年1月29日に先着順でオンラインまたは郵送で申請できます（予算切れ次第終了）。"
+    },
+    {
+      "program_name": "住宅用再生可能エネルギー及び省エネルギー設備設置費助成（エコ住宅助成：東京ゼロエミ住宅等）",
+      "operating_body": "目黒区",
+      "category": "環境",
+      "subcategory": "エコ住宅・ZEH",
+      "target_summary": "東京都（東京ゼロエミ住宅）または国（ZEH）の確定通知書の発行日が令和7年1月1日以降である目黒区民",
+      "target_residency_required": true,
+      "benefit_summary": "エコ住宅（東京ゼロエミ住宅またはZEH）の新築・取得に対して30万円を助成。設備（太陽光・蓄電池等）の助成との併用不可。令和8年度（上限25件）をもって終了。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 300000,
+      "selection_quota": 25,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-06-01",
+      "application_end": "2027-01-29",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "助成金交付申請書（エコ住宅用）",
+        "東京都または国の確定通知書"
+      ],
+      "status": "予定",
+      "status_note": "令和8年6月1日受付開始。先着順・上限25件。令和8年度をもって終了",
+      "related_programs": [
+        {
+          "program_name": "住宅用再生可能エネルギー及び省エネルギー設備設置費助成（設備：太陽光・蓄電池等）",
+          "relation_type": "代替",
+          "note": "エコ住宅助成を申請する場合、設備（太陽光・蓄電池等）の助成は申請不可"
+        }
+      ],
+      "contact": "環境保全課 温暖化対策係 電話：03-5722-9034 ファクス：03-5722-9401",
+      "source_url": "https://www.city.meguro.tokyo.jp/kankyouhozen/kurashi/kankyou/taiyoukou.html",
+      "plain_summary": "目黒区で東京ゼロエミ住宅やZEH（省エネ住宅）を新築・取得した人に、区から30万円が支給されます。都や国の確定通知書が令和7年1月1日以降に発行された方が対象。上限25件の先着順で、令和8年6月1日〜令和9年1月29日にオンラインまたは郵送で申請できます。この制度は令和8年度で終了予定です。"
+    }
+  ]
+}

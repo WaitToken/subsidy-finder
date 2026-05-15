@@ -1,0 +1,46 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.chiba.jp/hokenfukushi/iryoeisei/seisaku/fushin_baby_r6.html"
+    ],
+    "extracted_at": "2026-05-15T03:03:28.054863+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "風しん抗体検査助成事業（妊娠を希望する女性・配偶者等対象）",
+      "operating_body": "千葉市",
+      "category": "医療・健康",
+      "subcategory": "予防接種・感染症対策",
+      "target_audience": "個人",
+      "target_summary": "千葉市に住民登録があり、妊娠を希望する女性、妊娠を希望する女性の配偶者または同居家族、風しんの抗体価が低い妊婦の配偶者または同居家族（妊婦本人・既往歴がある方・過去に抗体検査受診済みの方等は除く）",
+      "target_residency_required": true,
+      "benefit_summary": "千葉市指定の市内協力医療機関において、風しん抗体検査を1人1回まで無料で受検できる",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "住所・年齢・氏名が確認できるもの（マイナンバーカード、資格確認書（有効期限内の健康保険証を含む）等）",
+        "妊婦の風しん抗体価がわかるもの（母子健康手帳など）※風しんの抗体価が低い妊婦の配偶者または同居家族のみ",
+        "予診票（千葉市指定のもの。医療機関当日入手または事前ダウンロード可）"
+      ],
+      "status": "募集中",
+      "related_programs": [
+        {
+          "program_name": "麻しん風しん混合ワクチン任意予防接種費用助成",
+          "relation_type": "関連",
+          "note": "抗体価が低い場合、1人1回まで無料で麻しん風しん混合ワクチン接種が可能"
+        }
+      ],
+      "contact": "保健福祉局医療衛生部医療政策課予防接種事業　電話：043-238-9941　FAX：043-245-5554",
+      "source_url": "https://www.city.chiba.jp/hokenfukushi/iryoeisei/seisaku/fushin_baby_r6.html",
+      "plain_summary": "千葉市に住んでいて、妊娠を希望する女性やそのパートナー・同居家族が対象です。風しんの抗体があるかどうかを調べる血液検査を、1人1回まで無料で受けられます。市内の協力医療機関に予約して受診してください。抗体が少ない場合はワクチン接種の助成も別途あります。"
+    }
+  ]
+}

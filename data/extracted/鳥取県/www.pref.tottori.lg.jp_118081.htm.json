@@ -1,0 +1,35 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.tottori.lg.jp/118081.htm"
+    ],
+    "extracted_at": "2026-05-15T02:28:05.780552+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "ミラ・クル・とっとり運動推進補助金",
+      "operating_body": "鳥取県",
+      "category": "その他",
+      "subcategory": "地域づくり・地域活性化",
+      "target_summary": "鳥取県内で地域づくり活動を行う個人・団体。鳥取ならではの強みを活かし、鳥取の未来を創造する活動を行う者。",
+      "target_residency_required": true,
+      "benefit_summary": "地域づくり活動への補助金（詳細金額はページ上に明記なし）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "status_note": "令和８年度実施予定の地域づくり関係助成事業の資料が公開されている旨の記載あり",
+      "related_programs": [],
+      "contact": "協働参画課 メール: kyoudou-sankaku@pref.tottori.lg.jp",
+      "source_url": "https://www.pref.tottori.lg.jp/118081.htm",
+      "plain_summary": "鳥取県が、県内で地域づくり活動を行う個人・団体を支援する「ミラ・クル・とっとり運動推進補助金」です。鳥取の強みを活かして地域の未来を創造する活動が対象です。補助金の詳細な金額や申請期限はページ上に記載がなく、詳細は鳥取県協働参画課へお問い合わせください。"
+    }
+  ]
+}

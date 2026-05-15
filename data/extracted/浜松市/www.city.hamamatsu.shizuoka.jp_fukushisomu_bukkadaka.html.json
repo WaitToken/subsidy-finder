@@ -1,0 +1,68 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.hamamatsu.shizuoka.jp/fukushisomu/bukkadaka.html"
+    ],
+    "extracted_at": "2026-05-15T03:14:05.534167+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和6年度浜松市住民税非課税世帯に対する物価高支援給付金",
+      "operating_body": "浜松市",
+      "category": "ひとり親・低所得",
+      "subcategory": "物価高支援・生活支援給付金",
+      "target_audience": "個人",
+      "target_summary": "基準日（令和6年12月13日）において浜松市に住民登録があり、世帯全員の令和6年度住民税均等割が非課税である世帯（課税者の扶養親族等のみで構成される世帯は対象外）",
+      "target_residency_required": true,
+      "benefit_summary": "1世帯あたり3万円（一括支給）。18歳以下の児童を扶養している場合は児童1人あたり2万円のこども加算あり。給付金は非課税・差押禁止。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 30000,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "住民税非課税世帯（基本給付）",
+          "amount_yen": 30000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "こども加算（児童1人あたり）",
+          "amount_yen": 20000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和7年3月31日（当日消印有効）。期限を過ぎた消印の申請書類は受付不可。",
+      "application_end": "2025-03-31",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "required_documents": [
+        "確認書（返送）",
+        "申請書（必要な場合）",
+        "添付書類（申請書提出の場合）"
+      ],
+      "status": "終了",
+      "status_note": "令和7年3月31日をもって新規申請受付終了",
+      "related_programs": [
+        {
+          "program_name": "令和5年度浜松市電力・ガス・食料品等価格高騰重点支援給付金（1世帯あたり7万円）",
+          "relation_type": "関連"
+        },
+        {
+          "program_name": "令和5年度浜松市物価高騰対応重点支援給付金（1世帯あたり10万円）",
+          "relation_type": "関連"
+        },
+        {
+          "program_name": "令和6年度浜松市物価高騰対応重点支援給付金（1世帯あたり10万円）",
+          "relation_type": "関連"
+        }
+      ],
+      "contact": "浜松市役所福祉総務課（053-457-2321）",
+      "source_url": "https://www.city.hamamatsu.shizuoka.jp/fukushisomu/bukkadaka.html",
+      "plain_summary": "※受付終了。令和6年12月13日時点で浜松市に住民登録があり、世帯全員が住民税均等割非課税の世帯に、1世帯あたり3万円を給付する制度です。18歳以下の子どもを扶養している場合は、1人あたり2万円が加算されます。申請は原則郵送で、令和7年3月31日（消印有効）が締め切りでしたが、すでに受付は終了しています。"
+    }
+  ]
+}

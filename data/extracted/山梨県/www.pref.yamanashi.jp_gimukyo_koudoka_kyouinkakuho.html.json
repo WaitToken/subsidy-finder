@@ -1,0 +1,40 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.yamanashi.jp/gimukyo/koudoka/kyouinkakuho.html"
+    ],
+    "extracted_at": "2026-05-15T02:17:33.498509+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "山梨県小学校教員確保推進事業費補助金",
+      "operating_body": "山梨県教育委員会",
+      "category": "就労・起業",
+      "subcategory": "教員確保・奨学金返還支援",
+      "target_summary": "令和10年度から山梨県内の公立小学校の教諭として就業を予定している方（令和9年度実施の教員選考検査を初めて受検する方）。大学生・大学院生・既卒者を問わない。日本学生支援機構奨学金（第1種・第2種）の貸与を受けた方。",
+      "target_residency_required": false,
+      "benefit_summary": "山梨県内の公立小学校に教諭として一定期間勤務することを条件に、日本学生支援機構奨学金の返還の一部を補助。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-04-01",
+      "application_end": "2027-03-01",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "required_documents": [
+        "交付対象者認定申請書（様式第1号）",
+        "履歴書（様式第2号）"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "山梨県 教育庁 義務教育課 人事担当 〒400-8504 山梨県甲府市丸の内1-6-1 TEL:055-223-1757 FAX:055-223-1759 E-mail:gimukyo@pref.yamanashi.lg.jp",
+      "source_url": "https://www.pref.yamanashi.jp/gimukyo/koudoka/kyouinkakuho.html",
+      "plain_summary": "山梨県内の公立小学校で先生として働く予定の方（大学生・大学院生・既卒者）が対象です。日本学生支援機構の奨学金（第1種・第2種）の返済の一部を山梨県が補助してくれます。教員選考検査を受ける前に認定申請が必要で、令和8年4月1日〜令和9年3月1日の間に義務教育課へ申請書を提出してください。"
+    }
+  ]
+}

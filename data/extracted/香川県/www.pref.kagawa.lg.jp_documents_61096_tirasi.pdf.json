@@ -1,0 +1,94 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.kagawa.lg.jp/documents/61096/tirasi.pdf"
+    ],
+    "extracted_at": "2026-05-15T02:37:57.195720+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "かがわ中小事業者CO2削減支援補助金（自家消費型太陽光発電設備）",
+      "operating_body": "香川県",
+      "category": "環境",
+      "subcategory": "カーボンニュートラル・再エネ",
+      "target_audience": "事業者",
+      "target_summary": "県内に本社を有する中小事業者等、県内に主たる事務所を有するその他の法人（社会福祉法人・医療法人等）、県内に住所を有する個人事業者",
+      "target_residency_required": true,
+      "benefit_summary": "自家消費型太陽光発電設備の導入に対し、5万円/kW、補助上限200万円を補助",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 2000000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年5月25日（月）から8月31日（月）17時必着。工事完了後の実績報告書・請求書提出は令和9年2月1日（月）必着。",
+      "application_start": "2026-05-25",
+      "application_end": "2026-08-31",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "交付申請書",
+        "実績報告書",
+        "請求書"
+      ],
+      "status": "予定",
+      "status_note": "先着順",
+      "related_programs": [
+        {
+          "program_name": "かがわ中小事業者CO2削減支援補助金（省エネ設備改修）",
+          "relation_type": "併用可能",
+          "note": "太陽光発電設備と省エネ設備の両方を申請する場合は合算して最大350万円まで申請可能"
+        }
+      ],
+      "contact": "香川県 環境森林部 環境政策課 カーボンニュートラル推進室 再エネ・GX推進グループ TEL：087-832-3215 / Mail：kankyoseisaku@pref.kagawa.lg.jp",
+      "source_url": "https://www.pref.kagawa.lg.jp/documents/61096/tirasi.pdf",
+      "plain_summary": "香川県内の中小事業者や個人事業者が対象です。自家消費型の太陽光発電設備を導入する際に、5万円/kWの単価で最大200万円の補助が受けられます。令和8年5月25日から8月31日（17時必着）までに交付申請書を先着順で提出してください。"
+    },
+    {
+      "program_name": "かがわ中小事業者CO2削減支援補助金（省エネ設備改修）",
+      "operating_body": "香川県",
+      "category": "環境",
+      "subcategory": "カーボンニュートラル・省エネ",
+      "target_audience": "事業者",
+      "target_summary": "県内に本社を有する中小事業者等、県内に主たる事務所を有するその他の法人（社会福祉法人・医療法人等）、県内に住所を有する個人事業者",
+      "target_residency_required": true,
+      "benefit_summary": "高効率空調機器・高効率照明機器・高効率給湯機器等の省エネ設備改修に対し、経費の1/2、上限150万円を補助。複数設備更新時も上限150万円。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 1500000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "高効率空調機器",
+        "高効率照明機器",
+        "高効率給湯機器"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年5月25日（月）から8月31日（月）17時必着。工事完了後の実績報告書・請求書提出は令和9年2月1日（月）必着。",
+      "application_start": "2026-05-25",
+      "application_end": "2026-08-31",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "交付申請書",
+        "実績報告書",
+        "請求書"
+      ],
+      "status": "予定",
+      "status_note": "先着順",
+      "related_programs": [
+        {
+          "program_name": "かがわ中小事業者CO2削減支援補助金（自家消費型太陽光発電設備）",
+          "relation_type": "併用可能",
+          "note": "太陽光発電設備と省エネ設備の両方を申請する場合は合算して最大350万円まで申請可能"
+        }
+      ],
+      "contact": "香川県 環境森林部 環境政策課 カーボンニュートラル推進室 再エネ・GX推進グループ TEL：087-832-3215 / Mail：kankyoseisaku@pref.kagawa.lg.jp",
+      "source_url": "https://www.pref.kagawa.lg.jp/documents/61096/tirasi.pdf",
+      "plain_summary": "香川県内の中小事業者や個人事業者が対象です。高効率空調・照明・給湯機器などの省エネ設備に改修する費用の1/2（最大150万円）が補助されます。令和8年5月25日から8月31日（17時必着）までに交付申請書を先着順で提出してください。省エネ設備と太陽光発電を両方申請すると最大350万円になります。"
+    }
+  ]
+}

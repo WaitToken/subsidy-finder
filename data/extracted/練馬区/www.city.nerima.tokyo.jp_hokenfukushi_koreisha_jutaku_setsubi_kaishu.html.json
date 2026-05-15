@@ -1,0 +1,80 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.nerima.tokyo.jp/hokenfukushi/koreisha/jutaku/setsubi_kaishu.html"
+    ],
+    "extracted_at": "2026-05-15T01:23:45.398996+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "自立支援住宅改修給付（設備改修）",
+      "operating_body": "練馬区",
+      "category": "高齢者・介護",
+      "subcategory": "住宅改修・設備改修",
+      "target_summary": "65歳以上で、介護保険の要支援1・2または要介護1〜5と認定されており、身体機能の低下や障害により既存設備の使用が困難な方",
+      "target_age_min": 65,
+      "target_household": [
+        "要支援・要介護認定者"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "浴槽の取り替え・流し洗面台の取り替え・便器の洋式化・昇降機設置・玄関造作物撤去・ホームエレベーター設置等の費用を限度額内で給付（利用者負担1割）。限度額は工事種別により10万円〜100万円。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 1000000,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "浴槽の取り替えおよびこれに付帯して必要な給湯設備等の工事",
+          "amount_yen": 250000,
+          "note": "介護保険住宅改修と併用可能"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "流し・洗面台の取り替えおよびこれに付帯して必要な給湯設備等の工事",
+          "amount_yen": 156000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "便器の洋式化およびこれに付帯して必要な工事",
+          "amount_yen": 106000,
+          "note": "介護保険住宅改修と併用可能"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "玄関の拡張に伴う造作物の撤去工事",
+          "amount_yen": 100000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "昇降機（階段・玄関等）、ホームエレベーターの設置",
+          "amount_yen": 1000000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "工事着工前に事前申請が必要。工事前・工事後に施工箇所の日付入り写真の提出が必要。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "高齢者自立支援住宅改修給付申請書",
+        "高齢者自立支援住宅改修給付工事計画書",
+        "高齢者自立支援住宅改修給付承諾書",
+        "施工箇所の日付入り写真（工事前・工事後）"
+      ],
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "介護保険住宅改修",
+          "relation_type": "併用可能",
+          "note": "浴槽の取り替え（1）および便器の洋式化（3）は介護保険住宅改修と併用して利用可能"
+        }
+      ],
+      "contact": "高齢施策担当部 介護保険課 給付係 電話：03-5984-4591（直通）",
+      "source_url": "https://www.city.nerima.tokyo.jp/hokenfukushi/koreisha/jutaku/setsubi_kaishu.html",
+      "plain_summary": "練馬区に住む65歳以上で要支援・要介護の認定を受けており、身体機能の低下などで自宅の設備が使いにくい方が対象です。浴槽の交換やトイレの洋式化、昇降機の設置など住宅設備の改修費用を、工事種別ごとに最大100万円まで助成します。費用の1割が自己負担（生活保護世帯等は負担なし）。工事着工前に窓口へ事前申請が必要です。"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.ibaraki.jp/eigyo/global/kaigai/2026yushutsukakudaich.html"
+    ],
+    "extracted_at": "2026-05-15T02:03:35.332371+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和８年度いばらきグローバルビジネス推進事業（輸出拡大チャレンジ事業）助成事業【事業者育成枠】",
+      "operating_body": "いばらきグローバルビジネス推進協議会（事務局：茨城県）",
+      "category": "就労・起業",
+      "subcategory": "輸出拡大・海外販路開拓",
+      "target_summary": "令和7年度の年間輸出実績が1億円未満の加工食品（酒類含む）の輸出拡大に取り組む事業者。茨城県内事業者と推定。",
+      "target_residency_required": true,
+      "benefit_summary": "商品改良・開発・営業活動経費への助成（助成率1/2、上限200万円）および支援コーディネーター配置経費への助成（助成率4/5、上限240万円）。最大3年間。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 4400000,
+      "benefit_rate_percent": 80,
+      "eligible_expense_categories": [
+        "商品改良・開発費",
+        "展示商談会出展費",
+        "プロモーション費",
+        "営業活動費",
+        "支援コーディネーター配置費"
+      ],
+      "selection_quota": 10,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "商品改良・開発・営業活動経費",
+          "amount_yen": 2000000,
+          "rate_percent": 50,
+          "note": "助成率1/2、上限200万円×最大3年"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "支援コーディネーター配置経費",
+          "amount_yen": 2400000,
+          "rate_percent": 80,
+          "note": "助成率4/5、上限240万円×最大3年。事業者育成枠のみ"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-04-20",
+      "application_end": "2026-05-08",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "required_documents": [
+        "助成金交付申請書（様式第1号）",
+        "収支計算書",
+        "誓約書",
+        "チェックシート"
+      ],
+      "status": "終了",
+      "status_note": "募集は終了いたしました",
+      "related_programs": [
+        {
+          "program_name": "令和８年度いばらきグローバルビジネス推進事業（輸出拡大チャレンジ事業）助成事業【自走化支援枠】",
+          "relation_type": "関連",
+          "note": "同事業の別枠（輸出実績1億円以上3億円未満の事業者向け）"
+        }
+      ],
+      "contact": "いばらきグローバルビジネス推進協議会（事務局：茨城県営業戦略部県産品販売課 食品・水産G）TEL: 029-301-3529 / FAX: 029-301-3909 / E-mail: global_1@pref.ibaraki.lg.jp",
+      "source_url": "https://www.pref.ibaraki.jp/eigyo/global/kaigai/2026yushutsukakudaich.html",
+      "plain_summary": "※受付終了。茨城県内で加工食品（酒類含む）の輸出に取り組む事業者（前年度輸出額1億円未満）向けの助成金です。商品改良・営業活動費は最大200万円（経費の1/2）、コーディネーター費は最大240万円（経費の4/5）が支給されます。最大3年間継続可能で、10社程度を採択予定でした。"
+    },
+    {
+      "program_name": "令和８年度いばらきグローバルビジネス推進事業（輸出拡大チャレンジ事業）助成事業【自走化支援枠】",
+      "operating_body": "いばらきグローバルビジネス推進協議会（事務局：茨城県）",
+      "category": "就労・起業",
+      "subcategory": "輸出拡大・海外販路開拓",
+      "target_summary": "令和7年度の年間輸出実績が1億円以上3億円未満の加工食品（酒類含む）の輸出拡大に取り組む事業者。",
+      "target_residency_required": true,
+      "benefit_summary": "商品改良・開発・営業活動経費への助成（助成率1/3、上限200万円）。最大3年間。コーディネーター配置経費助成は対象外。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 2000000,
+      "benefit_rate_percent": 33,
+      "eligible_expense_categories": [
+        "商品改良・開発費",
+        "展示商談会出展費",
+        "プロモーション費",
+        "営業活動費"
+      ],
+      "selection_quota": 5,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-04-20",
+      "application_end": "2026-05-08",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "required_documents": [
+        "助成金交付申請書（様式第1号）",
+        "収支計算書",
+        "誓約書",
+        "チェックシート"
+      ],
+      "status": "終了",
+      "status_note": "募集は終了いたしました",
+      "related_programs": [
+        {
+          "program_name": "令和８年度いばらきグローバルビジネス推進事業（輸出拡大チャレンジ事業）助成事業【事業者育成枠】",
+          "relation_type": "関連",
+          "note": "同事業の別枠（輸出実績1億円未満の事業者向け）"
+        }
+      ],
+      "contact": "いばらきグローバルビジネス推進協議会（事務局：茨城県営業戦略部県産品販売課 食品・水産G）TEL: 029-301-3529 / FAX: 029-301-3909 / E-mail: global_1@pref.ibaraki.lg.jp",
+      "source_url": "https://www.pref.ibaraki.jp/eigyo/global/kaigai/2026yushutsukakudaich.html",
+      "plain_summary": "※受付終了。茨城県内で加工食品（酒類含む）の輸出に取り組む事業者（前年度輸出額1億円以上3億円未満）向けの助成金です。商品改良・営業活動費を経費の1/3、最大200万円まで支援します。最大3年間継続可能で、5社程度を採択予定でした。"
+    }
+  ]
+}

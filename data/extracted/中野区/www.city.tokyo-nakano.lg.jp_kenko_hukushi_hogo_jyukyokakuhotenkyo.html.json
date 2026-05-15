@@ -1,0 +1,82 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/hogo/jyukyokakuhotenkyo.html"
+    ],
+    "extracted_at": "2026-05-15T00:59:13.255434+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "住居確保給付金（転居費用補助）",
+      "operating_body": "中野区",
+      "category": "ひとり親・低所得",
+      "subcategory": "住居支援・生活困窮者支援",
+      "target_summary": "収入が著しく減少して経済的に困窮し、住居を失っているまたは失うおそれのある方。申請月の世帯収入が収入基準額以下で、資産基準額以下、生活保護未受給、主たる生計維持者であること。中野くらしサポートで家計改善支援を受け、転居により家計改善が見込まれると認められた方。",
+      "target_household": [
+        "単身世帯",
+        "2人世帯",
+        "3人世帯",
+        "4人世帯",
+        "5人世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "転居先の初期費用（礼金・仲介手数料・家賃債務保証料・住宅保険料）、鍵交換費用、原状回復費用、家財運搬費用を補助。支給上限額は転居先が中野区内の場合、単身世帯279,200円〜5人世帯364,000円。給付金は原則、不動産仲介業者等へ直接振込。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 364000,
+      "eligible_expense_categories": [
+        "礼金",
+        "仲介手数料",
+        "家賃債務保証料",
+        "住宅保険料",
+        "鍵交換費用",
+        "原状回復費用（ハウスクリーニング等）",
+        "家財運搬費用"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "単身世帯",
+          "amount_yen": 279200
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "2人世帯",
+          "amount_yen": 300000
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "3人世帯",
+          "amount_yen": 324000
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "4人世帯",
+          "amount_yen": 344000
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "5人世帯",
+          "amount_yen": 364000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "申請前に中野くらしサポートへ相談が必要。相談から申請まで1〜2か月、申請書類提出から振込まで1〜1.5か月程度を要する。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "申請時必要書類一覧（中野くらしサポートで確認）",
+        "住居確保給付金（転居費用補助）申請時確認書"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "中野くらしサポート（中野区役所4階）／電話：03-3228-8950／受付：月〜金（祝日・年末年始除く）8:30〜17:00（相談受付は16:30まで）",
+      "source_url": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/hogo/jyukyokakuhotenkyo.html",
+      "plain_summary": "収入が急に減って生活が苦しくなり、住居を失うおそれがある中野区の方に、引っ越しにかかる費用（礼金・仲介手数料・引越し代など）を補助します。中野区内への転居の場合、単身世帯は最大279,200円、5人世帯は最大364,000円。まず中野くらしサポート（03-3228-8950）へ相談が必要です。"
+    }
+  ]
+}

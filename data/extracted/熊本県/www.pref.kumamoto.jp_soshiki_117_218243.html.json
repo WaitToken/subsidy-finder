@@ -1,0 +1,54 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.kumamoto.jp/soshiki/117/218243.html"
+    ],
+    "extracted_at": "2026-05-15T02:47:10.478818+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和7年度熊本県見守り付き住宅確保要配慮者専用賃貸住宅改修事業補助金",
+      "operating_body": "熊本県",
+      "category": "住まい",
+      "subcategory": "セーフティネット住宅・バリアフリー改修",
+      "target_audience": "事業者",
+      "target_summary": "民間事業者（所有者、居住支援法人等）が高齢者等を支援対象とする見守り付き住宅確保要配慮者専用賃貸住宅を供給するために改修を実施する者",
+      "target_residency_required": false,
+      "benefit_summary": "改修工事（バリアフリー化工事等）費用の補助。補助限度額は事業費300万円/戸に対して補助額200万円/戸（補助率3分の2）。エレベータ設置は事業費345万円、車いす対応の便所・浴室等改修は事業費600万円を上限等。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 2000000,
+      "benefit_rate_percent": 67,
+      "eligible_expense_categories": [
+        "バリアフリー化工事費",
+        "改修工事費",
+        "エレベータ設置費",
+        "車いす対応便所・浴室等改修費"
+      ],
+      "selection_quota": 7,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2025-11-10",
+      "application_end": "2025-12-05",
+      "application_rounds": [],
+      "application_method": "不明",
+      "required_documents": [
+        "募集用紙（様式A）",
+        "計画概要書（様式B）",
+        "事前説明書（様式C）",
+        "耐震性に関する報告書（様式D）",
+        "工事計画の建築基準法等への適合確認書（様式E）",
+        "承諾書（様式F）",
+        "近傍同種家賃調書（参考様式）"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "source_url": "https://www.pref.kumamoto.jp/soshiki/117/218243.html",
+      "plain_summary": "熊本県内で高齢者・障がい者・子育て世帯などが安心して住める賃貸住宅（セーフティネット専用住宅）を改修する民間事業者向けの補助金です。バリアフリー化工事などの改修費用の3分の2（最大200万円/戸）を補助します。応募戸数は7戸で、令和7年11月10日〜12月5日に申請を受け付けます。"
+    }
+  ]
+}

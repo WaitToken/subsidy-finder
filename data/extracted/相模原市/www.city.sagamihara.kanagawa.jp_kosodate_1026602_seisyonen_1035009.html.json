@@ -1,0 +1,42 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/seisyonen/1035009.html"
+    ],
+    "extracted_at": "2026-05-15T03:11:24.839869+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "大学生等修学支援特別給付金事業",
+      "operating_body": "相模原市",
+      "category": "子育て・教育",
+      "subcategory": "修学支援・奨学金",
+      "target_audience": "個人",
+      "target_summary": "令和8年6月1日時点から給付金の交付決定日まで引き続き相模原市の住民基本台帳に登録されており、令和8年度に日本学生支援機構の給付奨学金（または同等の奨学金）を受給している大学生等",
+      "target_residency_required": true,
+      "benefit_summary": "2万円（1回限り）を現金で支給",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 20000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-06-01",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "在学していることが確認できる書類（学生証などの写し）",
+        "日本学生支援機構が発行する「奨学金給付証明書」の写し（「給付」証明書に限る。「貸与」証明書は対象外。令和8年度に新たに給付奨学生となった人は「給付奨学生証」でも可）",
+        "本人名義の振込先口座が分かる書類（キャッシュカード等の写し）"
+      ],
+      "status": "予定",
+      "related_programs": [],
+      "contact": "こども・若者応援課 電話：042-751-0091 ファクス：042-751-0092",
+      "source_url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/seisyonen/1035009.html",
+      "plain_summary": "物価高騰で家計が厳しい大学生を応援する給付金です。相模原市に住んでいて、令和8年度に日本学生支援機構の給付奨学金をもらっている人が対象です。1人につき1回だけ2万円が振り込まれます。申請は令和8年6月1日（月）から、申請フォームまたは郵送で受け付けます。"
+    }
+  ]
+}

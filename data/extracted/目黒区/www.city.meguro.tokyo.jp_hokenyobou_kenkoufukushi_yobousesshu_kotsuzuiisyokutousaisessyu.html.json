@@ -1,0 +1,45 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.meguro.tokyo.jp/hokenyobou/kenkoufukushi/yobousesshu/kotsuzuiisyokutousaisessyu.html"
+    ],
+    "extracted_at": "2026-05-15T00:53:28.611665+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "骨髄移植手術等の理由による任意予防接種費用助成",
+      "operating_body": "目黒区",
+      "category": "医療・健康",
+      "subcategory": "予防接種・再接種費用助成",
+      "target_summary": "骨髄移植・末梢血幹細胞移植・臍帯血移植等の造血幹細胞移植、または抗がん剤治療等の化学療法等により定期予防接種で獲得した免疫が低下・消失したと医師に判断された20歳未満の目黒区民（令和4年4月以降に再接種を受ける方）",
+      "target_age_min": 0,
+      "target_age_max": 19,
+      "target_residency_required": true,
+      "benefit_summary": "対象ワクチンの再接種費用の一部または全額を助成（接種ワクチンにより助成上限額が異なる）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "再接種前に事前申請が必要。再接種後は1年以内に助成金申請",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "目黒区特別の理由による予防接種再接種費用助成対象認定申請書（第1号様式）",
+        "定期予防接種の再接種に関する医師の意見書（第2号様式）",
+        "骨髄移植等以前の接種歴が確認できる資料（母子健康手帳や予防接種の予診票の写し）",
+        "医療機関の領収書原本及び診療明細書の原本",
+        "再接種の記録のある母子健康手帳または予防接種予診票の写し",
+        "振込希望先の通帳の写し"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "保健予防課 予防接種係 電話：03-5722-7047 ファクス：03-5722-9890",
+      "source_url": "https://www.city.meguro.tokyo.jp/hokenyobou/kenkoufukushi/yobousesshu/kotsuzuiisyokutousaisessyu.html",
+      "plain_summary": "骨髄移植や抗がん剤治療などで予防接種の効果がなくなった20歳未満の目黒区民を対象に、再度ワクチンを接種する費用の一部または全額を助成します。接種前に必ず事前申請が必要で、郵送または窓口で手続きします。接種後は1年以内に助成金を申請してください。"
+    }
+  ]
+}

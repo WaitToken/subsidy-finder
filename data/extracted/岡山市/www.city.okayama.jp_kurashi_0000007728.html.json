@@ -1,0 +1,160 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.okayama.jp/kurashi/0000007728.html"
+    ],
+    "extracted_at": "2026-05-15T03:22:00.077484+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "補装具購入費支給制度",
+      "operating_body": "岡山市",
+      "category": "障害者支援",
+      "subcategory": "補装具",
+      "target_audience": "個人",
+      "target_summary": "岡山市内に住所を有し、身体障害者手帳を持っている方または難病の方。ただし、世帯に市民税所得割額が46万円以上の方がいる場合は対象外。",
+      "target_residency_required": true,
+      "benefit_summary": "補装具の購入・借受け・修理に係る費用の9割を支給（自己負担1割）。所得区分による負担上限月額あり（生活保護・低所得世帯は0円、一般世帯は37,200円）。",
+      "benefit_type": "現金",
+      "benefit_rate_percent": 90,
+      "eligible_expense_categories": [
+        "補装具購入費",
+        "補装具借受け費",
+        "補装具修理費"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "所得区分",
+          "condition_label": "生活保護受給世帯",
+          "rate_percent": 100,
+          "note": "負担上限月額0円（実質全額支給）"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "低所得（市民税非課税世帯）",
+          "rate_percent": 100,
+          "note": "負担上限月額0円（実質全額支給）"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "一般世帯（市民税課税世帯）",
+          "rate_percent": 90,
+          "note": "負担上限月額37,200円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "補装具購入費（購入・借受け・修理）支給申請書",
+        "身体障害者手帳",
+        "個人番号がわかるもの（個人番号カード、個人番号が記載された住民票の写し、住民票記載事項証明）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "各福祉事務所（身体障害者）／保健所健康づくり課 特定疾病係（難病患者等）TEL: 086-803-1271",
+      "source_url": "https://www.city.okayama.jp/kurashi/0000007728.html",
+      "plain_summary": "岡山市内に住み、身体障害者手帳を持っているか難病の方が対象です。義足・車いす・補聴器などの補装具を買ったり修理したりするときの費用の9割を市が負担してくれます（自己負担は1割）。低所得世帯は自己負担ゼロです。まず各福祉事務所か保健所の窓口に相談してください。"
+    },
+    {
+      "program_name": "日常生活用具給付事業",
+      "operating_body": "岡山市",
+      "category": "障害者支援",
+      "subcategory": "日常生活用具",
+      "target_audience": "個人",
+      "target_summary": "岡山市内に住所を有する障害者（18歳以上）・障害児（18歳未満）。ただし、世帯に市民税所得割額が46万円以上の方がいる場合は対象外。介護保険で福祉用具の貸与・購入を受けられる場合は対象外。",
+      "target_residency_required": true,
+      "benefit_summary": "日常生活用具を給付（自己負担1割）。所得区分による負担上限月額あり（生活保護・低所得世帯は0円、一般世帯は37,200円）。基準価格を超える場合は超過分が全額自己負担。",
+      "benefit_type": "現物給付",
+      "benefit_rate_percent": 90,
+      "benefit_tiers": [
+        {
+          "condition_type": "所得区分",
+          "condition_label": "生活保護受給世帯",
+          "rate_percent": 100,
+          "note": "負担上限月額0円"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "低所得（市民税非課税世帯）",
+          "rate_percent": 100,
+          "note": "負担上限月額0円"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "一般世帯（市民税課税世帯）",
+          "rate_percent": 90,
+          "note": "負担上限月額37,200円"
+        }
+      ],
+      "goods_items": [
+        {
+          "item_name": "日常生活用具（電気式たん吸引器・紙おむつ・居宅生活動作補助用具・人工内耳用電池・人工内耳用音声信号処理装置等）",
+          "stock_limited": false,
+          "note": "種目の詳細は市の要綱PDFを参照"
+        }
+      ],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "日常生活用具給付申請書",
+        "身体障害者手帳または療育手帳若しくは精神障害者保健福祉手帳",
+        "登録業者の見積書（カタログ等）",
+        "電気式たん吸引器給付意見書（該当者のみ）",
+        "点字図書発行証明書（点字図書申請時）",
+        "紙おむつ等給付意見書（該当者のみ）",
+        "工事図面・改修工事見積書・改修前写真・家主承諾書（居宅生活動作補助用具申請時）",
+        "人工内耳装用者カードの写し（人工内耳用電池・音声信号処理装置申請時）",
+        "人工内耳用音声信号処理装置給付意見書（該当者のみ）",
+        "医師の意見書（難病患者等）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "各福祉事務所（身体障害・知的障害）／保健所健康づくり課 精神保健係（精神障害）／保健所健康づくり課 特定疾病係（難病患者等）TEL: 086-803-1271",
+      "source_url": "https://www.city.okayama.jp/kurashi/0000007728.html",
+      "plain_summary": "岡山市に住む障害者・障害児が対象です。日常生活をより便利に送るための用具を市が給付してくれます（自己負担は費用の1割）。生活保護や低所得の世帯は自己負担ゼロ。必要な書類を揃えて各福祉事務所や保健所の窓口に申請してください。介護保険が使える場合は原則この制度は利用できません。"
+    },
+    {
+      "program_name": "難聴児補聴器購入費助成",
+      "operating_body": "岡山市",
+      "category": "障害者支援",
+      "subcategory": "難聴児補聴器",
+      "target_audience": "個人",
+      "target_summary": "岡山市内に住所を有する18歳未満の難聴児で、両耳の聴力レベルがいずれも30デシベル以上の方（身体障害者手帳の交付対象とならない方）。医師が装用の必要性を認めた場合は30デシベル未満でも対象。世帯に市民税所得割額が46万円以上の方がいる場合は対象外。",
+      "target_age_min": 0,
+      "target_age_max": 17,
+      "target_residency_required": true,
+      "benefit_summary": "補聴器購入費と市が定める基準価格を比較して少ない方の額に3分の2を乗じた額を助成。対象に補聴援助システム（送信機・受信機・オーディオシュー）、軟骨伝導式、骨導式カチューシャ型を含む。",
+      "benefit_type": "現金",
+      "benefit_rate_percent": 67,
+      "eligible_expense_categories": [
+        "補聴器購入費",
+        "補聴援助システム購入費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "申請書（窓口にあります）",
+        "指定自立支援医療機関に属する医師が作成する意見書（様式は窓口にあります）",
+        "身体障害者手帳交付に係る却下決定通知書の写し（該当がある場合）",
+        "認定補聴器専門店が作成した見積書",
+        "請求書（購入後・窓口にあります）",
+        "領収書"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "岡山市 TEL: 086-803-1236 FAX: 086-803-1755",
+      "source_url": "https://www.city.okayama.jp/kurashi/0000007728.html",
+      "plain_summary": "岡山市内に住む18歳未満で身体障害者手帳をもらえない難聴のお子さんが対象です。補聴器を買うときの費用の3分の2を市が助成してくれます。軟骨伝導式や骨導式カチューシャ型も対象です。まず窓口で申請書と医師の意見書・見積書を提出し、購入後に領収書で請求します。"
+    }
+  ]
+}

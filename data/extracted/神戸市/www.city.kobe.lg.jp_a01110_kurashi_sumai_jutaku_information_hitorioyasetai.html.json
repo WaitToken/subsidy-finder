@@ -1,0 +1,48 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.kobe.lg.jp/a01110/kurashi/sumai/jutaku/information/hitorioyasetai.html"
+    ],
+    "extracted_at": "2026-05-15T03:19:50.099389+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "ひとり親世帯の家賃補助制度",
+      "operating_body": "神戸市",
+      "category": "ひとり親・低所得",
+      "subcategory": "住まい支援",
+      "target_audience": "個人",
+      "target_summary": "神戸市内の民間賃貸住宅に新たに引っ越したひとり親世帯（2026年1月1日〜2027年2月28日の引越しが対象）。市営・県営住宅居住者は対象外。18歳未満の子どもと同居していること、収入要件（政令月収）を満たすこと、転居前に公営住宅へ申し込み落選歴があること等、9つの要件すべてを満たす必要あり。",
+      "target_household": [
+        "ひとり親世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "月最大1万5千円の家賃補助。最大6年間（末子が18歳に達して以後最初の3月31日まで）。補助金の交付は毎年8月・12月・4月（前4ヶ月分まとめて）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 1080000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "予算に達し次第受付終了。郵送・窓口申請不可、電子申請（e-KOBE）のみ。",
+      "application_start": "2026-04-01",
+      "application_end": "2027-02-28",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "required_documents": [
+        "審査に必要な書類（電子申請e-KOBEでアップロード）",
+        "家賃の支払いが分かるもの（領収書の写し等）",
+        "世帯全員の住民票の写し（申請日より3か月以内・最新・マイナンバー記載なし）"
+      ],
+      "status": "募集中",
+      "status_note": "予算上限到達で早期終了の可能性あり",
+      "related_programs": [],
+      "contact": "お問い合わせフォーム（ページ下部）",
+      "source_url": "https://www.city.kobe.lg.jp/a01110/kurashi/sumai/jutaku/information/hitorioyasetai.html",
+      "plain_summary": "神戸市内の民間賃貸住宅に引っ越したひとり親世帯に、月最大1万5千円の家賃補助を最大6年間（末子が18歳になる年度末まで）支給します。2026年1月1日〜2027年2月28日の引越しが対象。申請は2026年4月1日〜2027年2月28日の間に電子申請（e-KOBE）のみで受付。予算がなくなり次第終了。毎年継続申請が必要です。"
+    }
+  ]
+}

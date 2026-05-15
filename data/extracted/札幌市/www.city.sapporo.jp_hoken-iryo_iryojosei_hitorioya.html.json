@@ -1,0 +1,60 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sapporo.jp/hoken-iryo/iryojosei/hitorioya.html"
+    ],
+    "extracted_at": "2026-05-15T02:58:05.788226+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "ひとり親家庭等医療費助成",
+      "operating_body": "札幌市",
+      "category": "ひとり親・低所得",
+      "subcategory": "医療費助成",
+      "target_audience": "個人",
+      "target_summary": "札幌市に住民登録があり公的医療保険に加入しているひとり親家庭（母または父）およびその子ども（原則18歳到達後最初の3月31日まで、条件により20歳まで）。主たる生計維持者の所得が限度額未満であること。",
+      "target_age_min": 0,
+      "target_age_max": 20,
+      "target_household": [
+        "ひとり親家庭",
+        "両親のいない家庭"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "入院・通院の保険診療自己負担額から一部負担金を除いた額を助成。生計維持者が住民税非課税の場合：初診時一部負担金（医科580円、歯科510円など）のみ自己負担。生計維持者が住民税課税の場合：医療費の1割自己負担（通院3,000円/月・年144,000円、入院57,600円/月等の限度額あり）。",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "18歳以下または主たる生計維持者が住民税非課税の場合",
+          "note": "初診時一部負担金（医科580円・歯科510円・柔道整復等270円・訪問看護療養費1割）のみ自己負担、再診・調剤は0円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "主たる生計維持者が住民税課税の場合",
+          "note": "医療費の1割自己負担。通院限度額3,000円/月・年144,000円、入院57,600円/月（多数回該当44,400円）"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "ひとり親家庭等医療費受給者証交付申請書",
+        "ひとり親家庭等の申立書兼養育費申告書",
+        "申請者の本人確認書類（マイナンバーカード表面、運転免許証など）",
+        "対象者の公的医療保険情報を確認できる書類（資格確認書・資格情報のお知らせ、またはマイナポータル画面）",
+        "ひとり親家庭等であることを証明できる書類（児童扶養手当証書・遺族年金証書・戸籍謄本など）",
+        "所得・課税情報が札幌市外にある方は地方税関係情報の取得に関する同意書または所得・課税証明書（原本）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "各区役所保健福祉課福祉助成係（中央区役所：011-205-3302、北区役所：011-757-2462、東区役所：011-741-2461 ほか各区役所）",
+      "source_url": "https://www.city.sapporo.jp/hoken-iryo/iryojosei/hitorioya.html",
+      "plain_summary": "札幌市在住のひとり親家庭のお子さん（原則18歳まで、条件次第で20歳まで）と、その親の医療費を助成する制度です。住民税非課税世帯は初診時の少額負担のみ、課税世帯は医療費の1割（月・年の上限あり）を自己負担し、残りを市が助成します。事前に受給者証を取得する必要があり、区役所福祉助成係・郵送・オンラインで申請できます。"
+    }
+  ]
+}

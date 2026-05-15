@@ -1,0 +1,45 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sapporo.jp/hoken-iryo/iryojosei/nyuyoji.html"
+    ],
+    "extracted_at": "2026-05-15T02:58:42.277187+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "札幌市子ども医療費助成",
+      "operating_body": "札幌市",
+      "category": "子育て・教育",
+      "subcategory": "医療費助成",
+      "target_audience": "個人",
+      "target_summary": "札幌市に住民登録があり、公的医療保険に加入している高校生世代まで（18歳に達する日以後の最初の3月31日まで）のお子さん。主たる生計維持者の所得が限度額未満であること。高校に就学していない子も対象。",
+      "target_age_min": 0,
+      "target_age_max": 18,
+      "target_residency_required": true,
+      "benefit_summary": "入院・通院に係る保険診療の自己負担額から一部負担金（医科初診580円、歯科初診510円、訪問看護は療養費の1割（月3,000円限度）等）を除いた額を助成。再診・調剤薬局・柔道整復等は自己負担ゼロ。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "受給者証の交付を受けた後は医療機関窓口で使用。医療費を一旦支払った場合は支払日から2年以内に区役所へ申請。",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "子ども医療費助成受給資格登録申請書",
+        "申請者の本人確認書類（マイナンバーカード表面、運転免許証など）",
+        "お子さんの公的医療保険情報を確認できる書類（資格確認書、資格情報のお知らせ、またはマイナポータルの公的医療保険情報が確認できる画面）",
+        "所得・課税情報が札幌市外にある方は地方税関係情報の取得に関する同意書または所得・課税証明書（原本）"
+      ],
+      "status": "募集中",
+      "status_note": "令和7年4月から高校生世代の入通院医療費も助成対象に拡大",
+      "related_programs": [],
+      "contact": "各区役所保健福祉課福祉助成係（中央区役所直通011-205-3302 など）",
+      "source_url": "https://www.city.sapporo.jp/hoken-iryo/iryojosei/nyuyoji.html",
+      "plain_summary": "札幌市に住む高校生世代（18歳になった年度末）までのお子さんの医療費を市が助成してくれる制度です。保険診療の自己負担額から初診料などの一部負担金を引いた分が助成されます。事前に「子ども医療費受給者証」を取得する必要があり、オンライン・郵送・区役所窓口で申請できます。所得制限があります。"
+    }
+  ]
+}

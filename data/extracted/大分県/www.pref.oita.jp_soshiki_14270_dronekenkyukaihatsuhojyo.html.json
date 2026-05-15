@@ -1,0 +1,48 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.oita.jp/soshiki/14270/dronekenkyukaihatsuhojyo.html"
+    ],
+    "extracted_at": "2026-05-15T02:49:35.411908+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和８年度大分県ドローン産業研究開発事業費補助金",
+      "operating_body": "大分県ドローン協議会（大分県 商工観光労働部 先端技術挑戦課）",
+      "category": "就労・起業",
+      "subcategory": "ドローン産業・研究開発",
+      "target_audience": "事業者",
+      "target_summary": "大分県ドローン協議会の会員（会員でない場合は入会が必要）。ドローンに関連する新たな製品・ソフト・サービスの開発に取り組む事業者。",
+      "target_residency_required": true,
+      "benefit_summary": "補助金額500万円以内、補助率3分の2以内。採択予定件数3件程度（予算の範囲内）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 5000000,
+      "benefit_rate_percent": 67,
+      "selection_quota": 3,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年4月16日（木）〜5月15日（金）17時00分まで。5月29日（金）に審査会開催予定。",
+      "application_start": "2026-04-16",
+      "application_end": "2026-05-15",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "大分県ドローン産業研究開発事業認定申請書（第１号様式）",
+        "事業計画書（第２号様式）",
+        "収支予算書（第３号様式）",
+        "企業連携帯協定書（第４号様式）※企業連携体による申請の場合のみ"
+      ],
+      "status": "終了",
+      "status_note": "受付期間は2026年5月15日17時まで。取得日（2026-05-15）時点で受付終了の可能性あり。審査会は5月29日開催予定。",
+      "related_programs": [],
+      "contact": "大分県ドローン協議会事務局 / 大分県 商工観光労働部 先端技術挑戦課 TEL：097-506-3273（阿南）",
+      "source_url": "https://www.pref.oita.jp/soshiki/14270/dronekenkyukaihatsuhojyo.html",
+      "plain_summary": "大分県ドローン協議会の会員企業が、ドローン関連の新製品・ソフト・サービスを開発する際に受けられる補助金です。補助率は経費の3分の2以内で、最大500万円まで支援されます。採択予定は3件程度。令和8年4月16日〜5月15日17時が申請受付期間です（受付終了の可能性あり）。"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.wakayama.lg.jp/prefg/032100/asbest_kyusai/index.html"
+    ],
+    "extracted_at": "2026-05-15T02:27:48.274102+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "石綿健康被害救済給付",
+      "operating_body": "独立行政法人環境再生保全機構（和歌山県が受付窓口）",
+      "category": "医療・健康",
+      "subcategory": "石綿（アスベスト）健康被害救済",
+      "target_summary": "石綿（アスベスト）による健康被害（中皮腫・石綿による肺がん・著しい呼吸機能障害を伴う石綿肺・著しい呼吸機能障害を伴うびまん性胸膜肥厚）を受けた方、またはそのご遺族のうち、労災補償等の対象とならない方",
+      "target_residency_required": false,
+      "benefit_summary": "【療養中に認定申請した方】医療費（自己負担分）、療養手当（約11万5千円／月）、葬祭料（約22万円）。【認定申請前に死亡した場合のご遺族】特別遺族弔慰金（280万円）、特別葬祭料（約22万円）",
+      "benefit_type": "複合",
+      "benefit_amount_max_yen": 2800000,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "療養中に認定申請・療養手当（月額）",
+          "amount_yen": 115000,
+          "note": "約11万5千円／月"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "葬祭料",
+          "amount_yen": 220000,
+          "note": "約22万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "特別遺族弔慰金（認定申請前に死亡した場合のご遺族）",
+          "amount_yen": 2800000,
+          "note": "280万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "特別葬祭料（認定申請前に死亡した場合のご遺族）",
+          "amount_yen": 220000,
+          "note": "約22万円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "独立行政法人環境再生保全機構 石綿健康被害救済部 TEL:0120-389-931（フリーダイヤル）／和歌山県庁 環境管理課 TEL:073-441-2688",
+      "source_url": "https://www.pref.wakayama.lg.jp/prefg/032100/asbest_kyusai/index.html",
+      "plain_summary": "アスベスト（石綿）を吸い込んで中皮腫や肺がんなどにかかった方や、亡くなられた方のご遺族で、労災補償の対象外の方が利用できます。療養中の方は医療費の自己負担分と月約11.5万円の療養手当が受け取れます。ご遺族には最大280万円の特別遺族弔慰金が支給されます。県内各保健所または県庁環境管理課の窓口で申請できます。"
+    }
+  ]
+}

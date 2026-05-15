@@ -1,0 +1,44 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sendai.jp/kate/kurashi/kenkotofukushi/kosodate/teate/jose.html"
+    ],
+    "extracted_at": "2026-05-15T02:59:08.839071+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "こども医療費助成",
+      "operating_body": "仙台市",
+      "category": "子育て・教育",
+      "subcategory": "医療費助成",
+      "target_audience": "個人",
+      "target_summary": "仙台市に住む18歳到達年度末（高校3年生）までのこどもを健康保険で扶養している保護者。生活保護受給者は対象外。",
+      "target_age_min": 0,
+      "target_age_max": 18,
+      "target_residency_required": true,
+      "benefit_summary": "健康保険が適用される診療の自己負担額を全額助成（利用者一部負担金なし）。高額療養費等が支給される場合はその額を差し引いた額を助成。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "こども医療費助成資格登録申請書",
+        "こどもの加入している健康保険情報の分かるもの（資格確認書・資格情報のお知らせ・マイナポータルの資格情報印刷等）",
+        "受給者名義の口座が分かるもの（預金通帳・キャッシュカード・WEB通帳印刷等）",
+        "マイナンバー確認書類（保護者・配偶者）",
+        "本人確認書類（申請者）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "仙台市総合コールセンター（杜の都おしえてコール）電話：022-398-4894（午前8時〜午後8時・年中無休）／各区役所保育給付課または総合支所保健福祉課",
+      "source_url": "https://www.city.sendai.jp/kate/kurashi/kenkotofukushi/kosodate/teate/jose.html",
+      "plain_summary": "仙台市に住む18歳になる年度の3月末まで（高校3年生）のこどもが対象で、病院にかかったときの健康保険自己負担分を全額助成してもらえる制度です。令和8年4月から対象が中学生から高校生まで広がり、自己負担もなくなりました。区役所窓口・郵送・電子申請で随時申請できます。"
+    }
+  ]
+}

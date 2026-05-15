@@ -1,0 +1,81 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.shinagawa.tokyo.jp/PC/kankyo/kankyo-toshiseibi/kankyo-toshiseibi-shien/kankyo-toshiseibi-shien-hunenkasokushin/20190913101924.html"
+    ],
+    "extracted_at": "2026-05-15T00:50:54.270406+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "都市防災不燃化促進事業 除却助成",
+      "operating_body": "品川区",
+      "category": "住まい",
+      "subcategory": "不燃化促進・防災まちづくり",
+      "target_summary": "品川区内の耐火・準耐火建築物以外の木造建築物を除却する所有者（除却者）",
+      "target_residency_required": false,
+      "benefit_summary": "除却する建築物の床面積（㎡）×33,000円（上限1,650万円）。ただし実際の除却費用を超えない額。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 16500000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "木密整備推進課 不燃化促進担当 電話：03-5742-6947 FAX：03-5742-6756",
+      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/kankyo/kankyo-toshiseibi/kankyo-toshiseibi-shien/kankyo-toshiseibi-shien-hunenkasokushin/20190913101924.html",
+      "plain_summary": "品川区内の木造建築物（耐火・準耐火以外）を取り壊す所有者に対して、床面積×33,000円（上限1,650万円）の助成金が出ます。ただし実際の工事費を超えることはありません。令和7年7月1日に単価が改正されました。詳細は木密整備推進課（03-5742-6947）へご相談ください。"
+    },
+    {
+      "program_name": "都市防災不燃化促進事業 建築助成（一般建築助成・加算助成）",
+      "operating_body": "品川区",
+      "category": "住まい",
+      "subcategory": "不燃化促進・防災まちづくり",
+      "target_summary": "品川区の不燃化促進対象区域内で耐火・準耐火建築物を新築する建築主。住宅以外の用途も対象。加算助成は三世代同居・高齢者障害者居住・共同建築・協調建築等の要件を満たす場合に加算あり。",
+      "target_residency_required": false,
+      "benefit_summary": "一般建築助成：1〜3階の建築助成対象床面積に応じた助成（単価はパンフレット参照）。加算助成として、住宅型不燃建築物助成（床面積による）、三世代住宅助成60万円、高齢者・障害者等居住世帯助成150万円（令和8年4月新設）、共同建築助成100万円、協調建築助成60万円を併用可能。",
+      "benefit_type": "現金",
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "三世代住宅助成",
+          "amount_yen": 600000,
+          "note": "親・子等の三世代が同居し、所定要件（4室以上・手摺設置等）を満たす場合"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "高齢者・障害者等居住世帯助成（令和8年4月新設）",
+          "amount_yen": 1500000,
+          "note": "65歳以上または各種障害者手帳・要介護認定等の対象者が居住する世帯"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "共同建築助成",
+          "amount_yen": 1000000,
+          "note": "複数土地所有者等が共同で建築する場合、各建築主にそれぞれ加算"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "協調建築助成",
+          "amount_yen": 600000,
+          "note": "隣接する複数の建築主が協議のうえ概ね同時期に建築する場合、各建築主にそれぞれ加算"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "加算助成は事前相談が必須。申請状況により受けられない場合あり。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "木密整備推進課 不燃化促進担当 電話：03-5742-6947 FAX：03-5742-6756",
+      "source_url": "https://www.city.shinagawa.tokyo.jp/PC/kankyo/kankyo-toshiseibi/kankyo-toshiseibi-shien/kankyo-toshiseibi-shien-hunenkasokushin/20190913101924.html",
+      "plain_summary": "品川区の不燃化促進区域内で、燃えにくい建物（耐火・準耐火）を新しく建てる方に助成金が出ます。基本の助成に加え、三世代同居（＋60万円）、高齢者・障害者居住世帯（＋150万円）、共同・協調建築（＋60〜100万円）の加算があります。加算を希望する場合は必ず事前に窓口（03-5742-6947）へご相談ください。"
+    }
+  ]
+}

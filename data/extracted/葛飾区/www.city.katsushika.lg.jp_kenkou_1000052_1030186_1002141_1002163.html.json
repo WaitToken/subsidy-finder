@@ -1,0 +1,79 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/1002141/1002163.html"
+    ],
+    "extracted_at": "2026-05-15T01:27:59.562109+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "住宅設備改修費助成",
+      "operating_body": "葛飾区",
+      "category": "高齢者・介護",
+      "subcategory": "住宅改修",
+      "target_summary": "葛飾区に住民登録をしている65歳以上（または40〜64歳で特定疾病のある方）で、介護保険の要支援・要介護認定を受けており、在宅生活が可能な方",
+      "target_age_min": 40,
+      "target_household": [
+        "高齢者",
+        "要支援・要介護認定者"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "住宅設備改修費を助成。浴槽取替え等：限度額379,000円、流し台・洗面台取替え等：限度額156,000円、階段昇降機設置：機器本体費限度額979,000円＋設置費限度額353,000円。自己負担は介護保険の利用者負担割合（1〜3割）。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 1332000,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "浴槽の取替えおよび付帯工事",
+          "amount_yen": 379000,
+          "note": "同一世帯で1回限り"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "流し台・洗面台の取替えおよび付帯工事",
+          "amount_yen": 156000,
+          "note": "車いす利用者などで足が入るタイプへの取替えが対象。同一世帯で1回限り"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "階段昇降機の設置（機器本体費・付属器具費）",
+          "amount_yen": 979000,
+          "note": "持ち家の専有階段に設置するものが対象。同一世帯で1回限り"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "階段昇降機の設置（設置費）",
+          "amount_yen": 353000,
+          "note": "持ち家の専有階段に設置するものが対象。同一世帯で1回限り"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "工事着工前に必ず相談・申請が必要。工事着工後・完了後の申請は対象外。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "介護保険証",
+        "施行事業者の見積書",
+        "工事図面",
+        "賃貸住宅の場合は所有者の承諾書",
+        "階段昇降機設置の場合は対象者の身体要件に関する書類・建築基準法に関する書類（必要に応じて）"
+      ],
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "介護保険による住宅改修制度",
+          "relation_type": "関連",
+          "note": "介護保険法に基づく要支援・要介護認定者向けの住宅改修制度"
+        }
+      ],
+      "contact": "高齢者支援課在宅サービス係 〒124-8555 葛飾区立石5-13-1 葛飾区役所2階201番窓口 電話：03-5654-8299 ファクス：03-5698-1531",
+      "source_url": "https://www.city.katsushika.lg.jp/kenkou/1000052/1030186/1002141/1002163.html",
+      "plain_summary": "葛飾区に住む65歳以上（特定疾病のある40〜64歳も含む）で、介護保険の要支援・要介護認定を受けている在宅の方が対象です。浴槽の取替えや流し台・洗面台の取替え、階段昇降機の設置などの住宅設備改修費を助成してもらえます。自己負担は介護保険の負担割合（1〜3割）です。工事前に必ず高齢者支援課在宅サービス係へ相談・申請が必要です。"
+    }
+  ]
+}

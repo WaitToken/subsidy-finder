@@ -1,0 +1,132 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.oita.jp/soshiki/13090/keidennki-hojo.html"
+    ],
+    "extracted_at": "2026-05-15T02:49:05.454071+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "大分県商用軽電気自動車導入支援事業費補助金",
+      "operating_body": "大分県",
+      "category": "環境",
+      "subcategory": "電気自動車・脱炭素",
+      "target_audience": "事業者",
+      "target_summary": "おおいたグリーン事業者（脱炭素部門またはサステナビリティ・リンク・ローン部門）の認証を受けた事業者",
+      "target_residency_required": true,
+      "benefit_summary": "商用軽電気自動車1台あたり30万円またはCEV補助金等の交付額のいずれか低い方の額を補助（1事業者・1年度・1台まで）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 300000,
+      "eligible_expense_categories": [
+        "車両本体購入費"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "車種",
+          "condition_label": "軽電気自動車",
+          "amount_yen": 300000,
+          "note": "1台当たり30万円またはCEV補助金の額のいずれか低い方"
+        },
+        {
+          "condition_type": "車種",
+          "condition_label": "軽貨物電気自動車",
+          "amount_yen": 300000,
+          "note": "1台当たり30万円または商用車等の電動化促進事業補助金（トラック）の額のいずれか低い方"
+        },
+        {
+          "condition_type": "車種",
+          "condition_label": "旅客自動車運送事業用軽電気自動車",
+          "amount_yen": 300000,
+          "note": "1台当たり30万円または商用車等の電動化促進事業補助金（タクシー・バス）の額のいずれか低い方"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "先着順受付、予算額（600万円）に達した時点で募集終了",
+      "application_start": "2026-05-01",
+      "application_end": "2027-02-26",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "交付申請書兼実績報告書（第1号様式）",
+        "誓約書（第2号様式）",
+        "収支精算書（第3号様式）",
+        "請求書（第6号様式）"
+      ],
+      "status": "募集中",
+      "status_note": "先着順、予算上限到達で早期終了の可能性あり",
+      "related_programs": [
+        {
+          "program_name": "大分県電気自動車等充電設備導入支援事業費補助金",
+          "relation_type": "併用可能",
+          "note": "同時に利用可能"
+        },
+        {
+          "program_name": "クリーンエネルギー自動車導入促進補助金（CEV補助金）",
+          "relation_type": "前提",
+          "note": "当該補助金の交付額確定が要件"
+        },
+        {
+          "program_name": "おおいたグリーン事業者認証制度",
+          "relation_type": "前提",
+          "note": "脱炭素部門またはサステナビリティ・リンク・ローン部門の認証が必要"
+        }
+      ],
+      "contact": "大分県生活環境部環境政策課 〒870-8501 大分市大手町3-1-1 / a13090@pref.oita.lg.jp",
+      "source_url": "https://www.pref.oita.jp/soshiki/13090/keidennki-hojo.html",
+      "plain_summary": "おおいたグリーン事業者（脱炭素部門またはSLL部門）に認証された大分県内の事業者が、商用軽電気自動車を購入する際に、1台あたり最大30万円の補助が受けられます。1事業者・年度・1台まで。令和8年5月1日〜令和9年2月26日に先着順で受付（予算600万円に達し次第終了）。郵送・持参・メールで申請できます。"
+    },
+    {
+      "program_name": "大分県電気自動車等充電設備導入支援事業費補助金",
+      "operating_body": "大分県",
+      "category": "環境",
+      "subcategory": "EV充電設備・脱炭素",
+      "target_audience": "事業者",
+      "target_summary": "おおいたグリーン事業者（脱炭素部門またはサステナビリティ・リンク・ローン部門）の認証を受けた事業者",
+      "target_residency_required": true,
+      "benefit_summary": "普通充電設備1台あたり上限7万5千円（補助率1/4以内）、1事業者につき2台まで補助",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 150000,
+      "benefit_rate_percent": 25,
+      "eligible_expense_categories": [
+        "充電設備購入費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "先着順受付、予算額（300万円）に達した時点で募集終了。令和9年2月26日までに実績報告が提出できる事業に限る",
+      "application_start": "2026-05-01",
+      "application_end": "2027-02-01",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "交付申請書（第1号様式）",
+        "事業計画書（第2号様式）",
+        "収支予算書（第3号様式）",
+        "誓約書（第4号様式）",
+        "実績報告書（第8号様式）"
+      ],
+      "status": "募集中",
+      "status_note": "先着順、予算上限到達で早期終了の可能性あり",
+      "related_programs": [
+        {
+          "program_name": "大分県商用軽電気自動車導入支援事業費補助金",
+          "relation_type": "併用可能",
+          "note": "同時に利用可能"
+        },
+        {
+          "program_name": "おおいたグリーン事業者認証制度",
+          "relation_type": "前提",
+          "note": "脱炭素部門またはサステナビリティ・リンク・ローン部門の認証が必要"
+        }
+      ],
+      "contact": "大分県生活環境部環境政策課 〒870-8501 大分市大手町3-1-1 / a13090@pref.oita.lg.jp",
+      "source_url": "https://www.pref.oita.jp/soshiki/13090/keidennki-hojo.html",
+      "plain_summary": "おおいたグリーン事業者（脱炭素部門またはSLL部門）に認証された大分県内の事業者が、普通充電設備を購入する際に、1台あたり最大7万5千円（購入費の1/4まで）、1事業者2台まで補助が受けられます。令和8年5月1日〜令和9年2月1日に先着順で受付（予算300万円に達し次第終了）。郵送・持参・メールで申請できます。"
+    }
+  ]
+}

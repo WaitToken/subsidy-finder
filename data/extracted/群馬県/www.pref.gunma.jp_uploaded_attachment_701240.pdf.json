@@ -1,0 +1,121 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.gunma.jp/uploaded/attachment/701240.pdf"
+    ],
+    "extracted_at": "2026-05-15T02:06:20.867438+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "群馬県こどもの居場所づくり応援事業補助金（①こどもの居場所の新規開設促進）",
+      "operating_body": "群馬県",
+      "category": "子育て・教育",
+      "subcategory": "こどもの居場所づくり",
+      "target_summary": "群馬県内でこどもの居場所（こども食堂、学習支援、遊び・体験活動等）を新たに提供する民間団体。概ね月1回以上かつ1年以上継続見込み、概ね5名以上の利用見込みがあること等",
+      "target_residency_required": false,
+      "benefit_summary": "こどもの居場所の新規開設に必要な経費（備品・消耗品費、広報費、保険料など）を補助。居場所がまだ提供されていない市町村での開設は上限20万円、すでに提供されている市町村では上限10万円",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 200000,
+      "eligible_expense_categories": [
+        "備品費",
+        "消耗品費",
+        "広報費",
+        "保険料"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "地域区分",
+          "condition_label": "こどもの居場所がまだ提供されていない市町村での開設",
+          "amount_yen": 200000
+        },
+        {
+          "condition_type": "地域区分",
+          "condition_label": "こどもの居場所がすでに提供されている市町村での開設",
+          "amount_yen": 100000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "原則、提出書類の先着順。事前に問い合わせ先に連絡の上、申請の可否を確認が必要。実績報告書は令和9年2月15日までに提出",
+      "application_rounds": [],
+      "application_method": "複数",
+      "status": "募集中",
+      "status_note": "先着順",
+      "related_programs": [],
+      "contact": "群馬県生活こども部こども・子育て支援課子育て支援係 TEL:027-226-2622 FAX:027-226-2100 kosodateka@pref.gunma.lg.jp",
+      "source_url": "https://www.pref.gunma.jp/uploaded/attachment/701240.pdf",
+      "plain_summary": "群馬県内でこども食堂や学習支援などのこどもの居場所を新たに始める民間団体に、開設に必要な経費を補助します。居場所がまだない市町村では最大20万円、すでにある市町村では最大10万円。郵送またはメールで申請でき、先着順です。事前に県に必ず連絡してください。"
+    },
+    {
+      "program_name": "群馬県こどもの居場所づくり応援事業補助金（②こどもの居場所地域ネットワークの新規開設）",
+      "operating_body": "群馬県",
+      "category": "子育て・教育",
+      "subcategory": "こどもの居場所づくり・地域ネットワーク",
+      "target_summary": "こどもの居場所地域ネットワーク団体（地域ネットワークがまだ設置されていない市町村への設置に限る）。4団体以上で構成された地域ネットワークであること等",
+      "target_residency_required": false,
+      "benefit_summary": "こどもの居場所地域ネットワークを新規開設する際に必要な経費（備品費・消耗品費、広報費など）を補助。上限10万円",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 100000,
+      "eligible_expense_categories": [
+        "備品費",
+        "消耗品費",
+        "広報費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "原則、提出書類の先着順。事前に問い合わせ先に連絡の上、申請の可否を確認が必要。実績報告書は令和9年2月15日までに提出",
+      "application_rounds": [],
+      "application_method": "複数",
+      "status": "募集中",
+      "status_note": "先着順",
+      "related_programs": [],
+      "contact": "群馬県生活こども部こども・子育て支援課子育て支援係 TEL:027-226-2622 FAX:027-226-2100 kosodateka@pref.gunma.lg.jp",
+      "source_url": "https://www.pref.gunma.jp/uploaded/attachment/701240.pdf",
+      "plain_summary": "群馬県内でこどもの居場所を支援する地域ネットワークをまだ設置していない市町村に、新たに4団体以上でネットワークを立ち上げる団体に最大10万円を補助します。備品費・広報費などが対象です。郵送またはメールで申請でき、先着順です。事前に県に連絡が必要です。"
+    },
+    {
+      "program_name": "群馬県こどもの居場所づくり応援事業補助金（③こどもの居場所地域ネットワークの普及啓発）",
+      "operating_body": "群馬県",
+      "category": "子育て・教育",
+      "subcategory": "こどもの居場所づくり・普及啓発",
+      "target_summary": "こどもの居場所地域ネットワーク団体で②の補助要件を満たすもの。地域ネットワークを構成する団体のうち半数以上が事業に関与すること等",
+      "target_residency_required": false,
+      "benefit_summary": "こどもの居場所の利用拡大や新規開設につながる普及啓発事業に係る経費を補助。①イベント開催の場合は上限30万円、②ネットワークチラシ・こどもの居場所マップ作成の場合は上限10万円",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 300000,
+      "eligible_expense_categories": [
+        "消耗品費",
+        "広報費",
+        "会場費"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "イベント開催（消耗品費・広報費・会場費など）",
+          "amount_yen": 300000
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "ネットワークチラシ・こどもの居場所マップ作成（広報費など）",
+          "amount_yen": 100000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "原則、提出書類の先着順。事前に問い合わせ先に連絡の上、申請の可否を確認が必要。実績報告書は令和9年2月15日までに提出",
+      "application_rounds": [],
+      "application_method": "複数",
+      "status": "募集中",
+      "status_note": "先着順",
+      "related_programs": [],
+      "contact": "群馬県生活こども部こども・子育て支援課子育て支援係 TEL:027-226-2622 FAX:027-226-2100 kosodateka@pref.gunma.lg.jp",
+      "source_url": "https://www.pref.gunma.jp/uploaded/attachment/701240.pdf",
+      "plain_summary": "群馬県内のこどもの居場所地域ネットワーク団体が行う普及啓発事業を補助します。イベント開催なら最大30万円、チラシや居場所マップの作成なら最大10万円が補助されます。郵送またはメールで申請でき、先着順です。事前に県への連絡が必要です。"
+    }
+  ]
+}

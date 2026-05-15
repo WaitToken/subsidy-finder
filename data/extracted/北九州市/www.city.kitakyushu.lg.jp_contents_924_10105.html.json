@@ -1,0 +1,64 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.kitakyushu.lg.jp/contents/924_10105.html"
+    ],
+    "extracted_at": "2026-05-15T03:24:21.975838+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "児童扶養手当",
+      "operating_body": "北九州市",
+      "category": "ひとり親・低所得",
+      "subcategory": "ひとり親家庭支援",
+      "target_audience": "個人",
+      "target_summary": "父母の離婚・死亡・DV保護命令等により父又は母と生計を同じくしていない児童（18歳に達する日以後の最初の3月31日まで、障害がある場合は20歳未満）を監護・養育しているひとり親家庭の母・父・養育者。所得制限あり。",
+      "target_household": [
+        "ひとり親家庭",
+        "母子家庭",
+        "父子家庭"
+      ],
+      "target_income_max_yen": 2080000,
+      "target_residency_required": true,
+      "benefit_summary": "所得に応じて全部支給または一部支給。【令和7年4月分以降】児童1人：全部支給46,690円/月、一部支給11,010円〜46,680円/月。児童2人：全部支給57,720円/月。児童3人：全部支給68,750円/月。3人目以降は1人増えるごとに11,030円加算。年6回（5・7・9・11・1・3月の各11日）支給。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 68750,
+      "benefit_tiers": [
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "児童1人（全部支給）",
+          "amount_yen": 46690,
+          "note": "令和7年4月分以降"
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "児童2人（全部支給）",
+          "amount_yen": 57720,
+          "note": "令和7年4月分以降"
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "児童3人（全部支給）",
+          "amount_yen": 68750,
+          "note": "令和7年4月分以降。3人目以降1人増えるごとに11,030円加算"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "現況届（毎年8月1日〜8月31日）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "各区役所保健福祉課子ども・家庭相談係（門司区 093-331-1891 / 小倉北区 093-582-3434 / 小倉南区 093-951-1029 / 若松区 093-761-5926 / 八幡東区 093-671-6882 / 八幡西区 093-642-1449 / 戸畑区 093-881-4528）",
+      "source_url": "https://www.city.kitakyushu.lg.jp/contents/924_10105.html",
+      "plain_summary": "北九州市在住のひとり親家庭（離婚・死亡・DVなど）で18歳以下の子を育てている方に毎月現金が支給されます。令和7年4月以降は子1人で最大46,690円/月（所得に応じて変動）。年6回口座振込。申請はお住まいの区役所保健福祉課へ。所得制限あり。"
+    }
+  ]
+}

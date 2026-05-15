@@ -1,0 +1,56 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.koto.lg.jp/211100/koureisyaeakonjyosei.html"
+    ],
+    "extracted_at": "2026-05-15T00:10:46.229191+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "高齢者エアコン購入費助成",
+      "operating_body": "江東区",
+      "category": "高齢者・介護",
+      "subcategory": "熱中症対策・生活環境整備",
+      "target_summary": "江東区に住民票があり、令和8年4月1日現在65歳以上の一人暮らしまたは高齢者のみ世帯で、令和7年度住民税非課税世帯（生活保護受給世帯含む）、かつ自宅にエアコンが1台もないまたは故障等で使用できるエアコンがない世帯",
+      "target_age_min": 65,
+      "target_household": [
+        "一人暮らし高齢者世帯",
+        "高齢者のみ世帯",
+        "住民税非課税世帯",
+        "生活保護受給世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "エアコン購入費・配送費・設置工事費・撤去費（リサイクル料金含む）を上限10万円まで助成（1世帯1台1回限り）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 100000,
+      "eligible_expense_categories": [
+        "エアコン本体購入費",
+        "配送費",
+        "設置工事費",
+        "撤去費（リサイクル料金含む）"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "訪問調査の予約は令和8年6月30日（火）まで。申請書提出は7月31日（金）まで。エアコン購入・設置は8月31日（月）まで。助成金請求は9月18日（金）まで。",
+      "application_end": "2026-09-18",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "申請書（訪問員が持参）",
+        "領収書のコピー",
+        "振込先口座記入の請求書"
+      ],
+      "status": "募集中",
+      "status_note": "訪問調査予約は6月30日まで、購入・設置は8月31日まで、請求は9月18日まで",
+      "related_programs": [],
+      "contact": "江東区エアコン購入費助成金コールセンター 0120-666-604（月〜金、祝日除く、9:00〜17:00）",
+      "source_url": "https://www.city.koto.lg.jp/211100/koureisyaeakonjyosei.html",
+      "plain_summary": "江東区に住む65歳以上の一人暮らしや高齢者のみの世帯で、住民税が非課税でエアコンがない方が対象です。エアコンの購入・設置にかかる費用を最大10万円まで現金で助成してもらえます（1世帯1台限り）。まず6月30日までにコールセンター（0120-666-604）に電話して訪問調査を予約し、9月18日までに請求手続きを完了する必要があります。"
+    }
+  ]
+}

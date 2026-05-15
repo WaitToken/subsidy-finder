@@ -1,0 +1,36 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.hamamatsu.shizuoka.jp/fukushisomu/20260401.html"
+    ],
+    "extracted_at": "2026-05-15T03:13:47.769134+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "最高裁判決を踏まえた生活保護費の追加給付",
+      "operating_body": "浜松市",
+      "category": "ひとり親・低所得",
+      "subcategory": "生活保護",
+      "target_audience": "個人",
+      "target_summary": "平成25年の生活扶助基準改定当時に生活保護を受給していた世帯など",
+      "target_residency_required": true,
+      "benefit_summary": "平成25年の生活扶助基準改定による削減分の差額を追加給付",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_window_note": "具体的な手続きや支給時期など詳細は未定",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "予定",
+      "status_note": "具体的な手続きや支給時期は未定。詳細決まり次第ホームページ等でお知らせ予定",
+      "related_programs": [],
+      "source_url": "https://www.city.hamamatsu.shizuoka.jp/fukushisomu/20260401.html",
+      "plain_summary": "平成25年に国が生活扶助基準を引き下げたことが最高裁で問題と判断され、当時の生活保護受給世帯などに差額分を追加で給付します。浜松市でも国の基準に基づき対応しますが、手続き方法や支給時期などの詳細は今後ホームページでお知らせされる予定です。"
+    }
+  ]
+}

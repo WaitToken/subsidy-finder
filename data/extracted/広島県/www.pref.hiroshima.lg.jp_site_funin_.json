@@ -1,0 +1,102 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.hiroshima.lg.jp/site/funin/"
+    ],
+    "extracted_at": "2026-05-15T02:32:18.017155+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "不妊検査・一般不妊治療費用の助成",
+      "operating_body": "広島県",
+      "category": "医療・健康",
+      "subcategory": "不妊・不育支援",
+      "target_summary": "夫婦そろって不妊検査を受けた場合で、不妊検査・一般不妊治療（タイミング療法、薬物療法、人工授精など）を受けた方。医療保険の適用の有無は問わない。",
+      "target_residency_required": true,
+      "benefit_summary": "不妊検査・一般不妊治療に係る費用の一部を助成。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [
+        {
+          "program_name": "特定不妊治療費用の助成",
+          "relation_type": "関連",
+          "note": "体外受精・顕微授精は本助成対象外だが、内容によっては特定不妊治療費用の助成の対象となる場合がある"
+        },
+        {
+          "program_name": "県内市町の助成制度",
+          "relation_type": "併用可能",
+          "note": "広島県の助成とは別に、市町が助成を実施している場合がある"
+        }
+      ],
+      "contact": "広島県不妊専門相談センター",
+      "source_url": "https://www.pref.hiroshima.lg.jp/site/funin/",
+      "plain_summary": "広島県在住で、夫婦そろって不妊検査を受け、タイミング療法・薬物療法・人工授精などの一般不妊治療を行っている方が対象です。検査・治療費の一部を県が助成します。体外受精・顕微授精は対象外です。詳細は広島県の公式サイトをご確認ください。"
+    },
+    {
+      "program_name": "特定不妊治療費用の助成",
+      "operating_body": "広島県",
+      "category": "医療・健康",
+      "subcategory": "不妊・不育支援",
+      "target_summary": "令和4年度から保険適用となった特定不妊治療（体外受精・顕微授精など）に併せて、先進医療等の治療を受けた方。",
+      "target_residency_required": true,
+      "benefit_summary": "特定不妊治療（体外受精・顕微授精等）に併せて受けた先進医療等の治療費を助成。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [
+        {
+          "program_name": "不妊検査・一般不妊治療費用の助成",
+          "relation_type": "関連",
+          "note": "一般不妊治療費助成と対象治療が異なる"
+        },
+        {
+          "program_name": "県内市町の助成制度",
+          "relation_type": "併用可能",
+          "note": "広島県の助成とは別に、市町が助成を実施している場合がある"
+        }
+      ],
+      "contact": "広島県不妊専門相談センター",
+      "source_url": "https://www.pref.hiroshima.lg.jp/site/funin/",
+      "plain_summary": "広島県在住で、保険適用の体外受精・顕微授精などの特定不妊治療と合わせて先進医療等を受けた方が対象です。その治療費の一部を県が助成します。詳しい金額や申請方法は広島県の公式サイトをご確認ください。"
+    },
+    {
+      "program_name": "不育症検査費用の助成",
+      "operating_body": "広島県",
+      "category": "医療・健康",
+      "subcategory": "不妊・不育支援",
+      "target_summary": "厚生労働省が定める不育症検査を受けた方。",
+      "target_residency_required": true,
+      "benefit_summary": "不育症検査（厚生労働省が定めるもの）に係る費用を助成。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [
+        {
+          "program_name": "県内市町の助成制度",
+          "relation_type": "併用可能",
+          "note": "広島県の助成とは別に、市町が助成を実施している場合がある"
+        }
+      ],
+      "contact": "広島県不妊専門相談センター",
+      "source_url": "https://www.pref.hiroshima.lg.jp/site/funin/",
+      "plain_summary": "流産や死産を2回以上経験した「不育症」の方で、厚生労働省が定める不育症検査を受けた方が対象です。その検査費用の一部を広島県が助成します。詳しい金額や申請方法は広島県の公式サイトをご確認ください。"
+    }
+  ]
+}

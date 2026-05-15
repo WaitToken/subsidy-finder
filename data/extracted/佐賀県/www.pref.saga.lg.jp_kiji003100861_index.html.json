@@ -1,0 +1,56 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.saga.lg.jp/kiji003100861/index.html"
+    ],
+    "extracted_at": "2026-05-15T02:43:57.149941+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "佐賀県介護分野の職員の賃上げ・職場環境改善支援事業費補助金",
+      "operating_body": "佐賀県",
+      "category": "高齢者・介護",
+      "subcategory": "介護職員処遇改善",
+      "target_audience": "事業者",
+      "target_summary": "佐賀県内の介護サービス事業所・施設を運営する法人。ただし、令和8年4月以降新規開設の事業所、申請時点で廃止・休止が明らかな事業所、（介護予防）福祉用具貸与・特定（介護予防）福祉用具販売・（介護予防）居宅療養管理指導は対象外。（介護予防）訪問看護、訪問リハビリテーション、居宅介護支援及び介護予防支援事業所も対象。",
+      "target_residency_required": false,
+      "benefit_summary": "基準月の総介護報酬額にサービス類型・要件別の交付率（6か月分）を乗じた額。利用者ごとの補助金額（1円未満切捨て）の合計額。1サービスにつき1回限り。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年4月下旬の交付希望は3月25日まで、6月下旬の交付希望は5月22日まで申請。",
+      "application_start": "2026-02-24",
+      "application_end": "2026-05-22",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "start_date": "2026-02-24",
+          "end_date": "2026-03-25",
+          "note": "令和8年4月下旬交付希望。基準月は令和7年12月。"
+        },
+        {
+          "round_number": 2,
+          "start_date": "2026-02-24",
+          "end_date": "2026-05-22",
+          "note": "令和8年6月下旬交付希望。基準月は令和7年12月～令和8年3月のうち任意の月を選択。"
+        }
+      ],
+      "application_method": "複数",
+      "required_documents": [
+        "様式1（補助金交付申請書）",
+        "様式2（計画書）",
+        "誓約書"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "【申請手続】佐賀県介護分野支援事業受付センター TEL: 0952-20-3036 受付時間: 平日9:00〜12:00、13:00〜17:00 / 【制度内容】厚生労働省コールセンター TEL: 050-3733-0222 受付時間: 9:00〜18:00（土日含む）",
+      "source_url": "https://www.pref.saga.lg.jp/kiji003100861/index.html",
+      "plain_summary": "佐賀県内の介護サービス事業所を運営する法人が対象です。介護職員の賃上げや職場環境改善を支援するため、基準月の介護報酬額に応じた補助金（6か月分相当）が交付されます。1サービスにつき1回限りです。WebフォームまたははWebフォームまたは郵送で申請でき、受付期間は令和8年2月24日〜5月22日です。"
+    }
+  ]
+}

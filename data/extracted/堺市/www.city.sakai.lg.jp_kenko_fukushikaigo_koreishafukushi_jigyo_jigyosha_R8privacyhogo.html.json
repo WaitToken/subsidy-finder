@@ -1,0 +1,55 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sakai.lg.jp/kenko/fukushikaigo/koreishafukushi/jigyo/jigyosha/R8privacyhogo.html"
+    ],
+    "extracted_at": "2026-05-15T03:17:28.885652+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "既存の特別養護老人ホームの多床室プライバシー保護のための改修に関する整備補助（令和8年度）",
+      "operating_body": "堺市",
+      "category": "高齢者・介護",
+      "subcategory": "介護施設整備",
+      "target_audience": "事業者",
+      "target_summary": "既存の従来型多床室の特別養護老人ホーム（プライバシー保護設備が未設置の施設）。令和9年2月下旬までに工事完了・実績報告が可能なものに限る。",
+      "target_residency_required": true,
+      "benefit_summary": "1床あたり906,000円（予定）×整備床数を上限として、各床間の間仕切り・壁等の設置工事費（工事費＋工事事務費の低い方の金額）を補助。",
+      "benefit_type": "現金",
+      "eligible_expense_categories": [
+        "工事費（間仕切り・壁等の設置工事）",
+        "工事事務費（工事費の2.6%が上限）"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年6月5日（金）必着。郵送または持参。",
+      "application_end": "2026-06-05",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "required_documents": [
+        "堺市地域介護・福祉空間整備補助金交付申請書【様式第3号の3】",
+        "役員情報届出書【様式第3号の2】",
+        "前年度決算書",
+        "事業に伴う歳入歳出予算（見込）書抄本（別添様式）",
+        "支出予定工事費費目別内訳書【様式第3号別紙1（イ）】",
+        "事業計画書【様式第3号別紙2（オ）】",
+        "理由書（別添様式）",
+        "工事見積書（複数必要）",
+        "建物平面図（整備範囲をマーカー等で明示）",
+        "建物の登記事項証明書の写し（3か月以内に発行のもの）",
+        "付近見取図"
+      ],
+      "status": "募集中",
+      "status_note": "予算の範囲内で選定。大阪府の審査の結果、不採択となる場合あり。",
+      "related_programs": [],
+      "contact": "健康福祉局 長寿社会部 介護事業者課 電話：072-228-7348 FAX：072-228-7481",
+      "source_url": "https://www.city.sakai.lg.jp/kenko/fukushikaigo/koreishafukushi/jigyo/jigyosha/R8privacyhogo.html",
+      "plain_summary": "堺市内の既存の従来型多床室の特別養護老人ホームが対象です。各ベッド間に間仕切りや壁を設置するプライバシー保護改修工事の費用を、1床あたり最大90万6,000円（予定）まで補助します。申請書類を2026年6月5日（金）必着で郵送または持参してください。予算の範囲内での選定となります。"
+    }
+  ]
+}

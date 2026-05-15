@@ -1,0 +1,75 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.kobe.lg.jp/a00685/kenko/health/promotion/gantaisaku/gan4-gantomukiau.html"
+    ],
+    "extracted_at": "2026-05-15T03:19:22.962342+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "がん患者ウィッグ等購入費用助成",
+      "operating_body": "神戸市",
+      "category": "医療・健康",
+      "subcategory": "がん対策",
+      "target_audience": "個人",
+      "target_summary": "抗がん剤・放射線治療による脱毛や手術による乳房切除など外見の変化により社会参加への不安を持つがん患者",
+      "target_residency_required": true,
+      "benefit_summary": "ウィッグ等の補正具の購入費用を助成",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [],
+      "source_url": "https://www.city.kobe.lg.jp/a00685/kenko/health/promotion/gantaisaku/gan4-gantomukiau.html",
+      "plain_summary": "神戸市のがん患者の方が、治療の影響による脱毛や乳房切除など外見の変化に対応するためのウィッグや補正具を購入する際に、費用の一部を助成してもらえる制度です。申請方法や金額の詳細は神戸市にお問い合わせください。"
+    },
+    {
+      "program_name": "がん患者妊孕性温存治療費用助成",
+      "operating_body": "神戸市",
+      "category": "医療・健康",
+      "subcategory": "がん対策・妊孕性温存",
+      "target_audience": "個人",
+      "target_summary": "がん治療の影響で将来の妊娠が見込めなくなる43歳未満のがん患者（男女）",
+      "target_age_max": 42,
+      "target_residency_required": true,
+      "benefit_summary": "妊娠する機能を温存するための治療に関する費用の一部を助成",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [],
+      "source_url": "https://www.city.kobe.lg.jp/a00685/kenko/health/promotion/gantaisaku/gan4-gantomukiau.html",
+      "plain_summary": "神戸市在住で43歳未満のがん患者の方（男女）を対象に、がん治療によって将来の妊娠が難しくなるのを防ぐ「妊孕性温存治療」にかかる費用の一部を助成してもらえる制度です。申請方法や金額の詳細は神戸市にお問い合わせください。"
+    },
+    {
+      "program_name": "若年がん患者在宅サービス等費用助成",
+      "operating_body": "神戸市",
+      "category": "医療・健康",
+      "subcategory": "がん対策・在宅支援",
+      "target_audience": "個人",
+      "target_summary": "若年者のがん患者で住み慣れた生活の場で過ごす方",
+      "target_residency_required": true,
+      "benefit_summary": "在宅サービス利用料（訪問介護・福祉用具等の貸与）および福祉用具・在宅医療機器の購入費の一部を助成（受領委任払い・償還払い）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [],
+      "source_url": "https://www.city.kobe.lg.jp/a00685/kenko/health/promotion/gantaisaku/gan4-gantomukiau.html",
+      "plain_summary": "神戸市在住の若年がん患者の方が、自宅で安心して生活できるよう、訪問介護・福祉用具の貸与などの在宅サービス利用料や、福祉用具・在宅医療機器の購入費の一部を助成してもらえる制度です。受領委任払いと償還払いに対応しています。"
+    }
+  ]
+}

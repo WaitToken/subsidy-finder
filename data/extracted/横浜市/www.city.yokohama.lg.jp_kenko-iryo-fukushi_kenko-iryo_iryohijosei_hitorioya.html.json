@@ -1,0 +1,57 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/kenko-iryo/iryohijosei/hitorioya.html"
+    ],
+    "extracted_at": "2026-05-15T03:06:46.950221+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "ひとり親家庭等医療費助成",
+      "operating_body": "横浜市",
+      "category": "ひとり親・低所得",
+      "subcategory": "医療費助成",
+      "target_audience": "個人",
+      "target_summary": "横浜市内に住所があり健康保険に加入している母子家庭・父子家庭等のひとり親家庭（18歳到達後最初の3月31日まで、一定要件で20歳未満まで）の児童およびその監護者・養育者。所得基準あり（扶養0人で父母208万円以下）。",
+      "target_age_max": 20,
+      "target_household": [
+        "ひとり親家庭",
+        "母子家庭",
+        "父子家庭"
+      ],
+      "target_income_max_yen": 3220000,
+      "target_residency_required": true,
+      "benefit_summary": "福祉医療証を医療機関窓口に提示することで、保険診療の自己負担額が無料（差額ベッド代・入院時食事代を除く）。やむを得ず窓口で支払った場合は払い戻し手続きあり。",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "児童扶養手当証書",
+        "健康保険証・資格確認書・マイナポータル保険証情報画面印刷等（健康保険の内容が確認できるもの）",
+        "戸籍謄本（児童扶養手当証書を持たない方）",
+        "前々年分課税（所得）証明書〔全件用〕（児童扶養手当証書を持たない方）",
+        "前年1月1日現在の住所地市区町村発行の課税（所得）証明書（児童扶養手当証書を持たない方）",
+        "障害の程度を証明する書類・身体障害者手帳等（障害のある方がいる場合）",
+        "在学証明書（20歳未満で高等学校等在学中の児童がいる場合）"
+      ],
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "重度障害者医療費助成事業",
+          "relation_type": "代替",
+          "note": "他の医療費助成制度（重度障害者医療費助成事業）を受けている場合は対象外"
+        }
+      ],
+      "contact": "健康福祉局生活福祉部医療援助課 電話：045-671-4115 ファクス：045-664-0403 メール：kf-iryoenjo@city.yokohama.lg.jp",
+      "source_url": "https://www.city.yokohama.lg.jp/kenko-iryo-fukushi/kenko-iryo/iryohijosei/hitorioya.html",
+      "plain_summary": "横浜市に住むひとり親家庭（母子・父子家庭など）の方が対象です。健康保険証と福祉医療証を医療機関の窓口に出すだけで、保険診療の自己負担分が無料になります。申請は住んでいる区の区役所保険年金課保険係へ、必要書類を持参してください。所得制限あり（扶養0人で父母の所得208万円以下が目安）。差額ベッド代や食事代は対象外です。"
+    }
+  ]
+}

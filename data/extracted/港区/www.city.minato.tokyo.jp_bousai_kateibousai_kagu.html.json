@@ -1,0 +1,125 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.minato.tokyo.jp/bousai/kateibousai/kagu.html"
+    ],
+    "extracted_at": "2026-05-15T00:06:21.535010+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "家具転倒防止器具等助成",
+      "operating_body": "港区",
+      "category": "その他",
+      "subcategory": "防災・減災",
+      "target_summary": "港区内に居住し、住民登録をしている世帯（1世帯1回限り）",
+      "target_household": [
+        "一般世帯",
+        "高齢者世帯",
+        "障害者世帯",
+        "ひとり親世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "世帯人数に応じたポイント（1〜2人世帯：200ポイント、3人以上世帯：250ポイント）の範囲内で、家具転倒防止器具・食器飛び出し防止器具等を無償現物支給。取付困難な対象世帯には無償取付支援あり。",
+      "benefit_type": "現物給付",
+      "benefit_tiers": [
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "ひとり又は2人世帯",
+          "note": "200ポイント上限"
+        },
+        {
+          "condition_type": "世帯人数",
+          "condition_label": "3人以上世帯",
+          "note": "250ポイント上限"
+        }
+      ],
+      "goods_items": [
+        {
+          "item_name": "マグニチュード７（２本１組）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "ふんばりくんZ（２本１組）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "家具転倒防止ベルト〈ビヨンタ〉（２本１組）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "スーパー不動王ホールド（２個１組）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "tafucaラックフラットくま（２本１組）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "tafucaマルチプレートくま（２本１組）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "Ｔプレートマルチラバー粘着固定",
+          "stock_limited": false
+        },
+        {
+          "item_name": "タンスガードII（２本組）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "家具転倒防止板〈ふんばるくん〉（２本１組）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "透明耐震ゴム〈G-BLOXゲル〉（４枚入）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "イーピタッとテレビ用（２本１組）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "OA機器用耐震固定バンド〈リンクストッパー〉（２本１組）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "ＴＶガード蝶ネジ止め×強力粘着固定（２本１組）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "ＴＶガード強力粘着固定×強力粘着固定（２本１組）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "ねこの安心扉ロック",
+          "stock_limited": false
+        },
+        {
+          "item_name": "とびらロック（２組入り）",
+          "stock_limited": false
+        },
+        {
+          "item_name": "ガラス飛散防止フィルム〈平面ガラス用〉",
+          "stock_limited": false
+        }
+      ],
+      "application_window_type": "通年",
+      "application_window_note": "随時受付（窓口・郵送・電子申請）",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "家具転倒防止器具等助成申請書",
+        "取付支援希望の場合：対象を証明する書類のコピー（介護保険被保険者証、障害者手帳、母子健康手帳、児童扶養手当証書等）"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "港区 防災危機管理室防災課地域防災支援係 電話：03-3578-2512",
+      "source_url": "https://www.city.minato.tokyo.jp/bousai/kateibousai/kagu.html",
+      "plain_summary": "港区に住民登録している世帯なら、家具の転倒や食器の飛び出しを防ぐ器具を無料でもらえます。1〜2人世帯は200ポイント分、3人以上は250ポイント分の器具を選べます。各地区総合支所の窓口・郵送・電子申請で申し込めます（1世帯1回限り）。"
+    }
+  ]
+}

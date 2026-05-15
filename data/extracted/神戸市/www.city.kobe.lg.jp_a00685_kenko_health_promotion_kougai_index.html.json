@@ -1,0 +1,36 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.kobe.lg.jp/a00685/kenko/health/promotion/kougai/index.html"
+    ],
+    "extracted_at": "2026-05-15T03:19:31.377747+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "公害の認定患者に対する給付",
+      "operating_body": "神戸市",
+      "category": "医療・健康",
+      "subcategory": "公害健康被害補償",
+      "target_audience": "個人",
+      "target_summary": "大気汚染による健康被害者として認定を受けた被認定者（気管支ぜん息・慢性気管支炎・肺気腫及びその続発症の認定患者）。現在、新規認定は行っていない。",
+      "target_residency_required": true,
+      "benefit_summary": "認定を受けた疾病に対する給付等を実施。給付の具体的な内容・金額は記載なし。",
+      "benefit_type": "不明",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "status_note": "現在、新規の認定は行っていない",
+      "related_programs": [],
+      "contact": "健康局保健所保健課",
+      "source_url": "https://www.city.kobe.lg.jp/a00685/kenko/health/promotion/kougai/index.html",
+      "plain_summary": "神戸市で大気汚染による健康被害者として認定を受けた方（気管支ぜん息・慢性気管支炎・肺気腫など）に給付が行われます。ただし、現在は新規の認定は受け付けていません。給付の詳細は保健所保健課にお問い合わせください。"
+    }
+  ]
+}

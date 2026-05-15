@@ -1,0 +1,66 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.okayama.jp/kurashi/0000004319.html"
+    ],
+    "extracted_at": "2026-05-15T03:21:05.363911+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "子ども医療費助成制度",
+      "operating_body": "岡山市",
+      "category": "子育て・教育",
+      "subcategory": "医療費助成",
+      "target_audience": "個人",
+      "target_summary": "岡山市に住所を有し、健康保険に加入する高校生等まで（18歳に達した日以後の最初の3月31日まで）の子どもの保護者。所得制限なし。生活保護受給中は対象外。",
+      "target_age_min": 0,
+      "target_age_max": 18,
+      "target_household": [
+        "子育て世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "保険診療分の自己負担額を助成。就学前・小学生は外来・入院ともに無料。中学生・高校生等は入院無料、外来は1割負担（上限44,400円／月）。",
+      "benefit_type": "現金",
+      "benefit_tiers": [
+        {
+          "condition_type": "年齢区分",
+          "condition_label": "就学前・小学生（外来）",
+          "note": "無料（自己負担なし）"
+        },
+        {
+          "condition_type": "年齢区分",
+          "condition_label": "就学前・小学生（入院）",
+          "note": "無料（自己負担なし）"
+        },
+        {
+          "condition_type": "年齢区分",
+          "condition_label": "中学生・高校生等（外来）",
+          "rate_percent": 10,
+          "note": "1割負担。自己負担上限額44,400円／月"
+        },
+        {
+          "condition_type": "年齢区分",
+          "condition_label": "中学生・高校生等（入院）",
+          "note": "無料（自己負担なし）"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "子ども医療費受給資格証交付申請書",
+        "申請者（保護者等）の本人確認書類（免許証等）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "岡山市 電話: 086-803-1219 ファクス: 086-803-1751 〒700-8546 岡山市北区鹿田町一丁目1番1号",
+      "source_url": "https://www.city.okayama.jp/kurashi/0000004319.html",
+      "plain_summary": "岡山市に住む高校生以下の子どもを持つ保護者が申請できます。就学前・小学生は外来・入院ともに医療費が無料。中学生・高校生は入院無料、外来は1割負担（月上限44,400円）。区役所・支所・地域センターへの窓口申請か郵送、または電子申請が可能です。所得制限はありません。"
+    }
+  ]
+}

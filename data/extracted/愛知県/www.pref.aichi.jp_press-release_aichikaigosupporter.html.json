@@ -1,0 +1,50 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.aichi.jp/press-release/aichikaigosupporter.html"
+    ],
+    "extracted_at": "2026-05-15T02:24:40.896447+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "あいち介護サポーターバンク運営事業（介護に関する入門的研修）",
+      "operating_body": "愛知県",
+      "category": "高齢者・介護",
+      "subcategory": "介護人材育成・研修",
+      "target_summary": "高校生以上で愛知県在住の方。ボランティアに興味がある方、介護事業所で働いてみたい方、介護に興味・関心があり勉強してみたい方。介護未経験者も可。",
+      "target_age_min": 16,
+      "target_residency_required": true,
+      "benefit_summary": "「介護に関する入門的研修」（基礎講座・入門講座 計4日間）を無料で受講できる。修了者には愛知県から修了証明書を発行。修了後は介護職員初任者研修等の一部課程免除の場合あり。",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "各講座の受講日7日前まで（必着）",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "受講申込書（郵送・FAXの場合）"
+      ],
+      "status": "募集中",
+      "related_programs": [
+        {
+          "program_name": "介護職員初任者研修",
+          "relation_type": "関連",
+          "note": "本研修修了者は一部課程を免除される場合あり"
+        },
+        {
+          "program_name": "生活援助従事者研修",
+          "relation_type": "関連",
+          "note": "本研修修了者は一部課程を免除される場合あり"
+        }
+      ],
+      "contact": "株式会社パソナ あいち介護サポーターバンク運営事務局 電話：0800-200-4415（フリーダイヤル）／FAX：0800-200-9915　愛知県福祉局福祉総務課福祉企画室 電話：052-954-6814",
+      "source_url": "https://www.pref.aichi.jp/press-release/aichikaigosupporter.html",
+      "plain_summary": "愛知県在住の高校生以上の方なら誰でも参加できる、無料の介護入門研修です。介護未経験でも大丈夫で、基礎講座（半日）と入門講座（3日間）を受講できます。修了すると愛知県から証明書がもらえます。Webまたは郵送・FAXで、受講日の7日前までに申し込んでください。"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.yamagata.jp/050011/kurashi/shizen/seibutsu/about_hunting/jyoseiseidoitiran.html"
+    ],
+    "extracted_at": "2026-05-15T02:01:37.667879+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和7年度新規狩猟免許取得者助成制度",
+      "operating_body": "山形県・各市町村・山形県猟友会",
+      "category": "その他",
+      "subcategory": "狩猟・野生生物管理",
+      "target_summary": "新たに狩猟免許を取得した方",
+      "target_residency_required": true,
+      "benefit_summary": "狩猟免許取得に係る助成（具体的な内容・金額は各市町村窓口等に要確認）",
+      "benefit_type": "不明",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "不明",
+      "related_programs": [],
+      "contact": "環境エネルギー部みどり自然課野生生物対策係 TEL: 023-630-3404 FAX: 023-625-7991 〒990-8570 山形市松波二丁目8番1号",
+      "source_url": "https://www.pref.yamagata.jp/050011/kurashi/shizen/seibutsu/about_hunting/jyoseiseidoitiran.html",
+      "plain_summary": "山形県内の各市町村や山形県猟友会が、新たに狩猟免許を取得した方を対象に助成を行っています。助成の具体的な金額や条件は市町村によって異なるため、お住まいの市町村窓口またはみどり自然課（023-630-3404）にお問い合わせください。"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.nagano.lg.jp/chiiki-fukushi/kenko/fukushi/konkyu/documents/jukyokakuho.pdf"
+    ],
+    "extracted_at": "2026-05-15T02:20:27.341281+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "住居確保給付金（家賃の補助）",
+      "operating_body": "長野県（各自治体の自立相談支援機関）",
+      "category": "ひとり親・低所得",
+      "subcategory": "住居確保・生活困窮者支援",
+      "target_summary": "住まいを失った方、または家賃を支払えなくなりそうな方で、①離職・廃業から2年以内の方、または②自己責任によらない理由で休業等により収入が減少した方。収入が基準額＋家賃額を下回り、資産（預貯金等）が基準額の6倍以下（上限100万円）であること。ハローワーク等への申込・求職活動を行うこと。",
+      "target_residency_required": true,
+      "benefit_summary": "家賃額を支給（上限あり）。支給期間は原則3か月（最長9か月）。住宅の貸主等の口座に自治体が直接振込。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "お住いの地域の自立相談支援機関（https://minna-tunagaru.jp/ichiran/）",
+      "source_url": "https://www.pref.nagano.lg.jp/chiiki-fukushi/kenko/fukushi/konkyu/documents/jukyokakuho.pdf",
+      "plain_summary": "仕事を辞めたり休業などで収入が減り、家賃の支払いが難しくなった方を対象に、家賃を最長9か月（原則3か月）補助してもらえる制度です。収入や資産の要件があり、ハローワークへの求職活動も必要です。お住まいの地域の自立相談支援機関に相談してください。"
+    },
+    {
+      "program_name": "住居確保給付金（転居費用の補助）",
+      "operating_body": "長野県（各自治体の自立相談支援機関）",
+      "category": "ひとり親・低所得",
+      "subcategory": "住居確保・生活困窮者支援",
+      "target_summary": "収入が大きく減少し、住まいを失った方または家賃を支払えなくなりそうな方で、家計改善のため家賃の安い住宅への転居が必要な方（例：配偶者死亡による収入減少、病気による離職等）。収入・資産の要件は家賃補助と同様。家計改善の支援において転居による家計改善が認められること。",
+      "target_residency_required": true,
+      "benefit_summary": "転居に要する費用を支給（上限あり）。ただし敷金・前家賃等は補助対象外。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [
+        {
+          "program_name": "住居確保給付金（家賃の補助）",
+          "relation_type": "関連",
+          "note": "収入・資産の要件は家賃補助と同様"
+        }
+      ],
+      "contact": "お住いの地域の自立相談支援機関（https://minna-tunagaru.jp/ichiran/）",
+      "source_url": "https://www.pref.nagano.lg.jp/chiiki-fukushi/kenko/fukushi/konkyu/documents/jukyokakuho.pdf",
+      "plain_summary": "収入が大きく減り、より家賃の安い住宅に引っ越す必要がある生活困窮者を対象に、転居費用を補助してもらえる制度です。敷金や前家賃は対象外です。収入・資産の要件があります。お住まいの地域の自立相談支援機関にご相談ください。"
+    }
+  ]
+}

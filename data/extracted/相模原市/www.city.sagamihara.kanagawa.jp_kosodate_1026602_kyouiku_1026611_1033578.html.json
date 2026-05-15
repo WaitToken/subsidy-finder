@@ -1,0 +1,68 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kyouiku/1026611/1033578.html"
+    ],
+    "extracted_at": "2026-05-15T03:11:02.130950+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "フリースクール等利用児童生徒支援事業補助金",
+      "operating_body": "相模原市",
+      "category": "子育て・教育",
+      "subcategory": "不登校支援",
+      "target_audience": "個人",
+      "target_summary": "相模原市内の市登録フリースクール等を利用している不登校の小中学生の保護者",
+      "target_residency_required": true,
+      "benefit_summary": "フリースクール等の利用料（補助対象経費）を補助。具体的な補助額・補助率はページ記載なし",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "事前登録は年度ごとに必要。令和8年度上半期に登録した人は下半期は登録不要。",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "required_documents": [
+        "事前登録（エントリー）フォームへの必要事項の入力および必要書類の添付",
+        "フリースクール等利用児童生徒支援事業補助金施設利用確認書兼補助対象経費報告書（第2号様式）"
+      ],
+      "status": "募集中",
+      "status_note": "令和8年度上半期の事前登録（エントリー）受付中",
+      "related_programs": [],
+      "contact": "教育相談課 電話：042-769-8285（総務班）／042-769-6144（不登校支援企画班） ファクス：042-758-5219",
+      "source_url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kyouiku/1026611/1033578.html",
+      "plain_summary": "相模原市が、不登校の小中学生の保護者を対象に、市に登録されたフリースクール等の利用料を補助してくれる制度です。補助を受けるには、まず市の登録フリースクールを利用していることが必要で、申請前にオンラインで事前登録（エントリー）が必要です。事前登録は年度ごとに行います。詳しくは教育相談課（042-769-6144）へご確認ください。"
+    },
+    {
+      "program_name": "フリースクール等利用児童生徒支援事業補助金（市登録フリースクール登録）",
+      "operating_body": "相模原市",
+      "category": "子育て・教育",
+      "subcategory": "不登校支援",
+      "target_audience": "事業者",
+      "target_summary": "フリースクール等を運営する事業者で、相模原市の「市登録フリースクール」として登録を希望する者",
+      "target_residency_required": false,
+      "benefit_summary": "施設が「市登録フリースクール」として登録されることで、利用する保護者が補助金の交付を受けられる資格が生まれる（施設自体への直接の金銭給付ではなく、登録認定）",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "随時受付。郵送または窓口持参（登録申請書在中と朱書き）。",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "required_documents": [
+        "フリースクール等利用児童生徒支援事業補助金適用施設登録申請書（第9号様式）",
+        "施設従事者名簿（参考書式）",
+        "施設基本情報シート"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "教育相談課 〒252-0239 相模原市中央区中央3丁目13番13号 青少年相談センター内 電話：042-769-8285（総務班）",
+      "source_url": "https://www.city.sagamihara.kanagawa.jp/kosodate/1026602/kyouiku/1026611/1033578.html",
+      "plain_summary": "フリースクール等を運営する事業者が「相模原市登録フリースクール」として登録するための手続きです。登録されることで、施設を利用する不登校の児童生徒の保護者が補助金を受け取れるようになります。登録申請書等の書類を教育相談課（青少年相談センター内）に郵送または窓口提出で申請します。"
+    }
+  ]
+}

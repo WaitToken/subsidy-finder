@@ -1,0 +1,101 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.nagoya.jp/kodomo/hitorioya/1009381/1009382.html"
+    ],
+    "extracted_at": "2026-05-15T03:16:09.309557+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "自立支援教育訓練給付金",
+      "operating_body": "名古屋市",
+      "category": "ひとり親・低所得",
+      "subcategory": "就労支援・資格取得",
+      "target_audience": "個人",
+      "target_summary": "名古屋市内在住の20歳未満の児童を扶養するひとり親家庭の母または父で、母子・父子自立支援プログラムの策定等の支援を受けており、安定した就労に結びつく講座受講が認められる方（過去に同給付金を受給していない方）",
+      "target_residency_required": true,
+      "benefit_summary": "事前指定を受けた講座（一般・特定一般教育訓練）の入学金・受講料の60%（上限20万円）、専門実践教育訓練講座は60%（上限修学年数×40万円、最大160万円）を助成。資格取得後1年以内に関連就職した場合は25%追加（上限年20万円、最大85%）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 1600000,
+      "benefit_rate_percent": 60,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "一般教育訓練・特定一般教育訓練給付の指定講座",
+          "amount_yen": 200000,
+          "rate_percent": 60,
+          "note": "入学金・受講料の60%、上限20万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "専門実践教育訓練給付の指定講座（専門資格取得を目指す講座）",
+          "amount_yen": 1600000,
+          "rate_percent": 60,
+          "note": "入学金・受講料の60%、上限は修学年数×40万円（最大160万円）。資格取得後1年以内に関連就職した場合は25%追加（上限年20万円）"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "随時受付。事前相談が必要。講座受講開始前に事前指定を受けること。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "区役所民生子ども課（支所管内は支所区民福祉課）／子ども青少年局 子ども未来企画課 TEL: 052-972-2522",
+      "source_url": "https://www.city.nagoya.jp/kodomo/hitorioya/1009381/1009382.html",
+      "plain_summary": "名古屋市内に住む、20歳未満の子どもを育てているひとり親のお母さん・お父さんが就職に役立つ講座を受けると、受講費用の60%（最大160万円）が助成されます。受講開始前に区役所民生子ども課への事前相談が必要です。"
+    },
+    {
+      "program_name": "高等職業訓練促進給付金",
+      "operating_body": "名古屋市",
+      "category": "ひとり親・低所得",
+      "subcategory": "就労支援・資格取得",
+      "target_audience": "個人",
+      "target_summary": "名古屋市内在住の20歳未満の児童を扶養するひとり親家庭の母または父で、児童扶養手当受給者または同等の所得水準の方。対象資格取得のために6か月以上学校に通学することが必要と認められ、仕事（育児）と修学の両立が困難な方（過去に同給付金を受給していない方）",
+      "target_residency_required": true,
+      "benefit_summary": "修学期間中（上限4年）毎月、市民税非課税世帯は10万円・課税世帯は7万500円を支給。最後の12か月は4万円増額（非課税14万円・課税11万500円）。修了後に修了支援給付金（非課税5万円・課税2万5千円）を1回支給",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 6980000,
+      "benefit_tiers": [
+        {
+          "condition_type": "所得区分",
+          "condition_label": "市民税非課税世帯（通常期間）",
+          "amount_yen": 100000,
+          "note": "月額10万円（修学期間の最後の12か月を除く）"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "市民税課税世帯（通常期間）",
+          "amount_yen": 70500,
+          "note": "月額7万500円（修学期間の最後の12か月を除く）"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "市民税非課税世帯（最後の12か月）",
+          "amount_yen": 140000,
+          "note": "月額14万円"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "市民税課税世帯（最後の12か月）",
+          "amount_yen": 110500,
+          "note": "月額11万500円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "修学先決定前に事前相談（随時）、修学開始後に支給申請",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "区役所民生子ども課（支所管内は支所区民福祉課）／子ども青少年局 子ども未来企画課 TEL: 052-972-2522",
+      "source_url": "https://www.city.nagoya.jp/kodomo/hitorioya/1009381/1009382.html",
+      "plain_summary": "名古屋市に住むひとり親のお母さん・お父さんが、看護師や保育士などの資格を取るために6か月以上学校に通う場合、修学中は毎月7〜14万円（最大4年）が支給されます。修了後には5万円（非課税世帯）の一時金も出ます。事前に区役所民生子ども課への相談が必要です。"
+    }
+  ]
+}

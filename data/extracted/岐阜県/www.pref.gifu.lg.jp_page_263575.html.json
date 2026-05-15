@@ -1,0 +1,53 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.gifu.lg.jp/page/263575.html"
+    ],
+    "extracted_at": "2026-05-15T02:23:00.285183+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "岐阜県生活困窮者就労準備支援金",
+      "operating_body": "岐阜県",
+      "category": "ひとり親・低所得",
+      "subcategory": "就労支援・生活困窮者支援",
+      "target_summary": "自立相談支援機関で支援プラン（就労支援）を受けて常用就職に至った方、住居確保給付金を受給中で常用就職に至った方、生活困窮者自立支援金を受給中で常用就職に至った方。対象期間は令和4年10月1日〜令和5年3月31日。",
+      "target_residency_required": true,
+      "benefit_summary": "就労準備支援金として10万円を現金で支給。審査完了後、概ね2週間程度で指定口座に振り込み。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 100000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和5年3月10日（当日消印有効）",
+      "application_start": "2022-10-01",
+      "application_end": "2023-03-10",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "required_documents": [
+        "常用就職の事実が証明できる書類（就労先、就労開始年月日、雇用期間が記載されたもの）",
+        "住居確保給付金または生活困窮者自立支援金の支給決定通知書の写し（該当者のみ）",
+        "申請書"
+      ],
+      "status": "終了",
+      "status_note": "令和5年3月をもって終了",
+      "related_programs": [
+        {
+          "program_name": "住居確保給付金",
+          "relation_type": "関連"
+        },
+        {
+          "program_name": "生活困窮者自立支援金",
+          "relation_type": "関連"
+        }
+      ],
+      "contact": "岐阜県生活困窮者就労準備支援金事務局（受託先：近畿日本ツーリスト株式会社岐阜支店）　電話：070-4208-0144（平日9:00〜17:00）　メール：info@gifushurousienkin.com",
+      "source_url": "https://www.pref.gifu.lg.jp/page/263575.html",
+      "plain_summary": "※受付終了。岐阜県内の生活困窮者支援制度（自立相談支援・住居確保給付金・生活困窮者自立支援金）を利用中に常用就職（6か月以上の雇用）した方を対象に、10万円を現金で支給する制度です。申請期限は令和5年3月10日で、令和5年3月をもって終了しています。"
+    }
+  ]
+}

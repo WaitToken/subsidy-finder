@@ -1,0 +1,48 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.fukui.lg.jp/doc/brandeigyou/r8kaigyousien.html"
+    ],
+    "extracted_at": "2026-05-15T02:15:12.556227+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "旅の目的地となる飲食店開業支援事業補助金",
+      "operating_body": "福井県",
+      "category": "就労・起業",
+      "subcategory": "飲食店開業支援",
+      "target_summary": "福井県の食材や伝統の技を活かした飲食店を新規開業する事業者。世界的評価のあるシェフまたはブランド力ある飲食店が上質な料理を提供し、富裕層等をターゲットとし、県産食材・伝統工芸品の活用、外国人対応、キャッシュレス対応、SDGs対応、3年以上継続見込みであることが条件。",
+      "target_residency_required": false,
+      "benefit_summary": "飲食店の取得・改修、設備導入、飲食店運営にかかる経費の1/2以内を補助。上限2,000万円。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 20000000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "取得費",
+        "改修費",
+        "設備導入費",
+        "飲食店運営費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年6月19日（金）17:00必着。持参・郵送・メールで提出。",
+      "application_end": "2026-06-19",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "事業計画書"
+      ],
+      "status": "募集中",
+      "status_note": "予算の範囲内で採択（審査会あり）",
+      "related_programs": [],
+      "contact": "福井県 交流文化部 誘客推進課 食ブランド向上グループ／TEL: 0776-20-0762／FAX: 0776-20-0513／メール: yuukyaku@pref.fukui.lg.jp",
+      "source_url": "https://www.pref.fukui.lg.jp/doc/brandeigyou/r8kaigyousien.html",
+      "plain_summary": "福井県の食材や伝統工芸を活かした飲食店を新規開業したい事業者向けの補助金です。店の取得・改修・設備・運営にかかる費用の半額（最大2,000万円）を支援します。令和8年6月19日（金）17時までに事業計画書を持参・郵送・メールで提出してください。審査会（6月下旬予定）で採択が決まります。"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.fukui.lg.jp/doc/012480/saivol/naikakuhukotsuhojojigyo.html"
+    ],
+    "extracted_at": "2026-05-15T02:14:58.570374+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "被災者支援団体への交通費補助事業",
+      "operating_body": "内閣府",
+      "category": "その他",
+      "subcategory": "災害・被災者支援",
+      "target_summary": "被災地に支援に向かうNPO・ボランティア団体等の被災者支援団体",
+      "target_residency_required": false,
+      "benefit_summary": "被災者支援団体の交通費を補助",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [],
+      "contact": "福井県 県民協働課 電話：0776-20-0237 ｜ FAX：0776-20-0652 ｜ メール：kenmin-kyodo@pref.fukui.lg.jp",
+      "source_url": "https://www.pref.fukui.lg.jp/doc/012480/saivol/naikakuhukotsuhojojigyo.html",
+      "plain_summary": "被災地に支援に駆けつけるNPO・ボランティア団体などを対象に、内閣府が交通費を補助する事業です。金額や申請方法など詳細は内閣府のホームページをご覧ください。福井県の問い合わせ先は県民協働課（0776-20-0237）です。"
+    }
+  ]
+}

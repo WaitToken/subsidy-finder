@@ -1,0 +1,23 @@
+# secrets — 絶対にコミットしない
+.env
+.env.*
+!.env.example
+
+# python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# node (next-app/.gitignore でも除外しているが念のため)
+node_modules/
+.next/
+
+# build artifacts / temp
+*.log
+*.tsbuildinfo
+
+# os
+.DS_Store
+Thumbs.db

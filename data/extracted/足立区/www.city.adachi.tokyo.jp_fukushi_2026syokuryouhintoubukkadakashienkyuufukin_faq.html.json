@@ -1,0 +1,53 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.adachi.tokyo.jp/fukushi/2026syokuryouhintoubukkadakashienkyuufukin_faq.html"
+    ],
+    "extracted_at": "2026-05-15T01:25:13.362139+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "あだち食料品等物価高支援給付金",
+      "operating_body": "足立区",
+      "category": "ひとり親・低所得",
+      "subcategory": "物価高支援",
+      "target_summary": "令和8年1月1日時点で足立区の住民基本台帳に記載のある住民税非課税世帯等（過去の給付金受給世帯を含む）。DV避難者も書面確認により対象となる場合あり。",
+      "target_household": [
+        "住民税非課税世帯",
+        "住民税均等割のみ課税世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "物価高騰支援のための給付金。給付額は本文に明示なし。口座振込またはセブン銀行ATMで受取可能。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "申請書が届いた世帯は令和8年6月30日（火）までに郵送またはオンラインで申請。振込事前案内が届いた世帯は原則申請不要。",
+      "application_end": "2026-06-30",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "世帯主の本人確認書類の写し（口座振込申請の場合）",
+        "振込先口座の情報が確認できる書類の写し（口座振込申請の場合）",
+        "代理人の本人確認書類の写し（代理申請の場合）",
+        "登記事項証明書などの法定代理人であることを証明できる書類（成年後見人等の場合）"
+      ],
+      "status": "募集中",
+      "status_note": "振込事前案内対象世帯は申請不要（2月24日または26日に振込済）。申請書対象世帯は令和8年6月30日まで申請受付中。",
+      "related_programs": [
+        {
+          "program_name": "令和６年度住民税非課税世帯及び住民税均等割のみ課税世帯への3万円給付金",
+          "relation_type": "関連",
+          "note": "過去の受給口座情報を今回の給付に流用。受給実績のある世帯には振込事前案内が送付される。"
+        }
+      ],
+      "contact": "あだち食料品等物価高支援給付金ダイヤル：0120-636-039（平日9時〜20時）／申請相談支援窓口：足立区役所中央館1階アトリウム（平日9時〜17時）",
+      "source_url": "https://www.city.adachi.tokyo.jp/fukushi/2026syokuryouhintoubukkadakashienkyuufukin_faq.html",
+      "plain_summary": "食料品などの物価高騰で生活が苦しい足立区民（2026年1月1日時点で住民登録のある方）を対象にした給付金です。過去の給付金を受け取った世帯には自動で振込案内が届き、それ以外の対象世帯には申請書が届きます。申請書が届いた方は2026年6月30日までに郵送またはオンラインで申請してください。受取は口座振込かセブン銀行ATMです。"
+    }
+  ]
+}

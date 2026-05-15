@@ -1,0 +1,36 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.tokushima.lg.jp/ippannokata/kyoiku/gakkokyoiku/5025670"
+    ],
+    "extracted_at": "2026-05-15T02:36:06.769634+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "高等学校等就学支援金制度",
+      "operating_body": "国（文部科学省）／徳島県",
+      "category": "子育て・教育",
+      "subcategory": "高校授業料支援",
+      "target_audience": "個人",
+      "target_summary": "高等学校等に在籍する生徒（家庭の経済状況にかかわらず全ての意志ある高校生等。所得制限撤廃により多くの方が対象）",
+      "target_residency_required": true,
+      "benefit_summary": "国が生徒に代わって高等学校等の授業（受講）料を負担する（授業料相当額を就学支援金として学校へ支給）",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "受給資格認定の申請が必要。詳細は在籍学校または所管窓口へ要確認",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "公立学校：公立学校事務室または徳島県庁（088-621-2500）／私立学校：徳島県こども未来部こども未来政策課こども教育担当（088-621-2026）",
+      "source_url": "https://www.pref.tokushima.lg.jp/ippannokata/kyoiku/gakkokyoiku/5025670",
+      "plain_summary": "高校などに通う生徒全員を対象に、国が授業料を学校に代わりに払ってくれる制度です。所得制限が撤廃されて多くの人が使えるようになりました。申請は在籍している学校の事務室か、公立なら徳島県庁、私立ならこども未来政策課に問い合わせてください。"
+    }
+  ]
+}

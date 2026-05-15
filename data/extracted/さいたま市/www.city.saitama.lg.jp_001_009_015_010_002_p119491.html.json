@@ -1,0 +1,159 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.saitama.lg.jp/001/009/015/010/002/p119491.html"
+    ],
+    "extracted_at": "2026-05-15T03:02:02.545942+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度 省エネ・断熱住宅普及促進補助金（ZEH）",
+      "operating_body": "さいたま市",
+      "category": "環境",
+      "subcategory": "省エネ住宅・ZEH",
+      "target_audience": "個人",
+      "target_summary": "さいたま市内に住民票を有し、自ら居住する住宅にZEH（ZEH・ZEH＋）を設置する市民。市税に滞納がないことが条件。",
+      "target_residency_required": true,
+      "benefit_summary": "ZEH（ネット・ゼロ・エネルギー・ハウス）の設置費用の一部を補助。補助金額は要綱・申請手引きに基づく（詳細金額はページ記載なし）。令和8年度予算額：9,600万円。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "先着順。予算がなくなり次第受付終了。予算残額200万円を下回った場合は抽選実施。",
+      "application_start": "2026-04-01",
+      "application_end": "2027-03-01",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "交付申請書（様式第1号）",
+        "補助対象事業詳細表（様式第1号の3）",
+        "建物に係る書類（登記事項証明書・評価証明書・課税明細書のいずれか）",
+        "契約書（写し）",
+        "補助対象経費の計算根拠となる見積書等（写し）",
+        "BELS評価書（写し）"
+      ],
+      "status": "募集中",
+      "status_note": "先着順。予算残額200万円未満で抽選に移行。",
+      "related_programs": [
+        {
+          "program_name": "ZEH補助金（国）",
+          "relation_type": "併用可能",
+          "note": "国のZEH補助金と併用可能"
+        },
+        {
+          "program_name": "みらいエコ住宅2026事業",
+          "relation_type": "併用可能",
+          "note": "ZEH・太陽熱利用システム等で併用可能"
+        },
+        {
+          "program_name": "さいたま市J-クレジット事業（家庭用太陽光）",
+          "relation_type": "前提",
+          "note": "ZEH申請者は参加登録が必須"
+        }
+      ],
+      "contact": "環境局/環境共生部/ゼロカーボン推進戦略課 普及推進係 電話：048-829-1316 FAX：048-829-1991",
+      "source_url": "https://www.city.saitama.lg.jp/001/009/015/010/002/p119491.html",
+      "plain_summary": "さいたま市に住んでいる人が、ZEH（エネルギー消費ゼロをめざす家）を建てたり設置したりするときに、費用の一部をもらえる補助金です。令和8年4月1日から令和9年3月1日まで申請できますが、予算がなくなると早めに締め切られます。電子申請・郵送・窓口持参で申請できます。"
+    },
+    {
+      "program_name": "令和8年度 省エネ・断熱住宅普及促進補助金（高効率給湯機）",
+      "operating_body": "さいたま市",
+      "category": "環境",
+      "subcategory": "省エネ住宅・高効率給湯機",
+      "target_audience": "個人",
+      "target_summary": "さいたま市内に住民票を有し、自ら居住する住宅にエコキュート・ハイブリッド給湯機・エネファーム等の高効率給湯機を設置する市民。市税に滞納がないことが条件。",
+      "target_residency_required": true,
+      "benefit_summary": "高効率給湯機（エコキュート・ハイブリッド給湯機・エネファーム等）の設置費用の一部を補助。補助金額は要綱・申請手引きに基づく（詳細金額はページ記載なし）。令和8年度予算額：5,400万円。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "先着順。予算がなくなり次第受付終了。予算残額200万円を下回った場合は抽選実施。",
+      "application_start": "2026-04-01",
+      "application_end": "2027-03-01",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "交付申請書（様式第1号）",
+        "補助対象事業詳細表（様式第1号の3）",
+        "建物に係る書類（登記事項証明書・評価証明書・課税明細書のいずれか）",
+        "契約書（写し）",
+        "補助対象経費の計算根拠となる見積書等（写し）",
+        "補助対象事業として設置した製品の仕様及び性能が確認できる書類",
+        "施工前の状況のカラー写真（機器外観・機器ラベル）"
+      ],
+      "status": "募集中",
+      "status_note": "先着順。予算残額200万円未満で抽選に移行。",
+      "related_programs": [
+        {
+          "program_name": "給湯省エネ2026事業",
+          "relation_type": "併用可能",
+          "note": "エコキュート・ハイブリッド給湯機・エネファームで併用可能"
+        },
+        {
+          "program_name": "家庭における省エネ・再エネ活用設備導入補助金（埼玉県）",
+          "relation_type": "併用可能",
+          "note": "エネファーム・太陽熱利用システムで併用可能"
+        }
+      ],
+      "contact": "環境局/環境共生部/ゼロカーボン推進戦略課 普及推進係 電話：048-829-1316 FAX：048-829-1991",
+      "source_url": "https://www.city.saitama.lg.jp/001/009/015/010/002/p119491.html",
+      "plain_summary": "さいたま市に住んでいる人が、エコキュートやハイブリッド給湯機などの省エネ給湯機を自宅に設置するときに、費用の一部をもらえる補助金です。令和8年4月1日から令和9年3月1日まで申請できますが、予算がなくなると早めに締め切られます。電子申請・郵送・窓口持参で申請できます。"
+    },
+    {
+      "program_name": "令和8年度 省エネ・断熱住宅普及促進補助金（断熱改修）",
+      "operating_body": "さいたま市",
+      "category": "環境",
+      "subcategory": "省エネ住宅・断熱改修",
+      "target_audience": "個人",
+      "target_summary": "さいたま市内に住民票を有し、自ら居住する住宅に全体断熱改修または部分断熱改修（断熱窓・断熱扉等）を実施する市民。市税に滞納がないことが条件。",
+      "target_residency_required": true,
+      "benefit_summary": "断熱改修（全体断熱改修・部分断熱改修）の設置費用の一部を補助。補助金額は要綱・申請手引きに基づく（詳細金額はページ記載なし）。令和8年度予算額：1,500万円。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "先着順。予算がなくなり次第受付終了。予算残額200万円を下回った場合は抽選実施。",
+      "application_start": "2026-04-01",
+      "application_end": "2027-03-01",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "交付申請書（様式第1号）",
+        "補助対象事業詳細表（様式第1号の3）",
+        "建物に係る書類（登記事項証明書・評価証明書・課税明細書のいずれか）",
+        "契約書（写し）",
+        "補助対象経費の計算根拠となる見積書等（写し）",
+        "補助対象事業として設置した製品の仕様及び性能が確認できる書類",
+        "【全体断熱改修の場合】BELS評価書若しくは住宅性能（断熱等級5以上）を証明する書類",
+        "【部分断熱改修の場合】施工する開口部の位置が分かる建築図面またはカラー写真"
+      ],
+      "status": "募集中",
+      "status_note": "先着順。予算残額200万円未満で抽選に移行。",
+      "related_programs": [
+        {
+          "program_name": "先進的窓リノベ2026事業",
+          "relation_type": "併用可能",
+          "note": "断熱改修（全体・部分）で併用可能"
+        },
+        {
+          "program_name": "みらいエコ住宅2026事業",
+          "relation_type": "併用可能",
+          "note": "断熱改修で併用可能"
+        },
+        {
+          "program_name": "埼玉県窓断熱リフォーム支援事業",
+          "relation_type": "併用可能",
+          "note": "断熱改修（全体・部分）で併用可能。先進的窓リノベ2026またはみらいエコ住宅2026の交付決定が必須。"
+        }
+      ],
+      "contact": "環境局/環境共生部/ゼロカーボン推進戦略課 普及推進係 電話：048-829-1316 FAX：048-829-1991",
+      "source_url": "https://www.city.saitama.lg.jp/001/009/015/010/002/p119491.html",
+      "plain_summary": "さいたま市に住んでいる人が、自宅の断熱改修（窓・扉の断熱化など）を行うときに、費用の一部をもらえる補助金です。令和8年4月1日から令和9年3月1日まで申請できますが、予算がなくなると早めに締め切られます。電子申請・郵送・窓口持参で申請できます。"
+    }
+  ]
+}

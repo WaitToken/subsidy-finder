@@ -1,0 +1,75 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.metro.tokyo.lg.jp/information/press/2026/05/2026051213"
+    ],
+    "extracted_at": "2026-05-15T02:09:36.033653+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "ES（社員満足度）向上による若手人材確保助成金",
+      "operating_body": "東京都（公財・東京しごと財団）",
+      "category": "就労・起業",
+      "subcategory": "人材確保・福利厚生",
+      "target_summary": "若手の人材確保に課題を抱える都内の中小企業等。全従業員に占める35歳未満の割合が30%以下、かつ入社3年以内の若手が全従業員の10%以下、かつ直近1年間に若手を含む求人活動を行っていること",
+      "target_residency_required": true,
+      "benefit_summary": "専門家を最大3回派遣（取組計画作成支援）＋住宅（年間上限200万円）・食事（年間上限50万円）・健康（年間上限50万円）の福利厚生経費を補助率1/2で助成。最大3年間、年間上限合計300万円（1社）",
+      "benefit_type": "複合",
+      "benefit_amount_max_yen": 9000000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "住宅借上げ費用",
+        "食事提供サービス費用",
+        "健康増進サービス費用"
+      ],
+      "selection_quota": 60,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "住宅（35歳未満従業員対象の住宅借上げ）",
+          "amount_yen": 6000000,
+          "note": "年額上限200万円 × 最大3年間"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "食事（事業所内での食事提供サービス）",
+          "amount_yen": 1500000,
+          "note": "年額上限50万円 × 最大3年間"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "健康（従業員の健康増進サービス）",
+          "amount_yen": 1500000,
+          "note": "年額上限50万円 × 最大3年間"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "start_date": "2026-05-12",
+          "end_date": "2026-08-07",
+          "note": "定員30社・先着順"
+        },
+        {
+          "round_number": 2,
+          "start_date": "2026-08-17",
+          "end_date": "2026-11-13",
+          "note": "定員30社・先着順"
+        }
+      ],
+      "application_method": "複数",
+      "status": "募集中",
+      "status_note": "先着順",
+      "related_programs": [],
+      "contact": "（公財）東京しごと財団",
+      "source_url": "https://www.metro.tokyo.lg.jp/information/press/2026/05/2026051213",
+      "plain_summary": "若手社員（35歳未満）の採用・定着に悩む都内の中小企業が対象。住宅・食事・健康に関する福利厚生にかかった費用の1/2（住宅は年200万円、食事・健康は各年50万円が上限）を最大3年間助成します。専門家派遣も受けられます。年60社が採択され、先着順で前期（5/12〜8/7）・後期（8/17〜11/13）に郵送または電子申請で受け付けます。"
+    }
+  ]
+}

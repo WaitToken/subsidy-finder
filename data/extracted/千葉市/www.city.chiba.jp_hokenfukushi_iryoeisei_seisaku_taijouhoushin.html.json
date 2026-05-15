@@ -1,0 +1,115 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.chiba.jp/hokenfukushi/iryoeisei/seisaku/taijouhoushin.html"
+    ],
+    "extracted_at": "2026-05-15T03:04:05.941266+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "帯状疱疹ワクチン定期接種",
+      "operating_body": "千葉市",
+      "category": "医療・健康",
+      "subcategory": "予防接種",
+      "target_audience": "個人",
+      "target_summary": "千葉市に住民登録があり、年度内に65・70・75・80・85・90・95・100歳になる方、または60〜64歳でHIVによる免疫機能障害1級の方。過去に帯状疱疹ワクチン接種完了者は対象外。",
+      "target_age_min": 60,
+      "target_residency_required": true,
+      "benefit_summary": "生ワクチン自己負担4,000円（一部免除2,000円、生活保護等は0円）、不活化ワクチン自己負担10,000円×2回（一部免除5,000円×2回、生活保護等は0円）。市が接種費用の一部を負担。",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "生ワクチン（通常）",
+          "note": "自己負担4,000円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "不活化ワクチン（通常）",
+          "note": "自己負担10,000円×2回"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "市民税非課税世帯（生ワクチン）",
+          "note": "自己負担2,000円（一部免除）"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "市民税非課税世帯（不活化ワクチン）",
+          "note": "自己負担5,000円×2回（一部免除）"
+        },
+        {
+          "condition_type": "所得区分",
+          "condition_label": "生活保護・中国残留邦人支援給付受給者",
+          "note": "自己負担0円（全額免除）"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "2025年度〜2029年度（経過措置期間含む）の各年度4月1日〜翌年3月31日。年度ごとに対象年齢が異なる。",
+      "application_start": "2025-04-01",
+      "application_end": "2030-03-31",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "住所・年齢・氏名が確認できるもの（マイナンバーカード、資格確認書、健康保険証等）",
+        "予診票",
+        "身体障害者手帳のコピー（60〜64歳でHIVによる免疫機能障害1級の方）",
+        "免除対象確認書類（生活保護受給者・市民税非課税世帯・中国残留邦人支援給付受給者）"
+      ],
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "保健福祉局医療衛生部医療政策課予防接種事業 電話：043-238-9941",
+      "source_url": "https://www.city.chiba.jp/hokenfukushi/iryoeisei/seisaku/taijouhoushin.html",
+      "plain_summary": "千葉市に住む65・70・75・80・85・90・95・100歳になる年度の方（条件あり）が、帯状疱疹ワクチンを割引価格で受けられます。生ワクチンは自己負担4,000円、不活化ワクチンは1万円×2回。非課税世帯はさらに安く、生活保護受給者は無料。市内の協力医療機関に直接予約して接種します。"
+    },
+    {
+      "program_name": "帯状疱疹任意予防接種費用助成",
+      "operating_body": "千葉市",
+      "category": "医療・健康",
+      "subcategory": "予防接種",
+      "target_audience": "個人",
+      "target_summary": "千葉市に住民登録があり、50歳以上かつ定期接種の対象でない方。過去に帯状疱疹ワクチン接種完了者は対象外。65歳以上は令和11年度までの暫定制度。",
+      "target_age_min": 50,
+      "target_residency_required": true,
+      "benefit_summary": "接種費用から市助成額（生ワクチン2,000円、不活化ワクチン5,000円×2回）を差し引いた額が自己負担。非課税世帯等への自己負担免除なし。",
+      "benefit_type": "サービス提供",
+      "benefit_amount_max_yen": 10000,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "生ワクチン",
+          "amount_yen": 2000,
+          "note": "市助成額2,000円。接種費用はおおよそ6,000〜8,000円程度"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "不活化（組換え）ワクチン",
+          "amount_yen": 10000,
+          "note": "市助成額5,000円×2回（計10,000円）。接種費用はおおよそ1回20,000〜30,000円程度"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "2026年4月1日開始。65歳以上は令和11年度（2030年3月31日）まで暫定制度。",
+      "application_start": "2026-04-01",
+      "application_end": "2032-03-31",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "住所・年齢・氏名が確認できるもの（マイナンバーカード、資格確認書、健康保険証等）",
+        "予診票"
+      ],
+      "status": "募集中",
+      "status_note": "65歳以上は令和11年度までの暫定制度",
+      "related_programs": [],
+      "contact": "保健福祉局医療衛生部医療政策課予防接種事業 電話：043-238-9941",
+      "source_url": "https://www.city.chiba.jp/hokenfukushi/iryoeisei/seisaku/taijouhoushin.html",
+      "plain_summary": "千葉市に住む50歳以上で定期接種の対象でない方が、帯状疱疹ワクチンの費用助成を受けられます（2026年4月開始）。生ワクチンは2,000円、不活化ワクチンは5,000円×2回を市が助成。市内の協力医療機関に予約して接種します。非課税世帯等の自己負担免除はありません。"
+    }
+  ]
+}

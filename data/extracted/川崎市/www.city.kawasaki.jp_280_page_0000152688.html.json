@@ -1,0 +1,34 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.kawasaki.jp/280/page/0000152688.html"
+    ],
+    "extracted_at": "2026-05-15T03:07:40.205820+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "認定職業訓練事業補助金",
+      "operating_body": "川崎市",
+      "category": "就労・起業",
+      "target_audience": "事業者",
+      "target_summary": "認定職業訓練事業を実施する事業者",
+      "target_residency_required": true,
+      "benefit_summary": "認定職業訓練事業に係る補助金を交付（金額詳細は不明）",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [],
+      "contact": "川崎市経済労働局労働・人材支援部 TEL: 044-200-2299 FAX: 044-200-3598 メール: 28roudou@city.kawasaki.jp",
+      "source_url": "https://www.city.kawasaki.jp/280/page/0000152688.html",
+      "plain_summary": "川崎市が認定職業訓練事業を行う事業者に対して補助金を交付する制度です。詳細な金額や申請期限等はページ本文に記載がなく不明です。詳細は川崎市経済労働局（044-200-2299）にお問い合わせください。"
+    }
+  ]
+}

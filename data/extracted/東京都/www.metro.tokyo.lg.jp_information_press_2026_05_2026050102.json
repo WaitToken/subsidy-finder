@@ -1,0 +1,120 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.metro.tokyo.lg.jp/information/press/2026/05/2026050102"
+    ],
+    "extracted_at": "2026-05-15T02:09:09.914896+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "東京都社会福祉施設等への非常用電源等の整備促進事業",
+      "operating_body": "東京都",
+      "category": "その他",
+      "subcategory": "社会福祉施設・防災・非常用電源",
+      "target_summary": "都知事または都内区市町村長の指定等を受けた入所・通所・訪問・相談系など全ての社会福祉施設等（実績報告時までにBCP策定が条件。令和6年度・7年度に本事業で補助を受けた施設は申請不可）",
+      "target_household": [
+        "社会福祉施設等"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "非常用電源設備・外部給電器・V2H・可搬型蓄電池・車両接続型電源・外部電源接続切替盤等の整備費用に対し、補助基準額と実費のいずれか低い方の4分の3を補助（最大補助基準額：非常用電源設備500万円、V2H・外部給電器+切替盤130万円等）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 3750000,
+      "benefit_rate_percent": 75,
+      "eligible_expense_categories": [
+        "非常用電源設備",
+        "外部給電器",
+        "V2H",
+        "可搬型蓄電池",
+        "車両接続型電源",
+        "外部電源接続切替盤"
+      ],
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "非常用電源設備（総事業費500万円未満のものに限る）",
+          "amount_yen": 3750000,
+          "rate_percent": 75,
+          "note": "補助基準額500万円 × 3/4 = 375万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "外部給電器",
+          "amount_yen": 600000,
+          "rate_percent": 75,
+          "note": "補助基準額80万円 × 3/4 = 60万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "V2H",
+          "amount_yen": 975000,
+          "rate_percent": 75,
+          "note": "補助基準額130万円 × 3/4 = 97.5万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "可搬型蓄電池",
+          "amount_yen": 300000,
+          "rate_percent": 75,
+          "note": "補助基準額40万円 × 3/4 = 30万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "車両接続型電源",
+          "amount_yen": 187500,
+          "rate_percent": 75,
+          "note": "補助基準額25万円 × 3/4 = 18.75万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "外部電源接続切替盤",
+          "amount_yen": 375000,
+          "rate_percent": 75,
+          "note": "補助基準額50万円 × 3/4 = 37.5万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "外部給電器＋外部電源接続切替盤",
+          "amount_yen": 975000,
+          "rate_percent": 75,
+          "note": "補助基準額130万円 × 3/4 = 97.5万円"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "車両接続型電源＋外部電源接続切替盤",
+          "amount_yen": 562500,
+          "rate_percent": 75,
+          "note": "補助基準額75万円 × 3/4 = 56.25万円"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_start": "2026-05-01",
+      "application_end": "2026-06-19",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "start_date": "2026-05-01",
+          "end_date": "2026-06-19",
+          "note": "審査の上、交付決定。実績報告に基づき補助金交付"
+        }
+      ],
+      "application_method": "オンライン",
+      "status": "募集中",
+      "status_note": "今年度をもって終了予定。第2回申請の受付期間は決まり次第お知らせ",
+      "related_programs": [
+        {
+          "program_name": "介護事業所等に対するサービス継続支援事業",
+          "relation_type": "代替",
+          "note": "本補助対象機器のうち外部給電器・可搬型蓄電池・車両接続型電源については、介護事業所等に対するサービス継続支援事業の対象施設は当該事業での申請が必要"
+        }
+      ],
+      "contact": "コールセンター: 0120-983-484（フリーダイヤル）/ 9時〜18時（土日祝・年末年始除く）/ Eメール: contact@eps-support-r8.jp",
+      "source_url": "https://www.metro.tokyo.lg.jp/information/press/2026/05/2026050102",
+      "plain_summary": "都知事や区市町村長から指定を受けた社会福祉施設が対象です。災害時に備えた非常用電源設備や蓄電池などの整備費用の4分の3（最大375万円）を東京都が補助します。令和8年5月1日〜6月19日にホームページからオンライン申請できます。今年度で終了予定のため早めの申請をお勧めします。"
+    }
+  ]
+}

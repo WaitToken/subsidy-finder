@@ -1,0 +1,89 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sapporo.jp/eisei/shoni/syouni/index.html"
+    ],
+    "extracted_at": "2026-05-15T02:57:18.216946+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "育成医療",
+      "operating_body": "札幌市",
+      "category": "障害者支援",
+      "subcategory": "小児医療給付",
+      "target_audience": "個人",
+      "target_summary": "障がいのある、または医療を行わなければ将来障がいを残すと認められる児童",
+      "target_residency_required": true,
+      "benefit_summary": "指定育成医療機関において、手術などにより生活能力を回復するために必要な医療費の支給",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "申請書（個人番号記載）",
+        "保護者の個人番号カード等の番号確認書類"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "お住まいの区の区役所健康・子ども課（保健センター）",
+      "source_url": "https://www.city.sapporo.jp/eisei/shoni/syouni/index.html",
+      "plain_summary": "障がいがある、または将来障がいが残る可能性がある札幌市在住の児童を対象に、手術などに必要な医療費を指定医療機関で支給する制度です。申請はお住まいの区の保健センター窓口へ。申請書に個人番号（マイナンバー）の記載が必要です。"
+    },
+    {
+      "program_name": "養育医療",
+      "operating_body": "札幌市",
+      "category": "子育て・教育",
+      "subcategory": "小児医療給付",
+      "target_audience": "個人",
+      "target_summary": "入院医療を必要とする未熟児",
+      "target_residency_required": true,
+      "benefit_summary": "指定養育医療機関において必要な医療の給付",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "申請書（個人番号記載）",
+        "保護者の個人番号カード等の番号確認書類"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "お住まいの区の区役所健康・子ども課（保健センター）",
+      "source_url": "https://www.city.sapporo.jp/eisei/shoni/syouni/index.html",
+      "plain_summary": "入院が必要な未熟児を対象に、指定された医療機関で必要な医療を給付する制度です。札幌市在住の方が対象で、お住まいの区の保健センター窓口へ申請します。申請書に個人番号（マイナンバー）の記載が必要です。"
+    },
+    {
+      "program_name": "小児慢性特定疾病医療費助成",
+      "operating_body": "札幌市",
+      "category": "医療・健康",
+      "subcategory": "小児医療給付",
+      "target_audience": "個人",
+      "target_summary": "慢性の疾病により長期の療養を必要とし、医療費の負担が大きい疾病を抱える児童",
+      "target_residency_required": true,
+      "benefit_summary": "慢性疾病に係る医療費の自己負担分の一部を軽減。疾病の治療研究の推進も兼ねる。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "申請書（個人番号記載）",
+        "保護者の個人番号カード等の番号確認書類"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "お住まいの区の区役所健康・子ども課（保健センター）",
+      "source_url": "https://www.city.sapporo.jp/eisei/shoni/syouni/index.html",
+      "plain_summary": "長期の療養が必要な慢性疾病を持つ札幌市在住の児童を対象に、医療費の自己負担を軽減する制度です。お住まいの区の保健センター窓口へ申請します。申請書に個人番号（マイナンバー）の記載が必要です。"
+    }
+  ]
+}

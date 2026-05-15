@@ -1,0 +1,63 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sendai.jp/kodomo-jigyo/kurashi/kenkotofukushi/kosodate/teate/jidoteate.html"
+    ],
+    "extracted_at": "2026-05-15T02:59:49.136562+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "児童手当",
+      "operating_body": "仙台市",
+      "category": "子育て・教育",
+      "subcategory": "児童手当",
+      "target_audience": "個人",
+      "target_summary": "仙台市に住民登録がある、0歳から18歳年度末までの児童を養育している父母・未成年後見人・里親・父母指定者等（生計中心者）",
+      "target_age_min": 0,
+      "target_age_max": 18,
+      "target_residency_required": true,
+      "benefit_summary": "児童の年齢・出生順に応じて月額10,000円〜30,000円を支給。第1子・第2子は3歳未満15,000円・3歳以上10,000円、第3子以降は0〜18歳全期間30,000円。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 30000,
+      "benefit_tiers": [
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "第1子・第2子（3歳未満）",
+          "amount_yen": 15000,
+          "note": "3歳の誕生月まで"
+        },
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "第1子・第2子（3歳〜18歳年度末）",
+          "amount_yen": 10000
+        },
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "第3子以降（0歳〜18歳年度末）",
+          "amount_yen": 30000
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "出生・転入等の事由発生翌日から15日以内に申請。申請日の翌月分から支給。",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "請求者名義の金融機関口座の写し",
+        "マイナンバーカード（持参推奨）",
+        "別居している場合は別居関係を証明する書類",
+        "離婚協議中の場合は内容証明郵便謄本・調停期日呼出状の写し等",
+        "共済組合加入で3歳未満児童を養育する場合は健康保険の資格確認書等の写し"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "仙台市総合コールセンター（杜の都おしえてコール）電話：022-398-4894（8時〜20時、年中無休）／各区役所保育給付課・総合支所保健福祉課",
+      "source_url": "https://www.city.sendai.jp/kodomo-jigyo/kurashi/kenkotofukushi/kosodate/teate/jidoteate.html",
+      "plain_summary": "仙台市に住んでいる、0歳から18歳年度末までの子どもを育てている方に毎月現金が支給されます。第1子・第2子は3歳未満が月15,000円、3歳以上が月10,000円、第3子以降は月30,000円です。出生や転入から15日以内に区役所の窓口か郵送で申請してください。"
+    }
+  ]
+}

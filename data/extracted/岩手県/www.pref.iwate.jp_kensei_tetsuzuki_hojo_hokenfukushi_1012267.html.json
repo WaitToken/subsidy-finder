@@ -1,0 +1,122 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.iwate.jp/kensei/tetsuzuki/hojo/hokenfukushi/1012267.html"
+    ],
+    "extracted_at": "2026-05-15T01:58:20.855527+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "在宅福祉事業費等補助金",
+      "operating_body": "岩手県",
+      "category": "高齢者・介護",
+      "subcategory": "老人クラブ活動支援",
+      "target_summary": "市町村（老人クラブ活動を通じた高齢者社会活動推進事業を実施するもの）",
+      "target_residency_required": false,
+      "benefit_summary": "高齢者社会活動推進事業に要する経費を、国・県・市町村それぞれ3分の1ずつ負担（県負担は3分の1）",
+      "benefit_type": "現金",
+      "benefit_rate_percent": 33,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "保健福祉部 長寿社会課 高齢福祉担当 電話番号：019-629-5432",
+      "source_url": "https://www.pref.iwate.jp/kensei/tetsuzuki/hojo/hokenfukushi/1012267.html",
+      "plain_summary": "岩手県内の市町村が、老人クラブ活動を通じた高齢者の社会活動推進事業を行う際に、その費用を国・県・市町村がそれぞれ3分の1ずつ負担する補助金です。一般県民向けではなく市町村向けの制度です。"
+    },
+    {
+      "program_name": "地域支援事業交付金（介護保険法第123条）",
+      "operating_body": "岩手県",
+      "category": "高齢者・介護",
+      "subcategory": "地域支援事業",
+      "target_summary": "市町村（一部事務組合、広域連合を含む）が行う地域支援事業（介護予防事業、包括的支援事業及び任意事業）",
+      "target_residency_required": false,
+      "benefit_summary": "介護予防事業（介護予防・日常生活総合支援事業）の所要経費の12.5%、包括的支援事業及び任意事業の所要経費の19.5%を県が負担（国・県合計で介護予防は25%+12.5%、包括的支援等は39%+19.5%）",
+      "benefit_type": "現金",
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "介護予防事業・介護予防・日常生活総合支援事業（県負担分）",
+          "rate_percent": 13,
+          "note": "所要経費の100分の12.5を県負担"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "包括的支援事業及び任意事業（県負担分）",
+          "rate_percent": 20,
+          "note": "所要経費の100分の19.5を県負担"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "保健福祉部 長寿社会課 高齢福祉担当 電話番号：019-629-5432",
+      "source_url": "https://www.pref.iwate.jp/kensei/tetsuzuki/hojo/hokenfukushi/1012267.html",
+      "plain_summary": "岩手県内の市町村が介護予防事業や包括的支援事業を行う際の費用を国と県が一部負担する交付金です。介護予防事業は所要経費の12.5%、包括的支援事業等は19.5%を県が負担します。市町村向けの制度です。"
+    },
+    {
+      "program_name": "介護保険事業費補助金 介護保険サービス利用者負担助成事業費補助",
+      "operating_body": "岩手県",
+      "category": "高齢者・介護",
+      "subcategory": "介護保険サービス利用者負担軽減",
+      "target_summary": "市町村（一部事務組合、広域連合を含む）が行う、低所得者・障がい者・社会福祉法人利用者・離島等・中山間地域の介護保険サービス利用者負担軽減事業",
+      "target_residency_required": false,
+      "benefit_summary": "障がい者ホームヘルプ利用者負担軽減・社会福祉法人等による生計困難者利用者負担軽減・離島等特別地域加算利用者負担軽減・中山間地域加算利用者負担軽減に要する費用を、国2分の1・県4分の1・市町村4分の1で負担",
+      "benefit_type": "現金",
+      "benefit_rate_percent": 25,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "保健福祉部 長寿社会課 高齢福祉担当 電話番号：019-629-5432",
+      "source_url": "https://www.pref.iwate.jp/kensei/tetsuzuki/hojo/hokenfukushi/1012267.html",
+      "plain_summary": "低所得者や障がい者などが介護保険サービスを利用する際の自己負担を市町村が軽減するための補助金です。必要な費用を国が2分の1、県が4分の1、市町村が4分の1ずつ負担します。市町村向けの制度です。"
+    },
+    {
+      "program_name": "介護給付費等負担金（介護保険法第121条・第122条）",
+      "operating_body": "岩手県",
+      "category": "高齢者・介護",
+      "subcategory": "介護給付費負担",
+      "target_summary": "市町村（一部事務組合、広域連合を含む）が行う介護保険事業の介護給付及び予防給付",
+      "target_residency_required": false,
+      "benefit_summary": "介護給付及び予防給付に要する経費を県が負担（施設分：県17.5%、その他分：県12.5%）",
+      "benefit_type": "現金",
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "施設分（県負担分）",
+          "rate_percent": 18,
+          "note": "所要経費の100分の17.5を県負担"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "その他分（県負担分）",
+          "rate_percent": 13,
+          "note": "所要経費の100分の12.5を県負担"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "通年",
+      "related_programs": [],
+      "contact": "保健福祉部 長寿社会課 高齢福祉担当 電話番号：019-629-5432",
+      "source_url": "https://www.pref.iwate.jp/kensei/tetsuzuki/hojo/hokenfukushi/1012267.html",
+      "plain_summary": "岩手県内の市町村が運営する介護保険事業の介護給付・予防給付にかかる費用を国と県が一部負担する制度です。施設分は県が17.5%、その他分は12.5%を負担し、保険財政の安定化を支援します。市町村向けの制度です。"
+    }
+  ]
+}

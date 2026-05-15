@@ -1,0 +1,54 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.sumida.lg.jp/anzen_anshin/kurasinoanzen_ansin/bouhantaisaku/sumaibohan-rinjihojo.html"
+    ],
+    "extracted_at": "2026-05-15T00:09:24.549453+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "墨田区住まいの防犯対策臨時補助金",
+      "operating_body": "墨田区",
+      "category": "その他",
+      "subcategory": "防犯対策",
+      "target_summary": "墨田区内の住宅に居住し、住民登録がある世帯（1世帯につき1回限り、昨年度同補助金申請者は不可）",
+      "target_residency_required": true,
+      "benefit_summary": "令和7年3月21日以降に購入・設置した個人宅用防犯物品の購入・設置費用の2分の1（1世帯につき上限2万円）を現金で補助",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 20000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "防犯物品購入費",
+        "防犯物品設置費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "令和8年4月1日午前8時30分から先着順で受付。予算額に達した時点で受付終了。",
+      "application_start": "2026-04-01",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "本人確認書類の写し（運転免許証、健康保険証、マイナンバーカード等）",
+        "領収書の写し",
+        "工事や防犯物品の内容が記載された書類（納品書等）の写し",
+        "防犯物品設置後の写真",
+        "口座情報が確認できるもの（通帳、キャッシュカード又はWeb通帳画面の写し等）",
+        "大家又は所有者からの同意書（賃貸物件の場合のみ）",
+        "交付申請書（持参・郵送のみ）",
+        "誓約書（持参・郵送のみ）",
+        "請求書（持参・郵送のみ）"
+      ],
+      "status": "募集中",
+      "status_note": "先着順。予算上限到達で早期終了の可能性あり",
+      "related_programs": [],
+      "contact": "安全支援課安全支援・空き家対策担当　電話：03-5608-6199　〒130-8640 墨田区吾妻橋一丁目23番20号 墨田区役所5階",
+      "source_url": "https://www.city.sumida.lg.jp/anzen_anshin/kurasinoanzen_ansin/bouhantaisaku/sumaibohan-rinjihojo.html",
+      "plain_summary": "墨田区内に住んでいる方が、自宅の防犯物品（ドアホンなど）を令和7年3月21日以降に購入・設置した場合、その費用の半額（1世帯最大2万円）を補助してもらえます。令和8年4月1日から先着順で受付中。窓口・郵送・オンラインで申請できます。予算がなくなり次第終了です。"
+    }
+  ]
+}

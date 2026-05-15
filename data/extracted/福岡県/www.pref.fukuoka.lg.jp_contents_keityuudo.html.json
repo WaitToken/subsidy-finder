@@ -1,0 +1,41 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.fukuoka.lg.jp/contents/keityuudo.html"
+    ],
+    "extracted_at": "2026-05-15T02:42:49.039863+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "福岡県軽度・中等度難聴児補聴器購入費助成事業",
+      "operating_body": "福岡県（実施主体：市町村）",
+      "category": "障害者支援",
+      "subcategory": "難聴児支援",
+      "target_audience": "個人",
+      "target_summary": "福岡県内に住所を有する18歳未満（18歳に達する日以降の最初の3月31日まで）の児童で、両耳の聴力レベルが原則30デシベル以上かつ身体障害者手帳の交付対象とならない軽度・中等度難聴児",
+      "target_age_min": 0,
+      "target_age_max": 18,
+      "target_residency_required": true,
+      "benefit_summary": "補聴器購入費用等の一部を助成（助成額は市町村により異なる）",
+      "benefit_type": "現金",
+      "eligible_expense_categories": [
+        "補聴器購入費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "各市町村の担当課に問い合わせること",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "status": "募集中",
+      "related_programs": [],
+      "contact": "各市町村担当課",
+      "source_url": "https://www.pref.fukuoka.lg.jp/contents/keityuudo.html",
+      "plain_summary": "福岡県内に住む18歳未満の軽度・中等度の難聴のある子どもが対象です。身体障害者手帳の交付を受けられない場合でも、補聴器を買うための費用の一部を市町村が助成してくれます。詳しい金額や申請方法はお住まいの市町村の担当窓口にお問い合わせください。"
+    }
+  ]
+}

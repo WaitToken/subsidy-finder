@@ -1,0 +1,35 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.adachi.tokyo.jp/fukushi/topics/2026support_payment.html"
+    ],
+    "extracted_at": "2026-05-15T01:25:22.819623+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "食料品等物価高支援給付金",
+      "operating_body": "足立区",
+      "category": "その他",
+      "subcategory": "物価高支援",
+      "target_summary": "足立区の全区民",
+      "target_residency_required": true,
+      "benefit_summary": "1人あたり1万円の現金給付",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 10000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "不明",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [],
+      "contact": "あだち食料品等物価高支援給付金ダイヤル：0120-636-039（平日 午前9時〜午後8時）",
+      "source_url": "https://www.city.adachi.tokyo.jp/fukushi/topics/2026support_payment.html",
+      "plain_summary": "足立区に住むすべての区民を対象に、食料品などの物価高騰への支援として1人あたり1万円の現金が給付されます。国の補正予算を受けて令和7年12月26日に区議会で可決されました。詳細は区の関連ページをご確認ください。問い合わせは0120-636-039（平日9時〜20時）まで。"
+    }
+  ]
+}

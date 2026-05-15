@@ -1,0 +1,53 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.okayama.jp/jigyosha/0000030386.html"
+    ],
+    "extracted_at": "2026-05-15T03:20:50.713611+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "岡山市eスポーツ産業振興事業補助金",
+      "operating_body": "岡山市",
+      "category": "その他",
+      "subcategory": "eスポーツ・コンテンツ産業振興",
+      "target_audience": "事業者",
+      "target_summary": "eスポーツの普及活動や人材育成の取り組みを行う法人格を持った団体（市内外問わず）。市税完納要件あり（本店が岡山市内の場合）。リアルイベントの運営実績を有すること。",
+      "target_residency_required": false,
+      "benefit_summary": "岡山市内でのeスポーツイベント開催に必要な経費（税抜き）の2分の1以内、補助限度額100万円を補助。採択は審査で総得点6割以上かつ上位2団体。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 1000000,
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "イベント開催に必要な経費（使用目的が本事業の遂行に必要なものと明確に特定できる経費）"
+      ],
+      "selection_quota": 2,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年6月30日（火曜日）必着",
+      "application_start": "2026-05-15",
+      "application_end": "2026-06-30",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "応募書類の提出について（応募様式）",
+        "事業計画書（様式第2号）",
+        "収支予算書（様式第3号）",
+        "応募者の概要がわかる書類（規約、定款、組織図、イベント実績等）",
+        "履歴事項全部証明書の写し",
+        "市税の滞納なし証明等の写し（法人登記の本店所在地が岡山市内にある場合）"
+      ],
+      "status": "募集中",
+      "status_note": "審査採点で総得点6割以上かつ上位2団体のみ採択",
+      "related_programs": [],
+      "contact": "岡山市創業支援・雇用推進課 スタートアップ支援係 TEL:086-803-1342 / 雇用推進係 TEL:086-803-1315 / FAX:086-803-1738 〒700-8544 岡山市北区大供一丁目1番1号",
+      "source_url": "https://www.city.okayama.jp/jigyosha/0000030386.html",
+      "plain_summary": "eスポーツの普及活動や人材育成を行う法人格のある団体が対象。岡山市内でのeスポーツイベント開催にかかる経費（税抜き）の2分の1以内、最大100万円を補助します。審査で高得点の上位2団体のみ採択。令和8年6月30日必着で持参または郵送にて応募。"
+    }
+  ]
+}

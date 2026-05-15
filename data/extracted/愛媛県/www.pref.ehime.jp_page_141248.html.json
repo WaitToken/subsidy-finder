@@ -1,0 +1,44 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.ehime.jp/page/141248.html"
+    ],
+    "extracted_at": "2026-05-15T02:39:53.403940+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度えひめ子どもサポート事業",
+      "operating_body": "愛媛県",
+      "category": "子育て・教育",
+      "subcategory": "子育て支援・子どもの貧困対策",
+      "target_audience": "事業者",
+      "target_summary": "子育て世帯や貧困等の問題を抱える子どもを支援する社会福祉法人、特定非営利活動法人、ボランティア・市民活動団体（非営利団体）、学校におけるグループ等",
+      "target_residency_required": true,
+      "benefit_summary": "1団体最大20万円（基準額と補助対象経費を比較して少ないほうの額を補助）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 200000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年5月15日（金）17時15分必着",
+      "application_end": "2026-05-15",
+      "application_rounds": [],
+      "application_method": "郵送",
+      "required_documents": [
+        "応募様式第1号 補助金申込書",
+        "応募様式第2号 事業提案書",
+        "応募様式第3号 収支予算書",
+        "団体等の概要が分かるパンフレット・規約・役員名簿等（任意）"
+      ],
+      "status": "募集中",
+      "status_note": "審査会の審査を経て補助金交付対象事業を決定",
+      "related_programs": [],
+      "source_url": "https://www.pref.ehime.jp/page/141248.html",
+      "plain_summary": "愛媛県内で子育て支援や子どもの貧困対策に取り組むNPO・ボランティア・市民活動団体などの非営利団体が対象です。学習支援・居場所づくり・子ども食堂運営などの活動に対し、1団体あたり最大20万円の補助金が受け取れます。令和8年5月15日17時15分までに所定の申込書類を提出してください。審査会による選考があります。"
+    }
+  ]
+}

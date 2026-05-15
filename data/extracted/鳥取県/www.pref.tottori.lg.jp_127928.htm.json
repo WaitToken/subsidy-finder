@@ -1,0 +1,179 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.tottori.lg.jp/127928.htm"
+    ],
+    "extracted_at": "2026-05-15T02:28:46.144677+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "ミラ・クル・とっとり運動推進補助金（若者トライ型）",
+      "operating_body": "鳥取県",
+      "category": "その他",
+      "subcategory": "地域づくり・地域活性化",
+      "target_summary": "10歳から25歳までの若者3名以上が中核の団体で、県内に事務所または活動拠点を有する団体（NPO・ボランティア団体・自治会等・企業等）。県の他の補助金等を同一事業で受けていないこと。",
+      "target_age_min": 10,
+      "target_age_max": 25,
+      "target_residency_required": true,
+      "benefit_summary": "補助限度額15万円（クラウドファンディング活用の場合は上限19万円）、補助率10分の10（全額補助）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 190000,
+      "benefit_rate_percent": 100,
+      "selection_quota": 8,
+      "benefit_tiers": [
+        {
+          "condition_type": "その他",
+          "condition_label": "通常",
+          "amount_yen": 150000,
+          "rate_percent": 100,
+          "note": "補助限度額15万円、補助率10/10"
+        },
+        {
+          "condition_type": "その他",
+          "condition_label": "クラウドファンディング活用",
+          "amount_yen": 190000,
+          "rate_percent": 100,
+          "note": "クラウドファンディング事業者への手数料相当額（上限4万円）を加えた額"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "各次募集の期間内に申請。1次：3月5日〜3月25日、2次：5月15日〜6月11日、3次：8月17日〜9月10日（各期限は午後5時必着）",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "start_date": "2026-03-05",
+          "end_date": "2026-03-25",
+          "note": "午後5時必着"
+        },
+        {
+          "round_number": 2,
+          "start_date": "2026-05-15",
+          "end_date": "2026-06-11",
+          "note": "午後5時必着。採択状況により募集しない場合あり"
+        },
+        {
+          "round_number": 3,
+          "start_date": "2026-08-17",
+          "end_date": "2026-09-10",
+          "note": "午後5時必着。採択状況により募集しない場合あり"
+        }
+      ],
+      "application_method": "複数",
+      "required_documents": [
+        "申請様式（若者トライ型）（１）",
+        "申請様式（若者トライ型）（２）（事業スケジュール表）",
+        "同意書（申請者が未成年の場合）",
+        "チェックリスト確認済み書類"
+      ],
+      "status": "募集中",
+      "status_note": "採択予定件数あり。2次・3次募集は採択状況により実施しない場合あり",
+      "related_programs": [],
+      "contact": "東部地域振興事務所 東部振興課 TEL:0857-20-3528 / 鳥取県協働参画課 TEL:0857-26-7248",
+      "source_url": "https://www.pref.tottori.lg.jp/127928.htm",
+      "plain_summary": "鳥取県内に活動拠点がある10〜25歳の若者3名以上が中心の団体が、地域を活性化するための新しい取り組みを行う場合に、最大15万円（クラウドファンディング活用なら最大19万円）を全額補助してもらえる制度です。採択予定は8件。持参・郵送・電子申請で申請できます。"
+    },
+    {
+      "program_name": "ミラ・クル・とっとり運動推進補助金（スタートアップ型・スタート支援）",
+      "operating_body": "鳥取県",
+      "category": "その他",
+      "subcategory": "地域づくり・地域活性化",
+      "target_summary": "地域づくりに意欲があり、県内に事務所または活動拠点を有する団体・個人（NPO、ボランティア団体、自治会等、企業、商工団体等）。地域活性化のための新たな取組・拡充・試行的取組を実施するもの。県の他の補助金等を同一事業で受けていないこと。",
+      "target_residency_required": true,
+      "benefit_summary": "補助限度額10万円、補助率10分の10（全額補助）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 100000,
+      "benefit_rate_percent": 100,
+      "selection_quota": 25,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "各次募集の期間内に申請。1次：3月5日〜3月25日、2次：5月15日〜6月11日、3次：8月17日〜9月10日（各期限は午後5時必着）",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "start_date": "2026-03-05",
+          "end_date": "2026-03-25",
+          "note": "午後5時必着"
+        },
+        {
+          "round_number": 2,
+          "start_date": "2026-05-15",
+          "end_date": "2026-06-11",
+          "note": "午後5時必着。採択状況により募集しない場合あり"
+        },
+        {
+          "round_number": 3,
+          "start_date": "2026-08-17",
+          "end_date": "2026-09-10",
+          "note": "午後5時必着。採択状況により募集しない場合あり"
+        }
+      ],
+      "application_method": "複数",
+      "required_documents": [
+        "申請書（スタートアップ型）",
+        "事業の新規性に係る調書",
+        "チェックリスト確認済み書類"
+      ],
+      "status": "募集中",
+      "status_note": "採択予定件数あり。2次・3次募集は採択状況により実施しない場合あり",
+      "related_programs": [],
+      "contact": "各地域振興課（東部：0857-20-3528、中部：0858-23-3177、西部：0859-31-9606、日野：0859-72-2080）/ 鳥取県協働参画課 TEL:0857-26-7248",
+      "source_url": "https://www.pref.tottori.lg.jp/127928.htm",
+      "plain_summary": "鳥取県内に活動拠点がある団体や個人が、地域を活性化するための新しい取り組みを始める場合に、最大10万円を全額補助してもらえる制度です。採択予定は25件。持参・郵送・電子申請で申請できます。"
+    },
+    {
+      "program_name": "ミラ・クル・とっとり運動推進補助金（スタートアップ型・ステップアップ支援）",
+      "operating_body": "鳥取県",
+      "category": "その他",
+      "subcategory": "地域づくり・地域活性化",
+      "target_summary": "過去にスタートアップ型の補助を受けた事業で、新たな工夫や基盤整備により中・長期的な活動の継続・成長を視野に入れて取り組む団体・個人。県内に事務所または活動拠点を有すること。",
+      "target_residency_required": true,
+      "benefit_summary": "補助限度額30万円、補助率4分の3（75%）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 300000,
+      "benefit_rate_percent": 75,
+      "selection_quota": 7,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "各次募集の期間内に申請。1次：3月5日〜3月25日、2次：5月15日〜6月11日、3次：8月17日〜9月10日（各期限は午後5時必着）",
+      "application_rounds": [
+        {
+          "round_number": 1,
+          "start_date": "2026-03-05",
+          "end_date": "2026-03-25",
+          "note": "午後5時必着"
+        },
+        {
+          "round_number": 2,
+          "start_date": "2026-05-15",
+          "end_date": "2026-06-11",
+          "note": "午後5時必着。採択状況により募集しない場合あり"
+        },
+        {
+          "round_number": 3,
+          "start_date": "2026-08-17",
+          "end_date": "2026-09-10",
+          "note": "午後5時必着。採択状況により募集しない場合あり"
+        }
+      ],
+      "application_method": "複数",
+      "required_documents": [
+        "申請書（スタートアップ型）",
+        "取り組みが将来にわたって継続していくための計画書",
+        "チェックリスト確認済み書類"
+      ],
+      "status": "募集中",
+      "status_note": "採択予定件数あり。2次・3次募集は採択状況により実施しない場合あり",
+      "related_programs": [],
+      "contact": "各地域振興課（東部：0857-20-3528、中部：0858-23-3177、西部：0859-31-9606、日野：0859-72-2080）/ 鳥取県協働参画課 TEL:0857-26-7248",
+      "source_url": "https://www.pref.tottori.lg.jp/127928.htm",
+      "plain_summary": "鳥取県内で過去にスタートアップ型補助を受けた事業を発展・継続させたい団体や個人に、最大30万円（経費の4分の3まで）を補助する制度です。採択予定は7件。持参・郵送・電子申請で申請できます。"
+    }
+  ]
+}

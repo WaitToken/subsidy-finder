@@ -1,0 +1,71 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.okayama.jp/kurashi/0000011381.html"
+    ],
+    "extracted_at": "2026-05-15T03:22:21.810609+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "児童手当",
+      "operating_body": "岡山市",
+      "category": "子育て・教育",
+      "subcategory": "児童手当",
+      "target_audience": "個人",
+      "target_summary": "岡山市在住で、0歳から高校生年代（18歳到達後最初の3月31日まで）の児童を養育する父母等。施設入所児童の場合は施設設置者。",
+      "target_age_min": 0,
+      "target_age_max": 18,
+      "target_residency_required": true,
+      "benefit_summary": "児童1人につき月額10,000円〜30,000円。0歳〜3歳未満は月額15,000円（第3子以降30,000円）、3歳〜高校生年代は月額10,000円（第3子以降30,000円）。偶数月（2・4・6・8・10・12月）の7日に2か月分をまとめて振込。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 30000,
+      "benefit_tiers": [
+        {
+          "condition_type": "年齢区分",
+          "condition_label": "0歳〜3歳未満（第1・2子）",
+          "amount_yen": 15000,
+          "note": "月額"
+        },
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "0歳〜3歳未満（第3子以降）",
+          "amount_yen": 30000,
+          "note": "月額"
+        },
+        {
+          "condition_type": "年齢区分",
+          "condition_label": "3歳〜高校生年代（第1・2子）",
+          "amount_yen": 10000,
+          "note": "月額"
+        },
+        {
+          "condition_type": "子の出生順",
+          "condition_label": "3歳〜高校生年代（第3子以降）",
+          "amount_yen": 30000,
+          "note": "月額"
+        }
+      ],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "転入・出生等の異動日の翌日から15日以内に申請すると異動日の翌月から支給。申請月の翌月分から支給開始が原則。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "手当振込希望口座（請求者名義）の金融機関名・支店名・口座番号のわかるもの",
+        "請求者本人の健康保険証等（コピー可）",
+        "請求者及び配偶者の個人番号がわかるもの",
+        "マイナンバーカード・運転免許証等の本人確認書類",
+        "その他必要に応じた書類"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "岡山市こども福祉課 〒700-8544 岡山市北区大供一丁目1番1号 TEL: 086-803-1222 FAX: 086-803-1719",
+      "source_url": "https://www.city.okayama.jp/kurashi/0000011381.html",
+      "plain_summary": "岡山市在住で0歳から高校生年代（18歳の年度末）までの子どもを育てている保護者に毎月現金が支給される制度です。月額は子の年齢・出生順によって1万〜3万円。偶数月の7日に2か月分まとめて口座に振り込まれます。転入・出生後は各区役所の窓口（または電子申請）で早めに手続きを。令和6年12月支給分から制度改正されています。"
+    }
+  ]
+}

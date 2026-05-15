@@ -1,0 +1,52 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.kagoshima.jp/ab12/2025tabunkasuisinhojo.html"
+    ],
+    "extracted_at": "2026-05-15T02:50:27.091137+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和8年度かごしま多文化共生社会推進事業補助金",
+      "operating_body": "鹿児島県",
+      "category": "その他",
+      "subcategory": "多文化共生・国際交流",
+      "target_audience": "事業者",
+      "target_summary": "鹿児島県内に主たる事務所または活動拠点を有する自治会（地縁による団体）・特定非営利活動法人・各国友好団体等。一定の規約と代表者を有し、明確な会計経理を実施している団体。宗教・政治活動を目的とする団体、暴力団関係団体は除く。",
+      "target_residency_required": true,
+      "benefit_summary": "補助対象経費の10分の10以内（全額補助）、上限10万円。補助件数は15件程度。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 100000,
+      "benefit_rate_percent": 100,
+      "eligible_expense_categories": [
+        "事業実施に直接必要な経費（補助対象経費一覧表に掲げる経費）"
+      ],
+      "selection_quota": 15,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "予算の上限に達した場合は応募期間内でも募集を締め切り。当日消印有効。",
+      "application_start": "2026-05-18",
+      "application_end": "2027-01-29",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "かごしま多文化共生社会推進事業応募書（第1号様式）",
+        "事業計画書（第1号様式別紙1）",
+        "収支予算書（第1号様式別紙2）",
+        "団体等の規約等",
+        "団体等の直近1年間の事業報告書及び収支予算書またはこれに代わるもの"
+      ],
+      "status": "募集中",
+      "status_note": "随時審査・選考。予算上限到達で早期終了の可能性あり",
+      "related_programs": [],
+      "contact": "鹿児島県男女共同参画局くらし共生協働課多文化共生推進班 TEL：099-286-2546 FAX：099-286-5524 E-mail：co-exist@pref.kagoshima.lg.jp",
+      "source_url": "https://www.pref.kagoshima.jp/ab12/2025tabunkasuisinhojo.html",
+      "plain_summary": "鹿児島県内の自治会やNPO法人などの団体が、在留外国人と地域住民の交流を促進するイベントや日本語学習支援などの取り組みを行う場合に、かかった経費の全額（上限10万円）を補助してもらえる制度です。15件程度が採択され、電子メールまたは郵送で2027年1月29日まで随時応募できます（予算上限に達し次第締め切り）。"
+    }
+  ]
+}

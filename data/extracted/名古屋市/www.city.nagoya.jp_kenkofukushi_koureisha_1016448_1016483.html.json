@@ -1,0 +1,51 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.nagoya.jp/kenkofukushi/koureisha/1016448/1016483.html"
+    ],
+    "extracted_at": "2026-05-15T03:15:44.697231+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "福祉給付金支給制度",
+      "operating_body": "名古屋市",
+      "category": "医療・健康",
+      "subcategory": "医療費助成",
+      "target_audience": "個人",
+      "target_summary": "名古屋市内に住所を有する後期高齢者医療の被保険者または70歳以上で健康保険に加入している方のうち、障害者・ひとり親家庭・措置入院患者・結核患者・ねたきり・重度中度認知症・戦傷病者手帳所持者等の一定要件を満たす方（生活保護受給者は除く）",
+      "target_age_min": 70,
+      "target_household": [
+        "高齢者世帯",
+        "障害者世帯",
+        "ひとり親家庭"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "医療費の自己負担額を助成（福祉給付金資格者証を交付し、病院窓口での自己負担額を軽減）",
+      "benefit_type": "サービス提供",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "毎年8月1日に更新（有効期間1年）。郵送での受付は不可。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "健康保険に加入していることを証明するもの（資格確認書、資格情報のお知らせ、マイナ保険証等）",
+        "高齢受給者証（発行されている方）",
+        "障害の種類・程度を証明するもの（身体障害者手帳など）※障害要件該当者",
+        "児童扶養手当証書など、ひとり親家庭であることを証明する書類※ひとり親要件該当者",
+        "介護保険証※ねたきり・認知症高齢者に該当する場合",
+        "福祉給付金資格確認申請書",
+        "所得証明書（1月1日時点で名古屋市外に住所があった方）"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "健康福祉局 生活福祉部 医療福祉課 福祉医療担当 / 電話：052-972-2574 / FAX：052-972-4148 / Email：a2574@kenkofukushi.city.nagoya.lg.jp",
+      "source_url": "https://www.city.nagoya.jp/kenkofukushi/koureisha/1016448/1016483.html",
+      "plain_summary": "名古屋市内に住む70歳以上または後期高齢者医療の被保険者で、障害・ひとり親・ねたきり・認知症などの条件を満たす方が対象です。病院などでかかった医療費の自己負担額を助成してもらえます。申請はお住まいの区役所保険年金課の窓口へ（郵送不可）。毎年8月1日に更新が必要です。"
+    }
+  ]
+}

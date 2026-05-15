@@ -1,0 +1,38 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.hamamatsu.shizuoka.jp/kensido/home_tochi/home/kakutyouseibi/semai1-260401.html"
+    ],
+    "extracted_at": "2026-05-15T03:14:14.745471+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "浜松市狭い道路の拡幅整備事業（助成金・奨励金）",
+      "operating_body": "浜松市",
+      "category": "住まい",
+      "subcategory": "道路拡幅・建築敷地後退",
+      "target_audience": "個人",
+      "target_summary": "浜松市の市街化区域内において、4m未満の狭い道路に接する敷地で建築物の新築・増築・改築等を行う建築主や関係権利者（後退用地等を市へ寄附した方）",
+      "target_residency_required": true,
+      "benefit_summary": "後退用地等に存する工作物（門・塀・擁壁等）や樹木等の撤去等に要した費用の一部について助成金を交付。また、規定寸法以上の隅切り部分の用地を寄附した場合には奨励金も交付。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "建築確認申請前に事前協議申請書を提出することから始まる。後退用地等の寄附後に申請。",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "事前協議申請書"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "source_url": "https://www.city.hamamatsu.shizuoka.jp/kensido/home_tochi/home/kakutyouseibi/semai1-260401.html",
+      "plain_summary": "浜松市の市街化区域内で、4m未満の狭い道路に接する土地に建物を建てたり改築する際、後退した土地（道路用地）を市に寄附すると、塀や擁壁などの撤去費用の一部が助成金としてもらえます。また、規定以上の隅切り用地を寄附した場合は奨励金も受け取れます。建築確認申請の前に、市へ事前協議申請書を提出する必要があります。"
+    }
+  ]
+}

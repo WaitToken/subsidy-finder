@@ -1,0 +1,46 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.setagaya.lg.jp/02049/626.html"
+    ],
+    "extracted_at": "2026-05-15T00:55:56.972591+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "震災対策用井戸の修理等に対する補助金",
+      "operating_body": "世田谷区",
+      "category": "その他",
+      "subcategory": "防災・災害対策",
+      "target_summary": "世田谷区から「震災対策用井戸」として指定されている井戸の所有者",
+      "target_residency_required": true,
+      "benefit_summary": "ポンプの設置または井戸の修理費用を補助（上限10万円、100円未満切り捨て）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 100000,
+      "eligible_expense_categories": [
+        "ポンプ設置費",
+        "井戸修理費"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "イベント基準",
+      "application_window_note": "工事終了後1か月以内に領収書・内訳書の写しと併せて提出",
+      "application_rounds": [],
+      "application_method": "複数",
+      "required_documents": [
+        "申請書兼請求書",
+        "領収書の写し",
+        "内訳書の写し"
+      ],
+      "status": "募集中",
+      "status_note": "予算の範囲内で交付",
+      "related_programs": [],
+      "contact": "管轄の総合支所 地域振興課 地域振興・防災担当（世田谷：03-5432-2831 / 北沢：03-5478-8028 / 玉川：03-3702-1603 / 砧：03-3482-2169 / 烏山：03-3326-9249）",
+      "source_url": "https://www.city.setagaya.lg.jp/02049/626.html",
+      "plain_summary": "世田谷区が「震災対策用井戸」として指定した井戸のポンプ設置や修理をした方に、費用を最大10万円まで補助します。工事前に電話で事前相談し、工事終了後1か月以内に領収書などと一緒に申請書を管轄の総合支所に提出してください。予算の範囲内で交付されます。"
+    }
+  ]
+}

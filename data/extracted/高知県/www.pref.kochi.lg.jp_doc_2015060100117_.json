@@ -1,0 +1,73 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.kochi.lg.jp/doc/2015060100117/"
+    ],
+    "extracted_at": "2026-05-15T02:40:57.244854+00:00",
+    "extractor_version": "0.5.0",
+    "schema_version": "0.5",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "再生可能エネルギー事業化促進事業（再生可能エネルギー利活用事業費補助金）",
+      "operating_body": "高知県",
+      "category": "環境",
+      "subcategory": "再生可能エネルギー",
+      "target_audience": "事業者",
+      "target_summary": "市町村、一部事務組合、広域連合又は複数の市町村が組織する協議会（市町村等）",
+      "target_residency_required": false,
+      "benefit_summary": "対象経費の1/2以内を補助。小水力発電・太陽光発電・木質バイオマス発電等の可能性調査・設計業務など事業化に至るまでの事業が対象。",
+      "benefit_type": "現金",
+      "benefit_rate_percent": 50,
+      "eligible_expense_categories": [
+        "可能性調査",
+        "現地測量",
+        "各種調査業務",
+        "ビジネスモデル検討",
+        "各種設計業務"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "予算の範囲内で補助金を交付",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [],
+      "contact": "高知県 電気工水課 電気担当 088-821-4624 / メール: 610301@ken.pref.kochi.lg.jp",
+      "source_url": "https://www.pref.kochi.lg.jp/doc/2015060100117/",
+      "plain_summary": "高知県内の市町村や一部事務組合などを対象に、小水力・太陽光・バイオマス発電などの再生可能エネルギー事業化に向けた調査・設計業務などの費用を、経費の2分の1以内で補助する制度です。予算の範囲内で交付されます。"
+    },
+    {
+      "program_name": "再生可能エネルギー利活用促進普及事業（再生可能エネルギー利活用事業費補助金）",
+      "operating_body": "高知県",
+      "category": "環境",
+      "subcategory": "再生可能エネルギー",
+      "target_audience": "事業者",
+      "target_summary": "市町村、一部事務組合、広域連合又は複数の市町村が組織する協議会（市町村等）",
+      "target_residency_required": false,
+      "benefit_summary": "定額100万円以内を補助。再生可能エネルギーの普及啓発・人材育成・協議会設立・勉強会開催・先進地視察・広報活動等が対象。",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 1000000,
+      "eligible_expense_categories": [
+        "協議会・検討委員会の設立",
+        "協議会・勉強会・講演会等の開催・参加",
+        "先進地視察",
+        "パンフレット・コンテンツ・イベントによる啓発活動"
+      ],
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "予算枠まで",
+      "application_window_note": "予算の範囲内で補助金を交付",
+      "application_rounds": [],
+      "application_method": "不明",
+      "status": "不明",
+      "related_programs": [],
+      "contact": "高知県 電気工水課 電気担当 088-821-4624 / メール: 610301@ken.pref.kochi.lg.jp",
+      "source_url": "https://www.pref.kochi.lg.jp/doc/2015060100117/",
+      "plain_summary": "高知県内の市町村や一部事務組合などを対象に、再生可能エネルギーの普及を進めるための人材育成・協議会設立・勉強会・先進地視察・広報活動などにかかる費用を、最大100万円（定額）補助する制度です。予算の範囲内で交付されます。"
+    }
+  ]
+}

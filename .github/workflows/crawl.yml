@@ -1,0 +1,62 @@
+name: Weekly nationwide crawl
+
+# 週次クロール (Sunday 18:00 UTC = Monday 03:00 JST)
+# 初期は workflow_dispatch のみ手動運用を推奨。安定したら schedule のコメントを外す。
+on:
+  workflow_dispatch:
+    inputs:
+      skip_sources:
+        description: '先頭から飛ばすソース数'
+        required: false
+        default: '0'
+      limit_sources:
+        description: '処理するソース数 (空で全件)'
+        required: false
+        default: ''
+      limit_pages_per_source:
+        description: '1ソースあたりの最大ページ数'
+        required: false
+        default: '6'
+  # schedule:
+  #   - cron: '0 18 * * 0'
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350  # 全67自治体で最大~3hを想定。GitHub free 6h 上限内
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install 'psycopg[binary]'
+
+      - name: Crawl + extract
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+        run: |
+          ARGS="--seeds data/seeds.yaml --discover-depth 2"
+          ARGS="$ARGS --skip-sources ${{ inputs.skip_sources || 0 }}"
+          ARGS="$ARGS --limit-pages-per-source ${{ inputs.limit_pages_per_source || 6 }}"
+          if [ -n "${{ inputs.limit_sources }}" ]; then
+            ARGS="$ARGS --limit-sources ${{ inputs.limit_sources }}"
+          fi
+          python -m src.run $ARGS
+
+      - name: Migrate to production DB
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: python -m db.migrate_from_json --extracted data/extracted
+
+      # JSON は runner と共に破棄。DB が真実の情報源。
+      # 履歴差分が欲しくなったら artifacts upload か commit-back を追加すること。

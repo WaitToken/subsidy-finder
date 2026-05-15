@@ -1,0 +1,43 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.pref.gifu.lg.jp/page/12328.html"
+    ],
+    "extracted_at": "2026-05-15T02:21:44.755426+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "指定難病医療費助成制度（新規申請）",
+      "operating_body": "岐阜県",
+      "category": "医療・健康",
+      "subcategory": "難病医療費助成",
+      "target_summary": "岐阜県内に在住し、指定難病の診断を受けた患者。重症度分類等で一定以上の病状の方、または軽症高額基準（直近12か月以内に医療費総額が33,330円を超えた月が3か月以上ある）に該当する方。",
+      "target_residency_required": true,
+      "benefit_summary": "指定難病の治療に係る医療費の自己負担分を助成する。助成額は所得や病状等に応じて決定。",
+      "benefit_type": "現金",
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "通年",
+      "application_window_note": "保健所窓口にて随時受付",
+      "application_rounds": [],
+      "application_method": "窓口",
+      "required_documents": [
+        "提出書類チェックリスト記載の書類",
+        "臨床調査個人票",
+        "マイナンバー連携書類",
+        "（軽症高額該当の場合）医療費申告書",
+        "（軽症高額該当の場合）医療費が確認できる領収書・診療明細書・調剤明細書等",
+        "（国又は地方公務員共済組合加入かつ非課税世帯の場合）患者本人の収入金額を確認できる書類"
+      ],
+      "status": "通年",
+      "related_programs": [],
+      "contact": "各保健所（申請書受付窓口）",
+      "source_url": "https://www.pref.gifu.lg.jp/page/12328.html",
+      "plain_summary": "岐阜県に住む指定難病の患者さんが、治療にかかる医療費の一部を助成してもらえる制度です。病状が重症に該当する方、または過去12か月で医療費が一定額を超えた月が3か月以上ある方が対象です。申請は最寄りの保健所の窓口で随時受け付けています。"
+    }
+  ]
+}

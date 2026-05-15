@@ -1,0 +1,50 @@
+{
+  "extraction_metadata": {
+    "source_pages": [
+      "https://www.city.edogawa.tokyo.jp/e013/kurashi/zeikin/sonota/07k_setaikyufu.html"
+    ],
+    "extracted_at": "2026-05-15T01:28:44.143203+00:00",
+    "extractor_version": "0.4.0",
+    "schema_version": "0.4",
+    "model": "claude-sonnet-4-6",
+    "page_was_a_subsidy_page": true
+  },
+  "subsidies": [
+    {
+      "program_name": "令和7年度 江戸川区住民税所得割課税世帯等（低所得世帯以外の世帯）への給付金",
+      "operating_body": "江戸川区",
+      "category": "ひとり親・低所得",
+      "subcategory": "物価高騰対策給付金",
+      "target_summary": "基準日（令和7年12月1日）時点で江戸川区に住民登録があり、かつ「令和7年度 江戸川区住民税非課税世帯等給付金」の対象となっていない世帯（住民税所得割課税世帯等）。1世帯1回限り。",
+      "target_household": [
+        "住民税所得割課税世帯"
+      ],
+      "target_residency_required": true,
+      "benefit_summary": "1世帯あたり1万円を現金で給付（口座振込またはセブン銀行ATM受け取り）",
+      "benefit_type": "現金",
+      "benefit_amount_max_yen": 10000,
+      "benefit_tiers": [],
+      "goods_items": [],
+      "application_window_type": "固定日付",
+      "application_window_note": "令和8年5月22日（金）まで。区から送付された通知（ハガキ）の二次元コードから江戸川区LINE公式アカウントを通じてオンライン申請。",
+      "application_end": "2026-05-22",
+      "application_rounds": [],
+      "application_method": "オンライン",
+      "required_documents": [
+        "区から送付された通知（ハガキ）"
+      ],
+      "status": "募集中",
+      "status_note": "令和8年5月22日が手続き期限",
+      "related_programs": [
+        {
+          "program_name": "令和7年度 江戸川区住民税非課税世帯等給付金",
+          "relation_type": "代替",
+          "note": "本給付金はこの給付金の対象外世帯が対象。重複受給不可。"
+        }
+      ],
+      "contact": "江戸川区給付金コールセンター　電話：03-6687-0397　平日8:30〜17:00（土日祝除く）",
+      "source_url": "https://www.city.edogawa.tokyo.jp/e013/kurashi/zeikin/sonota/07k_setaikyufu.html",
+      "plain_summary": "物価高騰対策として、令和7年12月1日時点で江戸川区に住んでいる住民税所得割課税世帯（非課税世帯給付金の対象外の世帯）に、1世帯あたり1万円を現金で支給します。区から届くハガキのQRコードを読み取り、江戸川区LINEを通じてオンライン申請を令和8年5月22日までに行ってください。"
+    }
+  ]
+}
