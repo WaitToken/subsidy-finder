@@ -42,8 +42,12 @@ gh repo create subsidy-finder --public --source=. --remote=origin --push
 ## 2. Supabase プロジェクト作成 + スキーマ適用
 
 1. [supabase.com](https://supabase.com) で New Project（リージョン: **Tokyo (ap-northeast-1)**）
-2. Settings → Database → Connection string の **URI** をコピー
-   （`postgresql://postgres:[YOUR-PASSWORD]@db.xxx.supabase.co:5432/postgres`）
+2. Settings → Database → **Connection pooling** の **Session mode** (port 5432) URI をコピー
+   - 直接接続 (`db.xxx.supabase.co:5432`) は IPv6 のみで多くの開発環境/Vercel から到達できない
+   - Session Pooler (`aws-1-ap-northeast-1.pooler.supabase.com:5432`) を使うこと
+   - 形式: `postgresql://postgres.<project-ref>:<PASSWORD>@aws-1-ap-northeast-1.pooler.supabase.com:5432/postgres`
+   - パスワードに `?` `$` `@` 等の特殊文字が含まれる場合は **URL エンコード**必須
+     （`?` → `%3F`、`$` → `%24`、`@` → `%40`、`/` → `%2F`、`:` → `%3A`）
 3. ローカルから一気に投入:
 
 ```bash
