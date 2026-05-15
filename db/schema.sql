@@ -96,6 +96,7 @@ CREATE TABLE subsidies (
     -- メタデータ
     extracted_at           TIMESTAMPTZ,
     verified               BOOLEAN DEFAULT FALSE,           -- 人手検証済みフラグ
+    verified_at            TIMESTAMPTZ,                     -- 検証日時 (verified=true 時にセット)
     extraction_confidence  REAL,                            -- LLM 信頼度
     created_at             TIMESTAMPTZ DEFAULT NOW(),
     updated_at             TIMESTAMPTZ DEFAULT NOW()
