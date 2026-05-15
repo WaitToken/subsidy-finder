@@ -33,6 +33,12 @@ sources:
   - { code: smrj,     name: 中小企業基盤整備機構, type: national_agency,  prefecture: null, url: "https://www.smrj.go.jp/" }
   - { code: jnet21,   name: J-Net21,          type: national_agency,     prefecture: null, url: "https://j-net21.smrj.go.jp/" }
   - { code: mirasapo, name: ミラサポplus,     type: national_agency,     prefecture: null, url: "https://mirasapo-plus.go.jp/" }
+  # 主要補助金の専用ポータル (各事務局運営)
+  - { code: it-hojo,            name: IT導入補助金,       type: national_agency, prefecture: null, url: "https://www.it-hojo.jp/" }
+  - { code: monodukuri-hojo,    name: ものづくり補助金,   type: national_agency, prefecture: null, url: "https://portal.monodukuri-hojo.jp/" }
+  - { code: jigyou-saikouchiku, name: 事業再構築補助金,   type: national_agency, prefecture: null, url: "https://jigyou-saikouchiku.go.jp/" }
+  - { code: jgrants,            name: Jグランツ,          type: national_agency, prefecture: null, url: "https://www.jgrants-portal.go.jp/" }
+  - { code: mhlw-careerup,      name: キャリアアップ助成金, type: national_agency, prefecture: null, url: "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000091025.html" }
 
   # ============================================================
   # 47 都道府県
