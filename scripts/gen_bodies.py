@@ -24,19 +24,29 @@ HEADER = """\
 // ============================================================
 
 export type BodyType =
-  | 'prefecture' | 'designated_city' | 'ward' | 'city' | 'town' | 'village';
+  | 'prefecture' | 'designated_city' | 'ward' | 'city' | 'town' | 'village'
+  | 'national_government' | 'national_agency' | 'foundation';
+
+const NATIONAL_TYPES: ReadonlySet<BodyType> = new Set([
+  'national_government', 'national_agency', 'foundation',
+]);
 
 export interface Body {
   code: string;
   name: string;
   type: BodyType;
-  prefecture: string; // 所属都道府県の code
+  prefecture: string | null; // 所属都道府県の code。国・全国系は null
 }
 """
 
 FOOTER = """\
 
 export const PREFECTURES: Body[] = BODIES.filter((b) => b.type === 'prefecture');
+
+/** 国・全国系 (省庁・国の機関・公益財団など) */
+export const NATIONAL_BODIES: Body[] = BODIES.filter((b) =>
+  NATIONAL_TYPES.has(b.type),
+);
 
 export interface PrefectureGroup {
   prefecture: Body;
@@ -60,9 +70,15 @@ export function bodyName(code: string): string {
   return NAME_BY_CODE.get(code) ?? code;
 }
 
-/** 自治体 code → 所属都道府県の code。未知の code は null。 */
+/** 自治体 code → 所属都道府県の code。国系・未知の code は null。 */
 export function bodyPrefecture(code: string): string | null {
   return PREFECTURE_BY_CODE.get(code) ?? null;
+}
+
+/** 国・全国系か判定。診断ロジックなどで使う。 */
+export function isNationalBody(code: string): boolean {
+  const b = BODIES.find((b) => b.code === code);
+  return b != null && NATIONAL_TYPES.has(b.type);
 }
 """
 

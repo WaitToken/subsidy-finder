@@ -18,9 +18,10 @@ CREATE TABLE operating_bodies (
     code        TEXT UNIQUE NOT NULL,           -- 'tokyo', 'osaka-shi', 'setagaya', ...
     name        TEXT NOT NULL,                  -- '東京都', '大阪市', '世田谷区'
     type        TEXT NOT NULL CHECK (type IN (
-        'prefecture', 'designated_city', 'ward', 'city', 'town', 'village'
+        'prefecture', 'designated_city', 'ward', 'city', 'town', 'village',
+        'national_government', 'national_agency', 'foundation'
     )),
-    prefecture_code TEXT NOT NULL,              -- 所属都道府県の code。都道府県自身は自分の code
+    prefecture_code TEXT,                       -- 所属都道府県の code。都道府県自身は自分の code。国・全国系は NULL
     homepage_url TEXT,
     created_at  TIMESTAMPTZ DEFAULT NOW()
 );

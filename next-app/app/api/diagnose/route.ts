@@ -2,7 +2,13 @@ import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 import { sql } from '@/lib/db';
 import { bodyPrefecture } from '@/lib/bodies';
+import type { BodyType } from '@/lib/bodies';
+import { AUDIENCE_MATCH } from '@/lib/constants';
 import type { Subsidy, DiagnoseResult, DiagnoseRequest } from '@/lib/types';
+
+const NATIONAL_TYPES = new Set<BodyType>([
+  'national_government', 'national_agency', 'foundation',
+]);
 
 // ============================================================
 // Schema validation
@@ -24,8 +30,12 @@ function calcScore(s: Subsidy, dx: DiagnoseRequest): { score: number; reasons: s
   const reasons: string[] = [];
 
   // 1. 自治体マッチ (40 pts)
-  //    選択自治体そのもの、またはその所属都道府県 (広域) の制度がヒット
-  if (dx.ward) {
+  //    国・全国系は dx.ward の有無に関わらず常にマッチ。
+  //    自治体系は選択自治体そのもの or その所属都道府県 (広域) の制度がヒット。
+  if (NATIONAL_TYPES.has(s.body_type)) {
+    score += 40;
+    reasons.push(`${s.body_name}（全国）の制度`);
+  } else if (dx.ward) {
     const userPref = bodyPrefecture(dx.ward);
     if (s.body_code === dx.ward) {
       score += 40;
@@ -101,12 +111,20 @@ export async function POST(req: NextRequest) {
   //   - active subsidies only
   //   - ward match (if specified)
   //   - interest categories (if specified)
-  const conditions: any[] = [sql`s.status IN ('募集中', '予定', '通年')`];
+  const conditions: any[] = [
+    sql`s.status IN ('募集中', '予定', '通年')`,
+    // 診断は個人向けのみ対象 (事業者専用制度は除外)
+    sql`s.target_audience = ANY(${AUDIENCE_MATCH.individual})`,
+  ];
   if (dx.ward) {
-    // 選択自治体 + その所属都道府県 (広域) の制度に絞り込む
+    // 国・全国 + 選択自治体 + その所属都道府県 (広域) を全て候補に
     const userPref = bodyPrefecture(dx.ward);
     conditions.push(
-      sql`(ob.code = ${dx.ward} OR (ob.type = 'prefecture' AND ob.prefecture_code = ${userPref}))`,
+      sql`(
+        ob.type IN ('national_government','national_agency','foundation')
+        OR ob.code = ${dx.ward}
+        OR (ob.type = 'prefecture' AND ob.prefecture_code = ${userPref})
+      )`,
     );
   }
   if (dx.interests?.length) {

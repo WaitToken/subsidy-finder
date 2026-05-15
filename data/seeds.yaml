@@ -1,5 +1,5 @@
 # 全国 自治体マスタ + シードURL
-# スコープ: 47都道府県 + 政令指定都市20 + 東京23特別区 = 90自治体
+# スコープ: 国・省庁13 + 47都道府県 + 政令指定都市20 + 東京23特別区 = 103エントリ
 #
 # このファイルが自治体マスタの単一情報源 (single source of truth):
 #   - db/load_bodies.py        → operating_bodies テーブルへ投入
@@ -17,6 +17,23 @@
 #       (scripts/check_seeds.py で一括検証可能)。
 
 sources:
+  # ============================================================
+  # 国・省庁・関連機関 (prefecture は null = 全国対象)
+  # ============================================================
+  - { code: meti,     name: 経済産業省,       type: national_government, prefecture: null, url: "https://www.meti.go.jp/" }
+  - { code: chusho,   name: 中小企業庁,       type: national_agency,     prefecture: null, url: "https://www.chusho.meti.go.jp/" }
+  - { code: mhlw,     name: 厚生労働省,       type: national_government, prefecture: null, url: "https://www.mhlw.go.jp/" }
+  - { code: maff,     name: 農林水産省,       type: national_government, prefecture: null, url: "https://www.maff.go.jp/" }
+  - { code: env,      name: 環境省,           type: national_government, prefecture: null, url: "https://www.env.go.jp/" }
+  - { code: mext,     name: 文部科学省,       type: national_government, prefecture: null, url: "https://www.mext.go.jp/" }
+  - { code: mlit,     name: 国土交通省,       type: national_government, prefecture: null, url: "https://www.mlit.go.jp/" }
+  - { code: cao,      name: 内閣府,           type: national_government, prefecture: null, url: "https://www.cao.go.jp/" }
+  - { code: cfa,      name: こども家庭庁,     type: national_government, prefecture: null, url: "https://www.cfa.go.jp/" }
+  - { code: digital,  name: デジタル庁,       type: national_government, prefecture: null, url: "https://www.digital.go.jp/" }
+  - { code: smrj,     name: 中小企業基盤整備機構, type: national_agency,  prefecture: null, url: "https://www.smrj.go.jp/" }
+  - { code: jnet21,   name: J-Net21,          type: national_agency,     prefecture: null, url: "https://j-net21.smrj.go.jp/" }
+  - { code: mirasapo, name: ミラサポplus,     type: national_agency,     prefecture: null, url: "https://mirasapo-plus.go.jp/" }
+
   # ============================================================
   # 47 都道府県
   # ============================================================

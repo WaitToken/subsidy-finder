@@ -63,7 +63,7 @@ export interface Subsidy {
   body_code: string;
   body_name: string;
   body_type: BodyType;
-  body_prefecture: string; // 実施主体の所属都道府県 code
+  body_prefecture: string | null; // 実施主体の所属都道府県 code。国・全国系は null
 
   category: Category;
   subcategory: string | null;

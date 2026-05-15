@@ -4,16 +4,34 @@
 // ============================================================
 
 export type BodyType =
-  | 'prefecture' | 'designated_city' | 'ward' | 'city' | 'town' | 'village';
+  | 'prefecture' | 'designated_city' | 'ward' | 'city' | 'town' | 'village'
+  | 'national_government' | 'national_agency' | 'foundation';
+
+const NATIONAL_TYPES: ReadonlySet<BodyType> = new Set([
+  'national_government', 'national_agency', 'foundation',
+]);
 
 export interface Body {
   code: string;
   name: string;
   type: BodyType;
-  prefecture: string; // 所属都道府県の code
+  prefecture: string | null; // 所属都道府県の code。国・全国系は null
 }
 
 export const BODIES: Body[] = [
+  {"code": "meti", "name": "経済産業省", "type": "national_government", "prefecture": null},
+  {"code": "chusho", "name": "中小企業庁", "type": "national_agency", "prefecture": null},
+  {"code": "mhlw", "name": "厚生労働省", "type": "national_government", "prefecture": null},
+  {"code": "maff", "name": "農林水産省", "type": "national_government", "prefecture": null},
+  {"code": "env", "name": "環境省", "type": "national_government", "prefecture": null},
+  {"code": "mext", "name": "文部科学省", "type": "national_government", "prefecture": null},
+  {"code": "mlit", "name": "国土交通省", "type": "national_government", "prefecture": null},
+  {"code": "cao", "name": "内閣府", "type": "national_government", "prefecture": null},
+  {"code": "cfa", "name": "こども家庭庁", "type": "national_government", "prefecture": null},
+  {"code": "digital", "name": "デジタル庁", "type": "national_government", "prefecture": null},
+  {"code": "smrj", "name": "中小企業基盤整備機構", "type": "national_agency", "prefecture": null},
+  {"code": "jnet21", "name": "J-Net21", "type": "national_agency", "prefecture": null},
+  {"code": "mirasapo", "name": "ミラサポplus", "type": "national_agency", "prefecture": null},
   {"code": "hokkaido", "name": "北海道", "type": "prefecture", "prefecture": "hokkaido"},
   {"code": "aomori", "name": "青森県", "type": "prefecture", "prefecture": "aomori"},
   {"code": "iwate", "name": "岩手県", "type": "prefecture", "prefecture": "iwate"},
@@ -108,6 +126,11 @@ export const BODIES: Body[] = [
 
 export const PREFECTURES: Body[] = BODIES.filter((b) => b.type === 'prefecture');
 
+/** 国・全国系 (省庁・国の機関・公益財団など) */
+export const NATIONAL_BODIES: Body[] = BODIES.filter((b) =>
+  NATIONAL_TYPES.has(b.type),
+);
+
 export interface PrefectureGroup {
   prefecture: Body;
   members: Body[]; // その都道府県に属する政令市・特別区など
@@ -130,7 +153,13 @@ export function bodyName(code: string): string {
   return NAME_BY_CODE.get(code) ?? code;
 }
 
-/** 自治体 code → 所属都道府県の code。未知の code は null。 */
+/** 自治体 code → 所属都道府県の code。国系・未知の code は null。 */
 export function bodyPrefecture(code: string): string | null {
   return PREFECTURE_BY_CODE.get(code) ?? null;
+}
+
+/** 国・全国系か判定。診断ロジックなどで使う。 */
+export function isNationalBody(code: string): boolean {
+  const b = BODIES.find((b) => b.code === code);
+  return b != null && NATIONAL_TYPES.has(b.type);
 }

@@ -2,7 +2,7 @@
 
 import { useRouter, usePathname, useSearchParams } from 'next/navigation';
 import { useState, useTransition } from 'react';
-import { PREFECTURE_GROUPS } from '@/lib/bodies';
+import { PREFECTURE_GROUPS, NATIONAL_BODIES } from '@/lib/bodies';
 import { CATEGORIES, STATUSES } from '@/lib/constants';
 
 /**
@@ -73,6 +73,15 @@ export function Filters() {
             className="mt-1 w-full rounded-sm border border-line bg-white px-3 py-2 text-sm sm:w-40"
           >
             <option value="">すべて</option>
+            {NATIONAL_BODIES.length > 0 && (
+              <optgroup label="国・全国">
+                {NATIONAL_BODIES.map((b) => (
+                  <option key={b.code} value={b.code}>
+                    {b.name}
+                  </option>
+                ))}
+              </optgroup>
+            )}
             {PREFECTURE_GROUPS.map((g) => (
               <optgroup key={g.prefecture.code} label={g.prefecture.name}>
                 <option value={g.prefecture.code}>
