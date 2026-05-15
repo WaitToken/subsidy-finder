@@ -39,8 +39,24 @@ export default function PrivacyPage() {
       <section className="mt-8">
         <h2 className="section-rule font-serif text-lg">Cookie・トラッキング</h2>
         <p className="mt-3">
-          β期間中、解析・広告 Cookie は使用していません。
-          将来的にアクセス解析を導入する場合は本ページで明示します。
+          当サイトは <strong>Vercel Web Analytics</strong> および
+          <strong>Vercel Speed Insights</strong> を利用してページビュー数・
+          パフォーマンス指標を計測しています。
+          いずれも <strong>Cookie を使用せず、個人を特定できる情報も収集しません</strong>
+          （集計値のみを Vercel のダッシュボードで確認できる仕組み）。
+          詳細は{' '}
+          <a
+            href="https://vercel.com/docs/analytics/privacy-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline"
+          >
+            Vercel Analytics のプライバシーポリシー
+          </a>
+          {' '}を参照してください。
+        </p>
+        <p className="mt-3">
+          広告 Cookie は使用していません。
         </p>
       </section>
 
